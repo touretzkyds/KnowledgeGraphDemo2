@@ -12,15 +12,17 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 """
 
+#Pulled from alligator3, SPARQL querries the specified server for a JSON
 def queryServer(endpointURL, query):
     userAgent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
-    # TODO adjust user agent; see https://w.wiki/CX6
     sparql = SPARQLWrapper(endpointURL, agent=userAgent)
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     return sparql.query().convert()
 
 
+#This function takes a Qid and recursively prints a tree of all Nodes
+#   in the tree originating at Qid, with initial depth 'depth'
 def findBelowRec(Qid, depth):
     nameQuery = queryPrefix + "SELECT DISTINCT ?name WHERE {boltz:" + Qid + " kgo:taxonName ?name }"
     nameResults = queryServer(localURL, nameQuery)
@@ -31,6 +33,8 @@ def findBelowRec(Qid, depth):
         childQid = re.search("Q\d+",result["child"]["value"]).group()
         findBelowRec(childQid,depth+1)
 
+#This function finds the Qid of a node with prefLabel or taxonName == name
+#   then recursively finds the taxonmic tree below it using findBelowRec
 def findBelow(name):
     nQuery = queryPrefix + "SELECT DISTINCT ?Q WHERE {?Q kgo:taxonName|skos:prefLabel \"" + name + "\"@en. }"
     nResults = queryServer(localURL, nQuery)
@@ -41,6 +45,8 @@ def findBelow(name):
             Qid = re.search("Q\d+",result["Q"]["value"]).group()
             findBelowRec(Qid,0)
 
+#This function finds all nodes with prefLabel or taxonName == name
+#   then prints the hierarchy from 'Biota' to those Nodes in descending order
 def findAbove(name):
     nQuery = queryPrefix + "SELECT DISTINCT ?Q WHERE {?Q kgo:taxonName|skos:prefLabel \"" + name + "\"@en. }"
     nResults = queryServer(localURL, nQuery)
@@ -68,8 +74,11 @@ def findAbove(name):
 
 
 if __name__ == '__main__':
-    # findBelow("Tetrapoda")
-    #findBelow("Biota")
-
+    print("FindAbove: Bird")
     findAbove("Bird")
+    print("\nFindBelow: Bird")
     findBelow("Bird")
+    print("\nFindAbove: Reptilia")
+    findAbove("Reptilia")
+    print("\nFindBelow: Biota")
+    findBelow("Biota")
