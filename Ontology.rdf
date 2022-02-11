@@ -132,7 +132,7 @@
 
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Superorder'>
     <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
-    <rdfs:label>Order</rdfs:label>
+    <rdfs:label>Superorder</rdfs:label>
     <rdfs:comment>The taxonomic rank Superorder</rdfs:comment>
   </kgo:TaxonRank>
 
