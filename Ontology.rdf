@@ -106,6 +106,12 @@
     <rdfs:comment>The taxonomic rank Superclass</rdfs:comment>
   </kgo:TaxonRank>
 
+  <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Subclass'>
+    <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
+    <rdfs:label>Subclass</rdfs:label>
+    <rdfs:comment>The taxonomic rank Subclass</rdfs:comment>
+  </kgo:TaxonRank>
+
   <kgo:TaxonRank rdf:about='http://solid.boltz.cs.cmu.edu:3030/ontology#Infraclass'>
     <rdfs:isDefinedBy rdf:resource='http://solid.boltz.cs.cmu.edu:3030/ontology'/>
     <rdfs:label>Infraclass</rdfs:label>
