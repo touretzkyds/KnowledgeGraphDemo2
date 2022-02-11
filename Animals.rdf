@@ -38,7 +38,7 @@
     <skos:prefLabel>Eumetazoa</skos:prefLabel>
     <kgo:taxonName>Eumetazoa</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Subkingdom"/>
-    <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/DUMMY'/>
+    <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q729'/>
   </kgo:Taxon>
 
   <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q5173'>
@@ -224,7 +224,7 @@
     <skos:prefLabel>Archosauromorpha</skos:prefLabel>
     <kgo:taxonName>Archosauromorpha</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Infraclass"/>
-    <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2254408'/>
+    <!-- <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2254408'/> -->
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q19595522'/>
   </kgo:Taxon>
 
