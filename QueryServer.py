@@ -3,7 +3,7 @@ import json
 import re
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-localURL = "http://localhost:3030/Demo"
+localURL = "http://solid.boltz.cs.cmu.edu:3030/Demo"
 queryPrefix = """
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX kgo: <http://solid.boltz.cs.cmu.edu:3030/ontology#>
@@ -16,6 +16,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 def queryServer(endpointURL, query):
     userAgent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
     sparql = SPARQLWrapper(endpointURL, agent=userAgent)
+    sparql.setCredentials('query', 'querypassword')
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     return sparql.query().convert()
@@ -68,10 +69,6 @@ def findAbove(name):
                     break
                 else:
                     Qid = re.search("Q\d+",parentResult["results"]["bindings"][0]["parent"]["value"]).group()
-
-
-
-
 
 if __name__ == '__main__':
     print("FindAbove: Bird")
