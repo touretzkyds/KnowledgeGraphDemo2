@@ -10,267 +10,240 @@
 
   <!-- The Taxonomy of Alligator -->
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2382443'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2382443'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A superdomain of all organisms</skos:definition>
     <skos:prefLabel>Biota</skos:prefLabel>
     <kgo:taxonName>Biota</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Superdomain"/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q19088'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q19088'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q19088'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A taxonomic group whose members have complex structures enclosed within membranes</skos:definition>
     <skos:prefLabel>Eukaryote</skos:prefLabel>
     <kgo:taxonName>Eukaryota</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Domain"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2382443'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q729'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q729'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q729'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A kingdom of multicellular eukaryotic organisms</skos:definition>
     <skos:prefLabel>Animal</skos:prefLabel>
     <kgo:taxonName>Animalia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Kingdom"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q19088'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q5174'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q5174'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q5174'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A subkingdom of animals</skos:definition>
     <skos:prefLabel>Eumetazoa</skos:prefLabel>
     <kgo:taxonName>Eumetazoa</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Subkingdom"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/DUMMY'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q5173'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q5173'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q5173'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A clade containing all animals having a bilateral symmetry as an embryo</skos:definition>
     <skos:prefLabel>Bilateria</skos:prefLabel>
     <kgo:taxonName>Bilateria</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Subkingdom"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q5174'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q150866'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q150866'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q150866'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A superphylum of bilateral animals</skos:definition>
     <skos:prefLabel>Deuterostome</skos:prefLabel>
     <kgo:taxonName>Deuterostomia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Superphylum"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q5173'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q10915'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q10915'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q10915'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A phylum of animals</skos:definition>
     <skos:prefLabel>Chordata</skos:prefLabel>
     <kgo:taxonName>Chordata</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Phylum"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q150866'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3280581'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3280581'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3280581'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A clade of chordates</skos:definition>
     <skos:prefLabel>Olfactores</skos:prefLabel>
     <kgo:taxonName>Olfactores</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q10915'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q84149'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q84149'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q84149'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A clade of chordates</skos:definition>
     <skos:prefLabel>Craniata</skos:prefLabel>
     <kgo:taxonName>Craniata</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3280581'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q25241'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q25241'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q25241'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A subphylum of chordates</skos:definition>
     <skos:prefLabel>Vertebrata</skos:prefLabel>
     <kgo:taxonName>Vertebrata</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Subphylum"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q84149'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q26214'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q26214'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q26214'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A infraphylum of jawed vertebrates</skos:definition>
     <skos:prefLabel>Gnathostomata</skos:prefLabel>
     <kgo:taxonName>Gnathostomata</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Infraphylum"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q25241'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q27207'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q27207'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q27207'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A diverse group of fish with skeletons of bone rather than cartilage</skos:definition>
     <skos:prefLabel>Osteichthyes</skos:prefLabel>
     <kgo:taxonName>Osteichthyes</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Megaclass"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q26214'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q160830'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q160830'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q160830'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A superclass or class of fishes</skos:definition>
     <skos:prefLabel>Sarcopterygii</skos:prefLabel>
     <kgo:taxonName>Sarcopterygii</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Superclass"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q27207'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q23809240'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q23809240'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q23809240'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A class or subclass of vertebrates: tetrapods and lungfish</skos:definition>
     <skos:prefLabel>Dipnotetrapodomorpha</skos:prefLabel>
     <kgo:taxonName>Dipnotetrapodomorpha</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Class"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q160830'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q1209254'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q1209254'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q1209254'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A subclass of vertebrates</skos:definition>
     <skos:prefLabel>Tetrapodomorpha</skos:prefLabel>
     <kgo:taxonName>Tetrapodomorpha</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q23809240'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q19159'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q19159'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q19159'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Superclass of the first four-limbed vertebrates and their descendants</skos:definition>
     <skos:prefLabel>Tetrapoda</skos:prefLabel>
     <kgo:taxonName>Tetrapoda</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Superclass"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q1209254'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q134683'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q134683'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q134683'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Order of reptile-like amphibians</skos:definition>
     <skos:prefLabel>Reptiliomorpha</skos:prefLabel>
     <kgo:taxonName>Reptiliomorpha</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Order"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q19159'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q181537'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q181537'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q181537'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Group of Tetrapods</skos:definition>
     <skos:prefLabel>Amniota</skos:prefLabel>
     <kgo:taxonName>Amniota</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q134683'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q329457'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q329457'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q329457'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Group of Tetrapod animals</skos:definition>
     <skos:prefLabel>Sauropsida</skos:prefLabel>
     <kgo:taxonName>Sauropsida</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q181537'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q10811'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q10811'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q10811'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Class of Tetrapod animals</skos:definition>
     <skos:prefLabel>Reptilia</skos:prefLabel>
     <kgo:taxonName>Reptilia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Class"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q329457'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3060510'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3060510'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3060510'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles</skos:definition>
     <skos:prefLabel>Eureptilia</skos:prefLabel>
     <kgo:taxonName>Eureptilia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q10811'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q1061761'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q1061761'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q1061761'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of reptiles that consists of diapsids and the extinct family of Protorothyrididae.</skos:definition>
     <skos:prefLabel>Romeriida</skos:prefLabel>
     <kgo:taxonName>Romeriida</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3060510'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q134688'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q134688'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q134688'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of tetrapods that developed two holes (temporal fenestra) in each side of their skulls, about 300 million years ago.</skos:definition>
     <skos:prefLabel>Diapsid</skos:prefLabel>
     <kgo:taxonName>Diapsida</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q1061761'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3497035'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3497035'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3497035'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of tetrapods that developed two holes (temporal fenestra) in each side of their skulls, about 300 million years ago.</skos:definition>
     <skos:prefLabel>Neodiapsida</skos:prefLabel>
     <kgo:taxonName>Neodiapsida</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q134688'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2254408'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2254408'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2254408'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Suborder of Reptiles.</skos:definition>
     <skos:prefLabel>Sauria</skos:prefLabel>
     <kgo:taxonName>Sauria</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Suborder"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3497035'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q19595522'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q134676'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q19595522'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q19595522'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Archelosauria</skos:prefLabel>
     <kgo:taxonName>Archelosauria</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2254408'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q134676'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q134676'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q134676'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>An Infraclass of Reptiles.</skos:definition>
     <skos:prefLabel>Archosauromorpha</skos:prefLabel>
@@ -278,190 +251,171 @@
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Infraclass"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2254408'/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q19595522'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q282487'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q282487'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q282487'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Archosauriformes</skos:prefLabel>
     <kgo:taxonName>Archosauriformes</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q134676'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q131341'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q131341'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q131341'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Group of Reptiles.</skos:definition>
     <skos:prefLabel>Crurotarsi</skos:prefLabel>
     <kgo:taxonName>Crurotarsi</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q282487'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q130910'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q130910'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q130910'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Group of Reptiles.</skos:definition>
     <skos:prefLabel>Archosaur</skos:prefLabel>
     <kgo:taxonName>Archosauria</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q131341'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2742285'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2742285'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2742285'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Pseudosuchia</skos:prefLabel>
     <kgo:taxonName>Pseudosuchia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q130910'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q1844946'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q1844946'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q1844946'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Group of Reptiles.</skos:definition>
     <skos:prefLabel>Suchia</skos:prefLabel>
     <kgo:taxonName>Suchia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2742285'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q10748156'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q10748156'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q10748156'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Group of Reptiles.</skos:definition>
     <skos:prefLabel>Paracrocodylomorpha</skos:prefLabel>
     <kgo:taxonName>Paracrocodylomorpha</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q1844946'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q13362187'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q13362187'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q13362187'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Group of Reptiles.</skos:definition>
     <skos:prefLabel>Loricata</skos:prefLabel>
     <kgo:taxonName>Loricata</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q10748156'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q4869200'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q4869200'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q4869200'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Bathyotica</skos:prefLabel>
     <kgo:taxonName>Bathyotica</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q13362187'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q131863'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q131863'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q131863'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Superorder of Reptiles.</skos:definition>
     <skos:prefLabel>Crocodylomorpha</skos:prefLabel>
     <kgo:taxonName>Crocodylomorpha</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Superorder"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q4869200'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3003172'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3003172'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3003172'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Crocodyliformes</skos:prefLabel>
     <kgo:taxonName>Crocodyliformes</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q131863'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2740674'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2740674'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2740674'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Mesoeucrocodylia</skos:prefLabel>
     <kgo:taxonName>Mesoeucrocodylia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3003172'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3307307'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3307307'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3307307'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Metasuchia</skos:prefLabel>
     <kgo:taxonName>Metasuchia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q2740674'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3042061'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3042061'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q3042061'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Neosuchia</skos:prefLabel>
     <kgo:taxonName>Neosuchia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3307307'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q938944'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q938944'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q938944'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Large Reptiles.</skos:definition>
     <skos:prefLabel>Eusuchia</skos:prefLabel>
     <kgo:taxonName>Eusuchia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q3042061'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q25363'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q25363'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q25363'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Order of Large Reptiles.</skos:definition>
     <skos:prefLabel>Crocodilia</skos:prefLabel>
     <kgo:taxonName>Crocodilia</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Order"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q938944'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q507496'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q507496'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q507496'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Superfamily of Large Reptiles.</skos:definition>
     <skos:prefLabel>Alligatoroidea</skos:prefLabel>
     <kgo:taxonName>Alligatoroidea</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Superfamily"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q25363'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q5571040'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q5571040'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q5571040'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A Clade of Reptiles.</skos:definition>
     <skos:prefLabel>Globidonta</skos:prefLabel>
     <kgo:taxonName>Globidonta</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Clade"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q507496'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q6184764'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q6184764'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q6184764'>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>A specialization of Crocodilian. Alligatoridae includes Alligator, Caiman, Melanosuchus and Paleosuchus.</skos:definition>
     <skos:prefLabel>Alligatoridae</skos:prefLabel>
     <kgo:taxonName>Alligatoridae</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Family"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q5571040'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q530397'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q530397'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q530397'>
     <rdfs:comment>This is the base class that comes up on KBPedia when you search for Alligator</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
     <skos:definition>The collection of all alligators; a subset of Crocodilian. Alligator includes the American Alligators and Chinese Alligators. Cf. Crocodile.</skos:definition>
@@ -469,11 +423,9 @@
     <kgo:taxonName>Alligator</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Genus"/>
     <kgo:subTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q6184764'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q193327'/>
-    <kgo:superTaxonOf rdf:resource='http://solid.boltz.cs.cmu.edu:3030/Q194422'/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q193327'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q193327'>
     <rdfs:comment>Note that subClassOf Animal is from the Test dataset</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/03/example/classes#Animal"/>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
@@ -485,9 +437,9 @@
     <kgo:taxonName>Alligator mississippiensis</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Species"/>
     <kgo:subTaxonOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/Q530397"/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
-  <rdfs:Class rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q194422'>
+  <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q194422'>
     <rdfs:comment>Note that subClassOf Animal is from the Test dataset</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/03/example/classes#Animal"/>
     <rdfs:subClassOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Taxon"/>
@@ -497,6 +449,6 @@
     <kgo:taxonName>Alligator sinensis</kgo:taxonName>
     <kgo:taxonRank rdf:resource="http://solid.boltz.cs.cmu.edu:3030/ontology#Species"/>
     <kgo:subTaxonOf rdf:resource="http://solid.boltz.cs.cmu.edu:3030/Q530397"/>
-  </rdfs:Class>
+  </kgo:Taxon>
 
 </rdf:RDF>
