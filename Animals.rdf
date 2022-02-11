@@ -8,7 +8,7 @@
   xmlns:boltz="http://solid.boltz.cs.cmu.edu:3030/"
   xmlns:kgo="http://solid.boltz.cs.cmu.edu:3030/ontology#">
 
-  <!-- Taxonomy of Alligators and Ostrichs -->
+  <!-- Taxonomy of Alligators and Ostriches -->
 
   <kgo:Taxon rdf:about='http://solid.boltz.cs.cmu.edu:3030/Q2382443'>
     <skos:definition>A superdomain of all organisms</skos:definition>
