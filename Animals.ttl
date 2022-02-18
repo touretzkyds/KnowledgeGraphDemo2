@@ -179,7 +179,7 @@ boltz:Q3976168 a  kgo:Taxon ;
         rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
         rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
         kgo:subTaxonOf   boltz:Q17592 ;
-        kgo:taxonName    "Struthio camelus camelus"@en ;
+        kgo:taxonName    "Struthio camelus massaicus"@en ;
         kgo:taxonRank    kgo:Subspecies;
         kgo:averageMass  [
             a qudt:Quantity ;
