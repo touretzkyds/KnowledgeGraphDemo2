@@ -186,6 +186,11 @@ boltz:Q3976168 a  kgo:Taxon ;
             qudt:unit unit:KiloGM ;
             qudt:value "115.0" ;
         ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value "62.5" ;
+        ] ;
         skos:definition  "A type of Ostrich found in Eastern Africa, also known as the East African Ostrich"@en ;
         skos:prefLabel   "Masai Ostrich"@en .
 
@@ -424,6 +429,11 @@ boltz:Q194422 a kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value "40.5" ;
+        ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value "70.0" ;
         ] ;
         skos:definition  "The Chinese alligator (Alligator sinensis) (simplified Chinese: 扬子鳄; traditional Chinese: 揚子鱷, yáng zǐ è), also known as the Yangtze alligator, is one of two known living species of Alligator, a genus in the family Alligatoridae.\n      This critically endangered species is endemic to eastern China."@en ;
         skos:prefLabel   "Chinese Alligator"@en .

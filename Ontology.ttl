@@ -12,6 +12,20 @@ kgo:Taxon a      rdfs:Class ;
         rdfs:label        "Taxon"@en ;
         rdfs:subClassOf   rdfs:Class .
 
+kgo:averageMass a rdf:Property ;
+	rdfs:comment	"The average mass of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"averageMass"@en .
+
+kgo:averageLifespan  a rdf:Property ;
+	rdfs:comment	"The average lifespan of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"averageLifespan"@en .
+
 kgo:taxonName a  rdf:Property ;
         rdfs:comment      "The Taxonomic Name of a Class"@en ;
         rdfs:domain       kgo:Taxon ;
