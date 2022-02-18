@@ -1,0 +1,443 @@
+@prefix boltz: <http://solid.boltz.cs.cmu.edu:3030/> .
+@prefix kgo:   <http://solid.boltz.cs.cmu.edu:3030/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt:  <http://qudt.org/schema/qudt/> .
+@prefix unit:  <http://qudt.org/vocab/unit/> .
+
+boltz:Q2382443 a kgo:Taxon ;
+        kgo:taxonName    "Biota"@en ;
+        kgo:taxonRank    kgo:Superdomain ;
+        skos:definition  "A superdomain of all organisms"@en ;
+        skos:prefLabel   "Biota"@en .
+
+boltz:Q19088 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2382443 ;
+        kgo:taxonName    "Eukaryota"@en ;
+        kgo:taxonRank    kgo:Domain ;
+        skos:definition  "A taxonomic group whose members have complex structures enclosed within membranes"@en ;
+        skos:prefLabel   "Eukaryote"@en .
+
+boltz:Q729 a    kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19088 ;
+        kgo:taxonName    "Animalia"@en ;
+        kgo:taxonRank    kgo:Kingdom ;
+        skos:definition  "A kingdom of multicellular eukaryotic organisms"@en ;
+        skos:prefLabel   "Animal"@en .
+
+boltz:Q5174 a   kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q729 ;
+        kgo:taxonName    "Eumetazoa"@en ;
+        kgo:taxonRank    kgo:Subkingdom ;
+        skos:definition  "A subkingdom of animals"@en ;
+        skos:prefLabel   "Eumetazoa"@en .
+
+boltz:Q5173 a   kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q5174 ;
+        kgo:taxonName    "Bilateria"@en ;
+        kgo:taxonRank    kgo:Subkingdom ;
+        skos:definition  "A clade containing all animals having a bilateral symmetry as an embryo"@en ;
+        skos:prefLabel   "Bilateria"@en .
+
+boltz:Q150866 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q5173 ;
+        kgo:taxonName    "Deuterostomia"@en ;
+        kgo:taxonRank    kgo:Superphylum ;
+        skos:definition  "A superphylum of bilateral animals"@en ;
+        skos:prefLabel   "Deuterostome"@en .
+
+boltz:Q10915 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q150866 ;
+        kgo:taxonName    "Chordata"@en ;
+        kgo:taxonRank    kgo:Phylum ;
+        skos:definition  "A phylum of animals"@en ;
+        skos:prefLabel   "Chordata"@en .
+
+boltz:Q3280581 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q10915 ;
+        kgo:taxonName    "Olfactores"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A clade of chordates"@en ;
+        skos:prefLabel   "Olfactores"@en .
+
+boltz:Q84149 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3280581 ;
+        kgo:taxonName    "Craniata"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A clade of chordates"@en ;
+        skos:prefLabel   "Craniata"@en .
+
+boltz:Q25241 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q84149 ;
+        kgo:taxonName    "Vertebrata"@en ;
+        kgo:taxonRank    kgo:Subphylum ;
+        skos:definition  "A subphylum of chordates"@en ;
+        skos:prefLabel   "Vertebrata"@en .
+
+boltz:Q26214 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25241 ;
+        kgo:taxonName    "Gnathostomata"@en ;
+        kgo:taxonRank    kgo:Infraphylum ;
+        skos:definition  "A infraphylum of jawed vertebrates"@en ;
+        skos:prefLabel   "Gnathostomata"@en .
+
+boltz:Q27207 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q26214 ;
+        kgo:taxonName    "Osteichthyes"@en ;
+        kgo:taxonRank    kgo:Megaclass ;
+        skos:definition  "A diverse group of fish with skeletons of bone rather than cartilage"@en ;
+        skos:prefLabel   "Osteichthyes"@en .
+
+boltz:Q160830 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q27207 ;
+        kgo:taxonName    "Sarcopterygii"@en ;
+        kgo:taxonRank    kgo:Superclass ;
+        skos:definition  "A superclass or class of fishes"@en ;
+        skos:prefLabel   "Sarcopterygii"@en .
+
+boltz:Q23809240 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q160830 ;
+        kgo:taxonName    "Dipnotetrapodomorpha"@en ;
+        kgo:taxonRank    kgo:Class ;
+        skos:definition  "A class or subclass of vertebrates: tetrapods and lungfish"@en ;
+        skos:prefLabel   "Dipnotetrapodomorpha"@en .
+
+boltz:Q1209254 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q23809240 ;
+        kgo:taxonName    "Tetrapodomorpha"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A subclass of vertebrates"@en ;
+        skos:prefLabel   "Tetrapodomorpha"@en .
+
+boltz:Q19159 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q1209254 ;
+        kgo:taxonName    "Tetrapoda"@en ;
+        kgo:taxonRank    kgo:Superclass ;
+        skos:definition  "A Superclass of the first four-limbed vertebrates and their descendants"@en ;
+        skos:prefLabel   "Tetrapoda"@en .
+
+boltz:Q5113 a   kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19159 ;
+        kgo:taxonName    "Aves"@en ;
+        kgo:taxonRank    kgo:Class ;
+        skos:definition  "A class of tetrapods"@en ;
+        skos:prefLabel   "Bird"@en .
+
+boltz:Q19166 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q5113 ;
+        kgo:taxonName    "Palaeognathae"@en ;
+        kgo:taxonRank    kgo:Subclass ;
+        skos:definition  "A clade of living birds"@en ;
+        skos:prefLabel   "Palaeognathae"@en .
+
+boltz:Q840849 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19166 ;
+        kgo:taxonName    "Struthioniformes"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "An order of birds"@en ;
+        skos:prefLabel   "Struthioniformes"@en .
+
+boltz:Q1569770 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q840849 ;
+        kgo:taxonName    "Struthionidae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "A family of birds"@en ;
+        skos:prefLabel   "Struthionidae"@en .
+
+boltz:Q2576337 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q1569770 ;
+        kgo:taxonName    "Struthio"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "A genus of birds"@en ;
+        skos:prefLabel   "Struthio"@en .
+
+boltz:Q17592 a  kgo:Taxon ;
+        rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
+        rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
+        kgo:subTaxonOf   boltz:Q2576337 ;
+        kgo:taxonName    "Struthio camelus"@en ;
+        kgo:taxonRank    kgo:Species ;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value "104.0" ;
+        ] ;
+        skos:definition  "A species of large flightless bird"@en ;
+        skos:prefLabel   "Ostrich"@en .
+
+boltz:Q3976169 a  kgo:Taxon ;
+        rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
+        rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
+        kgo:subTaxonOf   boltz:Q17592 ;
+        kgo:taxonName    "Struthio camelus australis"@en ;
+        kgo:taxonRank    kgo:Subspecies;
+        skos:definition  "A type of Ostrich found in Southern Africa"@en ;
+        skos:prefLabel   "South African Ostrich"@en .
+
+boltz:Q3976168 a  kgo:Taxon ;
+        rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
+        rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
+        kgo:subTaxonOf   boltz:Q17592 ;
+        kgo:taxonName    "Struthio camelus camelus"@en ;
+        kgo:taxonRank    kgo:Subspecies;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value "115.0" ;
+        ] ;
+        skos:definition  "A type of Ostrich found in Eastern Africa, also known as the East African Ostrich"@en ;
+        skos:prefLabel   "Masai Ostrich"@en .
+
+boltz:Q3976170 a  kgo:Taxon ;
+        rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
+        rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
+        kgo:subTaxonOf   boltz:Q17592 ;
+        kgo:taxonName    "Struthio camelus camelus"@en ;
+        kgo:taxonRank    kgo:Subspecies;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value "111.0" ;
+        ] ;
+        skos:definition  "A type of Ostrich found in Northern Africa"@en ;
+        skos:prefLabel   "North African Ostrich"@en .
+
+boltz:Q134683 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19159 ;
+        kgo:taxonName    "Reptiliomorpha"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "A Order of reptile-like amphibians"@en ;
+        skos:prefLabel   "Reptiliomorpha"@en .
+
+boltz:Q181537 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q134683 ;
+        kgo:taxonName    "Amniota"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Group of Tetrapods"@en ;
+        skos:prefLabel   "Amniota"@en .
+
+boltz:Q329457 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q181537 ;
+        kgo:taxonName    "Sauropsida"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Group of Tetrapod animals"@en ;
+        skos:prefLabel   "Sauropsida"@en .
+
+boltz:Q10811 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q329457 ;
+        kgo:taxonName    "Reptilia"@en ;
+        kgo:taxonRank    kgo:Class ;
+        skos:definition  "A Class of Tetrapod animals"@en ;
+        skos:prefLabel   "Reptilia"@en .
+
+boltz:Q3060510 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q10811 ;
+        kgo:taxonName    "Eureptilia"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles"@en ;
+        skos:prefLabel   "Eureptilia"@en .
+
+boltz:Q1061761 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3060510 ;
+        kgo:taxonName    "Romeriida"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of reptiles that consists of diapsids and the extinct family of Protorothyrididae."@en ;
+        skos:prefLabel   "Romeriida"@en .
+
+boltz:Q134688 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q1061761 ;
+        kgo:taxonName    "Diapsida"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of tetrapods that developed two holes (temporal fenestra) in each side of their skulls, about 300 million years ago."@en ;
+        skos:prefLabel   "Diapsid"@en .
+
+boltz:Q3497035 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q134688 ;
+        kgo:taxonName    "Neodiapsida"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of tetrapods that developed two holes (temporal fenestra) in each side of their skulls, about 300 million years ago."@en ;
+        skos:prefLabel   "Neodiapsida"@en .
+
+boltz:Q2254408 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3497035 ;
+        kgo:taxonName    "Sauria"@en ;
+        kgo:taxonRank    kgo:Suborder ;
+        skos:definition  "A Suborder of Reptiles."@en ;
+        skos:prefLabel   "Sauria"@en .
+
+boltz:Q19595522 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2254408 ;
+        kgo:taxonName    "Archelosauria"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Archelosauria"@en .
+
+boltz:Q134676 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19595522 ;
+        kgo:taxonName    "Archosauromorpha"@en ;
+        kgo:taxonRank    kgo:Infraclass ;
+        skos:definition  "An Infraclass of Reptiles."@en ;
+        skos:prefLabel   "Archosauromorpha"@en .
+
+boltz:Q282487 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q134676 ;
+        kgo:taxonName    "Archosauriformes"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Archosauriformes"@en .
+
+boltz:Q131341 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q282487 ;
+        kgo:taxonName    "Crurotarsi"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Group of Reptiles."@en ;
+        skos:prefLabel   "Crurotarsi"@en .
+
+boltz:Q130910 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q131341 ;
+        kgo:taxonName    "Archosauria"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Group of Reptiles."@en ;
+        skos:prefLabel   "Archosaur"@en .
+
+boltz:Q2742285 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q130910 ;
+        kgo:taxonName    "Pseudosuchia"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Pseudosuchia"@en .
+
+boltz:Q1844946 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2742285 ;
+        kgo:taxonName    "Suchia"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Group of Reptiles."@en ;
+        skos:prefLabel   "Suchia"@en .
+
+boltz:Q10748156 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q1844946 ;
+        kgo:taxonName    "Paracrocodylomorpha"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Group of Reptiles."@en ;
+        skos:prefLabel   "Paracrocodylomorpha"@en .
+
+boltz:Q13362187 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q10748156 ;
+        kgo:taxonName    "Loricata"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Group of Reptiles."@en ;
+        skos:prefLabel   "Loricata"@en .
+
+boltz:Q4869200 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q13362187 ;
+        kgo:taxonName    "Bathyotica"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Bathyotica"@en .
+
+boltz:Q131863 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q4869200 ;
+        kgo:taxonName    "Crocodylomorpha"@en ;
+        kgo:taxonRank    kgo:Superorder ;
+        skos:definition  "A Superorder of Reptiles."@en ;
+        skos:prefLabel   "Crocodylomorpha"@en .
+
+boltz:Q3003172 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q131863 ;
+        kgo:taxonName    "Crocodyliformes"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Crocodyliformes"@en .
+
+boltz:Q2740674 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3003172 ;
+        kgo:taxonName    "Mesoeucrocodylia"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Mesoeucrocodylia"@en .
+
+boltz:Q3307307 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2740674 ;
+        kgo:taxonName    "Metasuchia"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Metasuchia"@en .
+
+boltz:Q3042061 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3307307 ;
+        kgo:taxonName    "Neosuchia"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Neosuchia"@en .
+
+boltz:Q938944 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3042061 ;
+        kgo:taxonName    "Eusuchia"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Large Reptiles."@en ;
+        skos:prefLabel   "Eusuchia"@en .
+
+boltz:Q25363 a  kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q938944 ;
+        kgo:taxonName    "Crocodilia"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "A Order of Large Reptiles."@en ;
+        skos:prefLabel   "Crocodilia"@en .
+
+boltz:Q507496 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25363 ;
+        kgo:taxonName    "Alligatoroidea"@en ;
+        kgo:taxonRank    kgo:Superfamily ;
+        skos:definition  "A Superfamily of Large Reptiles."@en ;
+        skos:prefLabel   "Alligatoroidea"@en .
+
+boltz:Q5571040 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q507496 ;
+        kgo:taxonName    "Globidonta"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "A Clade of Reptiles."@en ;
+        skos:prefLabel   "Globidonta"@en .
+
+boltz:Q6184764 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q5571040 ;
+        kgo:taxonName    "Alligatoridae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "A specialization of Crocodilian. Alligatoridae includes Alligator, Caiman, Melanosuchus and Paleosuchus."@en ;
+        skos:prefLabel   "Alligatoridae"@en .
+
+boltz:Q530397 a kgo:Taxon ;
+        rdfs:comment     "This is the base class that comes up on KBPedia when you search for Alligator"@en ;
+        kgo:subTaxonOf   boltz:Q6184764 ;
+        kgo:taxonName    "Alligator"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "The collection of all alligators; a subset of Crocodilian. Alligator includes the American Alligators and Chinese Alligators. Cf. Crocodile."@en ;
+        skos:prefLabel   "Alligator"@en .
+
+boltz:Q194422 a kgo:Taxon ;
+        rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
+        rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
+        kgo:subTaxonOf   boltz:Q530397 ;
+        kgo:taxonName    "Alligator sinensis"@en ;
+        kgo:taxonRank    kgo:Species ;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value "40.5" ;
+        ] ;
+        skos:definition  "The Chinese alligator (Alligator sinensis) (simplified Chinese: 扬子鳄; traditional Chinese: 揚子鱷, yáng zǐ è), also known as the Yangtze alligator, is one of two known living species of Alligator, a genus in the family Alligatoridae.\n      This critically endangered species is endemic to eastern China."@en ;
+        skos:prefLabel   "Chinese Alligator"@en .
+
+boltz:Q193327 a kgo:Taxon ;
+        rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
+        rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
+        kgo:subTaxonOf   boltz:Q530397 ;
+        kgo:taxonName    "Alligator mississippiensis"@en ;
+        kgo:taxonRank    kgo:Species ;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value "360.0" ;
+        ] ;
+        skos:definition  "The American alligator (Alligator mississippiensis), sometimes referred to colloquially as a gator or common alligator, is a large crocodilian reptile endemic to the southeastern United States. It is one of two living species in the\n      genus Alligator within the family Alligatoridae; it is larger than the other extant alligator species, the Chinese alligator. Adult male American alligators measure 3.4 to 4.6 m (11 to 15 ft) in length, and can weigh up to 453 kg (1,000 lb). Females\n      are smaller, measuring around 3 m (9.8 ft). The American alligator inhabits freshwater wetlands, such as marshes and cypress swamps from Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader snout, with\n      overlapping jaws and darker coloration, and is less tolerant of saltw."@en ;
+        skos:prefLabel   "American Alligator"@en .

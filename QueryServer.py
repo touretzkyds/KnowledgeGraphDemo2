@@ -3,13 +3,16 @@ import json
 import re
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-localURL = "http://solid.boltz.cs.cmu.edu:3030/Demo"
+# localURL = "http://solid.boltz.cs.cmu.edu:3030/Demo"
+localURL = "http://localhost:3030/Demo"
 queryPrefix = """
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX kgo: <http://solid.boltz.cs.cmu.edu:3030/ontology#>
 PREFIX boltz: <http://solid.boltz.cs.cmu.edu:3030/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX qudt:  <http://qudt.org/schema/qudt/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
 """
 
 #Pulled from alligator3, SPARQL querries the specified server for a JSON
@@ -71,11 +74,13 @@ def findAbove(name):
                     Qid = re.search("Q\d+",parentResult["results"]["bindings"][0]["parent"]["value"]).group()
 
 if __name__ == '__main__':
-    print("FindAbove: Bird")
-    findAbove("Bird")
-    print("\nFindBelow: Bird")
-    findBelow("Bird")
-    print("\nFindAbove: Reptilia")
-    findAbove("Reptilia")
-    print("\nFindBelow: Biota")
+    nameQuery = queryPrefix + "SELECT ?predicate ?object WHERE { unit:KiloGM ?predicate ?object } LIMIT 25"
+    # print(queryServer("http://qudt.org/fuseki/qudt/sparql",nameQuery))
+    # print("FindAbove: Bird")
+    # findAbove("Bird")
+    # print("\nFindBelow: Bird")
+    # findBelow("Bird")
+    # print("\nFindAbove: Reptilia")
+    # findAbove("Reptilia")
+    # print("\nFindBelow: Biota")
     findBelow("Biota")

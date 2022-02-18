@@ -1,0 +1,150 @@
+@prefix boltz: <http://solid.boltz.cs.cmu.edu:3030/> .
+@prefix kgo:   <http://solid.boltz.cs.cmu.edu:3030/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt:  <http://qudt.org/schema/qudt/> .
+@prefix unit:  <http://qudt.org/vocab/unit/> .
+
+kgo:Taxon a      rdfs:Class ;
+        rdfs:comment      "The Class of all Taxonomic classes"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Taxon"@en ;
+        rdfs:subClassOf   rdfs:Class .
+
+kgo:taxonName a  rdf:Property ;
+        rdfs:comment      "The Taxonomic Name of a Class"@en ;
+        rdfs:domain       kgo:Taxon ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "taxonName"@en ;
+        rdfs:range        rdfs:Literal .
+
+kgo:subTaxonOf a rdf:Property ;
+        rdfs:comment      "The subject is taxonomically below another taxon"@en ;
+        rdfs:domain       kgo:Taxon ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "subTaxonOf"@en ;
+        rdfs:range        kgo:Taxon .
+
+kgo:taxonRank a rdf:Property ;
+        rdfs:comment      "The subject has taxonomic rank of the object"@en ;
+        rdfs:domain       rdfs:Class ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "taxonRank"@en ;
+        rdfs:range        kgo:TaxonRank .
+
+kgo:TaxonRank a  rdfs:Class ;
+        rdfs:comment      "The Class of all Taxonomic Ranks"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "TaxonRank"@en ;
+        rdfs:subClassOf   rdfs:Class .
+
+kgo:Clade a      kgo:TaxonRank ;
+        rdfs:comment      "A group of creatures descended from a common organism."@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Clade"@en .
+
+kgo:Domain a     kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Domain"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Domain"@en .
+
+kgo:Kingdom a    kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Kingdom"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Kingdom"@en .
+
+kgo:Subkingdom a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Subkingdom"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Subkingdom"@en .
+
+kgo:Phylum a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Phylum"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Phylum"@en .
+
+kgo:Superphylum a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Superphylum"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Superphylum"@en .
+
+kgo:Subphylum a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Subphylum"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Subphylum"@en .
+
+kgo:Infraphylum a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Infraphylum"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Infraphylum"@en .
+
+kgo:Class a      kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Class"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Class"@en .
+
+kgo:Megaclass a  kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Megaclass"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Megaclass"@en .
+
+kgo:Superclass a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Superclass"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Superclass"@en .
+
+kgo:Subclass a   kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Subclass"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Subclass"@en .
+
+kgo:Infraclass a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Infraclass"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Infraclass"@en .
+
+kgo:Order a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Order"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Order"@en .
+
+kgo:Superorder a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Superorder"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Superorder"@en .
+
+kgo:Suborder a   kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Suborder"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Suborder"@en .
+
+kgo:Family a     kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Family"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Family"@en .
+
+kgo:Superfamily a kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Superfamily"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Superfamily"@en .
+
+kgo:Subfamily a  kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Subfamily"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Subfamily"@en .
+
+kgo:Genus a      kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Genus"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Genus"@en .
+
+kgo:Species a    kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Species"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Species"@en .
+
+kgo:Subpecies a    kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Subspecies"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Subspecies"@en .
