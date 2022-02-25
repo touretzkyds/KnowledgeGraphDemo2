@@ -1,17 +1,18 @@
 @prefix boltz: <http://solid.boltz.cs.cmu.edu:3030/> .
-@prefix kgo:   <http://solid.boltz.cs.cmu.edu:3030/ontology#> .
+@prefix kgo:   <http://solid.boltz.cs.cmu.edu:3030/ontology/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix qudt:  <http://qudt.org/schema/qudt/> .
 @prefix unit:  <http://qudt.org/vocab/unit/> .
+@prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
 
-kgo:Taxon a      rdfs:Class ;
-        rdfs:comment      "The Class of all Taxonomic classes"@en ;
-        rdfs:isDefinedBy  boltz:ontology ;
-        rdfs:label        "Taxon"@en ;
-        rdfs:subClassOf   rdfs:Class .
+boltz:ontology a owl:Ontology ;
+	rdfs:label 	"The Knowledge Graph Ontology, everything we've defined to be used semantically in our personal knowledge graph" ;
+	owl:imports	<http://qudt.org/vocab/unit/> .
 
+# ----------------------QUDT Refernces----------------------
 kgo:averageMass a rdf:Property ;
 	rdfs:comment	"The average mass of something in this class"@en ;
 	rdfs:domain 	rdfs:Class ;
@@ -25,6 +26,13 @@ kgo:averageLifespan  a rdf:Property ;
 	rdfs:range	qudt:Quantity ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"averageLifespan"@en .
+
+# ----------------------Taxon Information----------------------
+kgo:Taxon a      rdfs:Class ;
+        rdfs:comment      "The Class of all Taxonomic classes"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Taxon"@en ;
+        rdfs:subClassOf   rdfs:Class .
 
 kgo:taxonName a  rdf:Property ;
         rdfs:comment      "The Taxonomic Name of a Class"@en ;
@@ -53,6 +61,7 @@ kgo:TaxonRank a  rdfs:Class ;
         rdfs:label        "TaxonRank"@en ;
         rdfs:subClassOf   rdfs:Class .
 
+# ----------------------Taxonomic Ranks----------------------
 kgo:Clade a      kgo:TaxonRank ;
         rdfs:comment      "A group of creatures descended from a common organism."@en ;
         rdfs:isDefinedBy  boltz:ontology ;
