@@ -3,11 +3,11 @@ import json
 import re
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-# localURL = "http://solid.boltz.cs.cmu.edu:3030/Demo"
-localURL = "http://localhost:3030/Demo"
+localURL = "http://solid.boltz.cs.cmu.edu:3030/Demo"
+#localURL = "http://localhost:3030/Demo"
 queryPrefix = """
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX kgo: <http://solid.boltz.cs.cmu.edu:3030/ontology#>
+PREFIX kgo: <http://solid.boltz.cs.cmu.edu:3030/ontology/>
 PREFIX boltz: <http://solid.boltz.cs.cmu.edu:3030/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -52,35 +52,28 @@ def findBelow(name):
 #This function finds all nodes with prefLabel or taxonName == name
 #   then prints the hierarchy from 'Biota' to those Nodes in descending order
 def findAbove(name):
-    nQuery = queryPrefix + "SELECT DISTINCT ?Q WHERE {?Q kgo:taxonName|skos:prefLabel \"" + name + "\"@en. }"
+    nQuery = queryPrefix + "SELECT DISTINCT ?name ?superName WHERE {?Q kgo:taxonName|skos:prefLabel \"" + name + "\"@en. ?Q kgo:subTaxonOf* ?super . ?super skos:prefLabel ?name . ?super kgo:subTaxonOf [ skos:prefLabel ?superName ] .}"
     nResults = queryServer(localURL, nQuery)
     if (len(nResults["results"]["bindings"])) == 0:
         print("Cannot find a Taxon with name: " + name)
     else:
+        hierarchy = []
+        pastName = None
         for result in nResults["results"]["bindings"]:
-            Qid = re.search("Q\d+",result["Q"]["value"]).group()
-            hierarchy = []
-            while(Qid != None):
-                nameQuery = queryPrefix + "SELECT DISTINCT ?name WHERE {boltz:" + Qid + " kgo:taxonName ?name }"
-                nameResults = queryServer(localURL, nameQuery)
-                hierarchy += [nameResults["results"]["bindings"][0]["name"]["value"]]
-                parentQuery = queryPrefix + "SELECT DISTINCT ?parent WHERE {boltz:" + Qid + " kgo:subTaxonOf ?parent}"
-                parentResult = queryServer(localURL, parentQuery)
-                if (len(parentResult["results"]["bindings"])) == 0:
-                    hierarchy.reverse()
-                    print(" -> ".join(hierarchy))
-                    break
-                else:
-                    Qid = re.search("Q\d+",parentResult["results"]["bindings"][0]["parent"]["value"]).group()
+            newName = [result["name"]["value"]]
+            if pastName == None or newName[0] == pastName:
+                hierarchy += newName
+            pastName = result["superName"]["value"]
+        hierarchy += [pastName]
+        hierarchy.reverse()
+        print(" -> ".join(hierarchy))
 
 if __name__ == '__main__':
-    nameQuery = queryPrefix + "SELECT ?predicate ?object WHERE { unit:KiloGM ?predicate ?object } LIMIT 25"
-    # print(queryServer("http://qudt.org/fuseki/qudt/sparql",nameQuery))
     # print("FindAbove: Bird")
     # findAbove("Bird")
     # print("\nFindBelow: Bird")
     # findBelow("Bird")
-    # print("\nFindAbove: Reptilia")
-    # findAbove("Reptilia")
+    print("\nFindAbove: Reptilia")
+    findAbove("Reptilia")
     # print("\nFindBelow: Biota")
-    findBelow("Biota")
+    #findBelow("Biota")
