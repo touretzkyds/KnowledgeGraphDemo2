@@ -432,6 +432,11 @@ boltz:Q194422 a kgo:Taxon ;
             qudt:unit unit:KiloGM ;
             qudt:value 40.5 ;
         ] ;
+        kgo:averageLength  [
+                    a qudt:Quantity ;
+                    qudt:unit unit:IN ;
+                    qudt:value 72.0 ;
+                ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
@@ -451,10 +456,15 @@ boltz:Q193327 a kgo:Taxon ;
             qudt:unit unit:KiloGM ;
             qudt:value 360.0 ;
         ] ;
-	kgo:averageLifespan  [
-	    a qudt:Quantity ;
-	    qudt:unit unit:YR_Common;
-	    qudt:value 50.0 ;
-	] ;
+        kgo:averageLength  [
+                    a qudt:Quantity ;
+                    qudt:unit unit:IN ;
+                    qudt:value 118.0 ;
+                ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value 50.0 ;
+        ] ;
         skos:definition  "The American alligator (Alligator mississippiensis), sometimes referred to colloquially as a gator or common alligator, is a large crocodilian reptile endemic to the southeastern United States. It is one of two living species in the\n      genus Alligator within the family Alligatoridae; it is larger than the other extant alligator species, the Chinese alligator. Adult male American alligators measure 3.4 to 4.6 m (11 to 15 ft) in length, and can weigh up to 453 kg (1,000 lb). Females\n      are smaller, measuring around 3 m (9.8 ft). The American alligator inhabits freshwater wetlands, such as marshes and cypress swamps from Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader snout, with\n      overlapping jaws and darker coloration, and is less tolerant of saltw."@en ;
         skos:prefLabel   "American Alligator"@en .

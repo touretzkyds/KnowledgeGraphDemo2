@@ -7,6 +7,7 @@
 @prefix qudt:  <http://qudt.org/schema/qudt/> .
 @prefix unit:  <http://qudt.org/vocab/unit/> .
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
 
 # ----------------------QUDT Units----------------------
 unit:KiloGM
@@ -34,4 +35,38 @@ unit:YR_Common
   skos:definition "31,536,000-fold of the SI base unit second according a common year with 365 days" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Common Year"@en ;
+.
+
+unit:IN
+  a qudt:Unit ;
+  skos:definition "An inch is the name of a unit of length in a number of different systems, including Imperial units, and United States customary units. There are 36Â inches in a yard and 12Â inches in a foot. Corresponding units of area and volume are the square inch and the cubic inch."^^rdf:HTML ;
+  qudt:conversionMultiplier 0.0254 ;
+  qudt:definedUnitOfSystem sou:IMPERIAL ;
+  qudt:definedUnitOfSystem sou:USCS ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:iec61360Code "0112/2///62720#UAA539" ;
+  qudt:symbol "in" ;
+  qudt:ucumCode "[in_i]"^^qudt:UCUMcs ;
+  qudt:uneceCommonCode "INH" ;
+  qudt:unitOfSystem sou:IMPERIAL ;
+  qudt:unitOfSystem sou:USCS ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Inch"@en ;
+.
+
+unit:FT
+  a qudt:Unit ;
+  skos:definition "A foot is a unit of length defined as being 0.3048Â m exactly and used in the imperial system of units and United States customary units. It is subdivided into 12Â inches. The foot is still officially used in Canada and still commonly used in the United Kingdom, although the latter has partially metricated its units of measurement. "^^rdf:HTML ;
+  qudt:conversionMultiplier 0.3048 ;
+  qudt:definedUnitOfSystem sou:IMPERIAL ;
+  qudt:definedUnitOfSystem sou:USCS ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
+  qudt:iec61360Code "0112/2///62720#UAA440" ;
+  qudt:symbol "ft" ;
+  qudt:ucumCode "[ft_i]"^^qudt:UCUMcs ;
+  qudt:uneceCommonCode "FOT" ;
+  qudt:unitOfSystem sou:IMPERIAL ;
+  qudt:unitOfSystem sou:USCS ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Foot"@en ;
 .

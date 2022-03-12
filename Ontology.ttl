@@ -27,6 +27,13 @@ kgo:averageLifespan  a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"averageLifespan"@en .
 
+kgo:averageLength  a rdf:Property ;
+	rdfs:comment	"The average length of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"averageLength"@en .
+
 # ----------------------Taxon Information----------------------
 kgo:Taxon a      rdfs:Class ;
         rdfs:comment      "The Class of all Taxonomic classes"@en ;
