@@ -52,7 +52,7 @@ def findBelow(name):
 #This function finds all nodes with prefLabel or taxonName == name
 #   then prints the hierarchy from 'Biota' to those Nodes in descending order
 def findAbove(name):
-    nQuery = queryPrefix + "SELECT DISTINCT ?name ?superName WHERE {?Q kgo:taxonName|skos:prefLabel \"" + name + "\"@en. ?Q kgo:subTaxonOf* ?super . ?super skos:prefLabel ?name . ?super kgo:subTaxonOf [ skos:prefLabel ?superName ] .}"
+    nQuery = queryPrefix + "SELECT DISTINCT ?name ?superName WHERE {?Q kgo:taxonName|skos:prefLabel \"" + name + "\"@en. ?Q kgo:subTaxonOf* ?super . ?super kgo:taxonName ?name . ?super kgo:subTaxonOf [ kgo:taxonName ?superName ] .}"
     nResults = queryServer(localURL, nQuery)
     if (len(nResults["results"]["bindings"])) == 0:
         print("Cannot find a Taxon with name: " + name)

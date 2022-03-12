@@ -8,11 +8,7 @@
 @prefix unit:  <http://qudt.org/vocab/unit/> .
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
 
-boltz:ontology a owl:Ontology ;
-	rdfs:label 	"The Knowledge Graph Ontology, everything we've defined to be used semantically in our personal knowledge graph" ;
-	owl:imports	<http://qudt.org/vocab/unit/> .
-
-# ----------------------QUDT Refernces----------------------
+# ----------------------QUDT References----------------------
 kgo:averageMass a rdf:Property ;
 	rdfs:comment	"The average mass of something in this class"@en ;
 	rdfs:domain 	rdfs:Class ;
