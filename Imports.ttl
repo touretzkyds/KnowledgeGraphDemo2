@@ -17,7 +17,6 @@ unit:LB
   qudt:definedUnitOfSystem sou:IMPERIAL ;
   qudt:definedUnitOfSystem sou:USCS ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
-  qudt:hasQuantityKind quantitykind:Mass ;
   qudt:symbol "lbm" ;
   qudt:ucumCode "[lb_av]"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "LBR" ;
@@ -31,19 +30,18 @@ unit:YR_Common
   a qudt:Unit ;
   qudt:conversionMultiplier 31536000.0 ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T1D0 ;
-  qudt:hasQuantityKind quantitykind:Time ;
   qudt:iec61360Code "0112/2///62720#UAB025" ;
   skos:definition "31,536,000-fold of the SI base unit second according a common year with 365 days" ;
   qudt:uneceCommonCode "L95" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Common Year"@en ;
+.
 
 unit:KiloGM
   a qudt:Unit ;
   qudt:conversionMultiplier 1.0 ;
   qudt:definedUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M1H0T0D0 ;
-  qudt:hasQuantityKind quantitykind:Mass ;
   qudt:iec61360Code "0112/2///62720#UAA594" ;
   skos:definition "The kilogram or kilogramme (SI symbol: kg), also known as the kilo, is the base unit of mass in the International System of Units and is defined as being equal to the mass of the International Prototype Kilogram (IPK), which is almost exactly equal to the mass of one liter of water. The avoirdupois (or international) pound, used in both the Imperial system and U.S. customary units, is defined as exactly 0.45359237 kg, making one kilogram approximately equal to 2.2046 avoirdupois pounds." ;
   qudt:symbol "kg" ;
@@ -53,6 +51,7 @@ unit:KiloGM
   qudt:unitOfSystem sou:SI ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Kilogram"@en ;
+.
 
 unit:IN
   a qudt:Unit ;

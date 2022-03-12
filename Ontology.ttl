@@ -7,6 +7,15 @@
 @prefix qudt:  <http://qudt.org/schema/qudt/> .
 @prefix unit:  <http://qudt.org/vocab/unit/> .
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+
+# ----------------------QUDT Comparisons----------------------
+kgo:prefComparisons a rdf:Property ;
+	rdfs:comment  "The order which something wants to be compared by. All comparison types that appear in the list must be propertys of the compared entity"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range		rdf:List ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "prefComparisons"@en .
 
 # ----------------------QUDT References----------------------
 kgo:averageMass a rdf:Property ;

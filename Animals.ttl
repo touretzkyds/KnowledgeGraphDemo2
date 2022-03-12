@@ -7,6 +7,7 @@
 @prefix qudt:  <http://qudt.org/schema/qudt/> .
 @prefix unit:  <http://qudt.org/vocab/unit/> .
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
 
 # ----------------------General Taxonomy----------------------
 boltz:Q2382443 a kgo:Taxon ;
@@ -172,6 +173,15 @@ boltz:Q17592 a  kgo:Taxon ;
             qudt:unit unit:YR_Common;
             qudt:value 42.5 ;
         ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLifespan ;
+                rdf:rest rdf:nil ;
+            ] ;
+        ] ;
         skos:definition  "A species of large flightless bird"@en ;
         skos:prefLabel   "Ostrich"@en .
 
@@ -195,6 +205,11 @@ boltz:Q3976168 a  kgo:Taxon ;
             qudt:unit unit:KiloGM ;
             qudt:value 115.0 ;
         ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest rdf:nil ;
+        ] ;
         skos:definition  "A type of Ostrich found in Eastern Africa, also known as the East African Ostrich"@en ;
         skos:prefLabel   "Masai Ostrich"@en .
 
@@ -208,6 +223,11 @@ boltz:Q3976170 a  kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 111.0 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest rdf:nil ;
         ] ;
         skos:definition  "A type of Ostrich found in Northern Africa"@en ;
         skos:prefLabel   "North African Ostrich"@en .
@@ -445,6 +465,19 @@ boltz:Q194422 a kgo:Taxon ;
             qudt:unit unit:YR_Common;
             qudt:value 70.0 ;
         ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLength ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:averageLifespan ;
+                    rdf:rest rdf:nil ;
+                ] ;
+            ] ;
+        ] ;
         skos:definition  "The Chinese alligator (Alligator sinensis) (simplified Chinese: 扬子鳄; traditional Chinese: 揚子鱷, yáng zǐ è), also known as the Yangtze alligator, is one of two known living species of Alligator, a genus in the family Alligatoridae.\n      This critically endangered species is endemic to eastern China."@en ;
         skos:prefLabel   "Chinese Alligator"@en .
 
@@ -460,14 +493,27 @@ boltz:Q193327 a kgo:Taxon ;
             qudt:value 360.0 ;
         ] ;
         kgo:averageLength  [
-                    a qudt:Quantity ;
-                    qudt:unit unit:IN ;
-                    qudt:value 118.0 ;
-                ] ;
+            a qudt:Quantity ;
+            qudt:unit unit:IN ;
+            qudt:value 118.0 ;
+        ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 50.0 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLength ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:averageLifespan ;
+                    rdf:rest rdf:nil ;
+                ] ;
+            ] ;
         ] ;
         skos:definition  "The American alligator (Alligator mississippiensis), sometimes referred to colloquially as a gator or common alligator, is a large crocodilian reptile endemic to the southeastern United States. It is one of two living species in the\n      genus Alligator within the family Alligatoridae; it is larger than the other extant alligator species, the Chinese alligator. Adult male American alligators measure 3.4 to 4.6 m (11 to 15 ft) in length, and can weigh up to 453 kg (1,000 lb). Females\n      are smaller, measuring around 3 m (9.8 ft). The American alligator inhabits freshwater wetlands, such as marshes and cypress swamps from Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader snout, with\n      overlapping jaws and darker coloration, and is less tolerant of saltw."@en ;
         skos:prefLabel   "American Alligator"@en .
