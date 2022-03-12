@@ -8,6 +8,7 @@
 @prefix unit:  <http://qudt.org/vocab/unit/> .
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
 
+# ----------------------General Taxonomy----------------------
 boltz:Q2382443 a kgo:Taxon ;
         kgo:taxonName    "Biota"@en ;
         kgo:taxonRank    kgo:Superdomain ;
@@ -119,6 +120,7 @@ boltz:Q19159 a  kgo:Taxon ;
         skos:definition  "A Superclass of the first four-limbed vertebrates and their descendants"@en ;
         skos:prefLabel   "Tetrapoda"@en .
 
+# ----------------------Bird Taxonomy----------------------
 boltz:Q5113 a   kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q19159 ;
         kgo:taxonName    "Aves"@en ;
@@ -210,6 +212,7 @@ boltz:Q3976170 a  kgo:Taxon ;
         skos:definition  "A type of Ostrich found in Northern Africa"@en ;
         skos:prefLabel   "North African Ostrich"@en .
 
+# ----------------------Reptile Taxonomy----------------------
 boltz:Q134683 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q19159 ;
         kgo:taxonName    "Reptiliomorpha"@en ;
