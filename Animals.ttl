@@ -23,13 +23,113 @@ boltz:Q19088 a  kgo:Taxon ;
         skos:definition  "A taxonomic group whose members have complex structures enclosed within membranes"@en ;
         skos:prefLabel   "Eukaryote"@en .
 
-boltz:Q729 a    kgo:Taxon ;
-        kgo:subTaxonOf   boltz:Q19088 ;
-        kgo:taxonName    "Animalia"@en ;
+# ----------------------Plant Taxonomy----------------------
+boltz:Q756 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2382443 ;
+        kgo:taxonName    "Plantae"@en ;
         kgo:taxonRank    kgo:Kingdom ;
-        skos:definition  "A kingdom of multicellular eukaryotic organisms"@en ;
-        skos:prefLabel   "Animal"@en .
+        skos:definition  "Multicellular eukaryote of the kingdom Plantae"@en ;
+        skos:prefLabel   "Plant"@en .
 
+boltz:Q11973077 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q756 ;
+        kgo:taxonName    "Viridiplantae"@en ;
+        kgo:taxonRank    kgo:Subkingdom ;
+        skos:definition  "Clade of eukaryotes including green algae and the land plants"@en ;
+        skos:prefLabel   "Chlorobiota"@en .
+
+boltz:Q133527 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q11973077 ;
+        kgo:taxonName    "Streptophyta"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Clade consisting of the charophyte algae and land plants"@en ;
+        skos:prefLabel   "Streptophytina"@en .
+
+boltz:Q192154 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q133527 ;
+        kgo:taxonName    "Embryophyte"@en ;
+        kgo:taxonRank    kgo:Subkingdom ;
+        skos:definition  "Subkingdom of plants"@en ;
+        skos:prefLabel   "Land Plants"@en .
+
+boltz:Q27133 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q192154 ;
+        kgo:taxonName    "Tracheophyta"@en ;
+        kgo:taxonRank    kgo:Division ;
+        skos:definition  "Division of plants"@en ;
+        skos:prefLabel   "Higher Plants"@en .
+
+boltz:Q642865 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q27133 ;
+        kgo:taxonName    "Euphyllophyta"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Clade of plants"@en ;
+        skos:prefLabel   "Euphyllophytina"@en .
+
+boltz:Q25814 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q642865 ;
+        kgo:taxonName    "Spermatophyta"@en ;
+        kgo:taxonRank    kgo:Subdivision ;
+        skos:definition  "Subdivision of plants"@en ;
+        skos:prefLabel   "Seed plants"@en .
+
+boltz:Q25314 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25814 ;
+        kgo:taxonName    "Angiospermae"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Clade of flowering plants (in APG I-III)"@en ;
+        skos:prefLabel   "Angiosperms"@en .
+
+boltz:Q165468 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25314 ;
+        kgo:taxonName    "Eudicotidae"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Clade of flowering plants"@en ;
+        skos:prefLabel   "Eudicots"@en .
+
+boltz:Q869087 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q165468 ;
+        kgo:taxonName    "Core Eudicots"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Major clade of flowering plants"@en ;
+        skos:prefLabel   "Core Eudicots"@en .
+
+boltz:Q338878 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q869087 ;
+        kgo:taxonName    "Rosiden"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Large clade of flowering plants"@en ;
+        skos:prefLabel   "Rosids"@en .
+
+boltz:Q2683213 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q338878 ;
+        kgo:taxonName    "Fabidae"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "An important clade of plants, in APG III and IV"@en ;
+        skos:prefLabel   "Fabids"@en .
+
+boltz:Q21881 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2683213 ;
+        kgo:taxonName    "Fagales"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "Order of plants"@en ;
+        skos:prefLabel   "Fagales"@en .
+
+boltz:Q145977 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q21881 ;
+        kgo:taxonName    "Fagaceae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of plants"@en ;
+        skos:prefLabel   "Fagaceae"@en .
+
+boltz:Q12004 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q145977 ;
+        kgo:taxonName    "Quercus"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "Genus of plants"@en ;
+        skos:prefLabel   "Oak Tree"@en .
+
+# ----------------------Animal Taxonomy----------------------
 boltz:Q5174 a   kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q729 ;
         kgo:taxonName    "Eumetazoa"@en ;
@@ -517,3 +617,231 @@ boltz:Q193327 a kgo:Taxon ;
         ] ;
         skos:definition  "The American alligator (Alligator mississippiensis), sometimes referred to colloquially as a gator or common alligator, is a large crocodilian reptile endemic to the southeastern United States. It is one of two living species in the\n      genus Alligator within the family Alligatoridae; it is larger than the other extant alligator species, the Chinese alligator. Adult male American alligators measure 3.4 to 4.6 m (11 to 15 ft) in length, and can weigh up to 453 kg (1,000 lb). Females\n      are smaller, measuring around 3 m (9.8 ft). The American alligator inhabits freshwater wetlands, such as marshes and cypress swamps from Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader snout, with\n      overlapping jaws and darker coloration, and is less tolerant of saltw."@en ;
         skos:prefLabel   "American Alligator"@en .
+
+#-------------------------Mammals Hierarchy----------------------
+boltz:Q2082668 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19159 ;
+        kgo:taxonName    "Mammaliaformes"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Clade of tetrapods"@en ;
+        skos:prefLabel   "Mammaliaformes"@en .
+
+boltz:Q7377 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2082668 ;
+        kgo:taxonName    "Mammal"@en ;
+        kgo:taxonRank    kgo:Class ;
+        skos:definition  "Class of tetrapods"@en ;
+        skos:prefLabel   "Mammal"@en .
+
+boltz:Q130942 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q7377 ;
+        kgo:taxonName    "Theria"@en ;
+        kgo:taxonRank    kgo:Subclass ;
+        skos:definition  "Subclass of mammals"@en ;
+        skos:prefLabel   "Theria"@en .
+
+boltz:Q25833 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q130942 ;
+        kgo:taxonName    "Placentalia"@en ;
+        kgo:taxonRank    kgo:Infraclass ;
+        skos:definition  "Infraclass of mammals"@en ;
+        skos:prefLabel   "Placentalia"@en .
+
+boltz:Q25306 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25833 ;
+        kgo:taxonName    "Carnivora"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "Order of mammals"@en ;
+        skos:prefLabel   "Carnivora"@en .
+
+#--------------------Cat Hierarchy--------------------
+boltz:Q27070 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25306 ;
+        kgo:taxonName    "Feliformia"@en ;
+        kgo:taxonRank    kgo:Suborder ;
+        skos:definition  "Suborder of mammals in the order Carnivora"@en ;
+        skos:prefLabel   "Feliformia"@en .
+
+boltz:Q25265 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q27070 ;
+        kgo:taxonName    "Felidae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of mammals in the order of carnivorans"@en ;
+        skos:prefLabel   "Felidae"@en .
+
+boltz:Q42602 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25265 ;
+        kgo:taxonName    "Felinae"@en ;
+        kgo:taxonRank    kgo:Subfamily ;
+        skos:definition  "Subfamily of mammals"@en ;
+        skos:prefLabel   "Felinae"@en .
+
+boltz:Q228283 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q42602 ;
+        kgo:taxonName    "Felis"@en ;
+        kgo:taxonRank    kgo: ;
+        skos:definition  "Genus of Mammals"@en ;
+        skos:prefLabel   "Felis"@en .
+
+boltz:Q20980826 a kgo:Taxon ;
+        #ADD ANIMAL STATS
+        kgo:subTaxonOf   boltz:Q228283 ;
+        kgo:taxonName    "Felis catus"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "The collection of all cats"@en ;
+        skos:prefLabel   "Cat"@en .
+
+#--------------------Dog Hierarchy--------------------
+boltz:Q27414 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25306 ;
+        kgo:taxonName    "Caniformia"@en ;
+        kgo:taxonRank    kgo:Suborder ;
+        skos:definition  "Suborder of mammals"@en ;
+        skos:prefLabel   "Caniformia"@en .
+
+boltz:Q25324 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q27414 ;
+        kgo:taxonName    "Canidae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of mammals"@en ;
+        skos:prefLabel   "Canidae"@en .
+
+boltz:Q149892 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25324 ;
+        kgo:taxonName    "Canis"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "Genus of mammals, including domestic dogs"@en ;
+        skos:prefLabel   "Canis"@en .
+
+boltz:Q18498 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q149892 ;
+        kgo:taxonName    "Canis lupus"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "Species of mammal"@en ;
+        skos:prefLabel   "Grey Wolf"@en .
+
+boltz:Q26972265 a kgo:Taxon ;
+        #ADD ANIMAL STATS
+        kgo:subTaxonOf   boltz:Q18498 ;
+        kgo:taxonName    "Canis lupus familiaris"@en ;
+        kgo:taxonRank    kgo:Subspecies ;
+        skos:definition  "Subspecies of mammal"@en ;
+        skos:prefLabel   "Domesticated Dog"@en .
+        skos:prefLabel   "Dog"@en .
+
+#-------------------------Primate Hierarchy----------------------
+boltz:Q7380 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25833 ;
+        kgo:taxonName    "Primates"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "Order of mammals"@en ;
+        skos:prefLabel   "Primate"@en .
+
+boltz:Q82261 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q7380 ;
+        kgo:taxonName    "Haplorrhini"@en ;
+        kgo:taxonRank    kgo:Suborder ;
+        skos:definition  "Suborder of \"dry nosed\" primates, including monkeys, apes, humans"@en ;
+        skos:prefLabel   "Haplorrhini"@en .
+
+boltz:Q5452918 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q82261 ;
+        kgo:taxonName    "Simiiformes"@en ;
+        kgo:taxonRank    kgo:Infraorder ;
+        skos:definition  "Infraorder of mammals: \"higher primates\": New World monkeys, Old World monkeys and apes, including humans"@en ;
+        skos:prefLabel   "Simiiformes"@en .
+
+boltz:Q206930 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q5452918 ;
+        kgo:taxonName    "Catarrhini"@en ;
+        kgo:taxonRank    kgo:Parvorder ;
+        skos:definition  "Parvorder of Old World monkeys and the apes, including humans"@en ;
+        skos:prefLabel   "Catarrhini"@en .
+
+#-------------------------Rhesus Macaque Hierarchy----------------------
+boltz:Q3665073 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q206930 ;
+        kgo:taxonName    "Cercopithecoidea"@en ;
+        kgo:taxonRank    kgo:Superfamily ;
+        skos:definition  "Superfamily of monkeys"@en ;
+        skos:prefLabel   "Cercopithecoidea"@en .
+
+boltz:Q182968 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3665073 ;
+        kgo:taxonName    "Cercopithecidae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of mammals"@en ;
+        skos:prefLabel   "Cercopithecidae"@en .
+
+boltz:Q220848 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q182968 ;
+        kgo:taxonName    "Cercopithecinae"@en ;
+        kgo:taxonRank    kgo:Subfamily ;
+        skos:definition  "Subfamily of mammals"@en ;
+        skos:prefLabel   "Cercopithecinae"@en .
+
+boltz:Q177601 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q220848 ;
+        kgo:taxonName    "Macaca"@en ;
+        kgo:taxonRank    kgo:Genus;
+        skos:definition  "Genus of mammals"@en ;
+        skos:prefLabel   "Macaca"@en .
+
+boltz:Q156606 a kgo:Taxon ;
+        #ADD ANIMAL STATS
+        kgo:subTaxonOf   boltz:Q177601 ;
+        kgo:taxonName    "Macaca mulatta"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "Species of Old World monkey"@en ;
+        skos:prefLabel   "Rhesus Macaque "@en .
+
+#-------------------------Human Hierarchy----------------------
+boltz:Q102470 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q206930 ;
+        kgo:taxonName    "Hominoidea"@en ;
+        kgo:taxonRank    kgo:Superfamily ;
+        skos:definition  "Superfamily of apes"@en ;
+        skos:prefLabel   "Hominoidea"@en .
+
+boltz:Q635162 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q102470 ;
+        kgo:taxonName    "Hominidae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of apes"@en ;
+        skos:prefLabel   "Hominidae"@en .
+
+boltz:Q242047 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q635162 ;
+        kgo:taxonName    "Homininae"@en ;
+        kgo:taxonRank    kgo:Subfamily ;
+        skos:definition  "Subfamily of mammals"@en ;
+        skos:prefLabel   "Homininae"@en .
+
+boltz:Q107588 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q242047 ;
+        kgo:taxonName    "Hominini"@en ;
+        kgo:taxonRank    kgo:Tribe ;
+        skos:definition  "Tribe of mammals"@en ;
+        skos:prefLabel   "Hominini"@en .
+
+boltz:Q605457 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q107588 ;
+        kgo:taxonName    "Hominina"@en ;
+        kgo:taxonRank    kgo:Subtribe ;
+        skos:definition  "Subtribe of the tribe Hominini"@en ;
+        skos:prefLabel   "Hominina"@en .
+
+boltz:Q171283 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q605457 ;
+        kgo:taxonName    "Homo"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "Genus of mammals"@en ;
+        skos:prefLabel   "Homo"@en .
+
+boltz:Q15978631 a kgo:Taxon ;
+        #ADD ANIMAL STATS
+        kgo:subTaxonOf   boltz:Q171283 ;
+        kgo:taxonName    "Homo sapiens"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "Species of mammal"@en ;
+        skos:prefLabel   "Human"@en .

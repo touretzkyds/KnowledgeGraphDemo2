@@ -154,6 +154,16 @@ kgo:Suborder a   kgo:TaxonRank ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "Suborder"@en .
 
+kgo:Infraorder a   kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Infraorder"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Infraorder"@en .
+
+kgo:Parvorder a   kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Parvorder"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Parvorder"@en .
+
 kgo:Family a     kgo:TaxonRank ;
         rdfs:comment      "The taxonomic rank Family"@en ;
         rdfs:isDefinedBy  boltz:ontology ;
@@ -169,6 +179,16 @@ kgo:Subfamily a  kgo:TaxonRank ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "Subfamily"@en .
 
+kgo:Tribe a      kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Tribe"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Tribe"@en .
+
+kgo:Subtribe a      kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Subtribe"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Subtribe"@en .
+
 kgo:Genus a      kgo:TaxonRank ;
         rdfs:comment      "The taxonomic rank Genus"@en ;
         rdfs:isDefinedBy  boltz:ontology ;
@@ -183,3 +203,14 @@ kgo:Subpecies a    kgo:TaxonRank ;
         rdfs:comment      "The taxonomic rank Subspecies"@en ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "Subspecies"@en .
+
+# ----------------------Botanical Taxonomic Ranks----------------------
+kgo:Division a    kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Division"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Division"@en .
+
+kgo:Subdivision a    kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Subdivision"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Subdivision"@en .
