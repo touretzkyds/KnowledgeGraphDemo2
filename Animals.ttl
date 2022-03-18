@@ -80,6 +80,7 @@ boltz:Q25314 a kgo:Taxon ;
         skos:definition  "Clade of flowering plants (in APG I-III)"@en ;
         skos:prefLabel   "Angiosperms"@en .
 
+# ----------------------Oak Tree Taxonomy----------------------
 boltz:Q165468 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q25314 ;
         kgo:taxonName    "Eudicotidae"@en ;
@@ -128,6 +129,100 @@ boltz:Q12004 a kgo:Taxon ;
         kgo:taxonRank    kgo:Genus ;
         skos:definition  "Genus of plants"@en ;
         skos:prefLabel   "Oak Tree"@en .
+
+# ----------------------Banana Taxonomy----------------------
+boltz:Q78961 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q25314 ;
+        kgo:taxonName    "Monocotyledons"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Important clade of plants"@en ;
+        skos:prefLabel   "Monocots"@en .
+
+boltz:Q868546 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q78961 ;
+        kgo:taxonName    "Commelinids"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Important clade of plants (In APG II and III)"@en ;
+        skos:prefLabel   "Commelinids"@en .
+
+boltz:Q203779 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q868546 ;
+        kgo:taxonName    "Zingiberales"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "Order of Plants"@en ;
+        skos:prefLabel   "Zingiberales"@en .
+
+boltz:Q156525 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q203779 ;
+        kgo:taxonName    "Musaceae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of Plants"@en ;
+        skos:prefLabel   "Musaceae"@en .
+
+boltz:Q8666090 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q156525 ;
+        kgo:taxonName    "Musa"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "Genus of Plant"@en ;
+        skos:prefLabel   "Musa"@en .
+
+boltz:Q50845174 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q8666090 ;
+        kgo:taxonName    "Musa ×sapientum"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "Species of Plant"@en ;
+        skos:prefLabel   "Banana"@en .
+        skos:prefLabel   "Banana Tree"@en .
+
+# ----------------------Broccoli Taxonomy----------------------
+boltz:Q2133361 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q338878 ;
+        kgo:taxonName    "Malvidae"@en ;
+        kgo:taxonRank    kgo:Clade ;
+        skos:definition  "Major clade of plants (in APG III and IV)"@en ;
+        skos:prefLabel   "Malvids"@en .
+
+boltz:Q21904 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2133361 ;
+        kgo:taxonName    "Brassicales"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "Order of plants"@en ;
+        skos:prefLabel   "Brassicales"@en .
+
+boltz:Q156888 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q21904 ;
+        kgo:taxonName    "Brassicaceae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of plants"@en ;
+        skos:prefLabel   "Cruciferae"@en .
+
+boltz:Q15054388 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q156888 ;
+        kgo:taxonName    "Brassiceae"@en ;
+        kgo:taxonRank    kgo:Tribe ;
+        skos:definition  "Tribe of plants"@en ;
+        skos:prefLabel   "Brassiceae"@en .
+
+boltz:Q58677 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q15054388 ;
+        kgo:taxonName    "Brassica"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "Genus of plants"@en ;
+        skos:prefLabel   "Cabbage"@en .
+
+boltz:Q146212 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q58677 ;
+        kgo:taxonName    "Brassica oleracea"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "Species of plant"@en ;
+        skos:prefLabel   "Collard Greens"@en .
+
+boltz:Q47722 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q146212 ;
+        kgo:taxonName    "Brassica oleracea var. italica"@en ;
+        kgo:taxonRank    kgo:Variety ;
+        skos:definition  "Edible green plant in the cabbage family"@en ;
+        skos:prefLabel   "Broccoli"@en .
 
 # ----------------------Animal Taxonomy----------------------
 boltz:Q5174 a   kgo:Taxon ;

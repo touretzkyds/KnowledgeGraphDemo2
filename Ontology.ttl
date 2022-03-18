@@ -214,3 +214,8 @@ kgo:Subdivision a    kgo:TaxonRank ;
         rdfs:comment      "The taxonomic rank Subdivision"@en ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "Subdivision"@en .
+
+kgo:Variety a    kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Variety"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Variety"@en .
