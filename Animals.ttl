@@ -58,7 +58,7 @@ boltz:Q247489 a kgo:Company ;
         skos:definition   "American pharmaceutical company and former subsidiary of the German Merck company"@en ;
         skos:prefLabel    "Merck"@en .
 
-boltz:Q81965 a kgo:Company ;
+boltz:Q206921 a kgo:Company ;
         kgo:companyName   "Pfizer Inc."@en ;
         kgo:tickerSymbol  "PFE"@en ;
         kgo:headquarters  [
@@ -107,7 +107,7 @@ boltz:Q81965 a kgo:Company ;
         skos:prefLabel    "Pfizer"@en .
 
 boltz:Q81965 a kgo:Company ;
-        kgo:companyName   "General Motors Company "@en ;
+        kgo:companyName   "General Motors Company"@en ;
         kgo:tickerSymbol  "GM"@en ;
         kgo:headquarters  [
             a kgo:Location ;
