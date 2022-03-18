@@ -23,6 +23,124 @@ boltz:Q19088 a  kgo:Taxon ;
         skos:definition  "A taxonomic group whose members have complex structures enclosed within membranes"@en ;
         skos:prefLabel   "Eukaryote"@en .
 
+boltz:Q19081 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q2382443 ;
+        kgo:taxonName    "Prokaryota"@en ;
+        kgo:taxonRank    kgo:Domain ;
+        skos:definition  "Group of organisms whose cells lack a cell nucleus"@en ;
+        skos:prefLabel   "Prokaryotes"@en .
+
+# ----------------------Bacteria Taxonomy----------------------
+boltz:Q10876 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19081 ;
+        kgo:taxonName    "Bacteria"@en ;
+        kgo:taxonRank    kgo:Kingdom ;
+        skos:definition  "Domain of prokaryotes"@en ;
+        skos:prefLabel   "Bacteria"@en .
+
+# ----------------------E. Coli Taxonomy----------------------
+boltz:Q3337759 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q10876 ;
+        kgo:taxonName    "Negibacteria"@en ;
+        kgo:taxonRank    kgo:Subkingdom ;
+        skos:definition  "Subkingdom of Gram-negative bacteria"@en ;
+        skos:prefLabel   "Negibacteria"@en .
+
+boltz:Q130999 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3337759 ;
+        kgo:taxonName    "Proteobacteria"@en ;
+        kgo:taxonRank    kgo:Phylum ;
+        skos:definition  "Phylum of Gram-negative bacteria"@en ;
+        skos:prefLabel   "Proteobacteria"@en .
+
+boltz:Q134668 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q130999 ;
+        kgo:taxonName    "Gammaproteobacteria"@en ;
+        kgo:taxonRank    kgo:Class ;
+        skos:definition  "Class of bacteria"@en ;
+        skos:prefLabel   "Gammaproteobacteria"@en .
+
+boltz:Q6034931 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q134668 ;
+        kgo:taxonName    "Enterobacterales"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "Order of bacteria"@en ;
+        skos:prefLabel   "Enterobacterales"@en .
+
+boltz:Q380136 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q6034931 ;
+        kgo:taxonName    "Enterobacteriaceae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of bacteria"@en ;
+        skos:prefLabel   "P. flectens";
+        skos:prefLabel   "Enterobacteriaceae"@en .
+
+boltz:Q311055 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q380136 ;
+        kgo:taxonName    "Escherichia"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "Genus of Bacteria"@en ;
+        skos:prefLabel   "Escherichia"@en .
+
+boltz:Q25419 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q311055 ;
+        kgo:taxonName    "Escherichia coli"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "Species of Gram-negative, rod-shaped bacterium"@en ;
+        skos:prefLabel   "Escherichia Coli"@en .
+        skos:prefLabel   "E. Coli"@en .
+
+# ----------------------B. Subtilis Taxonomy----------------------
+boltz:Q3399629 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q10876 ;
+        kgo:taxonName    "Posibacteria"@en ;
+        kgo:taxonRank    kgo:Subkingdom ;
+        skos:definition  "Subkingdom of Gram-positive bacteria"@en ;
+        skos:prefLabel   "Posibacteria"@en .
+
+boltz:Q149075 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q3399629 ;
+        kgo:taxonName    "Firmicutes"@en ;
+        kgo:taxonRank    kgo:Phylum ;
+        skos:definition  "Phylum of bacteria"@en ;
+        skos:prefLabel   "Firmicutes"@en .
+
+boltz:Q149128 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q149075 ;
+        kgo:taxonName    "Bacilli"@en ;
+        kgo:taxonRank    kgo:Class ;
+        skos:definition  "Taxon (class) Bacilli, including some rod-shaped (bacilli) and some spherical (cocci) bacter"@en ;
+        skos:prefLabel   "Bacilli"@en .
+
+boltz:Q149088 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q149128 ;
+        kgo:taxonName    "Bacillales"@en ;
+        kgo:taxonRank    kgo:Order ;
+        skos:definition  "Order of bacteria"@en ;
+        skos:prefLabel   "Bacillales"@en .
+
+boltz:Q149098 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q149088 ;
+        kgo:taxonName    "Bacillaceae"@en ;
+        kgo:taxonRank    kgo:Family ;
+        skos:definition  "Family of bacteria"@en ;
+        skos:prefLabel   "Bacillaceae"@en .
+
+boltz:Q212032 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q149098 ;
+        kgo:taxonName    "Bacillus"@en ;
+        kgo:taxonRank    kgo:Genus ;
+        skos:definition  "Genus of bacteria"@en ;
+        skos:prefLabel   "Bacillus"@en .
+
+boltz:Q131238 a kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q212032 ;
+        kgo:taxonName    "Bacillus subtilis"@en ;
+        kgo:taxonRank    kgo:Species ;
+        skos:definition  "Catalase-positive bacterium"@en ;
+        skos:prefLabel   "B. subtilis"@en .
+        skos:prefLabel   "Bacillus subtilis"@en .
+
 # ----------------------Plant Taxonomy----------------------
 boltz:Q756 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q2382443 ;
