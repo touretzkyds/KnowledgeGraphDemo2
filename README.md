@@ -1,2 +1,2 @@
-# KnowledgeGraphDemo2
+# KnowledgeGraphDemo
 An interactive exploration of an exemplary knowledge graph
