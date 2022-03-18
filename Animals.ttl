@@ -9,6 +9,344 @@
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
 @prefix sou: <http://qudt.org/vocab/sou/> .
 
+# ----------------------Companies----------------------
+boltz:Q247489 a kgo:Company ;
+        kgo:companyName   "Merck & Co., Inc."@en ;
+        kgo:tickerSymbol  "MRK"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address     "2000 Galloping Hill Road Kenilworth, NJ 07033"@en ;
+            kgo:coordinates "40.6774345,-74.2745441"@en ;
+        ] ;
+        kgo:annualRevenue [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 54060000000 ;
+        ] ;
+        kgo:marketCap [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 199400000000 ;
+        ] ;
+        kgo:marketShare [
+            a qudt:Quantity ;
+            qudt:unit unit:PERCENT ;
+            qudt:value 8.82 ;
+        ] ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 74000 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:marketCap ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:annualRevenue ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:marketShare ;
+                    rdf:rest [
+                        a rdf:List ;
+                        rdf:first kgo:numEmployees ;
+                        rdf:rest rdf:nil ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+        skos:definition   "American pharmaceutical company and former subsidiary of the German Merck company"@en ;
+        skos:prefLabel    "Merck"@en .
+
+boltz:Q81965 a kgo:Company ;
+        kgo:companyName   "Pfizer Inc."@en ;
+        kgo:tickerSymbol  "PFE"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address     "235 East 42nd Street, New York  NY 10017"@en ;
+            kgo:coordinates "40.7503225,-73.9745905"@en ;
+        ] ;
+        kgo:annualRevenue [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 69340000000 ;
+        ] ;
+        kgo:marketCap [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 304400000000 ;
+        ] ;
+        kgo:marketShare [
+            a qudt:Quantity ;
+            qudt:unit unit:PERCENT ;
+            qudt:value 14.72 ;
+        ] ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 78500 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:marketCap ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:annualRevenue ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:marketShare ;
+                    rdf:rest [
+                        a rdf:List ;
+                        rdf:first kgo:numEmployees ;
+                        rdf:rest rdf:nil ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+        skos:definition   "American multinational pharmaceutical corporation"@en ;
+        skos:prefLabel    "Pfizer"@en .
+
+boltz:Q81965 a kgo:Company ;
+        kgo:companyName   "General Motors Company "@en ;
+        kgo:tickerSymbol  "GM"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address     "300 Renaissance Center Detroit, MI 48243"@en ;
+            kgo:coordinates "42.3290539,-83.0419974"@en ;
+        ] ;
+        kgo:annualRevenue [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 122500000000 ;
+        ] ;
+        kgo:marketCap [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 64700000000 ;
+        ] ;
+        kgo:marketShare [
+            a qudt:Quantity ;
+            qudt:unit unit:PERCENT ;
+            qudt:value 15.15 ;
+        ] ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 155000 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:marketCap ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:annualRevenue ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:marketShare ;
+                    rdf:rest [
+                        a rdf:List ;
+                        rdf:first kgo:numEmployees ;
+                        rdf:rest rdf:nil ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+        skos:definition   "Automotive manufacturing corporation based in Detroit, Michigan, USA"@en ;
+        skos:prefLabel    "General Motors"@en .
+
+boltz:Q3884 a kgo:Company ;
+        kgo:companyName   "Amazon.com, Inc."@en ;
+        kgo:tickerSymbol  "AMZN"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address     "410 Terry Ave N, Seattle, WA 98109"@en ;
+            kgo:coordinates "47.622406,-122.3390939"@en ;
+        ] ;
+        kgo:annualRevenue [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 386060000000 ;
+        ] ;
+        kgo:marketCap [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 1626710000000 ;
+        ] ;
+        kgo:marketShare [
+            a qudt:Quantity ;
+            qudt:unit unit:PERCENT ;
+            qudt:value 37.0 ;
+        ] ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 1608000 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:marketCap ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:annualRevenue ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:marketShare ;
+                    rdf:rest [
+                        a rdf:List ;
+                        rdf:first kgo:numEmployees ;
+                        rdf:rest rdf:nil ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+        skos:definition   "American electronic commerce and cloud computing company"@en ;
+        skos:prefLabel    "Amazon"@en .
+
+boltz:Q380 a kgo:Company ;
+        kgo:companyName   "Meta Platforms, Inc."@en ;
+        kgo:tickerSymbol  "FB"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address     "1 Hacker. W Menlo Park. CA 94025"@en ;
+            kgo:coordinates "37.4844552,-122.1499884"@en ;
+        ] ;
+        kgo:annualRevenue [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 69650000000 ;
+        ] ;
+        kgo:marketCap [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 594210000000 ;
+        ] ;
+        kgo:marketShare [
+            a qudt:Quantity ;
+            qudt:unit unit:PERCENT ;
+            qudt:value 36.64 ;
+        ] ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 71970 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:marketCap ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:annualRevenue ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:marketShare ;
+                    rdf:rest [
+                        a rdf:List ;
+                        rdf:first kgo:numEmployees ;
+                        rdf:rest rdf:nil ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+        skos:definition   "American social media and technology company"@en ;
+        skos:prefLabel    "Facebook"@en .
+
+boltz:Q312 a kgo:Company ;
+        kgo:companyName   "Apple Inc."@en ;
+        kgo:tickerSymbol  "AAPL"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address     "One Apple Park Way, Cupertino, CA 95014"@en ;
+            kgo:coordinates "37.334648,-122.0111607"@en ;
+        ] ;
+        kgo:annualRevenue [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 137700000000 ;
+        ] ;
+        kgo:marketCap [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 2663030000000 ;
+        ] ;
+        kgo:marketShare [
+            a qudt:Quantity ;
+            qudt:unit unit:PERCENT ;
+            qudt:value 55.0 ;
+        ] ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 154000 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:marketCap ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:annualRevenue ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:marketShare ;
+                    rdf:rest [
+                        a rdf:List ;
+                        rdf:first kgo:numEmployees ;
+                        rdf:rest rdf:nil ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+        skos:definition   "American technology company based in Cupertino, California"@en ;
+        skos:prefLabel    "Apple"@en .
+
+boltz:Q2283 a kgo:Company ;
+        kgo:companyName   "Microsoft Corporation"@en ;
+        kgo:tickerSymbol  "MSFT"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address     "1 Microsoft Way, Redmond, Washington 98052"@en ;
+            kgo:coordinates "47.6393818,-122.130448"@en ;
+        ] ;
+        kgo:annualRevenue [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 143015000000 ;
+        ] ;
+        kgo:marketCap [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 2239910000000 ;
+        ] ;
+        kgo:marketShare [
+            a qudt:Quantity ;
+            qudt:unit unit:PERCENT ;
+            qudt:value 74.0 ;
+        ] ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 182268 ;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:marketCap ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:annualRevenue ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:marketShare ;
+                    rdf:rest [
+                        a rdf:List ;
+                        rdf:first kgo:numEmployees ;
+                        rdf:rest rdf:nil ;
+                    ] ;
+                ] ;
+            ] ;
+        ] ;
+        skos:definition   "American multinational technology corporation"@en ;
+        skos:prefLabel    "Microsoft"@en .
+
+
 # ----------------------General Taxonomy----------------------
 boltz:Q2382443 a kgo:Taxon ;
         kgo:taxonName    "Biota"@en ;
@@ -87,7 +425,7 @@ boltz:Q25419 a kgo:Taxon ;
         kgo:taxonName    "Escherichia coli"@en ;
         kgo:taxonRank    kgo:Species ;
         skos:definition  "Species of Gram-negative, rod-shaped bacterium"@en ;
-        skos:prefLabel   "Escherichia Coli"@en .
+        skos:prefLabel   "Escherichia Coli"@en ;
         skos:prefLabel   "E. Coli"@en .
 
 # ----------------------B. Subtilis Taxonomy----------------------
@@ -138,7 +476,7 @@ boltz:Q131238 a kgo:Taxon ;
         kgo:taxonName    "Bacillus subtilis"@en ;
         kgo:taxonRank    kgo:Species ;
         skos:definition  "Catalase-positive bacterium"@en ;
-        skos:prefLabel   "B. subtilis"@en .
+        skos:prefLabel   "B. subtilis"@en ;
         skos:prefLabel   "Bacillus subtilis"@en .
 
 # ----------------------Plant Taxonomy----------------------
@@ -289,7 +627,7 @@ boltz:Q50845174 a kgo:Taxon ;
         kgo:taxonName    "Musa ×sapientum"@en ;
         kgo:taxonRank    kgo:Species ;
         skos:definition  "Species of Plant"@en ;
-        skos:prefLabel   "Banana"@en .
+        skos:prefLabel   "Banana"@en ;
         skos:prefLabel   "Banana Tree"@en .
 
 # ----------------------Broccoli Taxonomy----------------------
@@ -939,7 +1277,7 @@ boltz:Q26972265 a kgo:Taxon ;
         kgo:taxonName    "Canis lupus familiaris"@en ;
         kgo:taxonRank    kgo:Subspecies ;
         skos:definition  "Subspecies of mammal"@en ;
-        skos:prefLabel   "Domesticated Dog"@en .
+        skos:prefLabel   "Domesticated Dog"@en ;
         skos:prefLabel   "Dog"@en .
 
 #-------------------------Primate Hierarchy----------------------

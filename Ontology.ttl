@@ -39,6 +39,84 @@ kgo:averageLength  a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"averageLength"@en .
 
+kgo:numEmployees  a rdf:Property ;
+	rdfs:comment	"The number of people employeed by an organization"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"numEmployees"@en ;
+	rdfs:label	"numberOfEmployees"@en .
+
+kgo:marketCap  a rdf:Property ;
+	rdfs:comment	"The market value of a publically traded organizations outstanding shares"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"marketCap"@en ;
+	rdfs:label	"marketCapitalization"@en .
+
+kgo:marketShare  a rdf:Property ;
+	rdfs:comment	"The percentage of the total revenue or sales in a market that the organization makes up"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"marketShare"@en .
+
+kgo:annualRevenue  a rdf:Property ;
+	rdfs:comment	"The average length of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"annualRevenue"@en .
+
+# ----------------------Company Information----------------------
+kgo:Company a      rdfs:Class ;
+        rdfs:comment      "The Class of all Companies"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Company"@en ;
+        rdfs:subClassOf   rdfs:Class .
+
+kgo:companyName a      rdfs:Property ;
+	rdfs:comment	"The name of an organization"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"companyName"@en .
+
+kgo:tickerSymbol a      rdfs:Property ;
+	rdfs:comment	"The symbol used by the organization on the stock market"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"tickerSymbol"@en .
+
+kgo:headquarters a      rdfs:Property ;
+	rdfs:comment	"The location of an organizations headquarters"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	kgo:Location ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"headquarters"@en .
+
+kgo:Location a      rdfs:Class ;
+	rdfs:comment      "Where something is located"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Location"@en ;
+	rdfs:subClassOf   rdfs:Class .
+
+kgo:address a      rdfs:Property ;
+	rdfs:comment	"The physical address of a location"@en ;
+	rdfs:domain 	kgo:Location ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"address"@en .
+
+kgo:coordinates a      rdfs:Property ;
+	rdfs:comment	"The lattitude and longitude coordinates of a location"@en ;
+	rdfs:domain 	kgo:Location ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"coordinates"@en .
+
 # ----------------------Taxon Information----------------------
 kgo:Taxon a      rdfs:Class ;
         rdfs:comment      "The Class of all Taxonomic classes"@en ;

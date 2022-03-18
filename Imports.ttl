@@ -10,6 +10,44 @@
 @prefix sou: <http://qudt.org/vocab/sou/> .
 
 # ----------------------QUDT Units----------------------
+unit:NUM
+  a qudt:CountingUnit ;
+  a qudt:Unit ;
+  qudt:conversionMultiplier 1.0 ;
+  skos:definition "\"Number\" is a unit for  'Dimensionless' expressed as (\\#\\)."^^rdf:HTML ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:symbol "#" ;
+  qudt:ucumCode "1"^^qudt:UCUMcs ;
+  qudt:ucumCode "{#}"^^qudt:UCUMcs ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Number"@en ;
+.
+
+unit:USDollar
+  a qudt:CurrencyUnit ;
+  a qudt:Unit ;
+  qudt:conversionMultiplier 1.0 ;
+  skos:definition "An official currency of American Samoa, British Indian Ocean Territory, Ecuador, El Salvador, Guam, Haiti, Marshall Islands, Micronesia, Northern Mariana Islands, Palau, Panama, Puerto Rico, East Timor, Turks and Caicos Islands, United States, Virgin Islands"^^rdf:HTML ;
+  qudt:currencyExponent 2 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:symbol "US$" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "US Dollar"@en ;
+.
+
+unit:PERCENT
+  a qudt:Unit ;
+  qudt:conversionMultiplier 1.0 ;
+  skos:description "\"Percent\" is a unit for  'Dimensionless Ratio' expressed as \\(\\%\\)."^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:omUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/percent> ;
+  qudt:symbol "%" ;
+  qudt:ucumCode "%"^^qudt:UCUMcs ;
+  qudt:uneceCommonCode "P1" ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:label "Percent"@en ;
+.
+
 unit:LB
   a qudt:Unit ;
   skos:description "A pound of mass, based on the international standard definition of the pound as exactly 0.45359237 kg."^^rdf:HTML ;
