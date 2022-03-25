@@ -29,10 +29,11 @@
    # ja:loadClass "your.code.Class" ;   
 
 [] rdf:type fuseki:Server ;
-#	ja:loadClass "org/apache/jena/fuseki/cmd/FusekiCmd.class" ;
 	fuseki:services (
 		:service
-	) .
+	) ;
+	ja:loadClass "Test" ;
+.
 
 :service rdf:type fuseki:Service ;
     fuseki:name "Demo" ;
