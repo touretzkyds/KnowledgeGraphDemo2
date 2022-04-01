@@ -1,4 +1,4 @@
-@prefix boltz: <http://solid.boltz.cs.cmu.edu:3030/> .
+@prefix boltz: <http://solid.boltz.cs.cmu.edu:3030/data/> .
 @prefix kgo:   <http://solid.boltz.cs.cmu.edu:3030/ontology/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .

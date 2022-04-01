@@ -30,12 +30,22 @@
 
 [] rdf:type fuseki:Server ;
 	fuseki:services (
-		:service
+		:mainService
+		:ontService
 	) ;
-	ja:loadClass "Test" ;
+#	ja:loadClass "Test" ;
 .
 
-:service rdf:type fuseki:Service ;
+:ontService a fuseki:Service;
+	fuseki:name "NoInference" ;
+	fuseki:endpoint [
+		fuseki:operation fuseki:query ;
+		fuseki:name "sparql"
+	] ;
+	fuseki:dataset	:nonInfDataset ;
+	.
+
+:mainService rdf:type fuseki:Service ;
     fuseki:name "Demo" ;
     fuseki:endpoint [ 
          # SPARQL query service
@@ -64,11 +74,11 @@
         fuseki:operation fuseki:gsp_rw ; 
         fuseki:name "data" 
     ] ;
-	fuseki:dataset :dataset ;
+	fuseki:dataset :infDataset ;
     .
 
 # Dataset with only the default graph.
-:dataset rdf:type       ja:RDFDataset ;
+:infDataset rdf:type       ja:RDFDataset ;
 	ja:defaultGraph		:model_inf ;
     .
 
@@ -81,10 +91,14 @@
      ] 
 	.
 
+:nonInfDataset rdf:type ja:RDFDataset ;
+	ja:defaultGraph 	:baseModel ;
+	.
+
 # The base data.
 :baseModel a ja:MemoryModel ;
 	rdfs:label "Base Model" ;
-    ja:content [ja:externalContent <file:Animals.ttl> ; 
+    ja:content [ja:externalContent <file:Data.ttl> ; 
 				ja:externalContent <file:Ontology.ttl> ; 
 				ja:externalContent <file:Imports.ttl> ] ;
     .
