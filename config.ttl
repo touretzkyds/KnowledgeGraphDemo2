@@ -77,7 +77,7 @@
 	 rdfs:label "Inference Model" ;
      ja:baseModel :baseModel ;
      ja:reasoner [
-         ja:reasonerURL <http://jena.hpl.hp.com/2003/RDFSExptRuleReasoner>
+         ja:reasonerURL <http://jena.hpl.hp.com/2003/TransitiveReasoner>
      ] 
 	.
 

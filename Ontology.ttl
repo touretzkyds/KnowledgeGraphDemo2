@@ -132,6 +132,7 @@ kgo:taxonName a  rdf:Property ;
         rdfs:range        rdfs:Literal .
 
 kgo:subTaxonOf a rdf:Property ;
+	rdfs:subPropertyOf	rdfs:subClassOf ;
         rdfs:comment      "The subject is taxonomically below another taxon"@en ;
         rdfs:domain       kgo:Taxon ;
         rdfs:isDefinedBy  boltz:ontology ;
