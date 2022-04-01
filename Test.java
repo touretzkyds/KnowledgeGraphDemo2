@@ -1,9 +1,9 @@
-public class Test {
-  public static void init(){
-    System.out.println("Hello World");
-  }
+import java.util.logging.Logger;
 
-  public static void main(String[] args){
-    System.out.println("World Hello");
+public class Test {
+  static Logger log = Logger.getLogger(Test.class.getName());
+
+  public static void init() {
+    log.info("Test is loaded");
   }
 }
