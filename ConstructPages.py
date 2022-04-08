@@ -148,7 +148,7 @@ def constructDataPage(pageName):
         if result['pred']['value'] == "http://www.w3.org/2004/02/skos/core#prefLabel":
             header += result['obj']['value']
         elif result['pred']['value'] == "http://www.w3.org/2004/02/skos/core#altLabel":
-            altHeader += result['obj']['value']
+            altHeader += result['obj']['value'] + " "
         elif result['pred']['value'] == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":
             subHeader += "<a href=\""+result['obj']['value']+ "\">" + result['obj']['value'].rsplit('/', 1)[-1].rsplit('#', 1)[-1] + "</a> "
         elif result['obj']['type'] == 'bnode':

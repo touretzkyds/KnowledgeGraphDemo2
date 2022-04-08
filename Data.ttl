@@ -685,8 +685,8 @@ boltz:Q729 a   kgo:Taxon ;
         kgo:taxonName    "Animalia"@en ;
         kgo:taxonRank    kgo:Subkingdom ;
         skos:definition  "A kingdom of multicellular eukaryotic organisms"@en ;
-        skos:altLabel    "Animalia"@en .
-        skos:altLabel    "Metazoa"@en .
+        skos:altLabel    "Animalia"@en ;
+        skos:altLabel    "Metazoa"@en ;
         skos:prefLabel   "Animal"@en .
 
 boltz:Q5174 a   kgo:Taxon ;
