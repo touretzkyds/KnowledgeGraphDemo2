@@ -63,7 +63,7 @@ boltz:Q206921 a kgo:Company ;
         kgo:tickerSymbol  "PFE"@en ;
         kgo:headquarters  [
             a kgo:Location ;
-            kgo:address     "235 East 42nd Street, New York  NY 10017"@en ;
+            kgo:address     "235 East 42nd Street, New York NY 10017"@en ;
             kgo:coordinates "40.7503225,-73.9745905"@en ;
         ] ;
         kgo:annualRevenue [
@@ -1128,7 +1128,7 @@ boltz:Q194422 a kgo:Taxon ;
                 ] ;
             ] ;
         ] ;
-        skos:definition  "The Chinese alligator (Alligator sinensis) (simplified Chinese: 扬子鳄; traditional Chinese: 揚子鱷, yáng zǐ è), also known as the Yangtze alligator, is one of two known living species of Alligator, a genus in the family Alligatoridae.\n      This critically endangered species is endemic to eastern China."@en ;
+        skos:definition  "The Chinese alligator (Alligator sinensis), also known as the Yangtze alligator, is one of two known living species of Alligator, a genus in the family Alligatoridae.\n      This critically endangered species is endemic to eastern China."@en ;
         skos:prefLabel   "Chinese Alligator"@en .
 
 boltz:Q193327 a kgo:Taxon ;

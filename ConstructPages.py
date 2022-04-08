@@ -3,8 +3,8 @@ import json
 import re
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-#localURL = "http://solid.boltz.cs.cmu.edu:3030/Demo"
-localURL = "http://localhost:3030/Demo/sparql"
+localURL = "http://solid.boltz.cs.cmu.edu:3030/NoInference/sparql"
+#localURL = "http://localhost:3030/Demo/sparql"
 queryPrefix = """
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX kgo: <http://solid.boltz.cs.cmu.edu:3030/ontology/>
@@ -137,7 +137,6 @@ def constructOntPage(pageName):
 def constructDataPage(pageName):
     ontFile = open(pageName.replace("http://solid.boltz.cs.cmu.edu:3030","../../webapp"), "w")
     ontFile.write(preHTML)
-    print("-"*60)
     ontQuery = queryPrefix + "SELECT DISTINCT ?pred ?obj ?list ?obj2 ?pred2 WHERE { BIND ( boltz:" + pageName.rsplit('/', 1)[-1] + " as ?Q) ?Q ?pred ?obj. OPTIONAL { ?Q ?pred [ list:index (?pos ?list ) ] } OPTIONAL { ?Q ?pred [ rdf:type qudt:Quantity ]. ?Q ?pred [ ?pred2 ?obj2 ]. } OPTIONAL { ?Q ?pred [ rdf:type kgo:Location ]. ?Q ?pred [ ?pred2 ?obj2 ]. } } ORDER BY ?pred ?pos ?pred2"
     ontRes = queryServer(localURL, ontQuery)
     header = "<h1> "
@@ -146,7 +145,6 @@ def constructDataPage(pageName):
     featuresList = ""
     bNode = None
     for result in ontRes["results"]["bindings"]:
-        print(result['pred']['value'])
         if result['pred']['value'] == "http://www.w3.org/2004/02/skos/core#prefLabel":
             header += result['obj']['value']
         elif result['pred']['value'] == "http://www.w3.org/2004/02/skos/core#altLabel":
@@ -190,6 +188,7 @@ def constructPages():
     nResults = queryServer(localURL, nQuery)
     for result in nResults["results"]["bindings"]:
         if result['element']['type'] == 'uri':
+            print("Constructing Page: " + result['element']['value'])
             if "ontology" in result['element']['value']:
                 constructOntPage(result['element']['value'])
             if "data" in result['element']['value']:
