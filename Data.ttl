@@ -409,7 +409,7 @@ boltz:Q380136 a kgo:Taxon ;
         kgo:taxonName    "Enterobacteriaceae"@en ;
         kgo:taxonRank    kgo:Family ;
         skos:definition  "Family of bacteria"@en ;
-        skos:prefLabel   "P. flectens";
+        skos:altLabel   "P. flectens";
         skos:prefLabel   "Enterobacteriaceae"@en .
 
 boltz:Q311055 a kgo:Taxon ;
@@ -626,7 +626,7 @@ boltz:Q50845174 a kgo:Taxon ;
         kgo:taxonName    "Musa ×sapientum"@en ;
         kgo:taxonRank    kgo:Species ;
         skos:definition  "Species of Plant"@en ;
-        skos:prefLabel   "Banana"@en ;
+        skos:altLabel   "Banana"@en ;
         skos:prefLabel   "Banana Tree"@en .
 
 # ----------------------Broccoli Taxonomy----------------------
@@ -680,6 +680,15 @@ boltz:Q47722 a kgo:Taxon ;
         skos:prefLabel   "Broccoli"@en .
 
 # ----------------------Animal Taxonomy----------------------
+boltz:Q729 a   kgo:Taxon ;
+        kgo:subTaxonOf   boltz:Q19081 ;
+        kgo:taxonName    "Animalia"@en ;
+        kgo:taxonRank    kgo:Subkingdom ;
+        skos:definition  "A kingdom of multicellular eukaryotic organisms"@en ;
+        skos:altLabel    "Animalia"@en .
+        skos:altLabel    "Metazoa"@en .
+        skos:prefLabel   "Animal"@en .
+
 boltz:Q5174 a   kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q729 ;
         kgo:taxonName    "Eumetazoa"@en ;
