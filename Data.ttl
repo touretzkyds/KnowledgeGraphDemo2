@@ -1285,7 +1285,7 @@ boltz:Q26972265 a kgo:Taxon ;
         kgo:taxonName    "Canis lupus familiaris"@en ;
         kgo:taxonRank    kgo:Subspecies ;
         skos:definition  "Subspecies of mammal"@en ;
-        skos:prefLabel   "Domesticated Dog"@en ;
+        skos:altLabel   "Domesticated Dog"@en ;
         skos:prefLabel   "Dog"@en .
 
 #-------------------------Primate Hierarchy----------------------
