@@ -63,7 +63,7 @@ kgo:marketShare  a rdf:Property ;
 	rdfs:label	"marketShare"@en .
 
 kgo:annualRevenue  a rdf:Property ;
-	rdfs:comment	"The average length of something in this class"@en ;
+	rdfs:comment	"The yearly revenue of something in this class"@en ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range	qudt:Quantity ;
 	rdfs:isDefinedBy boltz:ontology ;
@@ -125,7 +125,7 @@ kgo:Taxon a      rdfs:Class ;
         rdfs:subClassOf   rdfs:Class .
 
 kgo:taxonName a  rdf:Property ;
-        rdfs:comment      "The Taxonomic Name of a Class"@en ;
+        rdfs:comment      "The Taxonomic Name of a Class, typically an Animal"@en ;
         rdfs:domain       kgo:Taxon ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "taxonName"@en ;

@@ -425,7 +425,7 @@ boltz:Q25419 a kgo:Taxon ;
         kgo:taxonRank    kgo:Species ;
         skos:definition  "Species of Gram-negative, rod-shaped bacterium"@en ;
         skos:prefLabel   "Escherichia Coli"@en ;
-        skos:prefLabel   "E. Coli"@en .
+        skos:altLabel    "E. Coli"@en .
 
 # ----------------------B. Subtilis Taxonomy----------------------
 boltz:Q3399629 a kgo:Taxon ;
@@ -475,7 +475,7 @@ boltz:Q131238 a kgo:Taxon ;
         kgo:taxonName    "Bacillus subtilis"@en ;
         kgo:taxonRank    kgo:Species ;
         skos:definition  "Catalase-positive bacterium"@en ;
-        skos:prefLabel   "B. subtilis"@en ;
+        skos:altLabel   "B. subtilis"@en ;
         skos:prefLabel   "Bacillus subtilis"@en .
 
 # ----------------------Plant Taxonomy----------------------

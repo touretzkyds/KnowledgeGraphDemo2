@@ -103,7 +103,7 @@ def queryServer(endpointURL, query):
     return sparql.query().convert()
 
 def constructTurtle(ttlFile):
-    ontFile = open("../../webapp/data/" + ttlFile[:-4].lower()+ ".html", "w")
+    ontFile = open("../../webapp/data/" + ttlFile[:-4].lower(), "w")
     ontFile.write(preHTML)
     ontFile.write("<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">")
     fullTTL = open(ttlFile, "r")
@@ -140,19 +140,25 @@ def constructDataPage(pageName):
     print("-"*60)
     ontQuery = queryPrefix + "SELECT DISTINCT ?pred ?obj ?list ?obj2 ?pred2 WHERE { BIND ( boltz:" + pageName.rsplit('/', 1)[-1] + " as ?Q) ?Q ?pred ?obj. OPTIONAL { ?Q ?pred [ list:index (?pos ?list ) ] } OPTIONAL { ?Q ?pred [ rdf:type qudt:Quantity ]. ?Q ?pred [ ?pred2 ?obj2 ]. } OPTIONAL { ?Q ?pred [ rdf:type kgo:Location ]. ?Q ?pred [ ?pred2 ?obj2 ]. } } ORDER BY ?pred ?pos ?pred2"
     ontRes = queryServer(localURL, ontQuery)
-    ontFile.write("<h1>" + pageName.rsplit('/', 1)[-1] + "</h1><p> ")
+    header = "<h1> "
+    altHeader = ""
+    subHeader = ""
     featuresList = ""
     bNode = None
     for result in ontRes["results"]["bindings"]:
-        if result['pred']['value'] == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":
-            ontFile.write("<a href=\""+result['obj']['value']+ "\">" + result['obj']['value'].rsplit('/', 1)[-1].rsplit('#', 1)[-1] + "</a> ")
+        print(result['pred']['value'])
+        if result['pred']['value'] == "http://www.w3.org/2004/02/skos/core#prefLabel":
+            header += result['obj']['value']
+        elif result['pred']['value'] == "http://www.w3.org/2004/02/skos/core#altLabel":
+            altHeader += result['obj']['value']
+        elif result['pred']['value'] == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":
+            subHeader += "<a href=\""+result['obj']['value']+ "\">" + result['obj']['value'].rsplit('/', 1)[-1].rsplit('#', 1)[-1] + "</a> "
         elif result['obj']['type'] == 'bnode':
             if bNode == None:
                 featuresList += "<li> <a href=\""+result['pred']['value']+ "\">" + result['pred']['value'].rsplit('/', 1)[-1].rsplit('#', 1)[-1] + "</a>: <ul>"
             elif bNode != result['obj']['value']:
                 featuresList += "</ul></li><li> <a href=\""+result['pred']['value']+ "\">" + result['pred']['value'].rsplit('/', 1)[-1].rsplit('#', 1)[-1] + "</a>: <ul>"
             bNode = result['obj']['value']
-            print(result)
             if 'list' in result:
                 featuresList += "<li><a href=\""+result['list']['value']+ "\">" + result['list']['value'].rsplit('/', 1)[-1].rsplit('#', 1)[-1] + "</a></li>"
             else:
@@ -171,6 +177,7 @@ def constructDataPage(pageName):
                 featuresList += "<a href=\""+result['obj']['value']+ "\">" + result['obj']['value'].rsplit('/', 1)[-1].rsplit('#', 1)[-1] + "</a></li>"
             else:
                 featuresList += "<i>" + result['obj']['value'].rsplit('/', 1)[-1] + "</i></li>"
+    ontFile.write(header + "</h1><h4> " + pageName.rsplit('/', 1)[-1] + "</h4><i> " +altHeader + "</i><p> "+ subHeader)
     ontFile.write("</p><h4>Features</h4><ul>")
     ontFile.write(featuresList)
     ontFile.write("</ul>")
