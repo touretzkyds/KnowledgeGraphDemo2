@@ -9,6 +9,30 @@
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
 @prefix sou: <http://qudt.org/vocab/sou/> .
 
+# ----------------------Date and Time----------------------
+#All Dates and Times are provided in ISO 8601, as indicated by https://schema.org/Date
+kgo:timeAdded a rdf:Property ;
+	rdfs:comment  "The date and time the information was added to the KGO system"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range		rdfs:Literal ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeAdded"@en .
+
+kgo:timeStarted a rdf:Property ;
+	rdfs:comment  "The date and time the information began being true"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range		rdfs:Literal ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeStarted"@en .
+
+kgo:timeEnded a rdf:Property ;
+	rdfs:comment  "The date and time the information stopped being true. The absense of this implies the information is still true"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range		rdfs:Literal ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeEnded"@en .
+
+
 # ----------------------QUDT Comparisons----------------------
 kgo:prefComparisons a rdf:Property ;
 	rdfs:comment  "The order which something wants to be compared by. All comparison types that appear in the list must be propertys of the compared entity"@en ;

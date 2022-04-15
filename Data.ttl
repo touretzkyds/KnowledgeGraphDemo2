@@ -113,26 +113,31 @@ boltz:Q81965 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "300 Renaissance Center Detroit, MI 48243"@en ;
             kgo:coordinates "42.3290539,-83.0419974"@en ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 122500000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 64700000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 15.15 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 155000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -161,26 +166,31 @@ boltz:Q3884 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "410 Terry Ave N, Seattle, WA 98109"@en ;
             kgo:coordinates "47.622406,-122.3390939"@en ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 386060000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 1626710000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 37.0 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 1608000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -209,26 +219,31 @@ boltz:Q380 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "1 Hacker. W Menlo Park. CA 94025"@en ;
             kgo:coordinates "37.4844552,-122.1499884"@en ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 69650000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 594210000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 36.64 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 71970 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -257,26 +272,31 @@ boltz:Q312 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "One Apple Park Way, Cupertino, CA 95014"@en ;
             kgo:coordinates "37.334648,-122.0111607"@en ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 137700000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 2663030000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 55.0 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 154000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -305,26 +325,31 @@ boltz:Q2283 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "1 Microsoft Way, Redmond, Washington 98052"@en ;
             kgo:coordinates "47.6393818,-122.130448"@en ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 143015000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 2239910000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 74.0 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 182268 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -826,11 +851,13 @@ boltz:Q17592 a  kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 104.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 42.5 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -863,6 +890,7 @@ boltz:Q3976168 a  kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 115.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -882,6 +910,7 @@ boltz:Q3976170 a  kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 111.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -1113,16 +1142,19 @@ boltz:Q194422 a kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 40.5 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:averageLength  [
-                    a qudt:Quantity ;
-                    qudt:unit unit:IN ;
-                    qudt:value 72.0 ;
-                ] ;
+            a qudt:Quantity ;
+            qudt:unit unit:IN ;
+            qudt:value 72.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
+        ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 70.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -1141,8 +1173,6 @@ boltz:Q194422 a kgo:Taxon ;
         skos:prefLabel   "Chinese Alligator"@en .
 
 boltz:Q193327 a kgo:Taxon ;
-        rdfs:comment     "Note that subClassOf Animal is from the Test dataset"@en ;
-        rdfs:subClassOf  <http://www.w3.org/2000/03/example/classes#Animal> ;
         kgo:subTaxonOf   boltz:Q530397 ;
         kgo:taxonName    "Alligator mississippiensis"@en ;
         kgo:taxonRank    kgo:Species ;
@@ -1150,16 +1180,19 @@ boltz:Q193327 a kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 360.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:averageLength  [
             a qudt:Quantity ;
             qudt:unit unit:IN ;
             qudt:value 118.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 50.0 ;
+            kgo:timeAdded "2022-02-25T15:48:26-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -1243,10 +1276,40 @@ boltz:Q228283 a kgo:Taxon ;
         skos:prefLabel   "Felis"@en .
 
 boltz:Q20980826 a kgo:Taxon ;
-        #ADD ANIMAL STATS
         kgo:subTaxonOf   boltz:Q228283 ;
         kgo:taxonName    "Felis catus"@en ;
         kgo:taxonRank    kgo:Species ;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:LB ;
+            qudt:value 8.9 ;
+            kgo:timeAdded "2022-04-15T13:54:31-04:00";
+        ] ;
+        kgo:averageLength  [
+            a qudt:Quantity ;
+            qudt:unit unit:IN ;
+            qudt:value 18.0 ;
+            kgo:timeAdded "2022-04-15T13:54:31-04:00";
+        ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value 15.0 ;
+            kgo:timeAdded "2022-04-15T13:54:31-04:00";
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLength ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:averageLifespan ;
+                    rdf:rest rdf:nil ;
+                ] ;
+            ] ;
+        ] ;
         skos:definition  "The collection of all cats"@en ;
         skos:prefLabel   "Cat"@en .
 
@@ -1280,7 +1343,7 @@ boltz:Q18498 a kgo:Taxon ;
         skos:prefLabel   "Grey Wolf"@en .
 
 boltz:Q26972265 a kgo:Taxon ;
-        #ADD ANIMAL STATS
+        #ADD ANIMAL STATS OF SUBSSPECIES
         kgo:subTaxonOf   boltz:Q18498 ;
         kgo:taxonName    "Canis lupus familiaris"@en ;
         kgo:taxonRank    kgo:Subspecies ;
@@ -1347,12 +1410,42 @@ boltz:Q177601 a kgo:Taxon ;
         skos:prefLabel   "Macaca"@en .
 
 boltz:Q156606 a kgo:Taxon ;
-        #ADD ANIMAL STATS
         kgo:subTaxonOf   boltz:Q177601 ;
         kgo:taxonName    "Macaca mulatta"@en ;
         kgo:taxonRank    kgo:Species ;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value 7.7 ;
+            kgo:timeAdded "2022-04-15T13:54:31-04:00";
+        ] ;
+        kgo:averageLength  [
+            a qudt:Quantity ;
+            qudt:unit unit:IN ;
+            qudt:value 19.0 ;
+            kgo:timeAdded "2022-04-15T13:54:31-04:00";
+        ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value 25.0 ;
+            kgo:timeAdded "2022-04-15T13:54:31-04:00";
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLength ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:averageLifespan ;
+                    rdf:rest rdf:nil ;
+                ] ;
+            ] ;
+        ] ;
         skos:definition  "Species of Old World monkey"@en ;
-        skos:prefLabel   "Rhesus Macaque "@en .
+        skos:prefLabel   "Rhesus Macaque"@en .
 
 #-------------------------Human Hierarchy----------------------
 boltz:Q102470 a kgo:Taxon ;
@@ -1398,7 +1491,7 @@ boltz:Q171283 a kgo:Taxon ;
         skos:prefLabel   "Homo"@en .
 
 boltz:Q15978631 a kgo:Taxon ;
-        #ADD ANIMAL STATS
+        #PROBABLY DONT ADD ANIMAL STATS
         kgo:subTaxonOf   boltz:Q171283 ;
         kgo:taxonName    "Homo sapiens"@en ;
         kgo:taxonRank    kgo:Species ;
