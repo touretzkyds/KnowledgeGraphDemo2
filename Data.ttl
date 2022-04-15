@@ -17,26 +17,31 @@ boltz:Q247489 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "2000 Galloping Hill Road Kenilworth, NJ 07033"@en ;
             kgo:coordinates "40.6774345,-74.2745441"@en ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 54060000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 199400000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 8.82 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 74000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -65,26 +70,31 @@ boltz:Q206921 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "235 East 42nd Street, New York NY 10017"@en ;
             kgo:coordinates "40.7503225,-73.9745905"@en ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 69340000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 304400000000 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 14.72 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 78500 ;
+            kgo:timeAdded "2022-03-18T12:40:17-04:00";
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
