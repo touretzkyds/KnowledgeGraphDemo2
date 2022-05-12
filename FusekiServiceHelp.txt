@@ -1,0 +1,53 @@
+The Fuseki service is currently setup on the server: solid.boltz.cs.cmu.edu and can be accessed at port 3030
+The service is designed to immediatly restart whenever the server reboots or if there is an error in the code.
+
+Restarting the Service:
+- Open the Application "Services" (Note: You might need to run this is an administrator)
+- Find the Service "FusekiServce"
+- Click "Restart the service"
+
+Restarting the Service: (Alternate Method)
+- Run "Command Prompt" as an administrator
+- Navigate to "C:\FusekiWrapper\yajsw-stable-13.03\bat"
+- Run "restartService.bat"
+
+Updating the Service:
+The Fuseki Server automatically loads in information from 'config.ttl' located at "C:\apache-jena-fuseki-4.3.2\run\KnowledgeGraphDemo\config.ttl"
+This config currently loads in information from three documents, 'Data.ttl', 'Ontology.ttl', and 'Imports.ttl'
+If edits are made to any of these three documents, the server must be manually restarted in order for the changes to be made visible on the server. Follow the steps above.
+
+Full steps to setup the Service again:
+- Run the Fuseki Service from the "Command Prompt"
+	- Open "Command Prompt"
+	- Navigate to "C:\apache-jena-fuseki-4.3.2"
+	- Run "fuseki-server --config=run/KnowledgeGraphDemo/config.ttl"
+- Get the Fuseki Service PID
+	- Open Task Manager
+	- Open the PID tab and get the PID from the Fuseki Service
+- Generate the Wrapper Config File
+	- Open "Command Prompt" as an Administrator
+	- Navigate to "C:\FusekiWrapper\yajsw-stable-13.03\bat"
+	- Run "genConfig.bat <PID>"
+- Modify the Config file
+	- Navigate to "C:\FusekiWrapper\yajsw-stable-13.03\conf"
+	- Open "wrapper.conf"
+	- Check for the lines:
+		- "wrapper.working.dir=C:\\\\apache-jena-fuseki-4.3.2\\\\"
+		- "wrapper.java.app.mainclass=org.apache.jena.fuseki.cmd.FusekiCmd"
+		- "wrapper.java.classpath.1 = fuseki-server.jar"
+		- "wrapper.app.parameter.1 = --config=run/KnowledgeGraphDemo/config.ttl"
+	- Modify the following lines (They should be around line 170)
+		- "wrapper.ntservice.name=FusekiServer"
+		- "wrapper.ntservice.displayname=FusekiServer"
+		- "wrapper.ntservice.description=Triple server to store information for KnowledgeGraphDemo"
+- Install the Service
+	- Navigate to "C:\FusekiWrapper\yajsw-stable-13.03\bat"
+	- Run "installService.bat"
+- Modify the Service
+	- Open the Application "Services" (You might need to do this as an administrator)
+	- Find the Service "FusekiService"
+	- Right Click and Open the "Properties" Menu
+	- On the "General" Page, set the "Startup" to "Automatic"
+	- On the "Recovery" Page, set each Failure to "Restart the Service", and set the Restart Service After: 10 days
+	- Return to the "General" Page and click "Start"
+- Test: Restart the solid.boltz machine to ensure the service boots on startup. You should be able to query the server without needing to log into the device. Give the server sometime (5 minutes) to start the service after booting up.
