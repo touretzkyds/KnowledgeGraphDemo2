@@ -80,6 +80,7 @@
 # Dataset with only the default graph.
 :infDataset rdf:type       ja:RDFDataset ;
 	ja:defaultGraph		:model_inf ;
+	ja:context [ ja:cxtName "arq:queryTimeout" ;  ja:cxtValue "30000" ] ;
     .
 
 # The inference model
