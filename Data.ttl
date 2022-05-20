@@ -18,7 +18,7 @@ boltz:Q44626 a kgo:Era ;
   kgo:latestEndTime "-65800000-01-01Z"^^xsd:date .
 
 boltz:Q752187 a kgo:Era ;
-  skos:prefLabel "Early Cretaceous Period"@en ;
+  skos:prefLabel "Early Cretaceous Epoch"@en ;
   kgo:isSubEraOf boltz:Q44626;
   kgo:seriesNext boltz:Q338199;
   kgo:startTime "-145000000-01-01Z"^^xsd:date ;
@@ -26,15 +26,13 @@ boltz:Q752187 a kgo:Era ;
   kgo:latestEndTime "-100000000-01-01Z"^^xsd:date .
 
 boltz:Q338199 a kgo:Era ;
-  skos:prefLabel "Late Cretaceous Period"@en ;
+  skos:prefLabel "Late Cretaceous Epoch"@en ;
   kgo:isSubEraOf boltz:Q44626;
   kgo:seriesPrev boltz:Q752187;
   kgo:earliestStartTime "-101000000-01-01Z"^^xsd:date ;
   kgo:latestStartTime "-100000000-01-01Z"^^xsd:date ;
   kgo:earliestEndTime "-66200000-01-01Z"^^xsd:date ;
   kgo:latestEndTime "-65800000-01-01Z"^^xsd:date .
-
-
 
 # ----------------------Companies----------------------
 boltz:Q247489 a kgo:Company ;
