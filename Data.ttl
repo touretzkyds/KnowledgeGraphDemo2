@@ -18,31 +18,31 @@ boltz:Q247489 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "2000 Galloping Hill Road Kenilworth, NJ 07033"@en ;
             kgo:coordinates "40.6774345,-74.2745441"@en ;
-            kgo:timeAdded "2022-03-18T13:40:17Z"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T13:40:17Z"^^xsd:dateTime;
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 54060000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 199400000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 8.82 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 74000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -71,31 +71,31 @@ boltz:Q206921 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "235 East 42nd Street, New York NY 10017"@en ;
             kgo:coordinates "40.7503225,-73.9745905"@en ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 69340000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 304400000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 14.72 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 78500 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -124,31 +124,31 @@ boltz:Q81965 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "300 Renaissance Center Detroit, MI 48243"@en ;
             kgo:coordinates "42.3290539,-83.0419974"@en ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 122500000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 64700000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 15.15 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 155000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -177,31 +177,31 @@ boltz:Q3884 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "410 Terry Ave N, Seattle, WA 98109"@en ;
             kgo:coordinates "47.622406,-122.3390939"@en ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 386060000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 1626710000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 37.0 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 1608000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -230,31 +230,31 @@ boltz:Q380 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "1 Hacker. W Menlo Park. CA 94025"@en ;
             kgo:coordinates "37.4844552,-122.1499884"@en ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 69650000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 594210000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 36.64 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 71970 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -283,31 +283,31 @@ boltz:Q312 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "One Apple Park Way, Cupertino, CA 95014"@en ;
             kgo:coordinates "37.334648,-122.0111607"@en ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 137700000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 2663030000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 55.0 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 154000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -336,31 +336,31 @@ boltz:Q2283 a kgo:Company ;
             a kgo:Location ;
             kgo:address     "1 Microsoft Way, Redmond, Washington 98052"@en ;
             kgo:coordinates "47.6393818,-122.130448"@en ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:annualRevenue [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 143015000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketCap [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
             qudt:value 2239910000000 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:marketShare [
             a qudt:Quantity ;
             qudt:unit unit:PERCENT ;
             qudt:value 74.0 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 182268 ;
-            kgo:timeAdded "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -862,13 +862,13 @@ boltz:Q17592 a  kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 104.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 42.5 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -901,7 +901,7 @@ boltz:Q3976168 a  kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 115.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -921,7 +921,7 @@ boltz:Q3976170 a  kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 111.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -1153,19 +1153,19 @@ boltz:Q194422 a kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 40.5 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLength  [
             a qudt:Quantity ;
             qudt:unit unit:IN ;
             qudt:value 72.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 70.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -1191,19 +1191,19 @@ boltz:Q193327 a kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 360.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLength  [
             a qudt:Quantity ;
             qudt:unit unit:IN ;
             qudt:value 118.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 50.0 ;
-            kgo:timeAdded "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -1294,19 +1294,19 @@ boltz:Q20980826 a kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:LB ;
             qudt:value 8.9 ;
-            kgo:timeAdded "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLength  [
             a qudt:Quantity ;
             qudt:unit unit:IN ;
             qudt:value 18.0 ;
-            kgo:timeAdded "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 15.0 ;
-            kgo:timeAdded "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;
@@ -1428,19 +1428,19 @@ boltz:Q156606 a kgo:Taxon ;
             a qudt:Quantity ;
             qudt:unit unit:KiloGM ;
             qudt:value 7.7 ;
-            kgo:timeAdded "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLength  [
             a qudt:Quantity ;
             qudt:unit unit:IN ;
             qudt:value 19.0 ;
-            kgo:timeAdded "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
         ] ;
         kgo:averageLifespan  [
             a qudt:Quantity ;
             qudt:unit unit:YR_Common;
             qudt:value 25.0 ;
-            kgo:timeAdded "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
         ] ;
         kgo:prefComparisons [
             a rdf:List ;

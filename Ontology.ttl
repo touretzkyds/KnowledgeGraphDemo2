@@ -10,28 +10,87 @@
 @prefix sou: <http://qudt.org/vocab/sou/> .
 
 # ----------------------Date and Time----------------------
-#All Dates and Times are provided in ISO 8601, as indicated by https://schema.org/Date
-kgo:timeAdded a rdf:Property ;
+kgo:complementryProperty a rdf:Property ;
+	rdfs:comment "The Subject is the complement of the Object"@en ;
+	rdfs:domain rdfs:Property ;
+	rdfs:range rdfs:Property ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "complementryProperty"@en ;
+
+kgo:timeAt a rdf:Property;
+	rdfs:comment "Root of the time hierarchy tree, used in general cases when no other time property suffices"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeAt"@en .
+
+kgo:timeStart a rdf:Property;
+	rdfs:comment "The family of all times something began or started" ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeAt ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeStart"@en .
+
+kgo:eraStart a rdf:Property;
+	rdfs:comment "The Era in which something first started or appeared" ;
+	kgo:complementryProperty kgo:eraEnd ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeStart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "eraStart"@en .
+
+kgo:timeEnd a rdf:Property;
+	rdfs:comment "The family of all times something ended or finished" ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeAt ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeEnd"@en .
+
+kgo:eraEnd a rdf:Property;
+	rdfs:comment "The Era in which something last appeared or seemingly ended" ;
+	kgo:complementryProperty kgo:eraStart ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeEnd ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "eraEnd"@en .
+
+kgo:timeOccur a rdf:Property ;
+	rdfs:comment  "The family of all points in time something occured"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeAt ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeOccur"@en .
+
+kgo:timeRetrieve a rdf:Property ;
 	rdfs:comment  "The date and time the information was added to the KGO system"@en ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range		rdfs:Literal ;
+	rdfs:subPropertyOf kgo:timeOccur ;
 	rdfs:isDefinedBy	boltz:ontology ;
-	rdfs:label "timeAdded"@en .
+	rdfs:label "timeRetrieve"@en .
 
-kgo:timeStarted a rdf:Property ;
-	rdfs:comment  "The date and time the information began being true"@en ;
-	rdfs:domain 	rdfs:Class ;
-	rdfs:range		rdfs:Literal ;
-	rdfs:isDefinedBy	boltz:ontology ;
-	rdfs:label "timeStarted"@en .
+# ----------------------Eras----------------------
+kgo:Era a rdfs:Class ;
+  rdfs:comment      "The Class of all Eras, or indistinct time periods"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "Era"@en ;
+  rdfs:subClassOf   rdfs:Class .
 
-kgo:timeEnded a rdf:Property ;
-	rdfs:comment  "The date and time the information stopped being true. The absense of this implies the information is still true"@en ;
-	rdfs:domain 	rdfs:Class ;
-	rdfs:range		rdfs:Literal ;
-	rdfs:isDefinedBy	boltz:ontology ;
-	rdfs:label "timeEnded"@en .
+kgo:isSubEraOf a rdfs:Property ;
+	rdfs:comment	"The subject is a subEra of the object"@en ;
+	rdfs:domain kgo:Era ;
+	rdfs:range kgo:Era ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label 	"isSubEraOf"@en .
 
+kgo:seriesNext a rdfs:Property ;
+	rdfs:comment	"The next item in a series"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label 	"seriesNext"@en .
+
+kgo:seriesPrev a rdfs:Property ;
+	rdfs:comment	"The previous item in a series"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label 	"seriesPrev"@en .
 
 # ----------------------QUDT Comparisons----------------------
 kgo:prefComparisons a rdf:Property ;
@@ -95,10 +154,10 @@ kgo:annualRevenue  a rdf:Property ;
 
 # ----------------------Company Information----------------------
 kgo:Company a      rdfs:Class ;
-        rdfs:comment      "The Class of all Companies"@en ;
-        rdfs:isDefinedBy  boltz:ontology ;
-        rdfs:label        "Company"@en ;
-        rdfs:subClassOf   rdfs:Class .
+  rdfs:comment      "The Class of all Companies"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "Company"@en ;
+  rdfs:subClassOf   rdfs:Class .
 
 kgo:companyName a      rdfs:Property ;
 	rdfs:comment	"The name of an organization"@en ;
