@@ -15,7 +15,7 @@ kgo:complementryProperty a rdf:Property ;
 	rdfs:domain rdfs:Property ;
 	rdfs:range rdfs:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "complementryProperty"@en ;
+	rdfs:label "complementryProperty"@en .
 
 kgo:timeAt a rdf:Property;
 	rdfs:comment "Root of the time hierarchy tree, used in general cases when no other time property suffices"@en ;
