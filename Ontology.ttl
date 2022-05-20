@@ -30,6 +30,22 @@ kgo:timeStart a rdf:Property;
 	rdfs:isDefinedBy	boltz:ontology ;
 	rdfs:label "timeStart"@en .
 
+kgo:earliestStartTime a rdf:Property;
+	rdfs:comment "The earliest point in time something could have begun" ;
+	kgo:complementryProperty kgo:latestStartTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timestart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "earliestStartTime"@en .
+
+kgo:latestStartTime a rdf:Property;
+	rdfs:comment "The latest point in time something could have begun" ;
+	kgo:complementryProperty kgo:earliestStartTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timestart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "latestStartTime"@en .
+
 kgo:eraStart a rdf:Property;
 	rdfs:comment "The Era in which something first started or appeared" ;
 	kgo:complementryProperty kgo:eraEnd ;
@@ -44,6 +60,23 @@ kgo:timeEnd a rdf:Property;
 	rdfs:subPropertyOf kgo:timeAt ;
 	rdfs:isDefinedBy	boltz:ontology ;
 	rdfs:label "timeEnd"@en .
+
+kgo:earliestEndTime a rdf:Property;
+	rdfs:comment "The earliest point in time something could have ended" ;
+	kgo:complementryProperty kgo:latestEndTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timestart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "earliestEndTime"@en .
+
+kgo:latestEndTime a rdf:Property;
+	rdfs:comment "The latest point in time something could have ended" ;
+	kgo:complementryProperty kgo:earliestEndTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timestart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "latestEndTime"@en .
+
 
 kgo:eraEnd a rdf:Property;
 	rdfs:comment "The Era in which something last appeared or seemingly ended" ;
