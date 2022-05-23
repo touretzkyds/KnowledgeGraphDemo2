@@ -280,6 +280,11 @@ kgo:Domain a     kgo:TaxonRank ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "Domain"@en .
 
+kgo:Superdomain a     kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Superdomain"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Superdomain"@en .
+
 kgo:Kingdom a    kgo:TaxonRank ;
         rdfs:comment      "The taxonomic rank Kingdom"@en ;
         rdfs:isDefinedBy  boltz:ontology ;
