@@ -285,6 +285,11 @@ kgo:Kingdom a    kgo:TaxonRank ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "Kingdom"@en .
 
+kgo:Superkingdom a    kgo:TaxonRank ;
+        rdfs:comment      "The taxonomic rank Superkingdom"@en ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "Superkingdom"@en .
+
 kgo:Subkingdom a kgo:TaxonRank ;
         rdfs:comment      "The taxonomic rank Subkingdom"@en ;
         rdfs:isDefinedBy  boltz:ontology ;

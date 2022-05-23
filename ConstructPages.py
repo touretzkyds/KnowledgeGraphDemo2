@@ -100,6 +100,9 @@ def queryServer(endpointURL, query):
     sparql.setCredentials('query', 'querypassword')
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
+    print(sparql)
+    x = sparql.query()
+    print(x)
     return sparql.query().convert()
 
 def constructTurtle(ttlFile):
@@ -197,7 +200,8 @@ def constructPages():
 
 
 if __name__ == '__main__':
-    constructTurtle("Ontology.ttl")
+    #constructTurtle("Ontology.ttl")
     # constructTurtle("Data.ttl")
     # constructTurtle("Imports.ttl")
-    constructPages()
+    #constructPages()
+    queryServer(localURL, "SELECT DISTINCT ?element WHERE { ?element ?conect ?out }");
