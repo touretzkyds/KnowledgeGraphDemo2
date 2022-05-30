@@ -37,7 +37,7 @@
 .
 
 :ontService a fuseki:Service;
-	fuseki:name "NoInference" ;
+	fuseki:name "Demo" ;
 	fuseki:endpoint [
 		fuseki:operation fuseki:query ;
 		fuseki:name "sparql"
@@ -46,7 +46,7 @@
 	.
 
 :mainService rdf:type fuseki:Service ;
-    fuseki:name "Demo" ;
+    fuseki:name "Inference" ;
     fuseki:endpoint [ 
          # SPARQL query service
         fuseki:operation fuseki:query ; 
@@ -106,7 +106,7 @@
 
 
 :devService rdf:type fuseki:Service ;
-    fuseki:name "Dev" ;
+    fuseki:name "Devel" ;
     fuseki:endpoint [ 
          # SPARQL query service
         fuseki:operation fuseki:query ; 
