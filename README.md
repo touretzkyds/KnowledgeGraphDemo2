@@ -1,2 +1,2 @@
-# KnowledgeGraphDemo
-An interactive exploration of an exemplary knowledge graph
+# KnowledgeGraphServer
+Server for exemplary knowledge graph.
