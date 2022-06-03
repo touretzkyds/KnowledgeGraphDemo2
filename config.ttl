@@ -102,7 +102,8 @@
     ja:content [ja:externalContent <file:Data.ttl> ; 
 				ja:externalContent <file:Ontology.ttl> ; 
 				ja:externalContent <file:Imports.ttl> ;
-				ja:externalContent <file:qudt_units.ttl>] ;
+				ja:externalContent <file:qudt_units.ttl>
+				ja:externalContent <file:qudt.ttl> ] ;
     .
 
 
@@ -147,5 +148,6 @@
     ja:content [ja:externalContent <file:dev/Data.ttl> ; 
 				ja:externalContent <file:dev/Ontology.ttl> ; 
 				ja:externalContent <file:dev/Imports.ttl> ;
-				ja:externalContent <file:dev/qudt_units.ttl>] ;
+				ja:externalContent <file:dev/qudt_units.ttl>
+				ja:externalContent <file:dev/qudt.ttl] ;
     .
