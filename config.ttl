@@ -149,5 +149,5 @@
 				ja:externalContent <file:dev/Ontology.ttl> ; 
 				ja:externalContent <file:dev/Imports.ttl> ;
 				ja:externalContent <file:dev/qudt_units.ttl>
-				ja:externalContent <file:dev/qudt.ttl] ;
+				ja:externalContent <file:dev/qudt.ttl>] ;
     .
