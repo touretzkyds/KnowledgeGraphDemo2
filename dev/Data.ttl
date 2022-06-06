@@ -549,6 +549,9 @@ boltz:Q68947 a kgo:taxonRank ;
     kgo:nextHigherRank  boltz:Q7432 ;
     skos:definition	"Taxonomic rank subordinate to species"@en .
 
+boltz:Q713623 a kgo:taxonRank ;
+    rdfs:label	"Clade"@en ;
+    skos:definition	"Mnophyletic group of organisms composed of a common ancestor and all its lineal descendants"@en .
 
 # ----------------------General Taxonomy----------------------
 boltz:Q2382443 a kgo:Taxon ;
@@ -700,7 +703,7 @@ boltz:Q11973077 a kgo:Taxon ;
 boltz:Q133527 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q11973077 ;
         kgo:taxonName    "Streptophyta"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Clade consisting of the charophyte algae and land plants"@en ;
         skos:prefLabel   "Streptophytina"@en .
 
@@ -721,7 +724,7 @@ boltz:Q27133 a kgo:Taxon ;
 boltz:Q642865 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q27133 ;
         kgo:taxonName    "Euphyllophyta"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Clade of plants"@en ;
         skos:prefLabel   "Euphyllophytina"@en .
 
@@ -735,7 +738,7 @@ boltz:Q25814 a kgo:Taxon ;
 boltz:Q25314 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q25814 ;
         kgo:taxonName    "Angiospermae"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Clade of flowering plants (in APG I-III)"@en ;
         skos:prefLabel   "Angiosperms"@en .
 
@@ -743,28 +746,28 @@ boltz:Q25314 a kgo:Taxon ;
 boltz:Q165468 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q25314 ;
         kgo:taxonName    "Eudicotidae"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Clade of flowering plants"@en ;
         skos:prefLabel   "Eudicots"@en .
 
 boltz:Q869087 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q165468 ;
         kgo:taxonName    "Core Eudicots"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Major clade of flowering plants"@en ;
         skos:prefLabel   "Core Eudicots"@en .
 
 boltz:Q338878 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q869087 ;
         kgo:taxonName    "Rosiden"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Large clade of flowering plants"@en ;
         skos:prefLabel   "Rosids"@en .
 
 boltz:Q2683213 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q338878 ;
         kgo:taxonName    "Fabidae"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "An important clade of plants, in APG III and IV"@en ;
         skos:prefLabel   "Fabids"@en .
 
@@ -793,14 +796,14 @@ boltz:Q12004 a kgo:Taxon ;
 boltz:Q78961 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q25314 ;
         kgo:taxonName    "Monocotyledons"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Important clade of plants"@en ;
         skos:prefLabel   "Monocots"@en .
 
 boltz:Q868546 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q78961 ;
         kgo:taxonName    "Commelinids"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Important clade of plants (In APG II and III)"@en ;
         skos:prefLabel   "Commelinids"@en .
 
@@ -837,7 +840,7 @@ boltz:Q50845174 a kgo:Taxon ;
 boltz:Q2133361 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q338878 ;
         kgo:taxonName    "Malvidae"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Major clade of plants (in APG III and IV)"@en ;
         skos:prefLabel   "Malvids"@en .
 
@@ -924,14 +927,14 @@ boltz:Q10915 a  kgo:Taxon ;
 boltz:Q3280581 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q10915 ;
         kgo:taxonName    "Olfactores"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A clade of chordates"@en ;
         skos:prefLabel   "Olfactores"@en .
 
 boltz:Q84149 a  kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q3280581 ;
         kgo:taxonName    "Craniata"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A clade of chordates"@en ;
         skos:prefLabel   "Craniata"@en .
 
@@ -973,7 +976,7 @@ boltz:Q23809240 a kgo:Taxon ;
 boltz:Q1209254 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q23809240 ;
         kgo:taxonName    "Tetrapodomorpha"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A subclass of vertebrates"@en ;
         skos:prefLabel   "Tetrapodomorpha"@en .
 
@@ -1110,14 +1113,14 @@ boltz:Q134683 a kgo:Taxon ;
 boltz:Q181537 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q134683 ;
         kgo:taxonName    "Amniota"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Group of Tetrapods"@en ;
         skos:prefLabel   "Amniota"@en .
 
 boltz:Q329457 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q181537 ;
         kgo:taxonName    "Sauropsida"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Group of Tetrapod animals"@en ;
         skos:prefLabel   "Sauropsida"@en .
 
@@ -1131,28 +1134,28 @@ boltz:Q10811 a  kgo:Taxon ;
 boltz:Q3060510 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q10811 ;
         kgo:taxonName    "Eureptilia"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles"@en ;
         skos:prefLabel   "Eureptilia"@en .
 
 boltz:Q1061761 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q3060510 ;
         kgo:taxonName    "Romeriida"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of reptiles that consists of diapsids and the extinct family of Protorothyrididae."@en ;
         skos:prefLabel   "Romeriida"@en .
 
 boltz:Q134688 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q1061761 ;
         kgo:taxonName    "Diapsida"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of tetrapods that developed two holes (temporal fenestra) in each side of their skulls, about 300 million years ago."@en ;
         skos:prefLabel   "Diapsid"@en .
 
 boltz:Q3497035 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q134688 ;
         kgo:taxonName    "Neodiapsida"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of tetrapods that developed two holes (temporal fenestra) in each side of their skulls, about 300 million years ago."@en ;
         skos:prefLabel   "Neodiapsida"@en .
 
@@ -1166,7 +1169,7 @@ boltz:Q2254408 a kgo:Taxon ;
 boltz:Q19595522 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q2254408 ;
         kgo:taxonName    "Archelosauria"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Archelosauria"@en .
 
@@ -1180,56 +1183,56 @@ boltz:Q134676 a kgo:Taxon ;
 boltz:Q282487 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q134676 ;
         kgo:taxonName    "Archosauriformes"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Archosauriformes"@en .
 
 boltz:Q131341 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q282487 ;
         kgo:taxonName    "Crurotarsi"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Group of Reptiles."@en ;
         skos:prefLabel   "Crurotarsi"@en .
 
 boltz:Q130910 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q131341 ;
         kgo:taxonName    "Archosauria"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Group of Reptiles."@en ;
         skos:prefLabel   "Archosaur"@en .
 
 boltz:Q2742285 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q130910 ;
         kgo:taxonName    "Pseudosuchia"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Pseudosuchia"@en .
 
 boltz:Q1844946 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q2742285 ;
         kgo:taxonName    "Suchia"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Group of Reptiles."@en ;
         skos:prefLabel   "Suchia"@en .
 
 boltz:Q10748156 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q1844946 ;
         kgo:taxonName    "Paracrocodylomorpha"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Group of Reptiles."@en ;
         skos:prefLabel   "Paracrocodylomorpha"@en .
 
 boltz:Q13362187 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q10748156 ;
         kgo:taxonName    "Loricata"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Group of Reptiles."@en ;
         skos:prefLabel   "Loricata"@en .
 
 boltz:Q4869200 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q13362187 ;
         kgo:taxonName    "Bathyotica"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Bathyotica"@en .
 
@@ -1243,35 +1246,35 @@ boltz:Q131863 a kgo:Taxon ;
 boltz:Q3003172 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q131863 ;
         kgo:taxonName    "Crocodyliformes"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Crocodyliformes"@en .
 
 boltz:Q2740674 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q3003172 ;
         kgo:taxonName    "Mesoeucrocodylia"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Mesoeucrocodylia"@en .
 
 boltz:Q3307307 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q2740674 ;
         kgo:taxonName    "Metasuchia"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Metasuchia"@en .
 
 boltz:Q3042061 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q3307307 ;
         kgo:taxonName    "Neosuchia"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Neosuchia"@en .
 
 boltz:Q938944 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q3042061 ;
         kgo:taxonName    "Eusuchia"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Large Reptiles."@en ;
         skos:prefLabel   "Eusuchia"@en .
 
@@ -1292,7 +1295,7 @@ boltz:Q507496 a kgo:Taxon ;
 boltz:Q5571040 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q507496 ;
         kgo:taxonName    "Globidonta"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "A Clade of Reptiles."@en ;
         skos:prefLabel   "Globidonta"@en .
 
@@ -1393,7 +1396,7 @@ boltz:Q193327 a kgo:Taxon ;
 boltz:Q2082668 a kgo:Taxon ;
         kgo:subTaxonOf   boltz:Q19159 ;
         kgo:taxonName    "Mammaliaformes"@en ;
-        kgo:taxonRank    kgo:Clade ;
+        kgo:taxonRank    boltz:Q713623 ;
         skos:definition  "Clade of tetrapods"@en ;
         skos:prefLabel   "Mammaliaformes"@en .
 
