@@ -271,11 +271,13 @@ kgo:TaxonRank a  rdfs:Class ;
 
 # ----------------------Taxonomic Ranks----------------------
 kgo:nextHigherRank a rdf:Property ;
-    rdfs:comment "The taxonomic rank above this taxonomic rank." ;
-    rdfs:isDefinedBy boltz:ontology ;
-    rdfs:label "nextHigherRank"@en .
+    	rdfs:comment	"The taxonomic rank above this taxonomic rank." ;
+    	rdfs:isDefinedBy	boltz:ontology ;
+    	rdfs:label	"nextHigherRank"@en .
 
 kgo:nextLowerRank a rdf:Property ;
-    rdfs:comment "The taxonomic rank below this taxonomic rank." ;
-    rdfs:isDefinedBy boltz:ontology ;
-    rdfs:label "nextLowerRank"@en .
+    	rdfs:comment	"The taxonomic rank below this taxonomic rank." ;
+    	rdfs:isDefinedBy	boltz:ontology ;
+    	rdfs:label	"nextLowerRank"@en .
+
+
