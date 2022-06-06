@@ -410,6 +410,18 @@ kgo:Subpecies a    kgo:TaxonRank ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "Subspecies"@en .
 
+kgo:nextHigherRank a rdf:Property ;
+        rdfs:comment    "The taxonomic rank above this taxonomic rank."@en ;
+        rdfs:domain     kgo:TaxonRank
+        rdfs:isDefinedBy        boltz:ontology ;
+        rdfs:label      "nextHigherRank"@en .
+
+kgo:nextLowerRank a rdf:Property ;
+        rdfs:comment    "The taxonomic rank below this taxonomic rank."@en ;
+        rdfs:domain     kgo:TaxonRank
+        rdfs:isDefinedBy        boltz:ontology ;
+        rdfs:label      "nextLowerRank"@en .
+
 # ----------------------Botanical Taxonomic Ranks----------------------
 kgo:Division a    kgo:TaxonRank ;
         rdfs:comment      "The taxonomic rank Division"@en ;
