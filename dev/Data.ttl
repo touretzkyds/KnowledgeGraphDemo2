@@ -8,7 +8,7 @@
 @prefix unit:  <http://qudt.org/vocab/unit/> .
 @prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
 @prefix sou: <http://qudt.org/vocab/sou/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;
