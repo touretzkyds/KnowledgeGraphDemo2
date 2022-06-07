@@ -263,17 +263,17 @@ kgo:taxonRank a rdf:Property ;
         rdfs:label        "taxonRank"@en ;
         rdfs:range        kgo:TaxonRank .
 
-kgo:taxonImage a rdf:Property ;
-        rdfs:comment	"The image associated with the subject."@en ;
-        rdfs:domain 	kgo:TaxonRank ;
-        rdfs:isDefinedBy	boltz:ontology ;
-        rdfs:label	"taxonImage"@en .
-
 kgo:TaxonRank a  rdfs:Class ;
         rdfs:comment      "The Class of all Taxonomic Ranks"@en ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "TaxonRank"@en ;
         rdfs:subClassOf   rdfs:Class .
+
+kgo:taxonImage a rdf:Property ;
+        rdfs:comment	"The image associated with the subject."@en ;
+        rdfs:domain 	kgo:TaxonRank ;
+        rdfs:isDefinedBy	boltz:ontology ;
+        rdfs:label	"taxonImage"@en .
 
 # ----------------------Taxonomic Ranks----------------------
 
