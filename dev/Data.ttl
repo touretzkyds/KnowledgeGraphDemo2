@@ -553,15 +553,6 @@ boltz:Q713623 a kgo:TaxonRank ;
     rdfs:label	"Clade"@en ;
     skos:definition	"Mnophyletic group of organisms composed of a common ancestor and all its lineal descendants"@en .
 
-boltz:Q68947 a kgo:TaxonRank ;
-    rdfs:label	"Subspecies"@en ;
-    kgo:nextHigherRank  boltz:Q7432 ;
-    skos:definition	"Taxonomic rank subordinate to species"@en .
-
-boltz:Q713623 a kgo:TaxonRank ;
-    rdfs:label	"Clade"@en ;
-    skos:definition	"Mnophyletic group of organisms composed of a common ancestor and all its lineal descendants"@en .
-
 
 # ----------------------General Taxonomy----------------------
 boltz:Q2382443 a kgo:Taxon ;
