@@ -256,6 +256,12 @@ kgo:subTaxonOf a rdf:Property ;
         rdfs:label        "subTaxonOf"@en ;
         rdfs:range        kgo:Taxon .
 
+kgo:taxonImage a rdf:Property ;
+	rdfs:comment	 "The Image associated with the subject"@en ;
+	rdfs:domain	 kgo:Taxon ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	 "taxonImage"@en ;
+
 kgo:taxonRank a rdf:Property ;
         rdfs:comment      "The subject has taxonomic rank of the object"@en ;
         rdfs:domain       rdfs:Class ;
