@@ -263,6 +263,13 @@ kgo:taxonRank a rdf:Property ;
         rdfs:label        "taxonRank"@en ;
         rdfs:range        kgo:TaxonRank .
 
+kgo:typeSpecies a rdf:Property ;
+        rdfs:comment      "The taxon has type species of the object"@en ;
+        rdfs:domain       rdfs:Class ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "typeSpecies"@en ;
+        rdfs:range        kgo:Taxon .
+
 kgo:TaxonRank a  rdfs:Class ;
         rdfs:comment      "The Class of all Taxonomic Ranks"@en ;
         rdfs:isDefinedBy  boltz:ontology ;
