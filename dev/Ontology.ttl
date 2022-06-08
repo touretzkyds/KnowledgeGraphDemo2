@@ -268,7 +268,14 @@ kgo:typeSpecies a rdf:Property ;
         rdfs:domain       rdfs:Class ;
         rdfs:isDefinedBy  boltz:ontology ;
         rdfs:label        "typeSpecies"@en ;
-        rdfs:range        kgo:Taxon .
+        rdfs:range        rdfs:Literal .
+
+kgo:typeSpeciesOf a rdf:Property ;
+        rdfs:comment      "The taxon is the type species its respective genus"@en ;
+        rdfs:domain       rdfs:Class ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "typeSpeciesOf"@en ;
+        rdfs:range        rdfs:Literal .
 
 kgo:TaxonRank a  rdfs:Class ;
         rdfs:comment      "The Class of all Taxonomic Ranks"@en ;
