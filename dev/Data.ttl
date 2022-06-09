@@ -1305,6 +1305,7 @@ boltz:Q15978631 a kgo:Taxon ;
         skos:prefLabel   "Human"@en .
 
 # INSERTED TAXA – DEYA
+
 boltz:Q729 a kgo:Taxon ; 
 	kgo:taxonName 	"Animalia"@en ; 
 	kgo:taxonRank	boltz:Q36732 ; 
@@ -1728,6 +1729,64 @@ boltz:Q13467669 a kgo:Taxon ;
 	skos:definition	"""Species of insect"""@en ;
 	skos:prefLabel	"Cicindela amargosae"@en .
 
+boltz:Q10811 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q19159 ; 
+	kgo:taxonName 	"Reptilia"@en ; 
+	kgo:taxonRank	boltz:Q37517 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Smaug%20giganteus%20head.jpg> ; 
+	skos:definition	"""Group (class or clade) of tetrapod animals"""@en ;
+	skos:prefLabel	"Reptilia"@en .
+
+boltz:Q122422 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q10811 ; 
+	kgo:taxonName 	"Squamata"@en ; 
+	kgo:taxonRank	boltz:Q36602 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Anole%20and%20snake.jpg> ; 
+	skos:definition	"""Order of reptiles"""@en ;
+	skos:prefLabel	"Squamata"@en .
+
+boltz:Q16835867 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q122422 ; 
+	kgo:taxonName 	"Autarchoglossa"@en ; 
+	kgo:taxonRank	boltz:Q5867959 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Eumecesfasciatus.jpg> ; 
+	skos:definition	"""Clade of lizards"""@en ;
+	skos:prefLabel	"Autarchoglossa"@en .
+
+boltz:Q272206 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q16835867 ; 
+	kgo:taxonName 	"Scincidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Blue-toungued%20skink444.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Scincidae"@en .
+
+boltz:Q15127891 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q272206 ; 
+	kgo:taxonName 	"Sphenomorphinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Otosaurus%20cumingi%20juvenile%20%28KU%20330652%29%20from%20mid-elevation%2C%20Mt.%20Cagua%20-%20ZooKeys-266-001-g062.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Sphenomorphinae"@en .
+
+boltz:Q898286 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15127891 ; 
+	kgo:taxonName 	"Ctenotus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Ctenotus taeniolatus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Robust%20Striped%20Skink.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Ctenotus"@en .
+
+boltz:Q3006614 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q898286 ; 
+	kgo:taxonName 	"Ctenotus taeniolatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Ctenotus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Ctenotus%20taeniolatus.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Ctenotus taeniolatus"@en .
+
 boltz:Q822890 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q23005 ; 
 	kgo:taxonName 	"Polyneoptera"@en ; 
@@ -1840,6 +1899,3584 @@ boltz:Q183255 a kgo:Taxon ;
 	skos:definition	"""Species of mammal"""@en ;
 	skos:prefLabel	"Phacochoerus africanus"@en .
 
+boltz:Q223044 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q10811 ; 
+	kgo:taxonName 	"Testudines"@en ; 
+	kgo:taxonRank	boltz:Q36602 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hawaii%20turtle%202.JPG> ; 
+	skos:definition	"""Order of reptiles"""@en ;
+	skos:prefLabel	"Turtle"@en .
+
+boltz:Q4713411 a kgo:Taxon ; 
+	kgo:taxonName 	"Aldabrachelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Aldabra%20Giant%20Tortoise%20Geochelone%20gigantea%20edit1.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Aldabrachelys"@en .
+
+boltz:Q27885022 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q4713411 ; 
+	kgo:taxonName 	"Aldabrachelys gigantea"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Aldabra%20Female%20on%20Curieuse.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Aldabra giant tortoise"@en .
+
+boltz:Q301044 a kgo:Taxon ; 
+	kgo:taxonName 	"Dermatemys mawii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Dlouhohl%C3%A1vka%20mexick%C3%A1%209245u.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Central american river turtle"@en .
+
+boltz:Q2205115 a kgo:Taxon ; 
+	kgo:taxonName 	"Carettochelyidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sinaspideretes%20wimani.JPG> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Carettochelyidae"@en .
+
+boltz:Q3400043 a kgo:Taxon ; 
+	kgo:taxonName 	"Platysternidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Zolw%20wielkoglowy.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Platysternidae"@en .
+
+boltz:Q573026 a kgo:Taxon ; 
+	kgo:taxonName 	"Staurotypinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Staurotypus%20salvinii.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Staurotypinae"@en .
+
+boltz:Q2342737 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosterninae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sternotherus%20odoratus.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Kinosterninae"@en .
+
+boltz:Q1930722 a kgo:Taxon ; 
+	kgo:taxonName 	"Rafetus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%B9a%20%C4%90%E1%BB%93ng%20M%C3%B4.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Rafetus"@en .
+
+boltz:Q1932390 a kgo:Taxon ; 
+	kgo:taxonName 	"Acanthochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Acanthochelys%20spixii.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Acanthochelys"@en .
+
+boltz:Q4722543 a kgo:Taxon ; 
+	kgo:taxonName 	"Rheodytes"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rheodytes%20shell.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Rheodytes"@en .
+
+boltz:Q14566149 a kgo:Taxon ; 
+	kgo:taxonName 	"Erymnochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Erymnochelys%20madagascariensis.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Erymnochelys"@en .
+
+boltz:Q3374556 a kgo:Taxon ; 
+	kgo:taxonName 	"Peltocephalus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Peltocephalus"@en .
+
+boltz:Q11790069 a kgo:Taxon ; 
+	kgo:taxonName 	"Natator"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Natator%20depressus.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Natator"@en .
+
+boltz:Q1468192 a kgo:Taxon ; 
+	kgo:taxonName 	"Cuora"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20amboinensis.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Asian box turtles"@en .
+
+boltz:Q2111135 a kgo:Taxon ; 
+	kgo:taxonName 	"Cyclemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cycle%20denta%20100207-0654%20ipb.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Cyclemys"@en .
+
+boltz:Q14566120 a kgo:Taxon ; 
+	kgo:taxonName 	"Geoclemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geoclemys%20hamiltonii.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Geoclemys"@en .
+
+boltz:Q785801 a kgo:Taxon ; 
+	kgo:taxonName 	"Geoemyda"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Stavenn%20Geoemyda%20spengleri.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Geoemyda"@en .
+
+boltz:Q14566135 a kgo:Taxon ; 
+	kgo:taxonName 	"Hardella"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hardella%20thurjii%20Hardwicke.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Hardella"@en .
+
+boltz:Q2648390 a kgo:Taxon ; 
+	kgo:taxonName 	"Heosemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Heosemys-depressa.jpg> ; 
+	skos:definition	"""Genus of turtles"""@en ;
+	skos:prefLabel	"Heosemys"@en .
+
+boltz:Q2701715 a kgo:Taxon ; 
+	kgo:taxonName 	"Malayemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Holotype%20of%20Malayemys%20khoratensis.PNG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Malayemys"@en .
+
+boltz:Q798253 a kgo:Taxon ; 
+	kgo:taxonName 	"Mauremys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mauremys%20leprosa%204.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Mauremys"@en .
+
+boltz:Q2713738 a kgo:Taxon ; 
+	kgo:taxonName 	"Melanochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Melanochelys%20trijuga.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Melanochelys"@en .
+
+boltz:Q14566123 a kgo:Taxon ; 
+	kgo:taxonName 	"Notochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Notochelys%20platynota%20Hardwicke.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Notochelys"@en .
+
+boltz:Q14566122 a kgo:Taxon ; 
+	kgo:taxonName 	"Orlitia"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Orlitia%20borneensis.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Orlitia"@en .
+
+boltz:Q2396266 a kgo:Taxon ; 
+	kgo:taxonName 	"Sacalia"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sacalia%20quadriocellata.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Sacalia"@en .
+
+boltz:Q2252752 a kgo:Taxon ; 
+	kgo:taxonName 	"Siebenrockiella"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Heosemys%20leytensis04.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Siebenrockiella"@en .
+
+boltz:Q728220 a kgo:Taxon ; 
+	kgo:taxonName 	"Indotestudo"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Indotestudo%20elongata%20Pengo.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Indotestudo"@en .
+
+boltz:Q2378269 a kgo:Taxon ; 
+	kgo:taxonName 	"Manouria"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Manouria%20emys.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Manouria"@en .
+
+boltz:Q1954939 a kgo:Taxon ; 
+	kgo:taxonName 	"Amyda"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Amyd%20cartil%20090818-11752%20tsa.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Amyda"@en .
+
+boltz:Q1932400 a kgo:Taxon ; 
+	kgo:taxonName 	"Nilssonia"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Nilssonia%20formosa.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Nilssonia"@en .
+
+boltz:Q597442 a kgo:Taxon ; 
+	kgo:taxonName 	"Pseudemys peninsularis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Florida%20Cooter%20turtle%20at%20Gemini%20Springs%20-%20Flickr%20-%20Andrea%20Westmoreland.jpg> ; 
+	skos:definition	"""Peninsula cooter"""@en ;
+	skos:prefLabel	"Pseudemys peninsularis"@en .
+
+boltz:Q597285 a kgo:Taxon ; 
+	kgo:taxonName 	"Pseudemys gorzugi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/PB110463CR.jpg> ; 
+	skos:definition	"""Rio grande cooter"""@en ;
+	skos:prefLabel	"Pseudemys gorzugi"@en .
+
+boltz:Q305938 a kgo:Taxon ; 
+	kgo:taxonName 	"Graptemys gibbonsi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys.gibbonsi.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pascagoula map turtle"@en .
+
+boltz:Q301647 a kgo:Taxon ; 
+	kgo:taxonName 	"Graptemys ernsti"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20ernsti%2018Jun09%20EscambiaRiver%202z.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Escambia map turtle"@en .
+
+boltz:Q1049305 a kgo:Taxon ; 
+	kgo:taxonName 	"Trachemys stejnegeri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20stejnegeri01.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Central antillean slider"@en .
+
+boltz:Q301089 a kgo:Taxon ; 
+	kgo:taxonName 	"Lepidochelys kempii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Padre%20Island%20National%20Seashore%20-%20Kemps%20Ridley%20Sea%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Lepidochelys kempii"@en .
+
+boltz:Q846461 a kgo:Taxon ; 
+	kgo:taxonName 	"Geochelone elegans"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Indian%20star%20tortoise%20-%20Houston%20Zoo%20-%20cropped.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian star tortoise"@en .
+
+boltz:Q852181 a kgo:Taxon ; 
+	kgo:taxonName 	"Geochelone platynota"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20platynota%20-Toronto%20Zoo%2C%20Ontario%2C%20Canada-8a.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Burmese star tortoise"@en .
+
+boltz:Q642538 a kgo:Taxon ; 
+	kgo:taxonName 	"Homopus areolatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Homopus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Beaked%20cape%20tortoise.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Beaked cape tortoise"@en .
+
+boltz:Q2631006 a kgo:Taxon ; 
+	kgo:taxonName 	"Homopus boulengeri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Karoo%20Padloper%20-%20RSA.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Boulenger's cape tortoise"@en .
+
+boltz:Q3080873 a kgo:Taxon ; 
+	kgo:taxonName 	"Homopus femoralis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Greater%20Padloper%20-%20RSA.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Karoo cape tortoise"@en .
+
+boltz:Q302172 a kgo:Taxon ; 
+	kgo:taxonName 	"Homopus signatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Homopus%20signatus-Prague%20Zoo.jpg> ; 
+	skos:definition	"""Species of the world's smallest tortoises"""@en ;
+	skos:prefLabel	"Speckled padloper tortoise"@en .
+
+boltz:Q2688237 a kgo:Taxon ; 
+	kgo:taxonName 	"Hydromedusa maximiliani"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hydromedusa%20maximiliani%20from%20Delectus%20Florae%20et%20Faunae%20Brasiliensis%20%28page%2075%20crop%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Brazilian snake-necked turtle"@en .
+
+boltz:Q625475 a kgo:Taxon ; 
+	kgo:taxonName 	"Hydromedusa tectifera"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hydromedusa%20tectifera.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Argentine snake-necked turtle"@en .
+
+boltz:Q1529918 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinixys belliana"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinixys%20belliana%20nogueyi%201%20by%20diotime.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Bell's hinge-back tortoise"@en .
+
+boltz:Q302898 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinixys erosa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinixys%20erosa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Forest hinge-back tortoise"@en .
+
+boltz:Q301423 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinixys homeana"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Stutz-gelenkschildkroete-02.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Home's hinge-back tortoise"@en .
+
+boltz:Q305966 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinixys natalensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinixys%20natalensis%20-%20adult%20male%20Natal%20Hinged%20Tortoise%20-%20RSA.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Natal hinge-back tortoise"@en .
+
+boltz:Q305955 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon acutum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20acutum.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Tabasco mud turtle"@en .
+
+boltz:Q2697591 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon alamosae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Alamos mud turtle"@en .
+
+boltz:Q1107850 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon angustipons"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20angustipons.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Central american mud turtle"@en .
+
+boltz:Q304439 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon creaseri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Creaser%27s%20Mud%20Turtle%20%28Kinosternon%20creaseri%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Creaser's mud turtle"@en .
+
+boltz:Q305960 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon dunni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Dunn's mud turtle"@en .
+
+boltz:Q2397755 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon herrerai"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20herrerai%204200729.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Herrera's mud turtle"@en .
+
+boltz:Q2009022 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon integrum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20integrum%2C%20Mexican%20Mud%20Turtle%2C%20Tamaulipas.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mexican mud turtle"@en .
+
+boltz:Q604836 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon leucostomum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/CinosternonLeucostomum.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"White-lipped mud turtle"@en .
+
+boltz:Q305904 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon oaxacae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20oaxacae.jpeg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Oaxaca mud turtle"@en .
+
+boltz:Q596405 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon scorpioides"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Waldbachschildkroete-01.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Scorpion mud turtle"@en .
+
+boltz:Q634027 a kgo:Taxon ; 
+	kgo:taxonName 	"Lissemys scutata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lissemys%20scutata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Burmese flapshell turtle"@en .
+
+boltz:Q832357 a kgo:Taxon ; 
+	kgo:taxonName 	"Malacochersus tornieri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Malacochersus%20tornieri%20-%20Buffalo%20Zoo.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pancake tortoise"@en .
+
+boltz:Q2109464 a kgo:Taxon ; 
+	kgo:taxonName 	"Morenia petersi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Morenia%20petersi.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian eyed turtle"@en .
+
+boltz:Q2272259 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelochelys bibroni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelochelys%20bibroni.png> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Southern new guinea giant softshell turtle"@en .
+
+boltz:Q482316 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios adansonii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/SternothaerusAdansoniiFord.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Adanson's mud turtle"@en .
+
+boltz:Q940103 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios bechuanicus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Okavango mud turtle"@en .
+
+boltz:Q849968 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios broadleyi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Turkana mud turtle"@en .
+
+boltz:Q2163840 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios carinatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"African keeled mud turtle"@en .
+
+boltz:Q2139210 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios castaneus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelusios%20castaneus%20Emmen.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"West african mud turtle"@en .
+
+boltz:Q545765 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios castanoides"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelusios%20castanoides.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow-bellied mud turtle"@en .
+
+boltz:Q2616662 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios chapini"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Central african mud turtle"@en .
+
+boltz:Q2633044 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios gabonensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hul%20-%20Pelusios%20gabonensis%20skull%20-%20GMZ%201.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"African forest turtle"@en .
+
+boltz:Q2126978 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios nanus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"African dwarf mud turtle"@en .
+
+boltz:Q944295 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios niger"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelusios%20niger%20by%20OpenCage.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"West african black turtle"@en .
+
+boltz:Q2044080 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios rhodesianus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Variable mud turtle"@en .
+
+boltz:Q2210326 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios sinuatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Serrated%20Hinged%20Terrapin%20%28Pelusios%20sinuatus%29%20%2816711115324%29.jpg> ; 
+	skos:definition	"""African terrapin"""@en ;
+	skos:prefLabel	"Pelusios sinuatus"@en .
+
+boltz:Q2096834 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios upembae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Upemba mud turtle"@en .
+
+boltz:Q2197483 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios williamsi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/William%27s%20African%20Mud%20Turtle%20%28Pelusios%20williamsi%29%20%287080593585%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"William's mud turtle"@en .
+
+boltz:Q2507664 a kgo:Taxon ; 
+	kgo:taxonName 	"Phrynops geoffroanus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Phrynops%20geoffroanus%20-%20Zoo%20Frankfurt.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Phrynops geoffroanus"@en .
+
+boltz:Q1080458 a kgo:Taxon ; 
+	kgo:taxonName 	"Phrynops hilarii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Phrynops%20hilarii%202.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Phrynops hilarii"@en .
+
+boltz:Q2699603 a kgo:Taxon ; 
+	kgo:taxonName 	"Phrynops williamsi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Tortugaherradura.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Phrynops williamsi"@en .
+
+boltz:Q1971127 a kgo:Taxon ; 
+	kgo:taxonName 	"Platemys platycephala"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Twist-necked%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Twist-necked turtle"@en .
+
+boltz:Q754035 a kgo:Taxon ; 
+	kgo:taxonName 	"Platysternon megacephalum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Zolw%20wielkoglowy.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Big-headed turtle"@en .
+
+boltz:Q2703939 a kgo:Taxon ; 
+	kgo:taxonName 	"Podocnemis erythrocephala"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Podocnemis%20erythrocephala.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Red-headed amazon river turtle"@en .
+
+boltz:Q2699599 a kgo:Taxon ; 
+	kgo:taxonName 	"Podocnemis lewyana"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/PodocnemisLewyana.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Magdalena river turtle"@en .
+
+boltz:Q2716566 a kgo:Taxon ; 
+	kgo:taxonName 	"Podocnemis sextuberculata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Ia%C3%A7%C3%A1%2C%20Piti%C3%BA%20%28Podocnemis%20sextuberculata%29%20-%20Filhote.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Six-tubercled amazon river turtle"@en .
+
+boltz:Q862053 a kgo:Taxon ; 
+	kgo:taxonName 	"Podocnemis vogli"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Side-necked%20Turtle%2C%20Medellin%2C%20Colombia.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Savanna side-necked turtle"@en .
+
+boltz:Q2104559 a kgo:Taxon ; 
+	kgo:taxonName 	"Psammobates tentorius"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/TestudoTrimeniSmit.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Tent tortoise"@en .
+
+boltz:Q2050578 a kgo:Taxon ; 
+	kgo:taxonName 	"Pseudemydura umbrina"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Western%20swamp%20tortoise.JPG> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Western swamp turtle"@en .
+
+boltz:Q2611593 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys annulata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/GeoclemmysAnnulataFord.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Brown wood turtle"@en .
+
+boltz:Q2283148 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys areolata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rhinoclemmys%20areolata.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Furrowed wood turtle"@en .
+
+boltz:Q2490459 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys diademata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Maracaibo wood turtle"@en .
+
+boltz:Q2108570 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys funerea"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rhinoclemmys%20funerea.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Black river turtle"@en .
+
+boltz:Q2591470 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys melanosterna"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rhinoclemmys%20melanosterna.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Colombian wood turtle"@en .
+
+boltz:Q2221697 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys nasuta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rhinoclemmys%20nasuta.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Large-nosed wood turtle"@en .
+
+boltz:Q2107325 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys pulcherrima"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/RPincisa-02c.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Painted wood turtle"@en .
+
+boltz:Q2697046 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys punctularia"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rhinoclemmys%20punctularia.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spot-legged turtle"@en .
+
+boltz:Q2700420 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys rubida"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/RhinoclemmysMexicanaFord.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mexican spotted wood turtle"@en .
+
+boltz:Q646900 a kgo:Taxon ; 
+	kgo:taxonName 	"Staurotypus salvinii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Staurotypus%20salvinii.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Giant musk turtle"@en .
+
+boltz:Q1187567 a kgo:Taxon ; 
+	kgo:taxonName 	"Staurotypus triporcatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Staurotypus%20triporcatus%20by%20LA%20Dawson.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mexican musk turtle"@en .
+
+boltz:Q504549 a kgo:Taxon ; 
+	kgo:taxonName 	"Testudo graeca"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Nabeulensis%20sarda.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spur-thighed tortoise"@en .
+
+boltz:Q262555 a kgo:Taxon ; 
+	kgo:taxonName 	"Testudo hermanni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Testudo%20hermanni%20hermanni%20Mallorca%2002.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Hermann's tortoise"@en .
+
+boltz:Q754182 a kgo:Taxon ; 
+	kgo:taxonName 	"Testudo horsfieldii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Halden%20011.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Russian tortoise"@en .
+
+boltz:Q253781 a kgo:Taxon ; 
+	kgo:taxonName 	"Testudo kleinmanni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Testudo%20kleinmanni.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Kleinmann's tortoise"@en .
+
+boltz:Q645356 a kgo:Taxon ; 
+	kgo:taxonName 	"Testudo marginata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Marginata0005.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Marginated tortoise"@en .
+
+boltz:Q1989799 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1930722 ; 
+	kgo:taxonName 	"Rafetus euphraticus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rafetus%20euphraticus%20-%20shush-khozestan%20%D9%84%D8%A7%DA%A9%D9%BE%D8%B4%D8%AA%20%D9%81%D8%B1%D8%A7%D8%AA%DB%8C-%20%D8%AD%D8%A7%D8%B4%DB%8C%D9%87%20%D8%B1%D9%88%D8%AF%20%D8%B4%D8%A7%D9%88%D9%88%D8%B1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Euphrates softshell turtle"@en .
+
+boltz:Q1075096 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1930722 ; 
+	kgo:taxonName 	"Rafetus swinhoei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%B9a%20%C4%90%E1%BB%93ng%20M%C3%B4.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yangtze giant softshell turtle"@en .
+
+boltz:Q739984 a kgo:Taxon ; 
+	kgo:taxonName 	"Trionyx triunguis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trionyx%20triunguis%20Zoo%20Rostock%2015-08-2008%20083.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"African softshell turtle"@en .
+
+boltz:Q304406 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932390 ; 
+	kgo:taxonName 	"Acanthochelys macrocephala"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Acanthochelys%20macrocephala.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Big-headed pantanal swamp turtle"@en .
+
+boltz:Q305934 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932390 ; 
+	kgo:taxonName 	"Acanthochelys pallidipectoris"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chaco%20Side-necked%20Turtle%20imported%20from%20iNaturalist%20photo%20147399237%20on%2020%20April%202022.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chaco side-necked turtle"@en .
+
+boltz:Q2578186 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932390 ; 
+	kgo:taxonName 	"Acanthochelys radiolata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Acanthochelys%20radiolata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Brazilian radiolated swamp turtle"@en .
+
+boltz:Q3783140 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932390 ; 
+	kgo:taxonName 	"Acanthochelys spixii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Acanthochelys%20spixii.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Black spine-neck swamp turtle"@en .
+
+boltz:Q286099 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina expansa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelodina%20expansa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina expansa"@en .
+
+boltz:Q221080 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina longicollis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/CSIRO%20ScienceImage%207775%20Eastern%20Snakenecked%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Eastern long-necked turtle"@en .
+
+boltz:Q645675 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina novaeguineae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/New%20Guinea%20Snake-necked%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"New guinea snake-necked turtle"@en .
+
+boltz:Q2697599 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina oblonga"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelodina%20oblonga%20description.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina oblonga"@en .
+
+boltz:Q305900 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina parkeri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelodina%20parkeri%201zz.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Parker's snake-necked turtle"@en .
+
+boltz:Q2286121 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina reimanni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Reimann's snake-necked turtle"@en .
+
+boltz:Q2707055 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina steindachneri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/C%20steindachneri%20holotype1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina steindachneri"@en .
+
+boltz:Q2517394 a kgo:Taxon ; 
+	kgo:taxonName 	"Elseya dentata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Elseya"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Elseya%20dentata%203.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Elseya dentata"@en .
+
+boltz:Q1996342 a kgo:Taxon ; 
+	kgo:taxonName 	"Elseya novaeguineae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Myuchelys%20novaeguineae.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"New guinea snapping turtle"@en .
+
+boltz:Q1086983 a kgo:Taxon ; 
+	kgo:taxonName 	"Emydura subglobosa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rotbauchspitzkopfschildkroete-07.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Red-bellied short-necked turtle"@en .
+
+boltz:Q2377830 a kgo:Taxon ; 
+	kgo:taxonName 	"Emydura victoriae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Emydura%20australis%20lateral.gif> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Emydura victoriae"@en .
+
+boltz:Q1929418 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q4722543 ; 
+	kgo:taxonName 	"Rheodytes leukops"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Rheodytes%20shell.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Fitzroy river turtle"@en .
+
+boltz:Q862042 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566149 ; 
+	kgo:taxonName 	"Erymnochelys madagascariensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Erymnochelys%20madagascariensis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Madagascan big-headed turtle"@en .
+
+boltz:Q2716575 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q3374556 ; 
+	kgo:taxonName 	"Peltocephalus dumerilianus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Animalia%20nova%20sive%20species%20novae%20testudinum%20et%20ranarum%20BHL2948537.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Big-headed amazon river turtle"@en .
+
+boltz:Q458153 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora amboinensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20amboinensis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Amboina box turtle"@en .
+
+boltz:Q305908 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora aurocapitata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Auro.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow-headed box turtle"@en .
+
+boltz:Q304894 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora flavomarginata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20flavomarginata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chinese box turtle"@en .
+
+boltz:Q304965 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora galbinifrons"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Galbi.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indochinese box turtle"@en .
+
+boltz:Q301454 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora mccordi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20mccordi%20juvenile%201.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mccord's box turtle"@en .
+
+boltz:Q301446 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora pani"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20pani.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pan's box turtle"@en .
+
+boltz:Q745210 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora trifasciata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20trifasciata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Golden coin turtle"@en .
+
+boltz:Q301687 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora yunnanensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20yunnanensis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yunnan box turtle"@en .
+
+boltz:Q305805 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora zhoui"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20zhoui.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Zhou's box turtle"@en .
+
+boltz:Q1965745 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2111135 ; 
+	kgo:taxonName 	"Cyclemys dentata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cycle%20denta%20100207-0641%20ipb.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Asian leaf turtle"@en .
+
+boltz:Q1345661 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566120 ; 
+	kgo:taxonName 	"Geoclemys hamiltonii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geoclemys%20hamiltonii%20Biswanath%2001.jpg> ; 
+	skos:definition	"""Species of freshwater turtle"""@en ;
+	skos:prefLabel	"Black pond turtle"@en .
+
+boltz:Q1074139 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q785801 ; 
+	kgo:taxonName 	"Geoemyda spengleri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Stavenn%20Geoemyda%20spengleri.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Black-breasted leaf turtle"@en .
+
+boltz:Q596348 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566135 ; 
+	kgo:taxonName 	"Hardella thurjii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/%C5%BDelva%20v%20Pra%C5%BEsk%C3%A9%20zoo%208622.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Brahminy river turtle"@en .
+
+boltz:Q746008 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2648390 ; 
+	kgo:taxonName 	"Heosemys depressa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Heosemys-depressa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Arakan forest turtle"@en .
+
+boltz:Q2179263 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2648390 ; 
+	kgo:taxonName 	"Heosemys grandis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Giant%20Asian%20Pond%20Turtle%20heosemys%20grandis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Giant asian pond turtle"@en .
+
+boltz:Q2532001 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2648390 ; 
+	kgo:taxonName 	"Heosemys spinosa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Heosemys%20spinosa%202%20Hardwicke.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spiny turtle"@en .
+
+boltz:Q1829303 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2701715 ; 
+	kgo:taxonName 	"Malayemys subtrijuga"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Snail%20Eating%20Turtle%20%28Malayemys%20subtrijuga%29%20%287783149638%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mekong snail-eating turtle"@en .
+
+boltz:Q848321 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys caspica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Western%20Caspian%20turtle%20%28Mauremys%20rivulata%29%2C%20El-Al%20river.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Caspian turtle"@en .
+
+boltz:Q1361877 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys japonica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mauremys%20japonica%20fase.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Japanese pond turtle"@en .
+
+boltz:Q582797 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys leprosa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mauremys%20leprosa%2001.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spanish pond turtle"@en .
+
+boltz:Q1499307 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys mutica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mauremys%20mutica%20kami%20Stuffed%20specimen.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow pond turtle"@en .
+
+boltz:Q378682 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2713738 ; 
+	kgo:taxonName 	"Melanochelys tricarinata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geoemyda%20tricarinata%20-%201700-1880%20-%20Print%20-%20Iconographia%20Zoologica%20-%20Special%20Collections%20University%20of%20Amsterdam%20-%20UBA01%20IZ11600097.tif> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Melanochelys tricarinata"@en .
+
+boltz:Q2704304 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2713738 ; 
+	kgo:taxonName 	"Melanochelys trijuga"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Melanochelys%20trijuga.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Melanochelys trijuga"@en .
+
+boltz:Q2403644 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566123 ; 
+	kgo:taxonName 	"Notochelys platynota"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Notochelys%20platynota%20Hardwicke.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Malayan flat-shelled turtle"@en .
+
+boltz:Q2716594 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566122 ; 
+	kgo:taxonName 	"Orlitia borneensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Orlitia%20borneensis.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Malaysian giant turtle"@en .
+
+boltz:Q2697604 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2396266 ; 
+	kgo:taxonName 	"Sacalia bealei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Beal's eyed turtle"@en .
+
+boltz:Q2600292 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2396266 ; 
+	kgo:taxonName 	"Sacalia quadriocellata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sacalia%20quadriocellata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Four-eyed turtle"@en .
+
+boltz:Q2180636 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2252752 ; 
+	kgo:taxonName 	"Siebenrockiella crassicollis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sieben%20crass%20100118-0378%20stgd.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Black marsh turtle"@en .
+
+boltz:Q187036 a kgo:Taxon ; 
+	kgo:taxonName 	"Emys orbicularis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Emys%20orbicularis%202009%20G1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"European pond turtle"@en .
+
+boltz:Q1847668 a kgo:Taxon ; 
+	kgo:taxonName 	"Terrapene nelsoni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/In%20go%20the%20legs.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spotted box turtle"@en .
+
+boltz:Q1032577 a kgo:Taxon ; 
+	kgo:taxonName 	"Trachemys decorata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20decorata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Trachemys decorata"@en .
+
+boltz:Q2699248 a kgo:Taxon ; 
+	kgo:taxonName 	"Trachemys decussata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20decussata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Cuban slider"@en .
+
+boltz:Q2158286 a kgo:Taxon ; 
+	kgo:taxonName 	"Trachemys dorbigni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20dorbignyi%20dorbignyi.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"D'orbigny's slider"@en .
+
+boltz:Q1088098 a kgo:Taxon ; 
+	kgo:taxonName 	"Claudius angustatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Claudius%20angustatus.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Narrow-bridged musk turtle"@en .
+
+boltz:Q386571 a kgo:Taxon ; 
+	kgo:taxonName 	"Chersina angulata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Chersina"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chersina%20angulata%20tortoise.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Angulate tortoise"@en .
+
+boltz:Q846001 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q728220 ; 
+	kgo:taxonName 	"Indotestudo elongata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Indotestudo%20elongata%20Pengo.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Elongated tortoise"@en .
+
+boltz:Q1834012 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q728220 ; 
+	kgo:taxonName 	"Indotestudo forstenii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/PeltastesForsteniFord.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Forsten's tortoise"@en .
+
+boltz:Q900757 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2378269 ; 
+	kgo:taxonName 	"Manouria emys"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Manouria%20emys.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Asian forest tortoise"@en .
+
+boltz:Q1923834 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2378269 ; 
+	kgo:taxonName 	"Manouria impressa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Manouria%20impressa%20specimen.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Impressed tortoise"@en .
+
+boltz:Q2376451 a kgo:Taxon ; 
+	kgo:taxonName 	"Pyxis arachnoides"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pyxis%20Arachnoides%20Ste%20Marie%20Madagascar.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spider tortoise"@en .
+
+boltz:Q1426275 a kgo:Taxon ; 
+	kgo:taxonName 	"Pyxis planicauda"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Flat-tailed%20Tortoise%20Pyxis%20planicanda%202390px.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Flat-backed spider tortoise"@en .
+
+boltz:Q302076 a kgo:Taxon ; 
+	kgo:taxonName 	"Cyclanorbis elegans"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cyclanorbis%20elegans%20%2829569930902%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Nubian flapshell turtle"@en .
+
+boltz:Q304585 a kgo:Taxon ; 
+	kgo:taxonName 	"Cyclanorbis senegalensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/CyclanosteusSenegalensisFord.jpg> ; 
+	skos:definition	"""Species of softshell turtle in the trionychidae family"""@en ;
+	skos:prefLabel	"Senegal flapshell turtle"@en .
+
+boltz:Q2476966 a kgo:Taxon ; 
+	kgo:taxonName 	"Cycloderma aubryi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cycloderma%20aubryi%20%2829056524413%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Aubry's flapshell turtle"@en .
+
+boltz:Q302050 a kgo:Taxon ; 
+	kgo:taxonName 	"Cycloderma frenatum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/AspidochelysLivingstoniiFordPlastron.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Zambezi flapshell turtle"@en .
+
+boltz:Q1945329 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1954939 ; 
+	kgo:taxonName 	"Amyda cartilaginea"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Amyd%20cartil%20090818-11809%20tsa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Asiatic softshell turtle"@en .
+
+boltz:Q2078104 a kgo:Taxon ; 
+	kgo:taxonName 	"Chitra indica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Dudhwalive%20chitra.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian narrow-headed softshell turtle"@en .
+
+boltz:Q2078114 a kgo:Taxon ; 
+	kgo:taxonName 	"Dogania subplana"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Dogania"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Dogan%20subplan100117-0331%20ipb.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Malayan softshell turtle"@en .
+
+boltz:Q2138991 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932400 ; 
+	kgo:taxonName 	"Nilssonia formosa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Nilssonia%20formosa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Burmese peacock softshell"@en .
+
+boltz:Q14566119 a kgo:Taxon ; 
+	kgo:taxonName 	"Actinemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/2009-Western-pond-turtle.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Actinemys"@en .
+
+boltz:Q469543 a kgo:Taxon ; 
+	kgo:taxonName 	"Glyptemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Bog%20Turtle%2001.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Glyptemys"@en .
+
+boltz:Q11765817 a kgo:Taxon ; 
+	kgo:taxonName 	"Macrochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Alligator%20snapping%20turtle.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Macrochelys"@en .
+
+boltz:Q667848 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566119 ; 
+	kgo:taxonName 	"Actinemys marmorata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/2009-Western-pond-turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Western pond turtle"@en .
+
+boltz:Q844687 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q469543 ; 
+	kgo:taxonName 	"Glyptemys insculpta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/N140%20Sowerby%20%26%20Lear%201872%20%28glyptemys%20insculpta%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Wood turtle"@en .
+
+boltz:Q72105 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q469543 ; 
+	kgo:taxonName 	"Glyptemys muhlenbergii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Glyptemys%20muhlenbergiiHolbrookV1P04A.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Bog turtle"@en .
+
+boltz:Q457872 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q11765817 ; 
+	kgo:taxonName 	"Macrochelys temminckii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Alligator%20snapping%20turtle.jpg> ; 
+	skos:definition	"""Heaviest freshwater turtle in the world"""@en ;
+	skos:prefLabel	"Alligator snapping turtle"@en .
+
+boltz:Q2713760 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternon arizonense"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20arizonense.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Kinosternon arizonense"@en .
+
+boltz:Q2247900 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q573026 ; 
+	kgo:taxonName 	"Staurotypus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Staurotypus%20salvinii.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Staurotypus"@en .
+
+boltz:Q14566125 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q573026 ; 
+	kgo:taxonName 	"Claudius"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Claudius%20angustatus.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Claudius"@en .
+
+boltz: a kgo:Taxon ; 
+	kgo:taxonName 	"Terrapene bauri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	""""""@en ;
+	skos:prefLabel	""@en .
+
+boltz:Q650212 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelydridae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Snapping%20turtle%202%20md.jpg> ; 
+	skos:definition	"""Family of turtles"""@en ;
+	skos:prefLabel	"Chelydridae"@en .
+
+boltz:Q2503765 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q650212 ; 
+	kgo:taxonName 	"Chelydra"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelydra%20serpentina%20USGS.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Chelydra"@en .
+
+boltz:Q289435 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2503765 ; 
+	kgo:taxonName 	"Chelydra serpentina"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Snapping%20turtle%202%20md.jpg> ; 
+	skos:definition	"""Large freshwater turtle of the family chelydridae"""@en ;
+	skos:prefLabel	"Common snapping turtle"@en .
+
+boltz:Q387150 a kgo:Taxon ; 
+	kgo:taxonName 	"Kinosternidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20subrubrum.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Kinosternidae"@en .
+
+boltz:Q2137899 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2342737 ; 
+	kgo:taxonName 	"Sternotherus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sternotherus%20odoratus.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Sternotherus"@en .
+
+boltz:Q674891 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2137899 ; 
+	kgo:taxonName 	"Sternotherus odoratus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Stinkpot%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Sternotherus odoratus"@en .
+
+boltz:Q225397 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2137899 ; 
+	kgo:taxonName 	"Sternotherus carinatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sternotherus%20carinatus%20by%20LA%20Dawson.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Razor-backed musk turtle"@en .
+
+boltz:Q1938586 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2137899 ; 
+	kgo:taxonName 	"Sternotherus depressus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sternotherus%20depressus.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Flattened musk turtle"@en .
+
+boltz:Q371333 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2137899 ; 
+	kgo:taxonName 	"Sternotherus minor"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sternotherus%20minor%20peltifer%20Jungtier%20ca.%202%20Monate%20alt.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Loggerhead musk turtle"@en .
+
+boltz:Q2500468 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2342737 ; 
+	kgo:taxonName 	"Kinosternon"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20subrubrum.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Mud turtle"@en .
+
+boltz:Q591562 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2500468 ; 
+	kgo:taxonName 	"Kinosternon baurii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Striped%20Mud%20Turtle%2020090306%20rbrown.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Striped mud turtle"@en .
+
+boltz:Q1077041 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2500468 ; 
+	kgo:taxonName 	"Kinosternon flavescens"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20flavescens%201.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow mud turtle"@en .
+
+boltz:Q2491477 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2500468 ; 
+	kgo:taxonName 	"Kinosternon hirtipes"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Chapala%20Mud%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Rough-footed mud turtle"@en .
+
+boltz:Q304331 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2500468 ; 
+	kgo:taxonName 	"Kinosternon sonoriense"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20sonoriense1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Sonora mud turtle"@en .
+
+boltz:Q390835 a kgo:Taxon ; 
+	kgo:taxonName 	"Emydidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chrysemys%20picta%20dorsalis%20%28aka%29.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Emydidae"@en .
+
+boltz:Q5131548 a kgo:Taxon ; 
+	kgo:taxonName 	"Clemmys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/ClemmysUnicolorSmit.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Clemmys"@en .
+
+boltz:Q845189 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q5131548 ; 
+	kgo:taxonName 	"Clemmys guttata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Spotted%20Turtle%20-%20Clemmys%20guttata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spotted turtle"@en .
+
+boltz:Q734870 a kgo:Taxon ; 
+	kgo:taxonName 	"Terrapene"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Florida%20Box%20Turtle%20Digon3.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Box turtle"@en .
+
+boltz:Q1044378 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q734870 ; 
+	kgo:taxonName 	"Terrapene carolina"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Box-turtle-cove-mtn-trail-tn1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Common box turtle"@en .
+
+boltz:Q2302528 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q734870 ; 
+	kgo:taxonName 	"Terrapene ornata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Ornate%20and%20desert.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Terrapene ornata"@en .
+
+boltz:Q14566115 a kgo:Taxon ; 
+	kgo:taxonName 	"Malaclemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Diamondback%20turtle%20adult%20female.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Malaclemys"@en .
+
+boltz:Q569170 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566115 ; 
+	kgo:taxonName 	"Malaclemys terrapin"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Malaclemys%20terrapinHolbrookV1P12A.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Diamondback terrapin"@en .
+
+boltz:Q14566117 a kgo:Taxon ; 
+	kgo:taxonName 	"Chrysemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Painted%20turtle.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Chrysemys"@en .
+
+boltz:Q199203 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566117 ; 
+	kgo:taxonName 	"Chrysemys picta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chrysemys%20picta%20dorsalis%20%28aka%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Painted turtle"@en .
+
+boltz:Q14566118 a kgo:Taxon ; 
+	kgo:taxonName 	"Deirochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Deirochelys%20reticularia.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Deirochelys"@en .
+
+boltz:Q262146 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566118 ; 
+	kgo:taxonName 	"Deirochelys reticularia"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Deirochelys%20reticulariaHolbrookV1P07A.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chicken turtle"@en .
+
+boltz:Q14566116 a kgo:Taxon ; 
+	kgo:taxonName 	"Emydoidea"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Emydoidea%20blandingiiHolbrookV1P03A.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Emydoidea"@en .
+
+boltz:Q185526 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566116 ; 
+	kgo:taxonName 	"Emydoidea blandingii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Blandings-road-800x600.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Blanding's turtle"@en .
+
+boltz:Q1279036 a kgo:Taxon ; 
+	kgo:taxonName 	"Graptemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20pseudogeographica.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Graptemys"@en .
+
+boltz:Q305947 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys barbouri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Barbour%27s%20Map%20Turtle%20kame.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Barbour's map turtle"@en .
+
+boltz:Q305951 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys caglei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20caglei%20hatchling.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Cagle's map turtle"@en .
+
+boltz:Q301463 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys flavimaculata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys.flavimaculata.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow-blotched map turtle"@en .
+
+boltz:Q2093722 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys geographica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Map%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Northern map turtle"@en .
+
+boltz:Q558742 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys nigrinoda"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20nigrinoda%20hatchlings.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Black-knobbed map turtle"@en .
+
+boltz:Q305919 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys oculifera"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys.oculifera.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Ringed map turtle"@en .
+
+boltz:Q617739 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys ouachitensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20ouachitensis%20hatchling.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Ouachita map turtle"@en .
+
+boltz:Q1078899 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys pseudogeographica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Turtle%20vdg.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"False map turtle"@en .
+
+boltz:Q40678 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys pulchra"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20pulchra.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Alabama map turtle"@en .
+
+boltz:Q301714 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys versa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20versa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Texas map turtle"@en .
+
+boltz:Q1281025 a kgo:Taxon ; 
+	kgo:taxonName 	"Pseudemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Florida%20Redbelly%20Turtle%20KSC00pp0306.jpg> ; 
+	skos:definition	"""Genus of turtle"""@en ;
+	skos:prefLabel	"Pseudemys"@en .
+
+boltz:Q597376 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1281025 ; 
+	kgo:taxonName 	"Pseudemys alabamensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pseudemys%20alabamensis.png> ; 
+	skos:definition	"""Alabama red-bellied cooter"""@en ;
+	skos:prefLabel	"Pseudemys alabamensis"@en .
+
+boltz:Q1193060 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1281025 ; 
+	kgo:taxonName 	"Pseudemys concinna"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Floridacooter.jpg> ; 
+	skos:definition	"""Species of freshwater turtle"""@en ;
+	skos:prefLabel	"River cooter"@en .
+
+boltz:Q175696 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1281025 ; 
+	kgo:taxonName 	"Pseudemys nelsoni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Florida%20Redbelly%20Turtle.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Pseudemys nelsoni"@en .
+
+boltz:Q1619703 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1281025 ; 
+	kgo:taxonName 	"Pseudemys rubriventris"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pseudemys%20rubriventris%20basking%20northern%20red%20bellied%20crooters%20turtles.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pseudemys rubriventris"@en .
+
+boltz:Q385417 a kgo:Taxon ; 
+	kgo:taxonName 	"Trachemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Tortoise1%20cepolina.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Trachemys"@en .
+
+boltz:Q142985 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys scripta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Red-eared%20Slider%20Thailand.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Trachemys scripta"@en .
+
+boltz:Q30143 a kgo:Taxon ; 
+	kgo:taxonName 	"Cheloniidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Green-sea-turtle.jpg> ; 
+	skos:definition	"""Family of turtles"""@en ;
+	skos:prefLabel	"Cheloniidae"@en .
+
+boltz:Q2938164 a kgo:Taxon ; 
+	kgo:taxonName 	"Caretta"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Loggerhead%20turtle.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Caretta"@en .
+
+boltz:Q192095 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2938164 ; 
+	kgo:taxonName 	"Caretta caretta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Loggerhead%20sea%20turtle.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Loggerhead sea turtle"@en .
+
+boltz:Q14566112 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelonia"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Haeckel%20Chelonia.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Chelonia"@en .
+
+boltz:Q199458 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566112 ; 
+	kgo:taxonName 	"Chelonia mydas"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Green%20turtle%20swimming%20over%20coral%20reefs%20in%20Kona.jpg> ; 
+	skos:definition	"""Species of sea turtle"""@en ;
+	skos:prefLabel	"Chelonia mydas"@en .
+
+boltz:Q14566111 a kgo:Taxon ; 
+	kgo:taxonName 	"Eretmochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hawksbill%20Turtle.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Eretmochelys"@en .
+
+boltz:Q203538 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566111 ; 
+	kgo:taxonName 	"Eretmochelys imbricata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hawksbill%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Hawksbill sea turtle"@en .
+
+boltz:Q810578 a kgo:Taxon ; 
+	kgo:taxonName 	"Lepidochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sea%20turtle.jpg> ; 
+	skos:definition	"""Genus of turtles"""@en ;
+	skos:prefLabel	"Ridley sea turtles"@en .
+
+boltz:Q282385 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q810578 ; 
+	kgo:taxonName 	"Lepidochelys olivacea"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lepidochelys%20olivacea.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Lepidochelys olivacea"@en .
+
+boltz:Q2738058 a kgo:Taxon ; 
+	kgo:taxonName 	"Dermochelyidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/TortueLuth%20Leatherback.jpg> ; 
+	skos:definition	"""Family of turtles"""@en ;
+	skos:prefLabel	"Dermochelyidae"@en .
+
+boltz:Q11693960 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2738058 ; 
+	kgo:taxonName 	"Dermochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/LeatherbackTurtle.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Dermochelys"@en .
+
+boltz:Q120043 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q11693960 ; 
+	kgo:taxonName 	"Dermochelys coriacea"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/LeatherbackTurtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Leatherback sea turtle"@en .
+
+boltz:Q374835 a kgo:Taxon ; 
+	kgo:taxonName 	"Trionychidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelodiscus.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Trionychidae"@en .
+
+boltz:Q5079121 a kgo:Taxon ; 
+	kgo:taxonName 	"Trionyx"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trionyx%20triunguis%20Alexander%20Stream.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Trionyx"@en .
+
+boltz:Q46360 a kgo:Taxon ; 
+	kgo:taxonName 	"Testudinidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/A.%20gigantea%20Aldabra%20Giant%20Tortoise.jpg> ; 
+	skos:definition	"""Family of turtles"""@en ;
+	skos:prefLabel	"Testudinidae"@en .
+
+boltz:Q132328 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Geochelone"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20radiata.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Geochelone"@en .
+
+boltz:Q1012045 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Gopherus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Gopherus%20polyphemus%20Tomfriedel.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Gopherus"@en .
+
+boltz:Q914356 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1012045 ; 
+	kgo:taxonName 	"Gopherus agassizii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Desert%20tortoise%20%281%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Desert tortoise"@en .
+
+boltz:Q570290 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1012045 ; 
+	kgo:taxonName 	"Gopherus berlandieri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Gopherus%20berlandieri.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Texas tortoise"@en .
+
+boltz:Q914338 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1012045 ; 
+	kgo:taxonName 	"Gopherus polyphemus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Gopherus%20polyphemus1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Gopher tortoise"@en .
+
+boltz:Q747076 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1281025 ; 
+	kgo:taxonName 	"Pseudemys texana"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pseudemys%20texana.jpg> ; 
+	skos:definition	"""Texas river cooter"""@en ;
+	skos:prefLabel	"Pseudemys texana"@en .
+
+boltz:Q2243127 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys gaigeae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20gaigeae.jpeg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Big bend slider"@en .
+
+boltz:Q14566127 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q3400043 ; 
+	kgo:taxonName 	"Platysternon"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Zolw%20wielkoglowy.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Platysternon"@en .
+
+boltz:Q468535 a kgo:Taxon ; 
+	kgo:taxonName 	"Rhinoclemmys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/RPincisa-02c.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Rhinoclemmys"@en .
+
+boltz:Q2453385 a kgo:Taxon ; 
+	kgo:taxonName 	"Emys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Emys%20orbicularis.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Emys"@en .
+
+boltz:Q1930459 a kgo:Taxon ; 
+	kgo:taxonName 	"Apalone"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Apalone%20spinifera.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Apalone"@en .
+
+boltz:Q1429672 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1930459 ; 
+	kgo:taxonName 	"Apalone ferox"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Floridasoftshellturtle-cropped.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Florida softshell turtle"@en .
+
+boltz:Q2415095 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1930459 ; 
+	kgo:taxonName 	"Apalone mutica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Iowaherps-apalone%20mutica.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Smooth softshell turtle"@en .
+
+boltz:Q650232 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1930459 ; 
+	kgo:taxonName 	"Apalone spinifera"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Apalone%20spinifera.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Spiny softshell turtle"@en .
+
+boltz:Q14566142 a kgo:Taxon ; 
+	kgo:taxonName 	"Palea"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Palea%20steindachneri.jpeg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Palea"@en .
+
+boltz:Q2415046 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566142 ; 
+	kgo:taxonName 	"Palea steindachneri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Palea%20steindachneri.jpeg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Wattle-necked softshell turtle"@en .
+
+boltz:Q2395694 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelodiscus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/8%20pazdziernika%202005%20gliwice%20062.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Pelodiscus"@en .
+
+boltz:Q754028 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2395694 ; 
+	kgo:taxonName 	"Pelodiscus sinensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/8%20pazdziernika%202005%20gliwice%20062.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chinese softshell turtle"@en .
+
+boltz:Q738023 a kgo:Taxon ; 
+	kgo:taxonName 	"Chitra"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Dudhwalive%20chitra.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Chitra"@en .
+
+boltz:Q5288303 a kgo:Taxon ; 
+	kgo:taxonName 	"Dogania"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Dogania subplana"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Dogan%20subplan100117-0331%20ipb.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Dogania"@en .
+
+boltz:Q594040 a kgo:Taxon ; 
+	kgo:taxonName 	"Lissemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lissemys%20punctata5.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Lissemys"@en .
+
+boltz:Q2138486 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelochelys%20cantorii.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Pelochelys"@en .
+
+boltz:Q776906 a kgo:Taxon ; 
+	kgo:taxonName 	"Cyclanorbis"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/CyclanosteusSenegalensisFord.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Cyclanorbis"@en .
+
+boltz:Q2300380 a kgo:Taxon ; 
+	kgo:taxonName 	"Cycloderma"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cycloderma%20frenatum%20%2829054672994%29.jpg> ; 
+	skos:definition	"""Genus of fungi"""@en ;
+	skos:prefLabel	"Cycloderma"@en .
+
+boltz:Q8345240 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Chersina"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Chersina angulata"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chersina%20angulata%20tortoise.jpg> ; 
+	skos:definition	"""Genus of turtles"""@en ;
+	skos:prefLabel	"Chersina"@en .
+
+boltz:Q1054788 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Homopus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Homopus areolatus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Beaked%20cape%20tortoise.jpg> ; 
+	skos:definition	"""Genus of tortoises"""@en ;
+	skos:prefLabel	"Homopus"@en .
+
+boltz:Q531347 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Kinixys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinixys%20belliana%20nogueyi%201%20by%20diotime.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Kinixys"@en .
+
+boltz:Q11766713 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Malacochersus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Malacochersus%20tornieri%20-%20Buffalo%20Zoo.jpg> ; 
+	skos:definition	"""Genus of turtles"""@en ;
+	skos:prefLabel	"Malacochersus"@en .
+
+boltz:Q670769 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Pyxis"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pyxis%20Arachnoides%20Ste%20Marie%20Madagascar.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Pyxis"@en .
+
+boltz:Q662605 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Testudo"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Testudo%20x4.jpg> ; 
+	skos:definition	"""Genus of turtles"""@en ;
+	skos:prefLabel	"Testudo"@en .
+
+boltz:Q14566148 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelomedusa"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelomedusa%20subrufa%20-%20African%20Marsh%20Terrapin%20-%20Garden%20Pond%202.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Pelomedusa"@en .
+
+boltz:Q1121991 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelusios"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelusios%20castaneus.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Pelusios"@en .
+
+boltz:Q532358 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelodina"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Australsnturtle2.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Chelodina"@en .
+
+boltz:Q2708967 a kgo:Taxon ; 
+	kgo:taxonName 	"Elseya"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Elseya dentata"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Elseya%20dentata%203.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Elseya"@en .
+
+boltz:Q2710616 a kgo:Taxon ; 
+	kgo:taxonName 	"Emydura"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Emydura macquarii"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pair%20of%20Emydura%20macquarii%20-%20Warrawong.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Emydura"@en .
+
+boltz:Q14566146 a kgo:Taxon ; 
+	kgo:taxonName 	"Pseudemydura"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Western%20swamp%20tortoise.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Pseudemydura"@en .
+
+boltz:Q14566138 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/2009%20Chelus%20fimbriatus.JPG> ; 
+	skos:definition	"""Genus of south american turtles in the family chelidae"""@en ;
+	skos:prefLabel	"Chelus"@en .
+
+boltz:Q106449044 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566138 ; 
+	kgo:taxonName 	"Chelus fimbriata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	""""""@en ;
+	skos:prefLabel	"Chelus fimbriata"@en .
+
+boltz:Q783716 a kgo:Taxon ; 
+	kgo:taxonName 	"Hydromedusa"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hydromedusa%20tectifera.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Hydromedusa"@en .
+
+boltz:Q962191 a kgo:Taxon ; 
+	kgo:taxonName 	"Mesoclemmys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Mesoclemmys gibba"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/HydraspisGordoniFord.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Mesoclemmys"@en .
+
+boltz:Q14566147 a kgo:Taxon ; 
+	kgo:taxonName 	"Platemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Twist-necked%20Turtle.jpg> ; 
+	skos:definition	"""Genus of south american turtles in the family chelidae"""@en ;
+	skos:prefLabel	"Platemys"@en .
+
+boltz:Q9184539 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2205115 ; 
+	kgo:taxonName 	"Carettochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pig-Nosed%20Turtle%20Carettochelys%20insculpta%20Diving%202260px.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Carettochelys"@en .
+
+boltz:Q457742 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q9184539 ; 
+	kgo:taxonName 	"Carettochelys insculpta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/C%20insculpta.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Carettochelys insculpta"@en .
+
+boltz:Q1104186 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q734870 ; 
+	kgo:taxonName 	"Terrapene coahuila"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Amphibians-and-reptiles-of-the-state-of-Coahuila-Mexico-with-comparison-with-adjoining-states-zookeys-593-117-g002.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Coahuilan box turtle"@en .
+
+boltz:Q2710599 a kgo:Taxon ; 
+	kgo:taxonName 	"Batagur"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/BatagurPasirKumpal.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Batagur"@en .
+
+boltz:Q810705 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710599 ; 
+	kgo:taxonName 	"Batagur baska"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/River%20terrapin.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Northern river terrapin"@en .
+
+boltz:Q1994322 a kgo:Taxon ; 
+	kgo:taxonName 	"Morenia"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Morenia%20ocellata.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Morenia"@en .
+
+boltz:Q2322402 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1994322 ; 
+	kgo:taxonName 	"Morenia ocellata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Morenia%20ocellata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Burmese eyed turtle"@en .
+
+boltz:Q304573 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1012045 ; 
+	kgo:taxonName 	"Gopherus flavomarginatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Itzelbolson1small.jpg> ; 
+	skos:definition	"""Species of tortoise from north america."""@en ;
+	skos:prefLabel	"Bolson tortoise"@en .
+
+boltz:Q1754182 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Psammobates"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Psammobates%20geometricus.png> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Psammobates"@en .
+
+boltz:Q2392362 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1754182 ; 
+	kgo:taxonName 	"Psammobates geometricus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Psammobates%20geometricus.png> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Geometric tortoise"@en .
+
+boltz:Q743646 a kgo:Taxon ; 
+	kgo:taxonName 	"Pelomedusidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelomedusa%20subrufa%20Beloa%20070306.JPG> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Pelomedusidae"@en .
+
+boltz:Q969512 a kgo:Taxon ; 
+	kgo:taxonName 	"Podocnemis"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Podocnemis%20unifilis.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Podocnemis"@en .
+
+boltz:Q2625714 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q969512 ; 
+	kgo:taxonName 	"Podocnemis expansa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Podocnemis%20expansa%20INPA.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Arrau turtle"@en .
+
+boltz:Q863041 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q969512 ; 
+	kgo:taxonName 	"Podocnemis unifilis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Podocnemis%20unifilis%20%28Yellow%20spotted%20river%20turtle%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow-spotted river turtle"@en .
+
+boltz:Q583074 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelus%20fimbriatus%202005.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Chelidae"@en .
+
+boltz:Q2700403 a kgo:Taxon ; 
+	kgo:taxonName 	"Phrynops"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Phrynops%20hilarii%202.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Phrynops"@en .
+
+boltz:Q2492757 a kgo:Taxon ; 
+	kgo:taxonName 	"Dermatemydidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Dermatemydidae.JPG> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Dermatemydidae"@en .
+
+boltz:Q9206318 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2492757 ; 
+	kgo:taxonName 	"Dermatemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/EmysBerardii.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Dermatemys"@en .
+
+boltz:Q21179602 a kgo:Taxon ; 
+	kgo:taxonName 	"Chelonoidis donfaustoi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelonoidis%20donfaustoi%20%2815072109070%29.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Chelonoidis donfaustoi"@en .
+
+boltz:Q22813438 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1012045 ; 
+	kgo:taxonName 	"Gopherus evgoodei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Gopherus%20evgoodei%2C%20Sonora%2C%20Mexico.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Goode's thornscrub tortoise"@en .
+
+boltz:Q499621 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q223044 ; 
+	kgo:taxonName 	"Cryptodira"@en ; 
+	kgo:taxonRank	boltz:Q5867959 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Tortoise.aldabra.750pix.jpg> ; 
+	skos:definition	"""Suborder of reptiles"""@en ;
+	skos:prefLabel	"Cryptodira"@en .
+
+boltz:Q621851 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q223044 ; 
+	kgo:taxonName 	"Pleurodira"@en ; 
+	kgo:taxonRank	boltz:Q5867959 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Australsnturtle2.jpg> ; 
+	skos:definition	"""Suborder of reptiles"""@en ;
+	skos:prefLabel	"Pleurodira"@en .
+
+boltz:Q219329 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q499621 ; 
+	kgo:taxonName 	"Chelonioidea"@en ; 
+	kgo:taxonRank	boltz:Q2136103 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lepidochelys-olivacea-K%C3%A9lonia-1.JPG> ; 
+	skos:definition	"""Superfamily of reptiles"""@en ;
+	skos:prefLabel	"Sea turtle"@en .
+
+boltz:Q2444280 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q499621 ; 
+	kgo:taxonName 	"Kinosternoidea"@en ; 
+	kgo:taxonRank	boltz:Q2136103 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sternotherus%20odoratus.jpg> ; 
+	skos:definition	"""Superfamily of reptiles"""@en ;
+	skos:prefLabel	"Kinosternoidea"@en .
+
+boltz:Q1946537 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q499621 ; 
+	kgo:taxonName 	"Testudinoidea"@en ; 
+	kgo:taxonRank	boltz:Q2136103 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Halden%20011.jpg> ; 
+	skos:definition	"""Superfamily of reptiles"""@en ;
+	skos:prefLabel	"Testudinoidea"@en .
+
+boltz:Q1877590 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q499621 ; 
+	kgo:taxonName 	"Trionychoidea"@en ; 
+	kgo:taxonRank	boltz:Q2136103 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Apalone%20spinifera.jpg> ; 
+	skos:definition	"""Superfamily of reptiles"""@en ;
+	skos:prefLabel	"Trionychia"@en .
+
+boltz:Q446640 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1946537 ; 
+	kgo:taxonName 	"Geoemydidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Ocadia%20sinensis.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Geoemydidae"@en .
+
+boltz:Q133885 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q621851 ; 
+	kgo:taxonName 	"Podocnemididae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Podocnemis%20unifilis%201.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Podocnemididae"@en .
+
+boltz:Q4490203 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q30143 ; 
+	kgo:taxonName 	"Cheloniinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Baby%20Chelonia%20mydas%2020060319.jpg> ; 
+	skos:definition	"""Subfamily of marine tortoises"""@en ;
+	skos:prefLabel	"Cheloniinae"@en .
+
+boltz:Q3041260 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q390835 ; 
+	kgo:taxonName 	"Emydinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Emys%20orbicularis.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Emydinae"@en .
+
+boltz:Q5534011 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q446640 ; 
+	kgo:taxonName 	"Geoemydinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Orlitia%20borneensis.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Geoemydinae"@en .
+
+boltz:Q2264801 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q30143 ; 
+	kgo:taxonName 	"Carettinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Caretta%20caretta01.jpg> ; 
+	skos:definition	"""Subfamily of marine tortoises"""@en ;
+	skos:prefLabel	"Carettinae"@en .
+
+boltz:Q929362 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q390835 ; 
+	kgo:taxonName 	"Deirochelyinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chrysemys%20picta%20dorsalis%20%28aka%29.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Deirochelyinae"@en .
+
+boltz:Q47461034 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q446640 ; 
+	kgo:taxonName 	"Rhinoclemmydinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Rhinoclemmydinae"@en .
+
+boltz:Q649575 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q374835 ; 
+	kgo:taxonName 	"Cyclanorbinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lissemys%20punctata5.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Cyclanorbinae"@en .
+
+boltz:Q2036081 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q374835 ; 
+	kgo:taxonName 	"Trionychinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/8%20pazdziernika%202005%20gliwice%20062.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Trionychinae"@en .
+
+boltz:Q2962189 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q583074 ; 
+	kgo:taxonName 	"Chelinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelus%20fimbriatus%202005.jpg> ; 
+	skos:definition	"""Subfamily of south american turtles in the family chelidae"""@en ;
+	skos:prefLabel	"Chelinae"@en .
+
+boltz:Q19844830 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q583074 ; 
+	kgo:taxonName 	"Hydromedusinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hydromedusa%20tectifera.jpg> ; 
+	skos:definition	"""Subfamily of south american long neck turtles"""@en ;
+	skos:prefLabel	"Hydromedusinae"@en .
+
+boltz:Q2962214 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q583074 ; 
+	kgo:taxonName 	"Chelodininae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/E%20lavarackorum%202.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Chelodininae"@en .
+
+boltz:Q14566121 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q5534011 ; 
+	kgo:taxonName 	"Leucocephalon"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Leucocephalon"@en .
+
+boltz:Q2117373 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q5534011 ; 
+	kgo:taxonName 	"Pangshura"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kachuga%20tecta.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Pangshura"@en .
+
+boltz:Q14566124 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q5534011 ; 
+	kgo:taxonName 	"Vijayachelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Vijayachelys"@en .
+
+boltz:Q779267 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Astrochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Astrochelys%20radiata%20-Roger%20Williams%20Park%20Zoo%2C%20USA-8a.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Astrochelys"@en .
+
+boltz:Q2080003 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Chelonoidis"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20denticulata%20-%20couple%20Suriname.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Chelonoidis"@en .
+
+boltz:Q135344 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Cylindraspis"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/MauritianGiantTortoiseSkull-PeterMaas.png> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Cylindraspis"@en .
+
+boltz:Q14566130 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Stigmochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20pardalis%20bw%2001.jpg> ; 
+	skos:definition	"""Genus of turtles"""@en ;
+	skos:prefLabel	"Stigmochelys"@en .
+
+boltz:Q7584992 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2962189 ; 
+	kgo:taxonName 	"Rhinemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Rhinemys rufipes"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus"""@en ;
+	skos:prefLabel	"Rhinemys"@en .
+
+boltz:Q14566143 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2962214 ; 
+	kgo:taxonName 	"Elusor"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Elusor macrurus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mary-River-Schildkr%C3%B6te%20im%20Australia%20Zoo.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Elusor"@en .
+
+boltz:Q2437317 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2962214 ; 
+	kgo:taxonName 	"Myuchelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/E%20purvisi4.png> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Myuchelys"@en .
+
+boltz:Q20054251 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q46360 ; 
+	kgo:taxonName 	"Centrochelys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20sulcata%20-Oakland%20Zoo%20-feeding-8a.jpg> ; 
+	skos:definition	"""Genus of turtles"""@en ;
+	skos:prefLabel	"Centrochelys"@en .
+
+boltz:Q16965558 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2962214 ; 
+	kgo:taxonName 	"Flaviemys"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/E%20purvisi4.png> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Flaviemys"@en .
+
+boltz:Q532358 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
+	kgo:taxonName 	"Chelodina"@en ; 
+	kgo:taxonRank	boltz:Q3238261 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Australsnturtle2.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Chelodina"@en .
+
+boltz:Q14566771 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
+	kgo:taxonName 	"Macrochelodina"@en ; 
+	kgo:taxonRank	boltz:Q3238261 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cuora%20amboinensis-02.jpg> ; 
+	skos:definition	"""Subgenus of reptiles"""@en ;
+	skos:prefLabel	"Macrochelodina"@en .
+
+boltz:Q19844520 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
+	kgo:taxonName 	"Macrodiremys"@en ; 
+	kgo:taxonRank	boltz:Q3238261 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Subgenus of reptiles"""@en ;
+	skos:prefLabel	"Macrodiremys"@en .
+
+boltz:Q1887988 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2503765 ; 
+	kgo:taxonName 	"Chelydra acutirostris"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cali%20Tiergarten%2034.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"South american snapping turtle"@en .
+
+boltz:Q372997 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q11790069 ; 
+	kgo:taxonName 	"Natator depressus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Natator%20depressus00.jpg> ; 
+	skos:definition	"""Species of sea turtle"""@en ;
+	skos:prefLabel	"Natator depressus"@en .
+
+boltz:Q2636304 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2500468 ; 
+	kgo:taxonName 	"Kinosternon chimalhuaca"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Striped%20Mud%20Turtle%2020090306%20rbrown.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Jalisco mud turtle"@en .
+
+boltz:Q951846 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2500468 ; 
+	kgo:taxonName 	"Kinosternon durangoense"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20durangoense.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Durango mud turtle"@en .
+
+boltz:Q1232370 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2500468 ; 
+	kgo:taxonName 	"Kinosternon subrubrum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinosternon%20subrubrum.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Eastern mud turtle"@en .
+
+boltz:Q2454169 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2503765 ; 
+	kgo:taxonName 	"Chelydra rossignonii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelydra%20rossignonii.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Central american snapping turtle"@en .
+
+boltz:Q2439963 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys nebulosa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20nebulosa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Baja california slider"@en .
+
+boltz:Q2313758 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys ornata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20ornata%20Sowerby%20%26%20Lear%201872%20%28dorsal%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Ornate slider"@en .
+
+boltz:Q1822916 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys taylori"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Amphibians-and-reptiles-of-the-state-of-Coahuila-Mexico-with-comparison-with-adjoining-states-zookeys-593-117-g003.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Cuatro ciénegas slider"@en .
+
+boltz:Q2702302 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys terrapen"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Jamaican%20slider%20%28Trachemys%20terrapen%29.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Jamaican slider"@en .
+
+boltz:Q741944 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys yaquia"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Yaqui%20Slider%20imported%20from%20iNaturalist%20photo%20121650569%20on%2021%20April%202022.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yaqui slider"@en .
+
+boltz:Q2592204 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710599 ; 
+	kgo:taxonName 	"Batagur affinis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Batagur%20tuntong%200063u.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Southern river terrapin"@en .
+
+boltz:Q1827817 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710599 ; 
+	kgo:taxonName 	"Batagur borneoensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Callagur%20borneoensis.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Painted terrapin"@en .
+
+boltz:Q306321 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710599 ; 
+	kgo:taxonName 	"Batagur dhongoka"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Batagur%20dhongoka%20Hardwicke.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Three-striped roofed turtle"@en .
+
+boltz:Q306355 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710599 ; 
+	kgo:taxonName 	"Batagur kachuga"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/BatagurKachuga.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Red-crowned roofed turtle"@en .
+
+boltz:Q306287 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710599 ; 
+	kgo:taxonName 	"Batagur trivittata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Batagur%20trivittata.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Burmese roofed turtle"@en .
+
+boltz:Q2488846 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora bourreti"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Bourreti.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Bourret's box turtle"@en .
+
+boltz:Q2391815 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora mouhotii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mouhotii.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Keeled box turtle"@en .
+
+boltz:Q2157282 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1468192 ; 
+	kgo:taxonName 	"Cuora picturata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Indo-Chinese.box.turtle.arp.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Southern vietnamese box turtle"@en .
+
+boltz:Q2711951 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2111135 ; 
+	kgo:taxonName 	"Cyclemys atripons"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Western black-bridged leaf turtle"@en .
+
+boltz:Q2419618 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2111135 ; 
+	kgo:taxonName 	"Cyclemys enigmatica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cyclemys%20sp.001.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Enigmatic leaf turtle"@en .
+
+boltz:Q3008361 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2111135 ; 
+	kgo:taxonName 	"Cyclemys fusca"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Myanmar brown leaf turtle"@en .
+
+boltz:Q3008365 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2111135 ; 
+	kgo:taxonName 	"Cyclemys gemeli"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cyclemys%20gemeli.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Assam leaf turtle"@en .
+
+boltz:Q94812 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2111135 ; 
+	kgo:taxonName 	"Cyclemys oldhamii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cyclemys%20male%20and%20female%20shell.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Oldham's leaf turtle"@en .
+
+boltz:Q2161770 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2111135 ; 
+	kgo:taxonName 	"Cyclemys pulchristriata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Vietnamese%20Leaf%20Turtle%20imported%20from%20iNaturalist%20photo%20105003124%20on%209%20October%202021.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Eastern black-bridged leaf turtle"@en .
+
+boltz:Q305914 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q785801 ; 
+	kgo:taxonName 	"Geoemyda japonica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geoemyda%20japonica%20by%20OpenCage.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Ryukyu black-breasted leaf turtle"@en .
+
+boltz:Q302214 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2648390 ; 
+	kgo:taxonName 	"Heosemys annandalii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Yellow%20headed%20temple%20turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow-headed temple turtle"@en .
+
+boltz:Q2201939 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566121 ; 
+	kgo:taxonName 	"Leucocephalon yuwonoi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Sulawesi forest turtle"@en .
+
+boltz:Q2707346 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2701715 ; 
+	kgo:taxonName 	"Malayemys macrocephala"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Malayemys%20khoratensis%20%28orange%29%2C%20Malayemys%20macrocephala%20%28blue%29%2C%20Malayemys%20subtrijuga%20%28green%29.PNG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Malayan snail-eating turtle"@en .
+
+boltz:Q564443 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys annamensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mauremys%20annamensis.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Vietnamese pond turtle"@en .
+
+boltz:Q305926 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys nigricans"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kwangtung%20Turtle%20%28Mauremys%20nigricans%29.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Red-necked pond turtle"@en .
+
+boltz:Q495153 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys reevesii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chinemys%20reevesii%2002.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chinese pond turtle"@en .
+
+boltz:Q1504849 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys rivulata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Western%20Caspian%20turtle%20%28Mauremys%20rivulata%29%2C%20El-Al%20river.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Balkan pond turtle"@en .
+
+boltz:Q1124688 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q798253 ; 
+	kgo:taxonName 	"Mauremys sinensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Ocadia%20sinensis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chinese stripe-necked turtle"@en .
+
+boltz:Q2634989 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2117373 ; 
+	kgo:taxonName 	"Pangshura smithii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pangshura%20smithii%20IMG%203373%2001.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Brown roofed turtle"@en .
+
+boltz:Q2701972 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2117373 ; 
+	kgo:taxonName 	"Pangshura sylhetensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kachugasylhetensis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Assam roofed turtle"@en .
+
+boltz:Q1993237 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2117373 ; 
+	kgo:taxonName 	"Pangshura tecta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/KeyursTurtle1.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian roofed turtle"@en .
+
+boltz:Q2700440 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2117373 ; 
+	kgo:taxonName 	"Pangshura tentoria"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Indian%20tent%20turtle%20%28Pangshura%20tentoria%20tentoria%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian tent turtle"@en .
+
+boltz:Q1188924 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2453385 ; 
+	kgo:taxonName 	"Emys trinacris"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Emys%20trinacris.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Sicilian pond turtle"@en .
+
+boltz:Q2716647 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2252752 ; 
+	kgo:taxonName 	"Siebenrockiella leytensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Heosemys%20leytensis04.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Philippine forest turtle"@en .
+
+boltz:Q1499407 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566124 ; 
+	kgo:taxonName 	"Vijayachelys silvatica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cochin%20Forest%20Cane%20Turtle%20%28Vijayachelys%20silvatica%29%20by%20Sandeep%20Das.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Cane turtle"@en .
+
+boltz:Q630954 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q779267 ; 
+	kgo:taxonName 	"Astrochelys radiata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Astrochelis%20radiata1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Radiated tortoise"@en .
+
+boltz:Q769942 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q779267 ; 
+	kgo:taxonName 	"Astrochelys yniphora"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Astrochelys%20yniphora.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Angonoka tortoise"@en .
+
+boltz:Q277794 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis carbonaria"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20carbonaria%201.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Red-footed tortoise"@en .
+
+boltz:Q1074424 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis chilensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/TestudoChilensisFord.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Argentine tortoise"@en .
+
+boltz:Q18867 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis denticulata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20denticulata%20-%20couple%20Suriname.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Yellow-footed tortoise"@en .
+
+boltz:Q50380545 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis nigra"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Subspecies of chelonoidis nigra"""@en ;
+	skos:prefLabel	"Chelonoidis nigra hoodensis"@en .
+
+boltz:Q4045992 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis abingdonii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lonesome%20George%20-Pinta%20giant%20tortoise%20-Santa%20Cruz.jpg> ; 
+	skos:definition	"""Subspecies of reptile"""@en ;
+	skos:prefLabel	"Chelonoidis nigra abingdonii"@en .
+
+boltz:Q2962219 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis becki"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelonoidis%20nigra%20becki.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Volcán wolf giant tortoise"@en .
+
+boltz:Q2962224 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis chathamensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chathamensis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelonoidis chathamensis"@en .
+
+boltz:Q2854422 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis darwini"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Darwini.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Santiago island giant tortoise"@en .
+
+boltz:Q954787 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis duncanensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20nigra%20duncanensis%20%28Zoo%20Praha%202011-01-16%29%204088.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pinzón island giant tortoise"@en .
+
+boltz:Q2391334 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis hoodensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Galapagos%20dominance%20display.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Hood island giant tortoise"@en .
+
+boltz:Q2739149 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis phantastica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelonoidis%20nigra%20phantastica.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Fernandina island galápagos tortoise"@en .
+
+boltz:Q2462851 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis porteri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Harriet%20sticking%20out%20her%20tongue.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Western santa cruz tortoise"@en .
+
+boltz:Q2370926 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080003 ; 
+	kgo:taxonName 	"Chelonoidis vicina"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Clarence%20the%20tortoise--Geochelone%20nigra.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelonoidis vicina"@en .
+
+boltz:Q899795 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q135344 ; 
+	kgo:taxonName 	"Cylindraspis indica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cylindraspis%20indica%201792.png> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Réunion giant tortoise"@en .
+
+boltz:Q305519 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q135344 ; 
+	kgo:taxonName 	"Cylindraspis inepta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cylindraspis%20skulls.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Saddle-backed mauritius giant tortoise"@en .
+
+boltz:Q899794 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q135344 ; 
+	kgo:taxonName 	"Cylindraspis peltastes"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cylindraspis%20peltastes%201770.png> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Domed rodrigues giant tortoise"@en .
+
+boltz:Q2456340 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q135344 ; 
+	kgo:taxonName 	"Cylindraspis triserrata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cylindraspis%20skulls.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Domed mauritius giant tortoise"@en .
+
+boltz:Q899796 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q135344 ; 
+	kgo:taxonName 	"Cylindraspis vosmaeri"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cylindraspis%20vosmaeri%201792.png> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Saddle-backed rodrigues giant tortoise"@en .
+
+boltz:Q2113453 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1012045 ; 
+	kgo:taxonName 	"Gopherus morafkai"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Gopherus%20morafkai%20-%20Arizona%20State%20University%20-%20Tempe%2C%20AZ%20-%20DSC05907.JPG> ; 
+	skos:definition	"""Sonoran desert reptile"""@en ;
+	skos:prefLabel	"Sonoran desert tortoise"@en .
+
+boltz:Q305610 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1054788 ; 
+	kgo:taxonName 	"Homopus solus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sitzungsberichte%20%281910%29%20%2814595713120%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Berger's cape tortoise"@en .
+
+boltz:Q603152 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q728220 ; 
+	kgo:taxonName 	"Indotestudo travancorica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Travancore%20Tortoise%20%28Indotestudo%20travancorica%29%20by%20Sandeep%20Das.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Travancore tortoise"@en .
+
+boltz:Q1912456 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q531347 ; 
+	kgo:taxonName 	"Kinixys lobatsiana"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Lobatse hinge-back tortoise"@en .
+
+boltz:Q3197156 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q531347 ; 
+	kgo:taxonName 	"Kinixys nogueyi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinixys%20belliana%20nogueyi%201%20by%20diotime.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Kinixys nogueyi"@en .
+
+boltz:Q2192332 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q531347 ; 
+	kgo:taxonName 	"Kinixys spekii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Kinixys%20spekii.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Speke's hinge-back tortoise"@en .
+
+boltz:Q3197157 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q531347 ; 
+	kgo:taxonName 	"Kinixys zombensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Hinged-Back%20Tortoise%20%28Kinixys%20zombensis%29%20%2833422709938%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Kinixys zombensis"@en .
+
+boltz:Q2456956 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1754182 ; 
+	kgo:taxonName 	"Psammobates oculifer"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Psammobates%20oculifer%20-%20Serrated%20tortoise%20-%20Kalahari%20Tent%20Tortoise.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Serrated tortoise"@en .
+
+boltz:Q640955 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566130 ; 
+	kgo:taxonName 	"Stigmochelys pardalis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20pardalis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Leopard tortoise"@en .
+
+boltz:Q3242619 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q594040 ; 
+	kgo:taxonName 	"Lissemys ceylonensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Keep%20moving%20on.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Sri lankan flapshell turtle"@en .
+
+boltz:Q784190 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q594040 ; 
+	kgo:taxonName 	"Lissemys punctata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Lissemys%20punctata1.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian flapshell turtle"@en .
+
+boltz:Q2698818 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q738023 ; 
+	kgo:taxonName 	"Chitra chitra"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chitra%20selenkae.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Asian narrow-headed softshell turtle"@en .
+
+boltz:Q1951038 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q738023 ; 
+	kgo:taxonName 	"Chitra vandijki"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Burmese narrow-headed softshell turtle"@en .
+
+boltz:Q262416 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932400 ; 
+	kgo:taxonName 	"Nilssonia gangetica"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Nilssonia%20gangetica.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian softshell turtle"@en .
+
+boltz:Q1893257 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932400 ; 
+	kgo:taxonName 	"Nilssonia hurum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Nilssonia%20hurum%20Hardwicke.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indian peacock softshell turtle"@en .
+
+boltz:Q304147 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932400 ; 
+	kgo:taxonName 	"Nilssonia leithii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Leith%27s%20Softshell%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Leith's softshell turtle"@en .
+
+boltz:Q201055 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1932400 ; 
+	kgo:taxonName 	"Nilssonia nigricans"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Bostami%20Turtle.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Black softshell turtle"@en .
+
+boltz:Q2006609 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2138486 ; 
+	kgo:taxonName 	"Pelochelys cantorii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelochelys%20cantorii.jpg> ; 
+	skos:definition	"""Species of turtle"""@en ;
+	skos:prefLabel	"Asian giant softshell turtle"@en .
+
+boltz:Q3016390 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2138486 ; 
+	kgo:taxonName 	"Pelochelys signifera"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Northern new guinea giant softshell turtle"@en .
+
+boltz:Q951686 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2395694 ; 
+	kgo:taxonName 	"Pelodiscus axenaria"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Hunan softshell turtle"@en .
+
+boltz:Q3007906 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2395694 ; 
+	kgo:taxonName 	"Pelodiscus maackii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelodiscus%20maackii%2055532827%20%28cropped%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Northern chinese softshell turtle"@en .
+
+boltz:Q2997489 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2395694 ; 
+	kgo:taxonName 	"Pelodiscus parviformis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Lesser chinese softshell turtle"@en .
+
+boltz:Q901188 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys dahli"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Dahl's toad-headed turtle"@en .
+
+boltz:Q2716655 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys gibba"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Mesoclemmys"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/HydraspisGordoniFord.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mesoclemmys gibba"@en .
+
+boltz:Q2335930 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys heliostemma"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mesoclemmys heliostemma"@en .
+
+boltz:Q2265469 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys hogei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cagado.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Hoge's side-necked turtle"@en .
+
+boltz:Q2470649 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys nasuta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Batrachemys"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mesoclemmys nasuta"@en .
+
+boltz:Q2588189 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys perplexa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mesoclemmys perplexa"@en .
+
+boltz:Q2708950 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys raniceps"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mesoclemmys raniceps"@en .
+
+boltz:Q2701074 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys vanderhaegei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Bufocephala"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Vanderhaege's toad-headed turtle"@en .
+
+boltz:Q2699586 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys zuliae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Zulia toad-headed sideneck"@en .
+
+boltz:Q2254858 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2700403 ; 
+	kgo:taxonName 	"Phrynops tuberosus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Phrynops%20tuberosus%203zz.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Phrynops tuberosus"@en .
+
+boltz:Q2260750 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q7584992 ; 
+	kgo:taxonName 	"Rhinemys rufipes"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Rhinemys"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Species%20novae%20Testudinum%20quas%20in%20itinere%20annis%201817-1820%20%286279657765%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Red side-necked turtle"@en .
+
+boltz:Q1941409 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
+	kgo:taxonName 	"Chelodina canni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cannihead.png> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina canni"@en .
+
+boltz:Q2962208 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
+	kgo:taxonName 	"Chelodina gunaleni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina gunaleni"@en .
+
+boltz:Q304547 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
+	kgo:taxonName 	"Chelodina mccordi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelodina%20mccordi%20-%20Karlsruhe%20Zoo%2001.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Roti island snake-necked turtle"@en .
+
+boltz:Q2303946 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
+	kgo:taxonName 	"Chelodina pritchardi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pritchard's snake-necked turtle"@en .
+
+boltz:Q2710545 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566771 ; 
+	kgo:taxonName 	"Chelodina burrungandjii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelodina%20burrungandjii.png> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina burrungandjii"@en .
+
+boltz:Q2962213 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566771 ; 
+	kgo:taxonName 	"Chelodina walloyarrina"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina walloyarrina"@en .
+
+boltz:Q2270551 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2708967 ; 
+	kgo:taxonName 	"Elseya albagula"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/E%20albagula%204.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Elseya albagula"@en .
+
+boltz:Q2242765 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2708967 ; 
+	kgo:taxonName 	"Elseya branderhorsti"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Elseya%20branderhorsti.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Elseya branderhorsti"@en .
+
+boltz:Q1841008 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2708967 ; 
+	kgo:taxonName 	"Elseya irwini"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Irwin%27s%20turtle%20%282261030419%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Irwin's turtle"@en .
+
+boltz:Q2362085 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2708967 ; 
+	kgo:taxonName 	"Elseya lavarackorum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/E%20lavarackorum%202.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Gulf snapping turtle"@en .
+
+boltz:Q305970 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566143 ; 
+	kgo:taxonName 	"Elusor macrurus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Elusor"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mary-River-Schildkr%C3%B6te%20im%20Australia%20Zoo.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mary river turtle"@en .
+
+boltz:Q1063950 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710616 ; 
+	kgo:taxonName 	"Emydura macquarii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Emydura"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pair%20of%20Emydura%20macquarii%20-%20Warrawong.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Emydura macquarii"@en .
+
+boltz:Q2716629 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2710616 ; 
+	kgo:taxonName 	"Emydura tanybaraga"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Northern yellow-faced turtle"@en .
+
+boltz:Q572928 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2437317 ; 
+	kgo:taxonName 	"Myuchelys bellii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Myuchelys bellii"@en .
+
+boltz:Q2333446 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2437317 ; 
+	kgo:taxonName 	"Myuchelys georgesi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Bellinger%20River%20turtle%2001%20Taronga%202020-03-13.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Bellinger river snapping turtle"@en .
+
+boltz:Q2716602 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2437317 ; 
+	kgo:taxonName 	"Myuchelys latisternum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Australian%20Snapping%20Turtle%20%28Myuchelys%20latisternum%29%20%289756835361%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Myuchelys latisternum"@en .
+
+boltz:Q913795 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566148 ; 
+	kgo:taxonName 	"Pelomedusa subrufa"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelomedusa%20subrufa.JPG> ; 
+	skos:definition	"""An african marsh-living turtle"""@en ;
+	skos:prefLabel	"African helmeted turtle"@en .
+
+boltz:Q2710937 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1121991 ; 
+	kgo:taxonName 	"Pelusios cupulatta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Ivory coast mud turtle"@en .
+
+boltz:Q2710932 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1121991 ; 
+	kgo:taxonName 	"Pelusios marani"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pelusios marani"@en .
+
+boltz:Q1266050 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1121991 ; 
+	kgo:taxonName 	"Pelusios subniger"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Pelusios%20subniger.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"East african black mud turtle"@en .
+
+boltz:Q754976 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys adiutrix"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20adiutrix%20in%20Len%C3%A7%C3%B3is%20Maranhenses%20National%20Park%20-%20ZooKeys-246-051-g007-H.jpeg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Maranhão slider"@en .
+
+boltz:Q301314 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys callirostris"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20callirostris.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Colombian slider"@en .
+
+boltz:Q2712603 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys emolli"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Trachemys%20emolli.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Nicaraguan slider"@en .
+
+boltz:Q2251372 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q385417 ; 
+	kgo:taxonName 	"Trachemys venusta"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Meso-American%20Slider%20%284635968137%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Trachemys venusta"@en .
+
+boltz:Q305986 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q19844520 ; 
+	kgo:taxonName 	"Chelodina colliei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelodina%20oblonga%201.jpeg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Oblong turtle"@en .
+
+boltz:Q972638 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q962191 ; 
+	kgo:taxonName 	"Mesoclemmys tuberculata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mesoclemmys tuberculata"@en .
+
+boltz:Q4992760 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14566771 ; 
+	kgo:taxonName 	"Chelodina kuchlingi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Macrochelodina%20rugosa%20by%20OpenCage.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chelodina kuchlingi"@en .
+
+boltz:Q17272673 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2708967 ; 
+	kgo:taxonName 	"Elseya schultzei"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Elseya%20schultzei%20head.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Elseya schultzei"@en .
+
+boltz:Q16992876 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q11765817 ; 
+	kgo:taxonName 	"Macrochelys suwanniensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Suwannee snapping turtle"@en .
+
+boltz:Q16829155 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q11765817 ; 
+	kgo:taxonName 	"Macrochelys apalachicolae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Copenhagen%2C%20November%202016%20%2830779976716%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Apalachicola snapping turtle"@en .
+
+boltz:Q301016 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q20054251 ; 
+	kgo:taxonName 	"Centrochelys sulcata"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geochelone%20sulcata%20-Oakland%20Zoo%20-feeding-8a.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"African spurred tortoise"@en .
+
+boltz:Q27999855 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q16965558 ; 
+	kgo:taxonName 	"Flaviemys purvisi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Flaviemys purvisi"@en .
+
+boltz:Q144493 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1279036 ; 
+	kgo:taxonName 	"Graptemys pearlensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20Pearlensis.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Pearl river map turtle"@en .
+
 boltz:Q5113 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q19159 ; 
 	kgo:taxonName 	"Aves"@en ; 
@@ -1919,30 +5556,6 @@ boltz:Q1271333 a kgo:Taxon ;
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hylocharis%20xantusii.jpg> ; 
 	skos:definition	"""Species of bird"""@en ;
 	skos:prefLabel	"Xantus's hummingbird"@en .
-
-boltz:Q10811 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q19159 ; 
-	kgo:taxonName 	"Reptilia"@en ; 
-	kgo:taxonRank	boltz:Q37517 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Smaug%20giganteus%20head.jpg> ; 
-	skos:definition	"""Group (class or clade) of tetrapod animals"""@en ;
-	skos:prefLabel	"Reptilia"@en .
-
-boltz:Q122422 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q10811 ; 
-	kgo:taxonName 	"Squamata"@en ; 
-	kgo:taxonRank	boltz:Q36602 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Anole%20and%20snake.jpg> ; 
-	skos:definition	"""Order of reptiles"""@en ;
-	skos:prefLabel	"Squamata"@en .
-
-boltz:Q16835867 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q122422 ; 
-	kgo:taxonName 	"Autarchoglossa"@en ; 
-	kgo:taxonRank	boltz:Q5867959 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Eumecesfasciatus.jpg> ; 
-	skos:definition	"""Clade of lizards"""@en ;
-	skos:prefLabel	"Autarchoglossa"@en .
 
 boltz:Q827111 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q16835867 ; 
@@ -2210,61 +5823,23 @@ boltz:Q28358 a kgo:Taxon ;
 	skos:definition	"""Species of bird"""@en ;
 	skos:prefLabel	"Common quail"@en .
 
-boltz:Q223044 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q10811 ; 
-	kgo:taxonName 	"Testudines"@en ; 
-	kgo:taxonRank	boltz:Q36602 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Hawaii%20turtle%202.JPG> ; 
-	skos:definition	"""Order of reptiles"""@en ;
-	skos:prefLabel	"Turtle"@en .
-
-boltz:Q499621 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q223044 ; 
-	kgo:taxonName 	"Cryptodira"@en ; 
-	kgo:taxonRank	boltz:Q5867959 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Tortoise.aldabra.750pix.jpg> ; 
-	skos:definition	"""Suborder of reptiles"""@en ;
-	skos:prefLabel	"Cryptodira"@en .
-
-boltz:Q1946537 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q499621 ; 
-	kgo:taxonName 	"Testudinoidea"@en ; 
-	kgo:taxonRank	boltz:Q2136103 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Halden%20011.jpg> ; 
-	skos:definition	"""Superfamily of reptiles"""@en ;
-	skos:prefLabel	"Testudinoidea"@en .
-
-boltz:Q390835 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q1946537 ; 
-	kgo:taxonName 	"Emydidae"@en ; 
-	kgo:taxonRank	boltz:Q35409 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chrysemys%20picta%20dorsalis%20%28aka%29.jpg> ; 
-	skos:definition	"""Family of reptiles"""@en ;
-	skos:prefLabel	"Emydidae"@en .
-
-boltz:Q929362 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q390835 ; 
-	kgo:taxonName 	"Deirochelyinae"@en ; 
-	kgo:taxonRank	boltz:Q164280 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chrysemys%20picta%20dorsalis%20%28aka%29.jpg> ; 
-	skos:definition	"""Subfamily of reptiles"""@en ;
-	skos:prefLabel	"Deirochelyinae"@en .
-
-boltz:Q1279036 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q929362 ; 
-	kgo:taxonName 	"Graptemys"@en ; 
+boltz:Q11848651 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q827111 ; 
+	kgo:taxonName 	"Aurivela"@en ; 
 	kgo:taxonRank	boltz:Q34740 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Graptemys%20pseudogeographica.jpg> ; 
+	kgo:typeSpecies	"Aurivela longicauda"@en ;
+	kgo:taxonImage	<> ; 
 	skos:definition	"""Genus of reptiles"""@en ;
-	skos:prefLabel	"Graptemys"@en .
+	skos:prefLabel	"Aurivela"@en .
 
-boltz:Q2093722 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q1279036 ; 
-	kgo:taxonName 	"Graptemys geographica"@en ; 
+boltz:Q2980962 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q11848651 ; 
+	kgo:taxonName 	"Aurivela longicauda"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Northern%20Map%20Turtle.jpg> ; 
+	kgo:typeSpeciesOf	"Aurivela"@en ;
+	kgo:taxonImage	<> ; 
 	skos:definition	"""Species of reptile"""@en ;
-	skos:prefLabel	"Northern map turtle"@en .
+	skos:prefLabel	"Aurivela longicauda"@en .
 
 boltz:Q1096960 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q130942 ; 
@@ -2555,6 +6130,32 @@ boltz:Q2358459 a kgo:Taxon ;
 	skos:definition	"""Species of reptile"""@en ;
 	skos:prefLabel	"Big-scaled least gecko"@en .
 
+boltz:Q15110830 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q272206 ; 
+	kgo:taxonName 	"Eugongylinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cryptoblepharus%20boutonii%20furcata.jpg> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Eugongylinae"@en .
+
+boltz:Q767155 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15110830 ; 
+	kgo:taxonName 	"Oligosoma"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Oligosoma zelandicum"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Otago%20skink.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Oligosoma"@en .
+
+boltz:Q3350571 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q767155 ; 
+	kgo:taxonName 	"Oligosoma aeneum"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Cyclodina"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Oligosoma%20aeneum%2023784220.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Copper skink"@en .
+
 boltz:Q25324 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q27414 ; 
 	kgo:taxonName 	"Canidae"@en ; 
@@ -2714,30 +6315,6 @@ boltz:Q27442295 a kgo:Taxon ;
 	kgo:taxonImage	<> ; 
 	skos:definition	"""Species of mammal"""@en ;
 	skos:prefLabel	"Gracilinanus formosus"@en .
-
-boltz:Q46360 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q1946537 ; 
-	kgo:taxonName 	"Testudinidae"@en ; 
-	kgo:taxonRank	boltz:Q35409 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/A.%20gigantea%20Aldabra%20Giant%20Tortoise.jpg> ; 
-	skos:definition	"""Family of turtles"""@en ;
-	skos:prefLabel	"Testudinidae"@en .
-
-boltz:Q1754182 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q46360 ; 
-	kgo:taxonName 	"Psammobates"@en ; 
-	kgo:taxonRank	boltz:Q34740 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Psammobates%20geometricus.png> ; 
-	skos:definition	"""Genus of reptiles"""@en ;
-	skos:prefLabel	"Psammobates"@en .
-
-boltz:Q2104559 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q1754182 ; 
-	kgo:taxonName 	"Psammobates tentorius"@en ; 
-	kgo:taxonRank	boltz:Q7432 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/TestudoTrimeniSmit.jpg> ; 
-	skos:definition	"""Species of reptile"""@en ;
-	skos:prefLabel	"Tent tortoise"@en .
 
 boltz:Q6078080 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q144144 ; 
@@ -3261,30 +6838,6 @@ boltz:Q305649 a kgo:Taxon ;
 	skos:definition	"""Species of mammal"""@en ;
 	skos:prefLabel	"Pacific sheath-tailed bat"@en .
 
-boltz:Q650212 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q499621 ; 
-	kgo:taxonName 	"Chelydridae"@en ; 
-	kgo:taxonRank	boltz:Q35409 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Snapping%20turtle%202%20md.jpg> ; 
-	skos:definition	"""Family of turtles"""@en ;
-	skos:prefLabel	"Chelydridae"@en .
-
-boltz:Q2503765 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q650212 ; 
-	kgo:taxonName 	"Chelydra"@en ; 
-	kgo:taxonRank	boltz:Q34740 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Chelydra%20serpentina%20USGS.jpg> ; 
-	skos:definition	"""Genus of reptiles"""@en ;
-	skos:prefLabel	"Chelydra"@en .
-
-boltz:Q289435 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q2503765 ; 
-	kgo:taxonName 	"Chelydra serpentina"@en ; 
-	kgo:taxonRank	boltz:Q7432 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Snapping%20turtle%202%20md.jpg> ; 
-	skos:definition	"""Large freshwater turtle of the family chelydridae"""@en ;
-	skos:prefLabel	"Common snapping turtle"@en .
-
 boltz:Q33609 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q243359 ; 
 	kgo:taxonName 	"Ursus maritimus"@en ; 
@@ -3292,6 +6845,40 @@ boltz:Q33609 a kgo:Taxon ;
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Polar%20Bear%20-%20Alaska%20%28cropped%29.jpg> ; 
 	skos:definition	"""Species of bear native largely within the arctic circle"""@en ;
 	skos:prefLabel	"Polar bear"@en .
+
+boltz:Q852822 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q661136 ; 
+	kgo:taxonName 	"Phrynosomatidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Phrynosoma%20platyrhinos01.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Phrynosomatidae"@en .
+
+boltz:Q33143569 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q852822 ; 
+	kgo:taxonName 	"Phrynosomatinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Phrynosomatinae"@en .
+
+boltz:Q14422469 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q33143569 ; 
+	kgo:taxonName 	"Cophosaurus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Cophosaurus texanus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Reptile%20tx%20usa.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Cophosaurus"@en .
+
+boltz:Q2355833 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q14422469 ; 
+	kgo:taxonName 	"Cophosaurus texanus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Cophosaurus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Reptile%20tx%20usa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Greater earless lizard"@en .
 
 boltz:Q20740 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q5113 ; 
@@ -3324,6 +6911,56 @@ boltz:Q25247 a kgo:Taxon ;
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Common%20Hoopoe%20Photograph%20By%20Shantanu%20Kuveskar.jpg> ; 
 	skos:definition	"""Species of bird"""@en ;
 	skos:prefLabel	"Eurasian hoopoe"@en .
+
+boltz:Q870062 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15110830 ; 
+	kgo:taxonName 	"Cryptoblepharus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Cryptoblepharus poecilopleurus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cryptoblepharus%20poecilopleurus.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Cryptoblepharus"@en .
+
+boltz:Q3005843 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q870062 ; 
+	kgo:taxonName 	"Cryptoblepharus poecilopleurus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Cryptoblepharus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Cryptoblepharus%20poecilopleurus.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Cryptoblepharus poecilopleurus"@en .
+
+boltz:Q15099738 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q10811 ; 
+	kgo:taxonName 	"Rhynchocephalia"@en ; 
+	kgo:taxonRank	boltz:Q36602 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Henry%20at%20Invercargill.jpg> ; 
+	skos:definition	"""Order of reptiles"""@en ;
+	skos:prefLabel	"Rhynchocephalia"@en .
+
+boltz:Q3493224 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15099738 ; 
+	kgo:taxonName 	"Sphenodontidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Tuatara.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Sphenodontidae"@en .
+
+boltz:Q163283 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q3493224 ; 
+	kgo:taxonName 	"Sphenodon"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Sphenodon%20punctatus%20in%20Waikanae%2C%20New%20Zealand.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Tuatara"@en .
+
+boltz:Q3007063 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q163283 ; 
+	kgo:taxonName 	"Sphenodon punctatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/TWC%20Wildlife%20Centre%E2%80%A2%20Stewart%20Nimmo%20%E2%80%A2%20MRD%208910.jpg> ; 
+	skos:definition	"""Species of tuatara"""@en ;
+	skos:prefLabel	"Sphenodon punctatus"@en .
 
 boltz:Q16657808 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q5171 ; 
@@ -3380,6 +7017,309 @@ boltz:Q3171868 a kgo:Taxon ;
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Atlantic%20Yellow%20Cowry%20%2811670273785%29.jpg> ; 
 	skos:definition	"""Species of mollusc"""@en ;
 	skos:prefLabel	"Erosaria acicularis"@en .
+
+boltz:Q25363 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q10811 ; 
+	kgo:taxonName 	"Crocodilia"@en ; 
+	kgo:taxonRank	boltz:Q36602 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus%20acutus%20jalisco%20mexico.jpg> ; 
+	skos:definition	"""Order of large reptiles"""@en ;
+	skos:prefLabel	"Crocodilia"@en .
+
+boltz:Q6008290 a kgo:Taxon ; 
+	kgo:taxonName 	"Mecistops"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mecistops%20leptorhynchus%202009.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Mecistops"@en .
+
+boltz:Q268501 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q6008290 ; 
+	kgo:taxonName 	"Mecistops cataphractus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus%20cataphractus%20faux-gavial%20d%27Afrique.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Mecistops cataphractus"@en .
+
+boltz:Q81207 a kgo:Taxon ; 
+	kgo:taxonName 	"Crocodylus palustris"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Marsh%20crocodile%20-%20Basking%20in%20the%20sun.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Indus crocodile"@en .
+
+boltz:Q242102 a kgo:Taxon ; 
+	kgo:taxonName 	"Crocodylus rhombifer"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Estocolm%202008%20163.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Cuban crocodile"@en .
+
+boltz:Q168745 a kgo:Taxon ; 
+	kgo:taxonName 	"Crocodylus niloticus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus%20niloticus6.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Nile crocodile"@en .
+
+boltz:Q272395 a kgo:Taxon ; 
+	kgo:taxonName 	"Crocodylus intermedius"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Croc%20inter.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Orinoco crocodile"@en .
+
+boltz:Q208277 a kgo:Taxon ; 
+	kgo:taxonName 	"Crocodylus siamensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Siamcroc.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Siamese crocodile"@en .
+
+boltz:Q2233478 a kgo:Taxon ; 
+	kgo:taxonName 	"Osteolaemus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Bristol.zoo.westafrican.dwarf.croc.arp.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Osteolaemus"@en .
+
+boltz:Q244349 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2233478 ; 
+	kgo:taxonName 	"Osteolaemus tetraspis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodile%20nain%20aquarium%20porte%20dor%C3%A9e%20Paris.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Dwarf crocodile"@en .
+
+boltz:Q2077433 a kgo:Taxon ; 
+	kgo:taxonName 	"Tomistoma"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Tomistoma%20schlegelii%20fg02.JPG> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Tomistoma"@en .
+
+boltz:Q242464 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2077433 ; 
+	kgo:taxonName 	"Tomistoma schlegelii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Tomistoma%20schlegelii.jpg> ; 
+	skos:definition	"""Freshwater crocodile of the crocodylidae family with a very thin and elongated snout"""@en ;
+	skos:prefLabel	"False gharial"@en .
+
+boltz:Q194422 a kgo:Taxon ; 
+	kgo:taxonName 	"Alligator sinensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/2011%20China-Alligator%200491.JPG> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Chinese alligator"@en .
+
+boltz:Q644453 a kgo:Taxon ; 
+	kgo:taxonName 	"Caiman latirostris"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Broad-Snouted%20Caiman%20MAV%2001.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Broad-snouted caiman"@en .
+
+boltz:Q2080580 a kgo:Taxon ; 
+	kgo:taxonName 	"Melanosuchus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Blackcaiman.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Melanosuchus"@en .
+
+boltz:Q504483 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2080580 ; 
+	kgo:taxonName 	"Melanosuchus niger"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Jacar%C3%A9%20A%C3%A7%C3%BA.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Black caiman"@en .
+
+boltz:Q878388 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q25363 ; 
+	kgo:taxonName 	"Gavialidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Gharial%20Crocodile%20Digon3.JPG> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Gavialidae"@en .
+
+boltz:Q3506745 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q878388 ; 
+	kgo:taxonName 	"Gavialis"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Gavialis%20gangeticus%20%28Gharial%2C%20Gavial%29.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Gavialis"@en .
+
+boltz:Q17134 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q3506745 ; 
+	kgo:taxonName 	"Gavialis gangeticus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Gharial%20%28Gavialis%20gangeticus%29%20female%20head.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Gavialis gangeticus"@en .
+
+boltz:Q193327 a kgo:Taxon ; 
+	kgo:taxonName 	"Alligator mississippiensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/American%20Alligator.jpg> ; 
+	skos:definition	"""Large crocodilian reptile"""@en ;
+	skos:prefLabel	"American alligator"@en .
+
+boltz:Q756678 a kgo:Taxon ; 
+	kgo:taxonName 	"Caiman yacare"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Brillenkaiman%20Caiman%20yacare.jpg> ; 
+	skos:definition	"""South american aquatic reptile"""@en ;
+	skos:prefLabel	"Caiman yacare"@en .
+
+boltz:Q272402 a kgo:Taxon ; 
+	kgo:taxonName 	"Crocodylus mindorensis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus%20mindorensis%20by%20Gregg%20Yan%2001.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Philippine crocodile"@en .
+
+boltz:Q319535 a kgo:Taxon ; 
+	kgo:taxonName 	"Crocodylus johnsoni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Australia%20Cairns%2018.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Freshwater crocodile"@en .
+
+boltz:Q757363 a kgo:Taxon ; 
+	kgo:taxonName 	"Paleosuchus palpebrosus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Brauen%20Glattstirnkaiman%20Paleosuchus%20palpebrosus.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Cuvier's dwarf caiman"@en .
+
+boltz:Q473521 a kgo:Taxon ; 
+	kgo:taxonName 	"Paleosuchus trigonatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Paleosuchus-trigonatus.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Smooth-fronted caiman"@en .
+
+boltz:Q43169 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q25363 ; 
+	kgo:taxonName 	"Crocodylidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodile%20Crocodylus-porosus%20amk.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Crocodylidae"@en .
+
+boltz:Q309495 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q43169 ; 
+	kgo:taxonName 	"Crocodylus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/PK%20Kirthar%20NP%20asv2020-02%20img25.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Crocodylus"@en .
+
+boltz:Q207836 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q309495 ; 
+	kgo:taxonName 	"Crocodylus acutus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus%20acutus%20mexico%2001.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"American crocodile"@en .
+
+boltz:Q723708 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q309495 ; 
+	kgo:taxonName 	"Crocodylus moreletii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Morelet%27s%20Crocodile%20%28Crocodylus%20moreletii%29%20big%20male%20attracting%20Julia%20Butterflies%20%28Dryas%20iulia%29%20-%20Rio%20Usumacintla%20Chiapas%202020.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Morelet's crocodile"@en .
+
+boltz:Q504839 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q309495 ; 
+	kgo:taxonName 	"Crocodylus novaeguineae"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Neuguinea-krokodil-0272.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Crocodylus novaeguinae"@en .
+
+boltz:Q182599 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q309495 ; 
+	kgo:taxonName 	"Crocodylus porosus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/SaltwaterCrocodile%28%27Maximo%27%29.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Crocodylus porosus"@en .
+
+boltz:Q6184764 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q25363 ; 
+	kgo:taxonName 	"Alligatoridae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Florida%20Alligator.jpg> ; 
+	skos:definition	"""Family of large reptiles"""@en ;
+	skos:prefLabel	"Alligatoridae"@en .
+
+boltz:Q530397 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q6184764 ; 
+	kgo:taxonName 	"Alligator"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Two%20american%20alligators.jpg> ; 
+	skos:definition	"""Genus of large reptiles"""@en ;
+	skos:prefLabel	"Alligator"@en .
+
+boltz:Q11001288 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q6184764 ; 
+	kgo:taxonName 	"Caiman"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Caiman%20crocodilus%20kaw.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Caiman"@en .
+
+boltz:Q272582 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q11001288 ; 
+	kgo:taxonName 	"Caiman crocodilus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Caiman%20crocodilus%20Nausicaa.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Caiman crocodilus"@en .
+
+boltz:Q1529935 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q6184764 ; 
+	kgo:taxonName 	"Paleosuchus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Paleasuchus%20palpebrasus%201.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Paleosuchus"@en .
+
+boltz:Q57783121 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q6008290 ; 
+	kgo:taxonName 	"Mecistops leptorhynchus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Mecistops%20leptorhynchus%202009.jpg> ; 
+	skos:definition	"""Species of crocodile"""@en ;
+	skos:prefLabel	"Mecistops leptorhynchus"@en .
+
+boltz:Q68594258 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q309495 ; 
+	kgo:taxonName 	"Crocodylus halli"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of crocodile"""@en ;
+	skos:prefLabel	"Crocodylus halli"@en .
+
+boltz:Q551529 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q309495 ; 
+	kgo:taxonName 	"Crocodylus suchus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus%20suchus.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Crocodylus suchus"@en .
+
+boltz:Q110053325 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2233478 ; 
+	kgo:taxonName 	"Osteolaemus osborni"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Crocodile taxon"""@en ;
+	skos:prefLabel	"Osteolaemus osborni"@en .
 
 boltz:Q53636 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q10908 ; 
@@ -3996,6 +7936,66 @@ boltz:Q3539417 a kgo:Taxon ;
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Usambara-Dreihorncham%C3%A4leon%20Chamaeleo%20deremensis.jpg> ; 
 	skos:definition	"""Species of reptile"""@en ;
 	skos:prefLabel	"Trioceros deremensis"@en .
+
+boltz:Q15872 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1008888 ; 
+	kgo:taxonName 	"Gekkonidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Geco%20Tarentola%20mauritanica.JPG> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Gekkonidae"@en .
+
+boltz:Q13425941 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15872 ; 
+	kgo:taxonName 	"Cryptactites"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Cryptactites peringueyi"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Cryptactites"@en .
+
+boltz:Q2460758 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q13425941 ; 
+	kgo:taxonName 	"Cryptactites peringueyi"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Cryptactites"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Peringuey's leaf-toed gecko"@en .
+
+boltz:Q131956 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q661136 ; 
+	kgo:taxonName 	"Corytophanidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Brown-basilisk-detail.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Corytophanidae"@en .
+
+boltz:Q33148661 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q131956 ; 
+	kgo:taxonName 	"Corytophaninae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Subfamily of reptiles"""@en ;
+	skos:prefLabel	"Corytophaninae"@en .
+
+boltz:Q2527850 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q33148661 ; 
+	kgo:taxonName 	"Corytophanes"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Corytophanes cristatus"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Corytophanes%20cristatus.jpg> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Corytophanes"@en .
+
+boltz:Q555740 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2527850 ; 
+	kgo:taxonName 	"Corytophanes cristatus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Corytophanes"@en ;
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Corytophanes%20cristatus.jpg> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Helmeted iguana"@en .
 
 boltz:Q128257 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q25326 ; 
@@ -9203,6 +13203,50 @@ boltz:Q4297977 a kgo:Taxon ;
 	skos:definition	"""Species of arachnid"""@en ;
 	skos:prefLabel	"Dermacentor variabilis"@en .
 
+boltz:Q2687265 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15127891 ; 
+	kgo:taxonName 	"Coggeria"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Coggeria naufragus"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Coggeria"@en .
+
+boltz:Q1874254 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2687265 ; 
+	kgo:taxonName 	"Coggeria naufragus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Coggeria"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Fraser island sand skink"@en .
+
+boltz:Q4388882 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q272206 ; 
+	kgo:taxonName 	"Scincinae"@en ; 
+	kgo:taxonRank	boltz:Q164280 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Scincus%20scincus%2C%20male%2001.jpg> ; 
+	skos:definition	"""Subfamily of skinks"""@en ;
+	skos:prefLabel	"Scincinae"@en .
+
+boltz:Q2333513 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q4388882 ; 
+	kgo:taxonName 	"Paracontias"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Paracontias brocchii"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Paracontias"@en .
+
+boltz:Q3363204 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q2333513 ; 
+	kgo:taxonName 	"Paracontias minimus"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Cryptoscincus"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Paracontias minimus"@en .
+
 boltz:Q27022 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q27022 ; 
 	kgo:taxonName 	"Equus"@en ; 
@@ -9346,6 +13390,32 @@ boltz:Q8162866 a kgo:Taxon ;
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Monaco.Mus%C3%A9e%20oc%C3%A9anographique089.jpg> ; 
 	skos:definition	"""Species of crustacean"""@en ;
 	skos:prefLabel	"Palinurus elephas"@en .
+
+boltz:Q244414 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q16835867 ; 
+	kgo:taxonName 	"Gymnophthalmidae"@en ; 
+	kgo:taxonRank	boltz:Q35409 ; 
+	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Leposoma%20rugiceps.jpg> ; 
+	skos:definition	"""Family of reptiles"""@en ;
+	skos:prefLabel	"Gymnophthalmidae"@en .
+
+boltz:Q601845 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q244414 ; 
+	kgo:taxonName 	"Acratosaura"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Acratosaura mentalis"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Acratosaura"@en .
+
+boltz:Q2823468 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q601845 ; 
+	kgo:taxonName 	"Acratosaura mentalis"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Acratosaura"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Acratosaura mentalis"@en .
 
 boltz:Q7512165 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q5113 ; 
@@ -9491,37 +13561,41 @@ boltz:Q1126155 a kgo:Taxon ;
 	skos:definition	"""Species of anemonefish"""@en ;
 	skos:prefLabel	"Amphiprion ocellaris"@en .
 
-boltz:Q25363 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q10811 ; 
-	kgo:taxonName 	"Crocodilia"@en ; 
-	kgo:taxonRank	boltz:Q36602 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus%20acutus%20jalisco%20mexico.jpg> ; 
-	skos:definition	"""Order of large reptiles"""@en ;
-	skos:prefLabel	"Crocodilia"@en .
-
-boltz:Q6184764 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q25363 ; 
-	kgo:taxonName 	"Alligatoridae"@en ; 
-	kgo:taxonRank	boltz:Q35409 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Florida%20Alligator.jpg> ; 
-	skos:definition	"""Family of large reptiles"""@en ;
-	skos:prefLabel	"Alligatoridae"@en .
-
-boltz:Q530397 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q6184764 ; 
-	kgo:taxonName 	"Alligator"@en ; 
+boltz:Q835693 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15110830 ; 
+	kgo:taxonName 	"Cophoscincopus"@en ; 
 	kgo:taxonRank	boltz:Q34740 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Two%20american%20alligators.jpg> ; 
-	skos:definition	"""Genus of large reptiles"""@en ;
-	skos:prefLabel	"Alligator"@en .
+	kgo:typeSpecies	"Cophoscincopus simulans"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Cophoscincopus"@en .
 
-boltz:Q194422 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q530397 ; 
-	kgo:taxonName 	"Alligator sinensis"@en ; 
+boltz:Q2996788 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q835693 ; 
+	kgo:taxonName 	"Cophoscincopus simulans"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/2011%20China-Alligator%200491.JPG> ; 
+	kgo:typeSpeciesOf	"Cophoscincopus"@en ;
+	kgo:taxonImage	<> ; 
 	skos:definition	"""Species of reptile"""@en ;
-	skos:prefLabel	"Chinese alligator"@en .
+	skos:prefLabel	"Cophoscincopus simulans"@en .
+
+boltz:Q1167249 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q15872 ; 
+	kgo:taxonName 	"Colopus"@en ; 
+	kgo:taxonRank	boltz:Q34740 ; 
+	kgo:typeSpecies	"Colopus wahlbergii"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Genus of reptiles"""@en ;
+	skos:prefLabel	"Colopus"@en .
+
+boltz:Q2984350 a kgo:Taxon ; 
+	kgo:subTaxonOf	boltz:Q1167249 ; 
+	kgo:taxonName 	"Colopus wahlbergii"@en ; 
+	kgo:taxonRank	boltz:Q7432 ; 
+	kgo:typeSpeciesOf	"Colopus"@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Colopus wahlbergii"@en .
 
 boltz:Q725271 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q25497 ; 
@@ -9714,14 +13788,6 @@ boltz:Q267996 a kgo:Taxon ;
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/American-cockroach.jpg> ; 
 	skos:definition	"""Species of insect"""@en ;
 	skos:prefLabel	"Periplaneta americana"@en .
-
-boltz:Q272206 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q16835867 ; 
-	kgo:taxonName 	"Scincidae"@en ; 
-	kgo:taxonRank	boltz:Q35409 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Blue-toungued%20skink444.jpg> ; 
-	skos:definition	"""Family of reptiles"""@en ;
-	skos:prefLabel	"Scincidae"@en .
 
 boltz:Q1758486 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q272206 ; 
