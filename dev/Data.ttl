@@ -1389,12 +1389,12 @@ boltz:Q25441 a kgo:Taxon ;
 	skos:definition	"""Phylum of animals"""@en ;
 	skos:prefLabel	"Cnidaria"@en .
 
-boltz:Q28524 a kgo:Taxon ; 
+boltz:Q27685078 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q25441 ; 
 	kgo:taxonName 	"Anthozoa"@en ; 
 	kgo:taxonRank	boltz:Q1153785 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Coral%20polyp.jpg> ; 
-	skos:definition	"""Class of cnidarians"""@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Subphylum of cnidarians"""@en ;
 	skos:prefLabel	"Anthozoa"@en .
 
 boltz:Q28524 a kgo:Taxon ; 
