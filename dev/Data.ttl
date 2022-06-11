@@ -4199,12 +4199,12 @@ boltz:Q16965558 a kgo:Taxon ;
 	skos:definition	"""Genus of reptiles"""@en ;
 	skos:prefLabel	"Flaviemys"@en .
 
-boltz:Q532358 a kgo:Taxon ; 
+boltz:Q21440282 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName 	"Chelodina"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Australsnturtle2.jpg> ; 
-	skos:definition	"""Genus of reptiles"""@en ;
+	skos:definition	"""Subgenus of reptiles"""@en ;
 	skos:prefLabel	"Chelodina"@en .
 
 boltz:Q14566771 a kgo:Taxon ; 
@@ -5439,12 +5439,12 @@ boltz:Q736473 a kgo:Taxon ;
 	skos:definition	"""Genus of mammals"""@en ;
 	skos:prefLabel	"Eptesicus"@en .
 
-boltz:Q736473 a kgo:Taxon ; 
+boltz:Q5834970 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q736473 ; 
 	kgo:taxonName 	"Eptesicus"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Eptesicus%20nilssoni.jpg> ; 
-	skos:definition	"""Genus of mammals"""@en ;
+	kgo:taxonImage	<https://commons.wikimedia.org/wiki/File:Eptesicus_furinalis.jpg> ; 
+	skos:definition	"""Subgenus of mammals"""@en ;
 	skos:prefLabel	"Eptesicus"@en .
 
 boltz:Q301930 a kgo:Taxon ; 
@@ -13356,12 +13356,12 @@ boltz:Q3363204 a kgo:Taxon ;
 	skos:definition	"""Species of reptile"""@en ;
 	skos:prefLabel	"Paracontias minimus"@en .
 
-boltz:Q27022 a kgo:Taxon ; 
+boltz:Q111287972 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q27022 ; 
 	kgo:taxonName 	"Equus"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
-	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/Przewalski%2026-9-2004-2.jpg> ; 
-	skos:definition	"""Genus of mammals"""@en ;
+	kgo:taxonImage	<> ; 
+	skos:definition	"""Subenus of mammals"""@en ;
 	skos:prefLabel	"Equus"@en .
 
 boltz:Q10758650 a kgo:Taxon ; 
@@ -14034,12 +14034,12 @@ boltz:Q27027 a kgo:Taxon ;
 	skos:definition	"""Species of marine mammal"""@en ;
 	skos:prefLabel	"Harbour porpoise"@en .
 
-boltz:Q25371 a kgo:Taxon ; 
+boltz:Q500000012 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q26214 ; 
 	kgo:taxonName 	"Chondrichthyes"@en ; 
 	kgo:taxonRank	boltz:Q3504061 ; 
 	kgo:taxonImage	<http://commons.wikimedia.org/wiki/Special:FilePath/White%20shark.jpg> ; 
-	skos:definition	"""Class of fishes"""@en ;
+	skos:definition	"""Superclass of fishes"""@en ;
 	skos:prefLabel	"Chondrichthyes"@en .
 
 boltz:Q25371 a kgo:Taxon ; 
