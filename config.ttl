@@ -99,11 +99,11 @@
 # The base data.
 :baseModel a ja:MemoryModel ;
 	rdfs:label "Base Model" ;
-    ja:content [ja:externalContent <file:Data.ttl> ; 
-				ja:externalContent <file:Ontology.ttl> ; 
-				ja:externalContent <file:Imports.ttl> ;
-				ja:externalContent <file:qudt_units.ttl> ;
-				ja:externalContent <file:qudt.ttl> ] ;
+    ja:content [ja:externalContent <file:demo/Data.ttl> ; 
+				ja:externalContent <file:demo/Ontology.ttl> ; 
+				ja:externalContent <file:demo/Imports.ttl> ;
+				ja:externalContent <file:demo/qudt_units.ttl> ;
+				ja:externalContent <file:demo/qudt.ttl> ] ;
     .
 
 
