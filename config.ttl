@@ -193,9 +193,9 @@
 
 :scratchModel a ja:MemoryModel ;
 	rdfs:label "Scratch Model" ;
-    ja:content [ja:externalContent <file:devel/Data.ttl> ; 
-				ja:externalContent <file:devel/Ontology.ttl> ; 
-				ja:externalContent <file:devel/Imports.ttl> ;
-				ja:externalContent <file:devel/qudt_units.ttl> ;
-				ja:externalContent <file:devel/qudt.ttl>] ;
+    ja:content [ja:externalContent <file:scratch/Data.ttl> ; 
+				ja:externalContent <file:scratch/Ontology.ttl> ; 
+				ja:externalContent <file:scratch/Imports.ttl> ;
+				ja:externalContent <file:scratch/qudt_units.ttl> ;
+				ja:externalContent <file:scratch/qudt.ttl>] ;
     .
