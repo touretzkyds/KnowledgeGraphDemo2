@@ -184,15 +184,15 @@
         fuseki:operation fuseki:gsp_rw ; 
         fuseki:name "data" 
     ] ;
-	fuseki:dataset :devDataset ;
+	fuseki:dataset :scratchDataset ;
     .
 
-:devDataset rdf:type ja:RDFDataset ;
-	ja:defaultGraph 	:devModel ;
+:scratchDataset rdf:type ja:RDFDataset ;
+	ja:defaultGraph 	:scratchModel ;
 	.
 
-:devModel a ja:MemoryModel ;
-	rdfs:label "Dev Model" ;
+:scratchModel a ja:MemoryModel ;
+	rdfs:label "Scratch Model" ;
     ja:content [ja:externalContent <file:devel/Data.ttl> ; 
 				ja:externalContent <file:devel/Ontology.ttl> ; 
 				ja:externalContent <file:devel/Imports.ttl> ;
