@@ -2520,12 +2520,12 @@ boltz:Q1086983 a kgo:Taxon ;
 	skos:definition	"""Species of reptile"""@en ;
 	skos:prefLabel	"Red-bellied short-necked turtle"@en .
 
-boltz: a kgo:Taxon ; 
+boltz:Q2377830 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q2710616 ; 
 	kgo:taxonName	"Emydura victoriae"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
-	skos:definition	""""""@en ;
-	skos:prefLabel	""@en .
+	skos:definition	"""Species of reptile"""@en ;
+	skos:prefLabel	"Emydura victoriae"@en .
 
 boltz:Q1929418 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q4722543 ; 
