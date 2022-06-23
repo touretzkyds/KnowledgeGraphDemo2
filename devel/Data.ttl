@@ -2448,16 +2448,16 @@ boltz:Q286099 a kgo:Taxon ;
 	skos:prefLabel	"Chelodina expansa"@en .
 
 boltz:Q221080 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina longicollis"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
-	kgo:typeSpeciesOf	boltz:Q5089990 ;
+	kgo:typeSpeciesOf	boltz:Q532358 ;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CSIRO_ScienceImage_7775_Eastern_Snakenecked_Turtle.jpg/650px-CSIRO_ScienceImage_7775_Eastern_Snakenecked_Turtle.jpg> ; 
 	skos:definition	"""Species of reptile"""@en ;
 	skos:prefLabel	"Eastern long-necked turtle"@en .
 
 boltz:Q645675 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina novaeguineae"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/New_Guinea_Snake-necked_Turtle.jpg/650px-New_Guinea_Snake-necked_Turtle.jpg> ; 
@@ -2481,14 +2481,14 @@ boltz:Q305900 a kgo:Taxon ;
 	skos:prefLabel	"Parker's snake-necked turtle"@en .
 
 boltz:Q2286121 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina reimanni"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	skos:definition	"""Species of reptile"""@en ;
 	skos:prefLabel	"Reimann's snake-necked turtle"@en .
 
 boltz:Q2707055 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina steindachneri"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/C_steindachneri_holotype1.jpg/650px-C_steindachneri_holotype1.jpg> ; 
@@ -4325,14 +4325,14 @@ boltz:Q21440282 a kgo:Taxon ;
 	skos:prefLabel	"Chelodina"@en .
 
 boltz:Q43934438 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Macrochelodina"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
 	skos:definition	"""Genus of reptiles"""@en ;
 	skos:prefLabel	"Macrochelodina"@en .
 
 boltz:Q19844520 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Macrodiremys"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
 	skos:definition	"""Subgenus of reptiles"""@en ;
@@ -5081,7 +5081,7 @@ boltz:Q2260750 a kgo:Taxon ;
 	skos:prefLabel	"Red side-necked turtle"@en .
 
 boltz:Q1941409 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina canni"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cannihead.png/650px-Cannihead.png> ; 
@@ -5089,14 +5089,14 @@ boltz:Q1941409 a kgo:Taxon ;
 	skos:prefLabel	"Chelodina canni"@en .
 
 boltz:Q2962208 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina gunaleni"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	skos:definition	"""Species of reptile"""@en ;
 	skos:prefLabel	"Chelodina gunaleni"@en .
 
 boltz:Q304547 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina mccordi"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Chelodina_mccordi_-_Karlsruhe_Zoo_01.jpg/650px-Chelodina_mccordi_-_Karlsruhe_Zoo_01.jpg> ; 
@@ -5104,7 +5104,7 @@ boltz:Q304547 a kgo:Taxon ;
 	skos:prefLabel	"Roti island snake-necked turtle"@en .
 
 boltz:Q2303946 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q5089990 ; 
+	kgo:subTaxonOf	boltz:Q532358 ; 
 	kgo:taxonName	"Chelodina pritchardi"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	skos:definition	"""Species of reptile"""@en ;
@@ -7801,7 +7801,7 @@ boltz:Q27022 a kgo:Taxon ;
 	skos:prefLabel	"Equus"@en .
 
 boltz:Q32789 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q111287972 ; 
+	kgo:subTaxonOf	boltz:Q27022 ; 
 	kgo:taxonName	"Hippotigris"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Plains_Zebra_Equus_quagga.jpg/650px-Plains_Zebra_Equus_quagga.jpg> ; 
@@ -13145,14 +13145,14 @@ boltz:Q3363204 a kgo:Taxon ;
 	skos:prefLabel	"Paracontias minimus"@en .
 
 boltz:Q111287972 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q111287972 ; 
+	kgo:subTaxonOf	boltz:Q27022 ; 
 	kgo:taxonName	"Equus"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
 	skos:definition	"""Taxon, (linnaeus, 1758) subgenus of equus"""@en ;
 	skos:prefLabel	"Equus"@en .
 
 boltz:Q10758650 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q111287972 ; 
+	kgo:subTaxonOf	boltz:Q27022 ; 
 	kgo:taxonName	"Equus caballus"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lipicanec_PRMO.jpg/650px-Lipicanec_PRMO.jpg> ; 
