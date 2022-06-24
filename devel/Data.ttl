@@ -5540,7 +5540,7 @@ boltz:Q5834970 a kgo:Taxon ;
 	skos:prefLabel	"Eptesicus"@en .
 
 boltz:Q301930 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q736473 ; 
+	kgo:subTaxonOf	boltz:Q5834970 ; 
 	kgo:taxonName	"Eptesicus brasiliensis"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Naturalis_Biodiversity_Center_-_RMNH.MAM.24843.b_ven_-_Eptesicus_brasiliensis_melanopterus_-_skin.jpeg/650px-Naturalis_Biodiversity_Center_-_RMNH.MAM.24843.b_ven_-_Eptesicus_brasiliensis_melanopterus_-_skin.jpeg> ; 
@@ -13779,15 +13779,15 @@ boltz:Q26387 a kgo:Taxon ;
 	skos:definition	"""Species of eel"""@en ;
 	skos:prefLabel	"European eel"@en .
 
-boltz:Q3427090 a kgo:Taxon ; 
+boltz:Q500000010 a kgo:Taxon ; 
 	kgo:subTaxonOf	boltz:Q736473 ; 
 	kgo:taxonName	"Cnephaeus"@en ; 
 	kgo:taxonRank	boltz:Q3238261 ; 
-	skos:definition	"""Genus of insects"""@en ;
-	skos:prefLabel	"Cnephasia"@en .
+	skos:definition	"""Subgenus of mammal"""@en ;
+	skos:prefLabel	"Cnephaeus"@en .
 
 boltz:Q214869 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q3427090 ; 
+	kgo:subTaxonOf	boltz:Q500000010 ; 
 	kgo:taxonName	"Eptesicus serotinus"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Eptesicus_serotinus.jpg/650px-Eptesicus_serotinus.jpg> ; 
