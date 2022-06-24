@@ -13152,7 +13152,7 @@ boltz:Q111287972 a kgo:Taxon ;
 	skos:prefLabel	"Equus"@en .
 
 boltz:Q10758650 a kgo:Taxon ; 
-	kgo:subTaxonOf	boltz:Q27022 ; 
+	kgo:subTaxonOf	boltz:Q111287972 ; 
 	kgo:taxonName	"Equus caballus"@en ; 
 	kgo:taxonRank	boltz:Q7432 ; 
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lipicanec_PRMO.jpg/650px-Lipicanec_PRMO.jpg> ; 
