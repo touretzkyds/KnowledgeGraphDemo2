@@ -1050,7 +1050,7 @@ boltz:Q28524 a kgo:Taxon ;
 	kgo:subTaxonOf	boltz:Q27685078 ; 
 	kgo:taxonName	"Anthozoa"@en ; 
 	kgo:taxonRank	boltz:Q37517 ; 
-	kgo:taxonImage <https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Phil-Anthozoa.jpg/650px-Phil-Anthozoa.jpg>
+	kgo:taxonImage <https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Phil-Anthozoa.jpg/650px-Phil-Anthozoa.jpg> ;
 	skos:definition	"""Class of cnidarians"""@en ;
 	skos:prefLabel	"Anthozoa"@en .
 
