@@ -7018,6 +7018,37 @@ boltz:Q194422	a kgo:Taxon ;
 	kgo:taxonRank	boltz:Q7432	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2011_China-Alligator_0491.JPG/650px-2011_China-Alligator_0491.JPG> ; 
 	skos:definition	"""Species of reptile"""@en ;
+	kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value 40.5 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:averageLength  [
+            a qudt:Quantity ;
+            qudt:unit unit:IN ;
+            qudt:value 72.0 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value 70.0 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLength ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:averageLifespan ;
+                    rdf:rest rdf:nil ;
+                ] ;
+            ] ;
+        ] ;
 	skos:prefLabel	"Chinese alligator"@en .
 
 boltz:Q644453	a kgo:Taxon ; 
@@ -7078,6 +7109,37 @@ boltz:Q193327	a kgo:Taxon ;
 	kgo:typeSpeciesOf	boltz:Q530397 ;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/American_Alligator.jpg/650px-American_Alligator.jpg> ; 
 	skos:definition	"""Large crocodilian reptile"""@en ;
+	kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value 360.0 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:averageLength  [
+            a qudt:Quantity ;
+            qudt:unit unit:IN ;
+            qudt:value 118.0 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value 50.0 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLength ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:averageLifespan ;
+                    rdf:rest rdf:nil ;
+                ] ;
+            ] ;
+        ] ;
 	skos:prefLabel	"American alligator"@en .
 
 boltz:Q756678	a kgo:Taxon ; 
@@ -12141,6 +12203,37 @@ boltz:Q156606	a kgo:Taxon ;
 	kgo:taxonRank	boltz:Q7432	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Female_and_juvenile_rhesus_macaque_at_Galtaji,_Jaipur,_Rajasthan,_India.jpg/650px-Female_and_juvenile_rhesus_macaque_at_Galtaji,_Jaipur,_Rajasthan,_India.jpg> ; 
 	skos:definition	"""Species of old world monkey"""@en ;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value 7.7 ;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:averageLength  [
+            a qudt:Quantity ;
+            qudt:unit unit:IN ;
+            qudt:value 19.0 ;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value 25.0 ;
+            kgo:timeRetrieve "2022-04-15T13:54:31-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLength ;
+                rdf:rest [
+                    a rdf:List ;
+                    rdf:first kgo:averageLifespan ;
+                    rdf:rest rdf:nil ;
+                ] ;
+            ] ;
+        ] ;
 	skos:prefLabel	"Rhesus macaque"@en .
 
 boltz:Q25384553	a kgo:Taxon ; 
@@ -12995,6 +13088,27 @@ boltz:Q17592	a kgo:Taxon ;
 	kgo:taxonRank	boltz:Q7432	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/North_African_Ostrich_-_Masai_Ostrich_-_female_non-breeding_(Struthio_camelus)_-_Flickr_-_Lip_Kee_(1).jpg/650px-North_African_Ostrich_-_Masai_Ostrich_-_female_non-breeding_(Struthio_camelus)_-_Flickr_-_Lip_Kee_(1).jpg> ; 
 	skos:definition	"""Species of large flightless bird"""@en ;
+        kgo:averageMass  [
+            a qudt:Quantity ;
+            qudt:unit unit:KiloGM ;
+            qudt:value 104.0 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:averageLifespan  [
+            a qudt:Quantity ;
+            qudt:unit unit:YR_Common;
+            qudt:value 42.5 ;
+            kgo:timeRetrieve "2022-02-25T15:48:26-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:prefComparisons [
+            a rdf:List ;
+            rdf:first kgo:averageMass ;
+            rdf:rest [
+                a rdf:List ;
+                rdf:first kgo:averageLifespan ;
+                rdf:rest rdf:nil ;
+            ] ;
+        ] ;
 	skos:prefLabel	"Common ostrich"@en .
 
 boltz:Q193061	a kgo:Taxon ; 
