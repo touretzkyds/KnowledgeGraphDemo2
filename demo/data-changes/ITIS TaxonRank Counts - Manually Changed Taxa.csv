@@ -1,0 +1,42 @@
+,"These are the taxa that DO have WikiData entries, but my query/regex algorithm did not return the corresponding entry data––due to different spelling.",,,,
+,ITIS Name,WikiData Q,Label,Definition,Image Link
+,Cnephaeus,Q3427090,Cnephasia,Genus of insects,https://commons.wikimedia.org/wiki/File:Cnephasia.asseclana.-.lindsey.jpg
+,Molothrus oryzivorus impacificus,Q27636553,Molothrus oryzivorus impacifus,Subspecies of bird,
+,Lepilemur hubbardi,Q1209803,Lepilemur hubbardi,Species of mammal,https://commons.wikimedia.org/wiki/File:Lepilemur_hubbardorum.jpg
+,Avahi ramanantsoavani,Q1210789,Ramanantsoavana's woolly lemur,Species of mammal,
+,Sciurocheirus gabonensis,Q1202102,Gabon bushbaby,Species of mammal,
+,Mico chrysoleucos,Q1206327,Mico chrysoleucos,Species of mammal,https://commons.wikimedia.org/wiki/File:Mico_chrysoleucus_Kenny_Ross_1.jpg
+,Mico saterei,Q20890485,Mico saterei,Species of mammal,
+,Macaca maura,Q913762,Moor macaque,Species of mammal,https://commons.wikimedia.org/wiki/File:M%C3%A2le_macaque_maure_(Macaca_maura).jpg
+,Plecturocebus olallae,Q737104,Ollala Brothers' titi,Species of mammal,
+,Plecturocebus urubambensis,Q20721824,Callicebus urubambensis,Species of mammal,
+,Plecturocebus miltoni,Q19279592,Callicebus miltoni,Species of mammal,
+,Plecturocebus toppini,Q20721823,Callicebus toppini,Species of mammal,https://commons.wikimedia.org/wiki/File:Callicebus_cupreus_Tambopata_Research_Center.jpg
+,Paragalago zanzibaricus,Q104005586,Paragalago zanzibarensis,Species of mammal,
+,Chlorocebus dryas,Q1075064,Dryas monkey,Species of mammal,https://commons.wikimedia.org/wiki/File:Chlorocebus_dryas_still-frame.png
+,Trachypithecus melamerus,Q101543962,Trachypithecus melamerus,Species of mammal,
+,,,,,
+,,,,,
+,"These are the taxa that DON'T have WikiData entries, so we manually assigned a Q-value to the taxa.",,,,
+,ITIS Name,WikiData Q,Label,Definition,Image Link (NONE)
+,Psammobates tentorius tentorius,Q500000000,Psammobates tentorius tentorius,Subspecies of reptile,
+,Telescopus dhara somalicus,Q500000001,Telescopus dhara somalicus,Subspecies of reptile,
+,Duberria lutrix atriventris,Q500000002,Duberria lutrix atriventris,Subspecies of reptile,
+,Duberria lutrix lutrix,Q500000003,Duberria lutrix lutrix,Subspecies of reptile,
+,Eptesicus serotinus mirza,Q500000004,Eptesicus serotinus mirza,Subspecies of mammal,
+,Cebus versicolor,Q500000005,Cebus versicolor,Species of mammal,
+,Cebus aequatorialis,Q500000006,Cebus aequatorialis,Species of mammal,
+,Cebus brunneus,Q500000007,Cebus brunneus,Species of mammal,
+,Terrapene bauri,Q500000008,Common Box Turtle,Species of reptile,
+,Sapajus cucullatus,Q500000009,Sapajus cucullatus,Species of mammal,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,"Repeats – these are the taxa that have two instances, and here I document the ones that I DID swap out – whether that be through a new WikData entry, or if none exists I made one up",,,,
+Hierarchy Repeats,ITIS Name,WikiData Q,Label,Definition,Image Link
+genus/subgenus,Chelodina,Q21440282,Chelodina,subgenus of reptile,https://commons.wikimedia.org/wiki/File:Australsnturtle2.jpg
+genus/subgenus,Eptesicus,Q5834970,Eptesicus,Subgenus of mammals,
+superclass/class,Chondrichthyes,Q500000012,Chondrichthyes,Superclass of fishes,
+genus /subgenus,Equus,Q111287972,Equus,subgenus of reptile,
