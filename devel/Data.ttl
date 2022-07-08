@@ -9068,7 +9068,7 @@ boltz:Q20888577	a boltz:Q16521 ;
 	skos:definition	"""Species of mammal"""@en ;
 	skos:prefLabel	"Mico mauesi"@en .
 
-boltz:Q3427090	a boltz:Q16521 ; 
+boltz:Q1206327	a boltz:Q16521 ; 
 	kgo:subTaxonOf	boltz:Q1340206 ; 
 	kgo:taxonName	"Mico chrysoleucos"@en ; 
 	kgo:taxonRank	boltz:Q7432	;
