@@ -10,12 +10,12 @@
 @prefix sou: <http://qudt.org/vocab/sou/> .
 
 # ----------------------Date and Time----------------------
-kgo:complementryProperty a rdf:Property ;
+kgo:complementaryProperty a rdf:Property ;
 	skos:definition "The Subject is the complement of the Object"@en ;
 	rdfs:domain rdfs:Property ;
 	rdfs:range rdfs:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "complementryProperty"@en .
+	rdfs:label "complementaryProperty"@en .
 
 kgo:timeAt a rdf:Property;
 	skos:definition "Root of the time hierarchy tree, used in general cases when no other time property suffices"@en ;
