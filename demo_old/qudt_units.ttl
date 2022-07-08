@@ -873,7 +873,7 @@ unit:BBD
 .
 unit:BBL
   a qudt:Unit ;
-  dcterms:description "A barrel is one of several units of volume, with dry barrels, fluid barrels (UK beer barrel, U.S. beer barrel), oil barrel, etc. The volume of some barrel units is double others, with various volumes in the range of about 100-200 litres (22-44 imp gal; 26-53 US gal)."^^rdf:HTML ;
+  dcterms:description "A barrel is one of several units of volume, with dry barrels, fluid barrels (UK beer barrel, U.S. beer barrel), oil barrel, etc. The volume of some barrel units is double others, with various volumes in the range of about 100-200 litres (22-44 imp gal; 26-53 US gal)."^^rdf:HTML ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Barrel"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:USCS ;
   qudt:hasDimensionVector qkdv:A0E0L3I0M0H0T0D0 ;
@@ -1279,7 +1279,7 @@ unit:BTU_IT-FT-PER-FT2-HR-DEG_F
   qudt:iec61360Code "0112/2///62720#UAA115" ;
   qudt:informativeReference "http://en.wikipedia.org/wiki/Thermal_conductivity"^^xsd:anyURI ;
   qudt:informativeReference "http://www.translatorscafe.com/cafe/EN/units-converter/thermal-conductivity/c/"^^xsd:anyURI ;
-  qudt:plainTextDescription "British thermal unit (international table) foot per hour Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units." ;
+  qudt:plainTextDescription "British thermal unit (international table) foot per hour Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units." ;
   qudt:ucumCode "[Btu_IT].[ft_i].[ft_i]-2.h-1.[degF]-1"^^qudt:UCUMcs ;
   qudt:ucumCode "[Btu_IT].[ft_i]/([ft_i]2.h.[degF])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J40" ;
@@ -1334,7 +1334,7 @@ unit:BTU_IT-IN-PER-FT2-SEC-DEG_F
   qudt:hasQuantityKind quantitykind:ThermalConductivity ;
   qudt:iec61360Code "0112/2///62720#UAA118" ;
   qudt:informativeReference "http://www.translatorscafe.com/cafe/EN/units-converter/thermal-conductivity/c/"^^xsd:anyURI ;
-  qudt:plainTextDescription "British thermal unit (international table) inch per second Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units." ;
+  qudt:plainTextDescription "British thermal unit (international table) inch per second Square foot degree Fahrenheit is the unit of the thermal conductivity according to the Imperial system of units." ;
   qudt:ucumCode "[Btu_IT].[in_i].[ft_i]-2.s-1.[degF]-1"^^qudt:UCUMcs ;
   qudt:ucumCode "[Btu_IT].[in_i]/([ft_i]2.s.[degF])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J42" ;
@@ -1354,7 +1354,7 @@ unit:BTU_IT-IN-PER-HR-FT2-DEG_F
   qudt:ucumCode "[Btu_IT].[in_i]/(h.[ft_i]2.[degF])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J41" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "British Thermal Unit (international Table) Inch Per Hour Square Foot degree Fahrenheit"@en ;
+  rdfs:label "British Thermal Unit (international Table) Inch Per Hour Square Foot degree Fahrenheit"@en ;
   owl:sameAs unit:BTU_IT-IN-PER-FT2-HR-DEG_F ;
 .
 unit:BTU_IT-IN-PER-SEC-FT2-DEG_F
@@ -1368,7 +1368,7 @@ unit:BTU_IT-IN-PER-SEC-FT2-DEG_F
   qudt:ucumCode "[Btu_IT].[in_i]/(s.[ft_i]2.[degF])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J42" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "British Thermal Unit (international Table) Inch Per Second Square Foot degree Fahrenheit"@en ;
+  rdfs:label "British Thermal Unit (international Table) Inch Per Second Square Foot degree Fahrenheit"@en ;
   owl:sameAs unit:BTU_IT-IN-PER-FT2-SEC-DEG_F ;
 .
 unit:BTU_IT-PER-DEG_F
@@ -1514,7 +1514,7 @@ unit:BTU_IT-PER-HR-FT2-DEG_R
   qudt:ucumCode "[Btu_IT]/(h.[ft_i]2.[degR])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "A23" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "British Thermal Unit (international Table) Per Hour Square Foot degree Rankine"@en ;
+  rdfs:label "British Thermal Unit (international Table) Per Hour Square Foot degree Rankine"@en ;
 .
 unit:BTU_IT-PER-LB
   a qudt:DerivedUnit ;
@@ -1700,7 +1700,7 @@ unit:BTU_IT-PER-SEC-FT2-DEG_R
   qudt:ucumCode "[Btu_IT]/(s.[ft_i]2.[degR])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "A20" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "British Thermal Unit (international Table) Per Second Square Foot degree Rankine"@en ;
+  rdfs:label "British Thermal Unit (international Table) Per Second Square Foot degree Rankine"@en ;
 .
 unit:BTU_MEAN
   a qudt:Unit ;
@@ -1760,7 +1760,7 @@ unit:BTU_TH-FT-PER-HR-FT2-DEG_F
   qudt:ucumCode "[Btu_th].[ft_i]/(h.[ft_i]2.[degF])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J46" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "British Thermal Unit (thermochemical) Foot Per Hour Square Foot degree Fahrenheit"@en ;
+  rdfs:label "British Thermal Unit (thermochemical) Foot Per Hour Square Foot degree Fahrenheit"@en ;
 .
 unit:BTU_TH-IN-PER-FT2-HR-DEG_F
   a qudt:DerivedUnit ;
@@ -1888,7 +1888,7 @@ unit:BTU_TH-PER-SEC
 .
 unit:BU_UK
   a qudt:Unit ;
-  dcterms:description "A bushel is an imperial unit of dry volume, equivalent in each of these systems to 4 pecks or 8 gallons. It is used for volumes of dry commodities (not liquids), most often in agriculture. It is abbreviated as bsh. or bu. In modern usage, the dry volume is usually only nominal, with bushels referring to standard weights instead."^^rdf:HTML ;
+  dcterms:description "A bushel is an imperial unit of dry volume, equivalent in each of these systems to 4 pecks or 8 gallons. It is used for volumes of dry commodities (not liquids), most often in agriculture. It is abbreviated as bsh. or bu. In modern usage, the dry volume is usually only nominal, with bushels referring to standard weights instead."^^rdf:HTML ;
   qudt:conversionMultiplier 0.03636872 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Bushel"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E0L3I0M0H0T0D0 ;
@@ -1954,7 +1954,7 @@ unit:BU_UK-PER-SEC
 .
 unit:BU_US
   a qudt:Unit ;
-  dcterms:description "A bushel is an imperial and U.S. customary unit of dry volume, equivalent in each of these systems to 4 pecks or 8 gallons. It is used for volumes of dry commodities (not liquids), most often in agriculture. It is abbreviated as bsh. or bu. In modern usage, the dry volume is usually only nominal, with bushels referring to standard weights instead."^^rdf:HTML ;
+  dcterms:description "A bushel is an imperial and U.S. customary unit of dry volume, equivalent in each of these systems to 4 pecks or 8 gallons. It is used for volumes of dry commodities (not liquids), most often in agriculture. It is abbreviated as bsh. or bu. In modern usage, the dry volume is usually only nominal, with bushels referring to standard weights instead."^^rdf:HTML ;
   qudt:conversionMultiplier 0.03523907 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Bushel"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:USCS ;
@@ -2539,8 +2539,8 @@ unit:CAL_IT-PER-SEC-CentiM2-K
   qudt:ucumCode "cal_IT/(s.cm2.K)"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "D72" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "Calorie (international Table) Per Second Square Centimeter kelvin"@en-us ;
-  rdfs:label "Calorie (international Table) Per Second Square Centimetre kelvin"@en ;
+  rdfs:label "Calorie (international Table) Per Second Square Centimeter kelvin"@en-us ;
+  rdfs:label "Calorie (international Table) Per Second Square Centimetre kelvin"@en ;
 .
 unit:CAL_MEAN
   a qudt:Unit ;
@@ -2704,8 +2704,8 @@ unit:CAL_TH-PER-SEC-CentiM2-K
   qudt:ucumCode "cal_th/(s.cm2.K)"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "D39" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "Calorie (thermochemical) Per Second Square Centimeter kelvin"@en-us ;
-  rdfs:label "Calorie (thermochemical) Per Second Square Centimetre kelvin"@en ;
+  rdfs:label "Calorie (thermochemical) Per Second Square Centimeter kelvin"@en-us ;
+  rdfs:label "Calorie (thermochemical) Per Second Square Centimetre kelvin"@en ;
 .
 unit:CARAT
   a qudt:Unit ;
@@ -2849,7 +2849,7 @@ unit:CM_H2O
 .
 unit:CORD
   a qudt:Unit ;
-  dcterms:description "The cord is a unit of measure of dry volume used in Canada and the United States to measure firewood and pulpwood. A cord is the amount of wood that, when 'ranked and well stowed' (arranged so pieces are aligned, parallel, touching and compact), occupies a volume of 128 cubic feet (3.62 cubic metres). This corresponds to a well stacked woodpile 4 feet (122 cm) wide, 4 feet (122 cm) high, and 8 feet (244 cm) long; or any other arrangement of linear measurements that yields the same volume. The name cord probably comes from the use of a cord or string to measure it. "^^rdf:HTML ;
+  dcterms:description "The cord is a unit of measure of dry volume used in Canada and the United States to measure firewood and pulpwood. A cord is the amount of wood that, when 'ranked and well stowed' (arranged so pieces are aligned, parallel, touching and compact), occupies a volume of 128 cubic feet (3.62 cubic metres). This corresponds to a well stacked woodpile 4 feet (122 cm) wide, 4 feet (122 cm) high, and 8 feet (244 cm) long; or any other arrangement of linear measurements that yields the same volume. The name cord probably comes from the use of a cord or string to measure it. "^^rdf:HTML ;
   qudt:conversionMultiplier 3.62 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Cord"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:USCS ;
@@ -3817,7 +3817,7 @@ unit:DEG-PER-SEC2
 .
 unit:DEG2
   a qudt:Unit ;
-  dcterms:description "A square degree is a non-SI unit measure of solid angle. It is denoted in various ways, including deg, sq. deg. and \\(\\circ^2\\). Just as degrees are used to measure parts of a circle, square degrees are used to measure parts of a sphere. Analogous to one degree being equal to \\(\\pi /180 radians\\), a square degree is equal to (\\(\\pi /180)\\) or about 1/3283 steradian. The number of square degrees in a whole sphere is or approximately 41 253 deg. This is the total area of the 88 constellations in the list of constellations by area. For example, observed from the surface of the Earth, the Moon has a diameter of approximately \\(0.5^\\circ\\), so it covers a solid angle of approximately 0.196 deg, which is \\(4.8 \\times 10\\) of the total sky sphere."^^qudt:LatexString ;
+  dcterms:description "A square degree is a non-SI unit measure of solid angle. It is denoted in various ways, including deg, sq. deg. and \\(\\circ^2\\). Just as degrees are used to measure parts of a circle, square degrees are used to measure parts of a sphere. Analogous to one degree being equal to \\(\\pi /180 radians\\), a square degree is equal to (\\(\\pi /180)\\) or about 1/3283 steradian. The number of square degrees in a whole sphere is or approximately 41 253 deg. This is the total area of the 88 constellations in the list of constellations by area. For example, observed from the surface of the Earth, the Moon has a diameter of approximately \\(0.5^\\circ\\), so it covers a solid angle of approximately 0.196 deg, which is \\(4.8 \\times 10\\) of the total sky sphere."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.00030461742 ;
   qudt:expression "\\(deg^2\\)"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
@@ -4118,7 +4118,7 @@ unit:DEG_F-HR-FT2-PER-BTU_IT
   qudt:ucumCode "[degF]/(h.[ft_i]2.[Btu_IT])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J22" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "Degree Fahrenheit Hour Square Foot per British Thermal Unit (international Table)"@en ;
+  rdfs:label "Degree Fahrenheit Hour Square Foot per British Thermal Unit (international Table)"@en ;
 .
 unit:DEG_F-HR-FT2-PER-BTU_TH
   a qudt:Unit ;
@@ -4131,7 +4131,7 @@ unit:DEG_F-HR-FT2-PER-BTU_TH
   qudt:ucumCode "[degF]/(h.[ft_i]2.[Btu_th])"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "J19" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "Degree Fahrenheit Hour Square Foot per British Thermal Unit (thermochemical)"@en ;
+  rdfs:label "Degree Fahrenheit Hour Square Foot per British Thermal Unit (thermochemical)"@en ;
 .
 unit:DEG_F-HR-PER-BTU_IT
   a qudt:DerivedUnit ;
@@ -5655,7 +5655,7 @@ unit:FRAME-PER-SEC
 .
 unit:FT
   a qudt:Unit ;
-  dcterms:description "A foot is a unit of length defined as being 0.3048 m exactly and used in the imperial system of units and United States customary units. It is subdivided into 12 inches. The foot is still officially used in Canada and still commonly used in the United Kingdom, although the latter has partially metricated its units of measurement. "^^rdf:HTML ;
+  dcterms:description "A foot is a unit of length defined as being 0.3048 m exactly and used in the imperial system of units and United States customary units. It is subdivided into 12 inches. The foot is still officially used in Canada and still commonly used in the United Kingdom, although the latter has partially metricated its units of measurement. "^^rdf:HTML ;
   qudt:conversionMultiplier 0.3048 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Foot_%28length%29"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:IMPERIAL ;
@@ -6184,7 +6184,7 @@ unit:FT_US
 unit:FUR
   a qudt:DerivedUnit ;
   a qudt:Unit ;
-  dcterms:description "A furlong is a measure of distance in imperial units and U.S. customary units equal to one-eighth of a mile, equivalent to 220 yards, 660 feet, 40 rods, or 10 chains. The exact value of the furlong varies slightly among English-speaking countries. Five furlongs are approximately 1 kilometre (1.0058 km is a closer approximation). Since the original definition of the metre was one-quarter of one ten-millionth of the circumference of the Earth (along the great circle coincident with the meridian of longitude passing through Paris), the circumference of the Earth is about 40,000 km or about 200,000 furlongs. "^^rdf:HTML ;
+  dcterms:description "A furlong is a measure of distance in imperial units and U.S. customary units equal to one-eighth of a mile, equivalent to 220 yards, 660 feet, 40 rods, or 10 chains. The exact value of the furlong varies slightly among English-speaking countries. Five furlongs are approximately 1 kilometre (1.0058 km is a closer approximation). Since the original definition of the metre was one-quarter of one ten-millionth of the circumference of the Earth (along the great circle coincident with the meridian of longitude passing through Paris), the circumference of the Earth is about 40,000 km or about 200,000 furlongs. "^^rdf:HTML ;
   qudt:conversionMultiplier 201.168 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Furlong"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:IMPERIAL ;
@@ -6925,7 +6925,7 @@ unit:GM-PER-M2-DAY
   qudt:expression "\\(g-m^{-2}-day^{-1}\\)"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
-  qudt:plainTextDescription "A metric unit of volume over time indicating the amount generated across one square meter over a day." ;
+  qudt:plainTextDescription "A metric unit of volume over time indicating the amount generated across one square meter over a day." ;
   qudt:ucumCode "g.m-2.d-1"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "grams per square meter per day"@en-us ;
@@ -7013,7 +7013,7 @@ unit:GM_Carbon-PER-M2-DAY
   qudt:expression "\\(g C-m^{-2}-day^{-1}\\)."^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
-  qudt:plainTextDescription "A metric unit of volume over time indicating the amount generated across one square meter over a day. Used to express productivity of an ecosystem." ;
+  qudt:plainTextDescription "A metric unit of volume over time indicating the amount generated across one square meter over a day. Used to express productivity of an ecosystem." ;
   qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "grams Carbon per square meter per day"@en-us ;
@@ -7038,7 +7038,7 @@ unit:GM_Nitrogen-PER-M2-DAY
   qudt:expression "\\(g N-m^{-2}-day^{-1}\\)."^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasQuantityKind quantitykind:MassPerAreaTime ;
-  qudt:plainTextDescription "A metric unit of volume over time indicating the amount of Nitrogen generated across one square meter over a day. Used to express productivity of an ecosystem." ;
+  qudt:plainTextDescription "A metric unit of volume over time indicating the amount of Nitrogen generated across one square meter over a day. Used to express productivity of an ecosystem." ;
   qudt:ucumCode "g.m-2.d-1{N}"^^qudt:UCUMcs ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "grams Nitrogen per square meter per day"@en-us ;
@@ -8062,7 +8062,7 @@ unit:Hundredweight_US
 .
 unit:IN
   a qudt:Unit ;
-  dcterms:description "An inch is the name of a unit of length in a number of different systems, including Imperial units, and United States customary units. There are 36 inches in a yard and 12 inches in a foot. Corresponding units of area and volume are the square inch and the cubic inch."^^rdf:HTML ;
+  dcterms:description "An inch is the name of a unit of length in a number of different systems, including Imperial units, and United States customary units. There are 36 inches in a yard and 12 inches in a foot. Corresponding units of area and volume are the square inch and the cubic inch."^^rdf:HTML ;
   qudt:conversionMultiplier 0.0254 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Inch"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:IMPERIAL ;
@@ -9044,7 +9044,7 @@ unit:KIP_F-PER-IN2
 .
 unit:KN
   a qudt:Unit ;
-  dcterms:description "The knot (pronounced 'not') is a unit of speed equal to one nautical mile (1.852 km) per hour, approximately 1.151 mph. The abbreviation \\(kn\\) is preferred by the International Hydrographic Organization (IHO), which includes every major sea-faring nation; however, the abbreviations kt (singular) and kts (plural) are also widely used. However, use of the abbreviation kt for knot conflicts with the SI symbol for kilotonne. The knot is a non-SI unit accepted for use with the International System of Units (SI). Worldwide, the knot is used in meteorology, and in maritime and air navigation - for example, a vessel travelling at 1 knot along a meridian travels one minute of geographic latitude in one hour. Etymologically, the term knot derives from counting the number of knots in the line that unspooled from the reel of a chip log in a specific time."^^qudt:LatexString ;
+  dcterms:description "The knot (pronounced 'not') is a unit of speed equal to one nautical mile (1.852 km) per hour, approximately 1.151 mph. The abbreviation \\(kn\\) is preferred by the International Hydrographic Organization (IHO), which includes every major sea-faring nation; however, the abbreviations kt (singular) and kts (plural) are also widely used. However, use of the abbreviation kt for knot conflicts with the SI symbol for kilotonne. The knot is a non-SI unit accepted for use with the International System of Units (SI). Worldwide, the knot is used in meteorology, and in maritime and air navigation - for example, a vessel travelling at 1 knot along a meridian travels one minute of geographic latitude in one hour. Etymologically, the term knot derives from counting the number of knots in the line that unspooled from the reel of a chip log in a specific time."^^qudt:LatexString ;
   qudt:conversionMultiplier 0.5144444444444445 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Knot"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:USCS ;
@@ -10555,8 +10555,8 @@ unit:KiloPA-M2-PER-GM
   qudt:ucumCode "kPa.m2.g-1"^^qudt:UCUMcs ;
   qudt:uneceCommonCode "33" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
-  rdfs:label "Kilopascal Square Meter per Gram"@en-us ;
-  rdfs:label "Kilopascal Square Metre per Gram"@en ;
+  rdfs:label "Kilopascal Square Meter per Gram"@en-us ;
+  rdfs:label "Kilopascal Square Metre per Gram"@en ;
 .
 unit:KiloPA-PER-BAR
   a qudt:Unit ;
@@ -12718,7 +12718,7 @@ unit:MI-PER-MIN
 unit:MI2
   a qudt:DerivedUnit ;
   a qudt:Unit ;
-  dcterms:description "The square mile (abbreviated as sq mi and sometimes as mi) is an imperial and US unit of measure for an area equal to the area of a square of one statute mile. It should not be confused with miles square, which refers to the number of miles on each side squared. For instance, 20 miles square (20 × 20 miles) is equal to 400 square miles. One square mile is equivalent to: 4,014,489,600 square inches 27,878,400 square feet, 3,097,600 square yards, 640 acres, 258.9988110336 hectares, 2560 roods, 25,899,881,103.36 square centimetres, 2,589,988.110336 square metres, 2.589988110336 square kilometres When applied to a portion of the earth's surface, which is curved rather than flat, 'square mile' is an informal synonym for section."^^rdf:HTML ;
+  dcterms:description "The square mile (abbreviated as sq mi and sometimes as mi) is an imperial and US unit of measure for an area equal to the area of a square of one statute mile. It should not be confused with miles square, which refers to the number of miles on each side squared. For instance, 20 miles square (20 × 20 miles) is equal to 400 square miles. One square mile is equivalent to: 4,014,489,600 square inches 27,878,400 square feet, 3,097,600 square yards, 640 acres, 258.9988110336 hectares, 2560 roods, 25,899,881,103.36 square centimetres, 2,589,988.110336 square metres, 2.589988110336 square kilometres When applied to a portion of the earth's surface, which is curved rather than flat, 'square mile' is an informal synonym for section."^^rdf:HTML ;
   qudt:conversionMultiplier 2589988.11 ;
   qudt:definedUnitOfSystem sou:IMPERIAL ;
   qudt:definedUnitOfSystem sou:USCS ;
@@ -20323,7 +20323,7 @@ unit:PlanckImpedance
 .
 unit:PlanckLength
   a qudt:Unit ;
-  dcterms:description "In physics, the Planck length, denoted \\(\\ell_P\\), is a unit of length, equal to \\(1.616199(97)×10^{-35}\\) metres. It is a base unit in the system of Planck units. The Planck length can be defined from three fundamental physical constants: the speed of light in a vacuum, Planck's constant, and the gravitational constant. "^^qudt:LatexString ;
+  dcterms:description "In physics, the Planck length, denoted \\(\\ell_P\\), is a unit of length, equal to \\(1.616199(97)×10^{-35}\\) metres. It is a base unit in the system of Planck units. The Planck length can be defined from three fundamental physical constants: the speed of light in a vacuum, Planck's constant, and the gravitational constant. "^^qudt:LatexString ;
   qudt:conversionMultiplier 0.00000000000000000000000000000000001616252 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Planck_length"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T0D0 ;
@@ -21826,7 +21826,7 @@ unit:T-SEC
 .
 unit:TBSP
   a qudt:Unit ;
-  dcterms:description "In the US and parts of Canada, a tablespoon is the largest type of spoon used for eating from a bowl. In the UK and most Commonwealth countries, a tablespoon is a type of large spoon usually used for serving. In countries where a tablespoon is a serving spoon, the nearest equivalent to the US tablespoon is either the dessert spoon or the soup spoon. A tablespoonful, nominally the capacity of one tablespoon, is commonly used as a measure of volume in cooking. It is abbreviated as T, tb, tbs, tbsp, tblsp, or tblspn. The capacity of ordinary tablespoons is not regulated by law and is subject to considerable variation. In most countries one level tablespoon is approximately 15 mL; in Australia it is 20 mL."^^rdf:HTML ;
+  dcterms:description "In the US and parts of Canada, a tablespoon is the largest type of spoon used for eating from a bowl. In the UK and most Commonwealth countries, a tablespoon is a type of large spoon usually used for serving. In countries where a tablespoon is a serving spoon, the nearest equivalent to the US tablespoon is either the dessert spoon or the soup spoon. A tablespoonful, nominally the capacity of one tablespoon, is commonly used as a measure of volume in cooking. It is abbreviated as T, tb, tbs, tbsp, tblsp, or tblspn. The capacity of ordinary tablespoons is not regulated by law and is subject to considerable variation. In most countries one level tablespoon is approximately 15 mL; in Australia it is 20 mL."^^rdf:HTML ;
   qudt:conversionMultiplier 0.0000147867656 ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Tablespoon"^^xsd:anyURI ;
   qudt:definedUnitOfSystem sou:IMPERIAL ;
