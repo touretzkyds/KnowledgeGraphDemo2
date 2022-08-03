@@ -14083,3 +14083,519 @@ boltz:Q15808905	a boltz:Q16521 ;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Common_mestra_(Mestra_amymone)_dorsal.jpg/650px-Common_mestra_(Mestra_amymone)_dorsal.jpg> ; 
 	skos:definition	"""Species of insect"""@en ;
 	skos:prefLabel	"Mestra amymone"@en .
+
+
+# Corporations 
+
+# microsoft encoding ----------------------------------------------------------------
+
+boltz:Q2283 a boltz:Q783794 ;
+        kgo:companyName "Microsoft Corporation"@en ;
+        kgo:tickerSymbol "MSFT"@en ;
+        kgo:sector boltz:Q6000000 ;
+        kgo:industryGroup boltz:Q6000001 ;
+        kgo:industry boltz:Q6000002 ;
+        kgo:phoneNumber "+1-425-882-8080"@en ;
+        kgo:emailAddress "mailto:opensource@microsoft.com"@en ;
+        kgo:website "https://www.microsoft.com/"@en ;
+        kgo:inception "1976-11-26"^^xsd:date ;
+        kgo:foundedBy "Bill Gates"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Redmond, Washington"@en ;
+            kgo:coordinates    "47°38′31″N 122°07′38″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Steve Ballmer"@en ;
+        kgo:director "Satya Nadella"@en ;
+        kgo:boardMember "Reid Hoffman"@en ;
+        kgo:boardMember "Hugh F. Johnston"@en ;
+        kgo:boardMember "Teri List-Stoll"@en ;
+        kgo:boardMember "Satya Nadella"@en ;
+        kgo:boardMember "Penny Pritzker"@en ;
+        kgo:boardMember "Charlie Scharf"@en ;
+        kgo:boardMember "John W. Stanton"@en ;
+        kgo:boardMember "John W. Thompson"@en ;
+        kgo:boardMember "Emma Walmsley"@en ;
+        kgo:boardMember "Padmasree Warrior"@en ;
+        kgo:boardMember "Charles Noski"@en ;
+        kgo:boardMember "Helmut Panke"@en ;
+        kgo:boardMember "Sandi Peterson"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 181000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 2270000000000;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 74;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 333779000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 141988000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 168088000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 61271000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q219635 ;
+        kgo:subsidiary boltz:Q73801 ;
+        kgo:ownerOf boltz:Q958338 ;
+        kgo:product boltz:Q1406 ;
+        skos:definition   "American multinational technology corporation"@en ;
+        skos:prefLabel    "Microsoft"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg> .
+
+
+
+# pfizer encoding ----------------------------------------------------------------
+
+boltz:Q206921 a boltz:Q783794 ;
+        kgo:companyName "Pfizer"@en ;
+        kgo:tickerSymbol "PFE"@en ;
+        kgo:sector boltz:Q6000003 ;
+        kgo:industryGroup boltz:Q6000004 ;
+        kgo:industry boltz:Q6000005 ;
+        kgo:phoneNumber "1-800-879-3477"@en ;
+        kgo:emailAddress "pfizercentreone@pfizer.com"@en ;
+        kgo:website "https://www.pfizer.com/"@en ;
+        kgo:inception "1849"^^xsd:date ;
+        kgo:foundedBy "Charles Pfizer"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "New York, New York"@en ;
+            kgo:coordinates    "4o°45′1″N 73°58′21″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Albert Bourla"@en ;
+        kgo:director "Albert Bourla"@en ;
+        kgo:boardMember "Ronald E. Blaylock"@en ;
+        kgo:boardMember "W. Don Cornwell"@en ;
+        kgo:boardMember "Scott Gottlieb"@en ;
+        kgo:boardMember "Helen Hobbs"@en ;
+        kgo:boardMember "Susan Hockfield"@en ;
+        kgo:boardMember "James M. Kilts"@en ;
+        kgo:boardMember "Dan Littman"@en ;
+        kgo:boardMember "Shantanu Narayen"@en ;
+        kgo:boardMember "Suzanne Nora Johnson"@en ;
+        kgo:boardMember "James Quincey"@en ;
+        kgo:boardMember "James C. Smith"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 92400 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 386700000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 5 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 154229000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 63447000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 51750000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 16273000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q849363 ;
+        kgo:subsidiary boltz:Q198605 ;
+        kgo:ownerOf boltz:Q901932 ;
+        kgo:product "pharmaceutical product"@en ;
+        skos:definition   "American multinational pharmaceutical corporation"@en ;
+        skos:prefLabel    "Pfizer"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/5/57/Pfizer_%282021%29.svg> .
+
+
+
+# amazon encoding ----------------------------------------------------------------
+
+boltz:Q3884 a boltz:Q783794 ;
+        kgo:companyName "Amazon"@en ;
+        kgo:tickerSymbol "AMZN"@en ;
+        kgo:sector boltz:Q6000006 ;
+        kgo:industryGroup boltz:Q6000007 ;
+        kgo:industry boltz:Q6000008 ;
+        kgo:phoneNumber "1-888-280-4331"@en ;
+        kgo:emailAddress "cs-reply@amazon.com"@en ;
+        kgo:website "https://www.amazon.com/"@en ;
+        kgo:inception "1994-7-5"^^xsd:date ;
+        kgo:foundedBy "Jeff Bezos"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Seattle, Washington"@en ;
+            kgo:coordinates    "47°3721.72′31″N 122°20′10.32″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Andy Jassy"@en ;
+        kgo:director "Andy Jassy"@en ;
+        kgo:boardMember "Jeff Bezos"@en ;
+        kgo:boardMember "Keith B. Alexander"@en ;
+        kgo:boardMember "Jamie S. Gorelick"@en ;
+        kgo:boardMember "Daniel P. Huttenlocher"@en ;
+        kgo:boardMember "Judy McGrath"@en ;
+        kgo:boardMember "Indra Nooyi"@en ;
+        kgo:boardMember "Jon Rubinstein"@en ;
+        kgo:boardMember "Thomas O. Ryder"@en ;
+        kgo:boardMember "Patty Stonesifer"@en ;
+        kgo:boardMember "Wendell Weeks"@en ;
+        kgo:boardMember "Edith Cooper"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 1608000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 54900000000;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 39.5 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 420549000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 138245000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 469822000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 33364000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q312556 ;
+        kgo:subsidiary boltz:Q280457 ;
+        kgo:ownerOf boltz:Q1628791 ;
+        kgo:product boltz:Q18511815 ;
+        skos:definition   "American multinational technology company"@en ;
+        skos:prefLabel    "Amazon"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/5/59/Amazon.de-Logo.svg> .
+
+
+
+# alphabet encoding ----------------------------------------------------------------
+
+boltz:Q20800404 a boltz:Q783794 ;
+        kgo:companyName "Alphabet Inc"@en ;
+        kgo:tickerSymbol "GOOG"@en ;
+        kgo:sector boltz:Q6000000 ;
+        kgo:industryGroup boltz:Q6000001 ;
+        kgo:industry boltz:Q6000009 ;
+        kgo:phoneNumber "+1-650-206-5555"@en ;
+        kgo:emailAddress "support-in@google.com"@en ;
+        kgo:website "https://www.google.com/"@en ;
+        kgo:inception "2015-8-2"^^xsd:date ;
+        kgo:foundedBy "Sergey Brin"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "1600 Amphitheatre Parkway, Mountain View"@en ;
+            kgo:coordinates    "37°25′19.4″N 122°5′4.0″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Sundar Pichai"@en ;
+        kgo:director "Sundar Pichai"@en ;
+        kgo:boardMember "Larry Page"@en ;
+        kgo:boardMember "Sergey Brin"@en ;
+        kgo:boardMember "John L. Hennessy"@en ;
+        kgo:boardMember "John Doerr"@en ;
+        kgo:boardMember "Roger W. Ferguson, Jr."@en ;
+        kgo:boardMember "Ann Mather"@en ;
+        kgo:boardMember "Alan Mulally"@en ;
+        kgo:boardMember "Sundar Pichai"@en ;
+        kgo:boardMember "Robin Washington"@en ;
+        kgo:boardMember "Frances Arnold"@en ;
+        kgo:boardMember "Ram Shriram"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 156500 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 28700000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 16.68 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 359268000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 251635000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 257637000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 76033000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q92764 ;
+        kgo:subsidiary boltz:Q95 ;
+        kgo:ownerOf boltz:Q100292691 ;
+        kgo:product boltz:Q95 ;
+        skos:definition   "American holding company and parent company of Google"@en ;
+        skos:prefLabel    "Alphabet"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/7/7a/Alphabet_Inc_Logo_2015.svg> .
+
+
+
+# apple encoding ----------------------------------------------------------------
+
+boltz:Q312 a boltz:Q783794 ;
+        kgo:companyName "Apple Inc."@en ;
+        kgo:tickerSymbol "AAPL"@en ;
+        kgo:sector boltz:Q6000000 ;
+        kgo:industryGroup boltz:Q6000010 ;
+        kgo:industry boltz:Q6000011 ;
+        kgo:phoneNumber "+1-800-275-2273"@en ;
+        kgo:emailAddress "None published"@en ;
+        kgo:website "https://www.apple.com/at"@en ;
+        kgo:inception "1976-4-1"^^xsd:date ;
+        kgo:foundedBy "Steve Jobs"@en ;
+        kgo:foundedBy "Ronald Wayne"@en ;
+        kgo:foundedBy "Steve Wozniak"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Cupertino, California"@en ;
+            kgo:coordinates    "37°19′54.05″N 122°1′48.36″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Tim Cook"@en ;
+        kgo:director "Arthur D. Levinson"@en ;
+        kgo:boardMember "Andrea Jung"@en ;
+        kgo:boardMember "Ronald Sugar"@en ;
+        kgo:boardMember "James A. Bell"@en ;
+        kgo:boardMember "Al Gore"@en ;
+        kgo:boardMember "Susan Wagner"@en ;
+        kgo:boardMember "Monica C. Lozano"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 154000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 837800000000;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 23.24 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 351002000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 63090000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 365817000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 94680000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q849363 ;
+        kgo:subsidiary boltz:Q1982831 ;
+        kgo:ownerOf boltz:Q1119662 ;
+        kgo:product boltz:Q270285 ;
+        skos:definition   "American technology company based in Cupertino, California"@en ;
+        skos:prefLabel    "Apple"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg> .
+
+
+
+# netflix encoding ----------------------------------------------------------------
+
+boltz:Q907311 a boltz:Q783794 ;
+        kgo:companyName "Netflix"@en ;
+        kgo:tickerSymbol "NFLX"@en ;
+        kgo:sector boltz:Q6000012 ;
+        kgo:industryGroup boltz:Q6000013 ;
+        kgo:industry boltz:Q6000014 ;
+        kgo:phoneNumber "+1-888-638-3549"@en ;
+        kgo:emailAddress "customerservice@netflix.com"@en ;
+        kgo:website "https://www.netflix.com/"@en ;
+        kgo:inception "1997-8-29"^^xsd:date ;
+        kgo:foundedBy "Reed Hastings"@en ;
+        kgo:foundedBy "Marc Randolph"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Los Gatos, California"@en ;
+            kgo:coordinates    "37°15′42.5″N 121°57′43.2″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Ted Sarandos"@en ;
+        kgo:director "Ted Sarandos"@en ;
+        kgo:boardMember "Rich Barton"@en ;
+        kgo:boardMember "Rodolphe Belmer"@en ;
+        kgo:boardMember "Brad Smith"@en ;
+        kgo:boardMember "Anne Sweeney"@en ;
+        kgo:boardMember "Reed Hastings"@en ;
+        kgo:boardMember "Mathias Döpfner"@en ;
+        kgo:boardMember "Strive Masiyiwa"@en ;
+        kgo:boardMember "Ann Mather"@en ;
+        kgo:boardMember "Ted Sarandos"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 11300 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 12600000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 42.4 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 44584663000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 15849248000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 29697844000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 5116228000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q505275 ;
+        kgo:subsidiary boltz:Q16578556 ;
+        kgo:ownerOf "None"@en ;
+        kgo:product boltz:Q26962790 ;
+        skos:definition   "American content platform and production company"@en ;
+        skos:prefLabel    "Netflix"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg> .
+
