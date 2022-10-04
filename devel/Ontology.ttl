@@ -186,6 +186,75 @@ kgo:annualRevenue  a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"annualRevenue"@en .
 
+kgo:population  a rdf:Property ;
+	skos:definition	"The population of a city"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"population"@en .
+
+# ----------------------City Information----------------------
+kgo:City a      rdfs:Class ;
+  skos:definition      "The Class of all cities"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "City"@en ;
+  rdfs:subClassOf   rdfs:Class .
+
+kgo:cityName a      rdfs:Property ;
+	skos:definition	"The name of an city"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"cityName"@en .
+
+kgo:locatedInCountry a      rdfs:Property ;
+	skos:definition	"The country an city located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCountry"@en .
+
+kgo:locatedInCounty a      rdfs:Property ;
+	skos:definition	"The county an city located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCounty"@en .
+
+kgo:locatedInState a      rdfs:Property ;
+	skos:definition	"The state an city located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInState"@en .
+
+kgo:locatedInTimeZone a      rdfs:Property ;
+	skos:definition	"The time zone an city located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	kgo:TimeZone ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInTimeZone"@en .
+
+kgo:TimeZone a      rdfs:Class ;
+	skos:definition	"The Class of all Time Zones"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label        "TimeZone"@en ;
+	rdfs:subClassOf   rdfs:Class .
+
+kgo:standardTime a      rdfs:Property ;
+	skos:definition	"Synchronization of clocks within a geographical area or region"@en ;
+	rdfs:domain 	kgo:TimeZone ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"StandardTime"@en .
+
+kgo:daylightSavingTime a      rdfs:Property ;
+	skos:definition	"seasonal adjustment of clocks"@en ;
+	rdfs:domain 	kgo:TimeZone ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"daylightSavingTime"@en .
+
 # ----------------------Company Information----------------------
 kgo:Company a      rdfs:Class ;
   skos:definition      "The Class of all Companies"@en ;

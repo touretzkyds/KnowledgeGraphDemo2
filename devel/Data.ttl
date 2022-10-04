@@ -10,6 +10,114 @@
 @prefix sou: <http://qudt.org/vocab/sou/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+# ----------------------Administrative Area----------------------
+boltz:Q60  a kgo: City ;
+  kgo:cityName "New York City"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty "Queens"@en ;
+  kgo:locatedInState "New York"@en ;
+  kgo:coordinates "40.6943,-73.9249"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 18680025 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "New York City"@en ;
+  skos:definition  "most populous city in the United States"@en ;
+
+boltz:Q65  a kgo: City ;
+  kgo:cityName "Los Angeles"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty "Los Angeles"@en ;
+  kgo:locatedInState "California"@en ;
+  kgo:coordinates "34.1141,-118.4068"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 12531334 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Los Angeles"@en ;
+  skos:definition  "largest city in California, United States"@en ;
+
+boltz:Q1297  a kgo: City ;
+  kgo:cityName "Chicago"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty "Cook"@en ;
+  kgo:locatedInState "Illinois"@en ;
+  kgo:coordinates "41.8375,-87.6866"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 8586888 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Chicago"@en ;
+  skos:definition  "city and county seat of Cook County, Illinois, United States of America"@en ;
+
+boltz:Q8652  a kgo: City ;
+  kgo:cityName "Miami"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty "Miami-Dade"@en ;
+  kgo:locatedInState "Florida"@en ;
+  kgo:coordinates "25.784,-80.2101"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 6076316 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Miami"@en ;
+  skos:definition  "second-largest city in Florida, United States"@en ;
+
+boltz:Q16557  a kgo: City ;
+  kgo:cityName "Dallas"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty "Dallas"@en ;
+  kgo:locatedInState "Texas"@en ;
+  kgo:coordinates "32.7935,-96.7667"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 5910669 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Dallas"@en ;
+  skos:definition  "county seat of Dallas County, Texas, United States"@en ;
+
+
+
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;
   skos:prefLabel "Cretaceous Period"@en ;
