@@ -208,7 +208,7 @@ kgo:cityName a      rdfs:Property ;
 	rdfs:label	"cityName"@en .
 
 kgo:locatedInCountry a      rdfs:Property ;
-	skos:definition	"The country an city located in"@en ;
+	skos:definition	"The country an city / county located in"@en ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
@@ -222,7 +222,7 @@ kgo:locatedInCounty a      rdfs:Property ;
 	rdfs:label	"locatedInCounty"@en .
 
 kgo:locatedInState a      rdfs:Property ;
-	skos:definition	"The state an city located in"@en ;
+	skos:definition	"The state an city / county located in"@en ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
@@ -254,6 +254,41 @@ kgo:daylightSavingTime a      rdfs:Property ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"daylightSavingTime"@en .
+
+# ----------------------County Information----------------------
+kgo:County a      rdfs:Class ;
+  skos:definition      "The Class of all counties"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "County"@en ;
+  rdfs:subClassOf   rdfs:Class .
+
+kgo:countyName a      rdfs:Property ;
+	skos:definition	"The name of an county"@en ;
+	rdfs:domain 	kgo:County ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"countyName"@en .
+
+kgo:locatedInCountry a      rdfs:Property ;
+	skos:definition	"The country an city / county located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCountry"@en .
+
+kgo:countySeat a      rdfs:Property ;
+	skos:definition	"The county seat for the county"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"countySeat"@en .
+
+kgo:locatedInState a      rdfs:Property ;
+	skos:definition	"The state an city / county located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInState"@en .
 
 # ----------------------Company Information----------------------
 kgo:Company a      rdfs:Class ;
