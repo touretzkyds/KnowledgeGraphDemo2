@@ -202,7 +202,7 @@ kgo:City a      rdfs:Class ;
 
 kgo:cityName a      rdfs:Property ;
 	skos:definition	"The name of an city"@en ;
-	rdfs:domain 	rdfs:Class ;
+	rdfs:domain 	kgo:City ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"cityName"@en .
