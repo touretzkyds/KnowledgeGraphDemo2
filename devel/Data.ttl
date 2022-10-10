@@ -12,10 +12,95 @@
 
 # ----------------------Administrative Area----------------------
 # -------------------------------City----------------------------
+boltz:Q24861 a kgo:City ;
+  kgo:cityName "Albany"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty boltz:Q104994 ;
+  kgo:locatedInState boltz:Q1384 ;
+  kgo:coordinates "42.6664,-73.7987"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 590823 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Albany"@en ;
+  skos:definition "capital of New York, United States and seat of Albany County"@en .
+
+boltz:Q18013 a kgo:City ;
+  kgo:cityName "Sacramento"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty boltz:Q108131 ;
+  kgo:locatedInState boltz:Q99 ;
+  kgo:coordinates "38.5816,-121.4944"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-08:00"@en ;
+			kgo:daylightSavingTime  "UTC-07:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 503482 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Sacramento"@en ;
+  skos:definition "capital city of California, United States"@en .
+
+boltz:Q28515 a kgo:City ;
+  kgo:cityName "Springfield"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty boltz:Q490994 ;
+  kgo:locatedInState boltz:Q1204 ;
+  kgo:coordinates "39.7817,-89.6501"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 676000 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Springfield"@en ;
+  skos:definition "city in and county seat of Sangamon County, Illinois, United States and Illinois federated state capital city"@en .
+
+boltz:Q25280 a kgo:City ;
+  kgo:cityName "Harrisburg"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty boltz:Q488690 ;
+  kgo:locatedInState boltz:Q1400 ;
+  kgo:coordinates "40.2732,-76.8867"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 558000 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Harrisburg"@en ;
+  skos:definition "city in and county seat of Dauphin County, Pennsylvania, United States and Pennsylvania federated state capital city"@en .
+
+
 boltz:Q60 a kgo:City ;
   kgo:cityName "New York City"@en ;
   kgo:locatedInCountry "United States of America"@en ;
-  kgo:locatedInState "New York"@en ;
+  kgo:locatedInState boltz:Q1384 ;
   kgo:coordinates "40.6943,-73.9249"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -36,7 +121,7 @@ boltz:Q65 a kgo:City ;
   kgo:cityName "Los Angeles"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q104994 ;
-  kgo:locatedInState "California"@en ;
+  kgo:locatedInState boltz:Q99 ;
   kgo:coordinates "34.1141,-118.4068"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -57,7 +142,7 @@ boltz:Q1297 a kgo:City ;
   kgo:cityName "Chicago"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q108418 ;
-  kgo:locatedInState "Illinois"@en ;
+  kgo:locatedInState boltz:Q1204 ;
   kgo:coordinates "41.8375,-87.6866"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -89,7 +174,7 @@ boltz:Q8652 a kgo:City ;
   kgo:population [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
-            qudt:value 6076316 ;
+            qudt:value 6215000 ;
             kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
         ] ;
   skos:prefLabel "Miami"@en ;
@@ -141,7 +226,7 @@ boltz:Q1345 a kgo:City ;
   kgo:cityName "Philadelphia"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q496900 ;
-  kgo:locatedInState "Pennsylvania"@en ;
+  kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.0077,-75.1339"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -204,7 +289,7 @@ boltz:Q1342 a kgo:City ;
   kgo:cityName "Pittsburgh"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q1752800 ;
-  kgo:locatedInState "Pennsylvania"@en ;
+  kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4397,-79.9763"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -302,6 +387,71 @@ boltz:Q1752800 a kgo:County ;
   kgo:coordinates "40.4700,-79.9800"@en ;
   skos:prefLabel "Allegheny"@en ;
   skos:definition "former municipality in Allegheny County, Pennsylvania, United States"@en .
+
+boltz:Q108408 a kgo:County ;
+  kgo:countyName "Albany County"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:countySeat boltz:Q24861 ;
+  kgo:locatedInState boltz:Q1384 ;
+  kgo:coordinates "42.6526,-73.7562"@en ;
+  skos:prefLabel "Albany"@en ;
+  skos:definition "county in New York, United States"@en .
+
+boltz:Q108131 a kgo:County ;
+  kgo:countyName "Sacramento County"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:countySeat boltz:Q18013 ;
+  kgo:locatedInState boltz:Q99 ;
+  kgo:coordinates "38.4747,-121.3542"@en ;
+  skos:prefLabel "Sacramento"@en ;
+  skos:definition "county in California, United States"@en .
+
+boltz:Q490994 a kgo:County ;
+  kgo:countyName "Sangamon County"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:countySeat boltz:Q28515 ;
+  kgo:locatedInState boltz:Q1204 ;
+  kgo:coordinates "39.7337,-89.6252"@en ;
+  skos:prefLabel "Sangamon"@en ;
+  skos:definition "county in Illinois, United States"@en .
+
+boltz:Q488690 a kgo:County ;
+  kgo:countyName "Dauphin County"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:countySeat boltz:Q25280 ;
+  kgo:locatedInState boltz:Q1400 ;
+  kgo:coordinates "40.2734,-76.7337"@en ;
+  skos:prefLabel "Dauphin"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+# -------------------------------State----------------------------
+boltz:Q1384 a kgo:State ;
+  kgo:stateName "New York State"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital boltz:Q24861 ;
+  skos:prefLabel "New York"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q99 a kgo:State ;
+  kgo:stateName "California State"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital boltz:Q65 ;
+  skos:prefLabel "California"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1204 a kgo:State ;
+  kgo:stateName "Illinois State"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital boltz:Q28515 ;
+  skos:prefLabel "Illinois"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1400 a kgo:State ;
+  kgo:stateName "Pennsylvania State"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital boltz:Q25280 ;
+  skos:prefLabel "Pennsylvania"@en ;
+  skos:definition "state of the United States of America"@en .
 
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;

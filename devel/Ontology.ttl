@@ -208,7 +208,7 @@ kgo:cityName a      rdfs:Property ;
 	rdfs:label	"cityName"@en .
 
 kgo:locatedInCountry a      rdfs:Property ;
-	skos:definition	"The country an city / county located in"@en ;
+	skos:definition	"The country an city / county / state located in"@en ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
@@ -270,7 +270,7 @@ kgo:countyName a      rdfs:Property ;
 	rdfs:label	"countyName"@en .
 
 kgo:locatedInCountry a      rdfs:Property ;
-	skos:definition	"The country an city / county located in"@en ;
+	skos:definition	"The country an city / county / state located in"@en ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
@@ -289,6 +289,34 @@ kgo:locatedInState a      rdfs:Property ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"locatedInState"@en .
+
+# ----------------------State Information----------------------
+kgo:State a      rdfs:Class ;
+  skos:definition      "The Class of all states"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "State"@en ;
+  rdfs:subClassOf   rdfs:Class .
+
+kgo:stateName a      rdfs:Property ;
+	skos:definition	"The name of an state"@en ;
+	rdfs:domain 	kgo:State ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"stateName"@en .
+
+kgo:locatedInCountry a      rdfs:Property ;
+	skos:definition	"The country an city / county / state located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCountry"@en .
+
+kgo:capital a      rdfs:Property ;
+	skos:definition	"The capital of the state"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"capital"@en .
 
 # ----------------------Company Information----------------------
 kgo:Company a      rdfs:Class ;
