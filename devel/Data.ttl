@@ -205,7 +205,7 @@ boltz:Q8652 a kgo:City ;
   kgo:cityName "Miami"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q468557 ;
-  kgo:locatedInState Q812 ;
+  kgo:locatedInState boltz:Q812 ;
   kgo:coordinates "25.784,-80.2101"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -226,7 +226,7 @@ boltz:Q16557 a kgo:City ;
   kgo:cityName "Dallas"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q111168 ;
-  kgo:locatedInState Q1439 ;
+  kgo:locatedInState boltz:Q1439 ;
   kgo:coordinates "32.7935,-96.7667"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -247,7 +247,7 @@ boltz:Q16555 a kgo:City ;
   kgo:cityName "Houston"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q26676 ;
-  kgo:locatedInState Q1439 ;
+  kgo:locatedInState boltz:Q1439 ;
   kgo:coordinates "29.786,-95.3885"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
