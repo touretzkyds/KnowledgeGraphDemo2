@@ -117,6 +117,27 @@ boltz:Q37043 a kgo:City ;
   skos:prefLabel "Tallahassee"@en ;
   skos:definition "county seat of Leon County, Florida, USA and Florida federated state capital city"@en .
 
+boltz:Q16559 a kgo:City ;
+  kgo:cityName "Austin"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty boltz:Q110426 ;
+  kgo:locatedInState boltz:Q1439 ;
+  kgo:coordinates "30.2672,-97.7431"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 2176000 ;
+            kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Austin"@en ;
+  skos:definition "capital city of Texas, United States of America"@en .
+
 
 boltz:Q60 a kgo:City ;
   kgo:cityName "New York City"@en ;
@@ -184,7 +205,7 @@ boltz:Q8652 a kgo:City ;
   kgo:cityName "Miami"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q468557 ;
-  kgo:locatedInState "Florida"@en ;
+  kgo:locatedInState Q812 ;
   kgo:coordinates "25.784,-80.2101"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -205,7 +226,7 @@ boltz:Q16557 a kgo:City ;
   kgo:cityName "Dallas"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q111168 ;
-  kgo:locatedInState "Texas"@en ;
+  kgo:locatedInState Q1439 ;
   kgo:coordinates "32.7935,-96.7667"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -226,7 +247,7 @@ boltz:Q16555 a kgo:City ;
   kgo:cityName "Houston"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q26676 ;
-  kgo:locatedInState "Texas"@en ;
+  kgo:locatedInState Q1439 ;
   kgo:coordinates "29.786,-95.3885"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -454,6 +475,15 @@ boltz:Q488576 a kgo:County ;
   skos:prefLabel "Leon"@en ;
   skos:definition "County in Florida, United States"@en .
 
+boltz:Q110426 a kgo:County ;
+  kgo:countyName "Travis County"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:countySeat boltz:Q16559 ;
+  kgo:locatedInState boltz:Q1439 ;
+  kgo:coordinates "30.2097,-97.6982"@en ;
+  skos:prefLabel "Travis"@en ;
+  skos:definition "county in Texas, United States"@en .
+
 # -------------------------------State----------------------------
 boltz:Q1384 a kgo:State ;
   kgo:stateName "New York State"@en ;
@@ -490,7 +520,12 @@ boltz:Q812 a kgo:State ;
   skos:prefLabel "Florida"@en ;
   skos:definition "state of the United States of America"@en .
 
-
+boltz:Q1439 a kgo:State ;
+  kgo:stateName "Texas State"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital boltz:Q16559 ;
+  skos:prefLabel "Texas"@en ;
+  skos:definition "state of the United States of America"@en .
 
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;
