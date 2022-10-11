@@ -96,6 +96,27 @@ boltz:Q25280 a kgo:City ;
   skos:prefLabel "Harrisburg"@en ;
   skos:definition "city in and county seat of Dauphin County, Pennsylvania, United States and Pennsylvania federated state capital city"@en .
 
+boltz:Q37043 a kgo:City ;
+  kgo:cityName "Tallahassee"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInCounty boltz:Q488576 ;
+  kgo:locatedInState boltz:Q812 ;
+  kgo:coordinates "30.4383,-84.2807"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 198758 ;
+            kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  skos:prefLabel "Tallahassee"@en ;
+  skos:definition "county seat of Leon County, Florida, USA and Florida federated state capital city"@en .
+
 
 boltz:Q60 a kgo:City ;
   kgo:cityName "New York City"@en ;
@@ -424,6 +445,15 @@ boltz:Q488690 a kgo:County ;
   skos:prefLabel "Dauphin"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
+boltz:Q488576 a kgo:County ;
+  kgo:countyName "Leon County"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:countySeat boltz:Q37043 ;
+  kgo:locatedInState boltz:Q812 ;
+  kgo:coordinates "30.4906,-84.1857"@en ;
+  skos:prefLabel "Leon"@en ;
+  skos:definition "County in Florida, United States"@en .
+
 # -------------------------------State----------------------------
 boltz:Q1384 a kgo:State ;
   kgo:stateName "New York State"@en ;
@@ -452,6 +482,15 @@ boltz:Q1400 a kgo:State ;
   kgo:capital boltz:Q25280 ;
   skos:prefLabel "Pennsylvania"@en ;
   skos:definition "state of the United States of America"@en .
+
+boltz:Q812 a kgo:State ;
+  kgo:stateName "Florida State"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital boltz:Q37043 ;
+  skos:prefLabel "Florida"@en ;
+  skos:definition "state of the United States of America"@en .
+
+
 
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;
