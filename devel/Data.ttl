@@ -289,7 +289,7 @@ boltz:Q23556 a kgo:City ;
   kgo:cityName "Atlanta"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInCounty boltz:Q486633 ;
-  kgo:locatedInState "Georgia"@en ;
+  kgo:locatedInState boltz:Q1428 ;
   kgo:coordinates "33.7628,-84.422"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -353,7 +353,7 @@ boltz:Q104994 a kgo:County ;
   kgo:countyName "Los Angeles County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q65 ;
-  kgo:locatedInState "California"@en ;
+  kgo:locatedInState boltz:Q99 ;
   kgo:coordinates "34.0522,-118.2437"@en ;
   skos:prefLabel "Los Angeles"@en ;
   skos:definition "county in California, United States"@en .
@@ -362,7 +362,7 @@ boltz:Q108418 a kgo:County ;
   kgo:countyName "Cook County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q1297 ;
-  kgo:locatedInState "Illinois"@en ;
+  kgo:locatedInState boltz:Q1204 ;
   kgo:coordinates "41.7377,-87.6976"@en ;
   skos:prefLabel "Cook"@en ;
   skos:definition "county in Illinois, United States"@en .
@@ -371,7 +371,7 @@ boltz:Q468557 a kgo:County ;
   kgo:countyName "Miami-Dade County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q8652 ;
-  kgo:locatedInState "Florida"@en ;
+  kgo:locatedInState boltz:Q812 ;
   kgo:coordinates "25.5516,-80.6327"@en ;
   skos:prefLabel "Miami-Dade"@en ;
   skos:definition "county in Florida, United States"@en .
@@ -380,7 +380,7 @@ boltz:Q111168 a kgo:County ;
   kgo:countyName "Dallas County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q16557 ;
-  kgo:locatedInState "Texas"@en ;
+  kgo:locatedInState boltz:Q1439 ;
   kgo:coordinates "32.8025,-96.8351"@en ;
   skos:prefLabel "Dallas"@en ;
   skos:definition "county in Texas, United States"@en .
@@ -389,7 +389,7 @@ boltz:Q26676 a kgo:County ;
   kgo:countyName "Harris County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q16555 ;
-  kgo:locatedInState "Texas"@en ;
+  kgo:locatedInState boltz:Q1439 ;
   kgo:coordinates "28.7627,-81.8115"@en ;
   skos:prefLabel "Harris"@en ;
   skos:definition "county in Texas, United States"@en .
@@ -398,7 +398,7 @@ boltz:Q496900 a kgo:County ;
   kgo:countyName "Philadelphia County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q1345 ;
-  kgo:locatedInState "Pennsylvania"@en ;
+  kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.9526,-75.1652"@en ;
   skos:prefLabel "Philadelphia"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
@@ -407,7 +407,7 @@ boltz:Q486633 a kgo:County ;
   kgo:countyName "Fulton County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q23556 ;
-  kgo:locatedInState "Georgia"@en ;
+  kgo:locatedInState boltz:Q1428 ;
   kgo:coordinates "39.1512,-76.9231"@en ;
   skos:prefLabel "Fulton"@en ;
   skos:definition "county in Georgia, United States"@en .
@@ -416,7 +416,6 @@ boltz:Q3551781 a kgo:County ;
   kgo:countyName "District of Columbia County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q1223 ;
-  # kgo:locatedInState <fillme> ;
   kgo:coordinates "38.9072,-77.0369"@en ;
   skos:prefLabel "District of Columbia"@en ;
   skos:definition "federal district of the United States of America, containing the capital city of the United States, Washington"@en .
@@ -425,7 +424,7 @@ boltz:Q1752800 a kgo:County ;
   kgo:countyName "Allegheny County"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:countySeat boltz:Q1342 ;
-  kgo:locatedInState "Pennsylvania"@en ;
+  kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4700,-79.9800"@en ;
   skos:prefLabel "Allegheny"@en ;
   skos:definition "former municipality in Allegheny County, Pennsylvania, United States"@en .
@@ -527,6 +526,12 @@ boltz:Q1439 a kgo:State ;
   skos:prefLabel "Texas"@en ;
   skos:definition "state of the United States of America"@en .
 
+boltz:Q1428 a kgo:State ;
+  kgo:stateName "Georgia State"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital boltz:Q23556 ;
+  skos:prefLabel "Georgia"@en ;
+  skos:definition "state of the United States of America"@en .
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;
   skos:prefLabel "Cretaceous Period"@en ;
