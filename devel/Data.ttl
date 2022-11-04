@@ -1480,7 +1480,7 @@ boltz:Q3556237	a boltz:Q16521 ;
 	skos:definition	"""Genus of algae"""@en ;
 	skos:prefLabel	"Vertebrata"@en .
 
-boltz:Q1011198	a boltz:Q16521 ; 
+boltz:Q26214	a boltz:Q16521 ; 
 	kgo:subTaxonOf	boltz:Q3556237 ; 
 	kgo:taxonName	"Gnathostomata"@en ; 
 	kgo:taxonRank	boltz:Q2361851	;
@@ -1489,7 +1489,7 @@ boltz:Q1011198	a boltz:Q16521 ;
 	skos:prefLabel	"Gnathostomata"@en .
 
 boltz:Q19159	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q1011198 ; 
+	kgo:subTaxonOf	boltz:Q26214 ; 
 	kgo:taxonName	"Tetrapoda"@en ; 
 	kgo:taxonRank	boltz:Q3504061	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Feuer_Salamander_2.jpg/650px-Feuer_Salamander_2.jpg> ; 
@@ -6951,7 +6951,7 @@ boltz:Q1408445	a boltz:Q16521 ;
 	skos:prefLabel	"Telescopus dhara"@en .
 
 boltz:Q127282	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q1011198 ; 
+	kgo:subTaxonOf	boltz:Q26214 ; 
 	kgo:taxonName	"Actinopterygii"@en ; 
 	kgo:taxonRank	boltz:Q3504061	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pteronotropis_signipinnis.jpg/650px-Pteronotropis_signipinnis.jpg> ; 
@@ -14511,16 +14511,16 @@ boltz:Q27027	a boltz:Q16521 ;
 	skos:definition	"""Species of marine mammal"""@en ;
 	skos:prefLabel	"Harbour porpoise"@en .
 
-boltz:Q25371	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q1011198 ; 
-	kgo:taxonName	"Chondrichthyes"@en ; 
+boltz:Q3059636	a boltz:Q16521 ; 
+	kgo:subTaxonOf	boltz:Q26214 ; 
+	kgo:taxonName	"Eugnathostomata"@en ; 
 	kgo:taxonRank	boltz:Q3504061	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/650px-White_shark.jpg> ; 
 	skos:definition	"""Class of fishes"""@en ;
-	skos:prefLabel	"Chondrichthyes"@en .
+	skos:prefLabel	"Eugnathostomata"@en .
 
 boltz:Q25371	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q25371 ; 
+	kgo:subTaxonOf	boltz:Q3059636 ; 
 	kgo:taxonName	"Chondrichthyes"@en ; 
 	kgo:taxonRank	boltz:Q37517	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/650px-White_shark.jpg> ; 
