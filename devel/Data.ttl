@@ -516,7 +516,7 @@ boltz:Q110426 a kgo:County ;
 
 # -------------------------------State----------------------------
 boltz:Q173 a kgo:State ;
-  kgo:stateName "Alabama State"@en ;
+  kgo:stateName "Alabama"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Montgomery"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/1a/Alabama_in_United_States.svg> ;
@@ -524,7 +524,7 @@ boltz:Q173 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q797 a kgo:State ;
-  kgo:stateName "Alaska State"@en ;
+  kgo:stateName "Alaska"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Juneau"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/84/Alaska_in_United_States_%28US50%29.svg> ;
@@ -532,7 +532,7 @@ boltz:Q797 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q816 a kgo:State ;
-  kgo:stateName "Arizona State"@en ;
+  kgo:stateName "Arizona"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Phoenix"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d8/Arizona_in_United_States.svg> ;
@@ -540,7 +540,7 @@ boltz:Q816 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1612 a kgo:State ;
-  kgo:stateName "Arkansas State"@en ;
+  kgo:stateName "Arkansas"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Little Rock"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/86/Arkansas_in_United_States.svg> ;
@@ -548,7 +548,7 @@ boltz:Q1612 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q99 a kgo:State ;
-  kgo:stateName "California State"@en ;
+  kgo:stateName "California"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital boltz:Q65 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/94/California_in_United_States.svg> ;
@@ -556,7 +556,7 @@ boltz:Q99 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1261 a kgo:State ;
-  kgo:stateName "Colorado State"@en ;
+  kgo:stateName "Colorado"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Denver"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/60/Colorado_in_United_States.svg> ;
@@ -564,7 +564,7 @@ boltz:Q1261 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q779 a kgo:State ;
-  kgo:stateName "Connecticut State"@en ;
+  kgo:stateName "Connecticut"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Hartford"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6e/Connecticut_in_United_States.svg> ;
@@ -572,7 +572,7 @@ boltz:Q779 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1393 a kgo:State ;
-  kgo:stateName "Delaware State"@en ;
+  kgo:stateName "Delaware"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Dover"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8c/Delaware_in_United_States_%28zoom%29.svg> ;
@@ -580,7 +580,7 @@ boltz:Q1393 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q812 a kgo:State ;
-  kgo:stateName "Florida State"@en ;
+  kgo:stateName "Florida"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital boltz:Q37043 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/15/Florida_in_United_States.svg> ;
@@ -588,7 +588,7 @@ boltz:Q812 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1428 a kgo:State ;
-  kgo:stateName "Georgia State"@en ;
+  kgo:stateName "Georgia"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital boltz:Q23556 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d1/Georgia_in_United_States.svg> ;
@@ -596,7 +596,7 @@ boltz:Q1428 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q782 a kgo:State ;
-  kgo:stateName "Hawaii State"@en ;
+  kgo:stateName "Hawaii"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Honolulu"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8f/Hawaii_in_United_States_%28US50%29.svg> ;
@@ -604,7 +604,7 @@ boltz:Q782 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1221 a kgo:State ;
-  kgo:stateName "Idaho State"@en ;
+  kgo:stateName "Idaho"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Boise"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a0/Idaho_in_United_States.svg> ;
@@ -612,7 +612,7 @@ boltz:Q1221 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1204 a kgo:State ;
-  kgo:stateName "Illinois State"@en ;
+  kgo:stateName "Illinois"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital boltz:Q28515 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/53/Illinois_in_United_States.svg> ;
@@ -620,7 +620,7 @@ boltz:Q1204 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1415 a kgo:State ;
-  kgo:stateName "Indiana State"@en ;
+  kgo:stateName "Indiana"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Indianapolis"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d2/Indiana_in_United_States.svg> ;
@@ -628,7 +628,7 @@ boltz:Q1415 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1546 a kgo:State ;
-  kgo:stateName "Lowa State"@en ;
+  kgo:stateName "Lowa"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Des Moines"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/57/Iowa_in_United_States.svg> ;
@@ -636,7 +636,7 @@ boltz:Q1546 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1558 a kgo:State ;
-  kgo:stateName "Kansas State"@en ;
+  kgo:stateName "Kansas"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Topeka"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a6/Kansas_in_United_States.svg> ;
@@ -644,7 +644,7 @@ boltz:Q1558 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1603 a kgo:State ;
-  kgo:stateName "Kentucky State"@en ;
+  kgo:stateName "Kentucky"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Frankfort"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/e/e2/Kentucky_in_United_States.svg> ;
@@ -652,7 +652,7 @@ boltz:Q1603 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1588 a kgo:State ;
-  kgo:stateName "Louisiana State"@en ;
+  kgo:stateName "Louisiana"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Baton Rouge"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2a/Louisiana_in_United_States.svg> ;
@@ -660,7 +660,7 @@ boltz:Q1588 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q724 a kgo:State ;
-  kgo:stateName "Maine State"@en ;
+  kgo:stateName "Maine"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Augusta"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/7/78/Maine_in_United_States.svg> ;
@@ -668,7 +668,7 @@ boltz:Q724 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q1391 a kgo:State ;
-  kgo:stateName "Maryland State"@en ;
+  kgo:stateName "Maryland"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Annapolis"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/da/Maryland_in_United_States_%28zoom%29.svg> ;
@@ -676,39 +676,244 @@ boltz:Q1391 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q771 a kgo:State ;
-  kgo:stateName "Massachusetts State"@en ;
+  kgo:stateName "Massachusetts"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital "Boston"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f5/Massachusetts_in_United_States.svg> ;
   skos:prefLabel "Massachusetts"@en ;
   skos:definition "state of the United States of America"@en .
 
+boltz:Q1166 a kgo:State ;
+  kgo:stateName "Michigan"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Lansing"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/50/Michigan_in_United_States.svg> ;
+  skos:prefLabel "Michigan"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1527 a kgo:State ;
+  kgo:stateName "Minnesota"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Saint Paul"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/81/Minnesota_in_United_States.svg> ;
+  skos:prefLabel "Minnesota"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1494 a kgo:State ;
+  kgo:stateName "Mississippi"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Jackson"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Mississippi_in_United_States.svg> ;
+  skos:prefLabel "Mississippi"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1581 a kgo:State ;
+  kgo:stateName "Missouri"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Jefferson City"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/62/Missouri_in_United_States.svg> ;
+  skos:prefLabel "Missouri"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1212 a kgo:State ;
+  kgo:stateName "Montana"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Helena"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/67/Montana_in_United_States.svg> ;
+  skos:prefLabel "Montana"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1553 a kgo:State ;
+  kgo:stateName "Nebraska"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Lincoln"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/44/Nebraska_in_United_States.svg> ;
+  skos:prefLabel "Nebraska"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1227 a kgo:State ;
+  kgo:stateName "Nevada"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Carson City"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/b/ba/Nevada_in_United_States.svg> ;
+  skos:prefLabel "Nevada"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q759 a kgo:State ;
+  kgo:stateName "New Hampshire"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Concord"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/64/New_Hampshire_in_United_States_%28zoom%29.svg> ;
+  skos:prefLabel "New Hampshire"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1408 a kgo:State ;
+  kgo:stateName "New Jersey"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Trenton"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/84/New_Jersey_in_United_States_%28zoom%29.svg> ;
+  skos:prefLabel "New Jersey"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1522 a kgo:State ;
+  kgo:stateName "New Mexico"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Santa Fe"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/fe/New_Mexico_in_United_States.svg> ;
+  skos:prefLabel "New Mexico"@en ;
+  skos:definition "state of the United States of America"@en .
+
 boltz:Q1384 a kgo:State ;
-  kgo:stateName "New York State"@en ;
+  kgo:stateName "New York"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital boltz:Q24861 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/0/06/New_York_in_United_States.svg> ;
   skos:prefLabel "New York"@en ;
   skos:definition "state of the United States of America"@en .
 
+boltz:Q1454 a kgo:State ;
+  kgo:stateName "North Carolina"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Raleigh"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/20/North_Carolina_in_United_States.svg> ;
+  skos:prefLabel "North Carolina"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1207 a kgo:State ;
+  kgo:stateName "North Dakota"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Bismarck"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/b/bc/North_Dakota_in_United_States.svg> ;
+  skos:prefLabel "North Dakota"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1397 a kgo:State ;
+  kgo:stateName "Ohio"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Columbus"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/58/Ohio_in_United_States.svg> ;
+  skos:prefLabel "Ohio"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1649 a kgo:State ;
+  kgo:stateName "Oklahoma"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Oklahoma City"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/99/Oklahoma_in_United_States.svg> ;
+  skos:prefLabel "Oklahoma"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q824 a kgo:State ;
+  kgo:stateName "Oregon"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Salem"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/59/Oregon_in_United_States.svg> ;
+  skos:prefLabel "Oregon"@en ;
+  skos:definition "state of the United States of America"@en .
 
 boltz:Q1400 a kgo:State ;
-  kgo:stateName "Pennsylvania State"@en ;
+  kgo:stateName "Pennsylvania"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital boltz:Q25280 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6d/Pennsylvania_in_United_States.svg> ;
   skos:prefLabel "Pennsylvania"@en ;
   skos:definition "state of the United States of America"@en .
 
+boltz:Q1387 a kgo:State ;
+  kgo:stateName "Rhode Island"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Providence"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/69/Rhode_Island_in_United_States_%28zoom%29.svg> ;
+  skos:prefLabel "Rhode Island"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1456 a kgo:State ;
+  kgo:stateName "South Carolina"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Columbia"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8e/South_Carolina_in_United_States.svg> ;
+  skos:prefLabel "South Carolina"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1211 a kgo:State ;
+  kgo:stateName "South Dakota"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Pierre"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8f/South_Dakota_in_United_States.svg> ;
+  skos:prefLabel "South Dakota"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1509 a kgo:State ;
+  kgo:stateName "Tennessee"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Nashville"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/29/Tennessee_in_United_States.svg> ;
+  skos:prefLabel "Tennessee"@en ;
+  skos:definition "state of the United States of America"@en .
 
 boltz:Q1439 a kgo:State ;
-  kgo:stateName "Texas State"@en ;
+  kgo:stateName "Texas"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:capital boltz:Q16559 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/ad/Texas_in_United_States.svg> ;
   skos:prefLabel "Texas"@en ;
   skos:definition "state of the United States of America"@en .
 
+boltz:Q829 a kgo:State ;
+  kgo:stateName "Utah"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Salt Lake City"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/82/Utah_in_United_States.svg> ;
+  skos:prefLabel "Utah"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q16551 a kgo:State ;
+  kgo:stateName "Vermont"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Montpelier"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f3/Vermont_in_United_States_%28zoom%29.svg> ;
+  skos:prefLabel "Vermont"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1370 a kgo:State ;
+  kgo:stateName "Virginia"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Richmond"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c6/Virginia_in_United_States.svg> ;
+  skos:prefLabel "Virginia"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1223 a kgo:State ;
+  kgo:stateName "Washington"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Olympia"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/3/30/Washington_in_United_States.svg> ;
+  skos:prefLabel "Washington"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1371 a kgo:State ;
+  kgo:stateName "West Virginia"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Charleston"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2a/West_Virginia_in_United_States.svg> ;
+  skos:prefLabel "West Virginia"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1537 a kgo:State ;
+  kgo:stateName "Wisconsin"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Madison"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a7/Wisconsin_in_United_States.svg> ;
+  skos:prefLabel "Wisconsin"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1214 a kgo:State ;
+  kgo:stateName "Wyoming"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:capital "Cheyenne"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/5b/Wyoming_in_United_States.svg> ;
+  skos:prefLabel "Wyoming"@en ;
+  skos:definition "state of the United States of America"@en .
   
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;
