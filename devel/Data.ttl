@@ -520,7 +520,7 @@ boltz:Q488679 a kgo:County ;
   kgo:countySeat "Buffalo" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.1292,-80.0850"@en ;
-  kgo:image <https://en.wikipedia.org/wiki/Erie_County,_Pennsylvania#/media/File:Map_of_Pennsylvania_highlighting_Erie_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Map_of_Pennsylvania_highlighting_Erie_County.svg/2560px-Map_of_Pennsylvania_highlighting_Erie_County.svg.png> ;
   skos:prefLabel "Erie"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
