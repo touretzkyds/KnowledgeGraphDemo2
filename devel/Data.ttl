@@ -450,7 +450,7 @@ boltz:Q156291 a kgo:County ;
   kgo:countySeat boltz:Q1342 ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4700,-79.9800"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/28/Allegheny_Post_Office_front.jpg> ;
+  kgo:image <https://www.wikidata.org/wiki/Q156291#/media/File:Map_of_Pennsylvania_highlighting_Allegheny_County.svg> ;
   skos:prefLabel "Allegheny"@en ;
   skos:definition "former municipality in Allegheny County, Pennsylvania, United States"@en .
 
