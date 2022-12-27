@@ -345,7 +345,7 @@ boltz:Q1223 a kgo:City ;
 boltz:Q1342 a kgo:City ;
   kgo:cityName "Pittsburgh"@en ;
   kgo:locatedInCountry "United States of America"@en ;
-  kgo:locatedInCounty boltz:Q1752800 ;
+  kgo:locatedInCounty boltz:Q156291 ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4397,-79.9763"@en ;
   kgo:locatedInTimeZone  [
