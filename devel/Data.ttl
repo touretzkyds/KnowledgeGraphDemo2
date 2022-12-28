@@ -371,7 +371,7 @@ boltz:Q104994 a kgo:County ;
   kgo:countySeat boltz:Q65 ;
   kgo:locatedInState boltz:Q99 ;
   kgo:coordinates "34.0522,-118.2437"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d7/Los_Angeles%2C_CA_from_the_air.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Map_of_California_highlighting_Los_Angeles_County.svg/1280px-Map_of_California_highlighting_Los_Angeles_County.svg.png> ;
   skos:prefLabel "Los Angeles"@en ;
   skos:definition "county in California, United States"@en .
 
@@ -381,7 +381,7 @@ boltz:Q108418 a kgo:County ;
   kgo:countySeat boltz:Q1297 ;
   kgo:locatedInState boltz:Q1204 ;
   kgo:coordinates "41.7377,-87.6976"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/0/0a/Daley_Plaza_060716.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Map_of_Illinois_highlighting_Cook_County.svg/800px-Map_of_Illinois_highlighting_Cook_County.svg.png> ;
   skos:prefLabel "Cook"@en ;
   skos:definition "county in Illinois, United States"@en .
 
@@ -391,7 +391,7 @@ boltz:Q468557 a kgo:County ;
   kgo:countySeat boltz:Q8652 ;
   kgo:locatedInState boltz:Q812 ;
   kgo:coordinates "25.5516,-80.6327"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/45/Downtown_Miami_alt_photo_D_Ramey_Logan.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Map_of_Florida_highlighting_Miami-Dade_County.svg/1920px-Map_of_Florida_highlighting_Miami-Dade_County.svg.png> ;
   skos:prefLabel "Miami-Dade"@en ;
   skos:definition "county in Florida, United States"@en .
 
@@ -401,7 +401,7 @@ boltz:Q111168 a kgo:County ;
   kgo:countySeat boltz:Q16557 ;
   kgo:locatedInState boltz:Q1439 ;
   kgo:coordinates "32.8025,-96.8351"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/3/37/Dallas_-_Old_Red_Museum_01.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Map_of_Texas_highlighting_Dallas_County.svg/1920px-Map_of_Texas_highlighting_Dallas_County.svg.png> ;
   skos:prefLabel "Dallas"@en ;
   skos:definition "county in Texas, United States"@en .
 
@@ -411,7 +411,7 @@ boltz:Q26676 a kgo:County ;
   kgo:countySeat boltz:Q16555 ;
   kgo:locatedInState boltz:Q1439 ;
   kgo:coordinates "28.7627,-81.8115"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/cf/Harris_County_1910_Courthouse_Restored_Houston_Texas.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Map_of_Texas_highlighting_Harris_County.svg/1920px-Map_of_Texas_highlighting_Harris_County.svg.png> ;
   skos:prefLabel "Harris"@en ;
   skos:definition "county in Texas, United States"@en .
 
@@ -421,7 +421,7 @@ boltz:Q496900 a kgo:County ;
   kgo:countySeat boltz:Q1345 ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.9526,-75.1652"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/43/Old_City_Hall_-_U._S._Supreme_Court_Building.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Map_of_Pennsylvania_highlighting_Philadelphia_County.svg/2560px-Map_of_Pennsylvania_highlighting_Philadelphia_County.svg.png> ;
   skos:prefLabel "Philadelphia"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -431,7 +431,7 @@ boltz:Q486633 a kgo:County ;
   kgo:countySeat boltz:Q23556 ;
   kgo:locatedInState boltz:Q1428 ;
   kgo:coordinates "39.1512,-76.9231"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/58/Atlanta_Fulton_County_Courthouse_2012_09_15_05_6218.JPG> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Map_of_Georgia_highlighting_Fulton_County.svg/1280px-Map_of_Georgia_highlighting_Fulton_County.svg.png> ;
   skos:prefLabel "Fulton"@en ;
   skos:definition "county in Georgia, United States"@en .
 
@@ -450,7 +450,7 @@ boltz:Q156291 a kgo:County ;
   kgo:countySeat boltz:Q1342 ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4700,-79.9800"@en ;
-  kgo:image <https://www.wikidata.org/wiki/Q156291#/media/File:Map_of_Pennsylvania_highlighting_Allegheny_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Map_of_Pennsylvania_highlighting_Allegheny_County.svg/2560px-Map_of_Pennsylvania_highlighting_Allegheny_County.svg.png> ;
   skos:prefLabel "Allegheny"@en ;
   skos:definition "former municipality in Allegheny County, Pennsylvania, United States"@en .
 
@@ -460,7 +460,7 @@ boltz:Q108408 a kgo:County ;
   kgo:countySeat boltz:Q24861 ;
   kgo:locatedInState boltz:Q1384 ;
   kgo:coordinates "42.6526,-73.7562"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/94/AlbanyCapitolFromEast2.JPG> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Map_of_New_York_highlighting_Albany_County.svg/1920px-Map_of_New_York_highlighting_Albany_County.svg.png> ;
   skos:prefLabel "Albany"@en ;
   skos:definition "county in New York, United States"@en .
 
@@ -470,7 +470,7 @@ boltz:Q108131 a kgo:County ;
   kgo:countySeat boltz:Q18013 ;
   kgo:locatedInState boltz:Q99 ;
   kgo:coordinates "38.4747,-121.3542"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/fe/Sacramento_Riverfront.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Map_of_California_highlighting_Sacramento_County.svg/1280px-Map_of_California_highlighting_Sacramento_County.svg.png> ;
   skos:prefLabel "Sacramento"@en ;
   skos:definition "county in California, United States"@en .
 
@@ -480,7 +480,7 @@ boltz:Q490994 a kgo:County ;
   kgo:countySeat boltz:Q28515 ;
   kgo:locatedInState boltz:Q1204 ;
   kgo:coordinates "39.7337,-89.6252"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c6/Abraham_Lincoln_Tomb_Springfield_Illiois.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Map_of_Illinois_highlighting_Sangamon_County.svg/800px-Map_of_Illinois_highlighting_Sangamon_County.svg.png> ;
   skos:prefLabel "Sangamon"@en ;
   skos:definition "county in Illinois, United States"@en .
 
@@ -490,7 +490,7 @@ boltz:Q488690 a kgo:County ;
   kgo:countySeat boltz:Q25280 ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.2734,-76.7337"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/7/77/Dauphin_County_Courthouse.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Map_of_Pennsylvania_highlighting_Dauphin_County.svg/2560px-Map_of_Pennsylvania_highlighting_Dauphin_County.svg.png> ;
   skos:prefLabel "Dauphin"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -500,7 +500,7 @@ boltz:Q488576 a kgo:County ;
   kgo:countySeat boltz:Q37043 ;
   kgo:locatedInState boltz:Q812 ;
   kgo:coordinates "30.4906,-84.1857"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/b/b2/Leon_County_Courthouse_%28looking_at_SW_corner%29.JPG> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Map_of_Florida_highlighting_Leon_County.svg/1920px-Map_of_Florida_highlighting_Leon_County.svg.png> ;
   skos:prefLabel "Leon"@en ;
   skos:definition "County in Florida, United States"@en .
 
@@ -510,7 +510,7 @@ boltz:Q110426 a kgo:County ;
   kgo:countySeat boltz:Q16559 ;
   kgo:locatedInState boltz:Q1439 ;
   kgo:coordinates "30.2097,-97.6982"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/64/Travis_courthouse_2011.jpg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Map_of_Texas_highlighting_Travis_County.svg/1920px-Map_of_Texas_highlighting_Travis_County.svg.png> ;
   skos:prefLabel "Travis"@en ;
   skos:definition "county in Texas, United States"@en .
 
@@ -530,7 +530,7 @@ boltz:Q494086 a kgo:County ;
   kgo:countySeat "Meadville" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.0027,-87.7595"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg/2560px-Map_of_Pennsylvania_highlighting_Crawford_County.svg.png> ;
   skos:prefLabel "Crawford"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -540,7 +540,7 @@ boltz:Q497216 a kgo:County ;
   kgo:countySeat "Mercer" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.3100,-80.2500"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Map_of_Pennsylvania_highlighting_Mercer_County.svg/2560px-Map_of_Pennsylvania_highlighting_Mercer_County.svg.png> ;
   skos:prefLabel "Mercer"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -550,7 +550,7 @@ boltz:Q501256 a kgo:County ;
   kgo:countySeat "New Castle" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.0014,-80.3500"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Map_of_Pennsylvania_highlighting_Lawrence_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lawrence_County.svg.png> ;
   skos:prefLabel "Lawrence"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -560,7 +560,7 @@ boltz:Q494104 a kgo:County ;
   kgo:countySeat "Beaver" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.6900,-80.3500"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Map_of_Pennsylvania_highlighting_Beaver_County.svg/2560px-Map_of_Pennsylvania_highlighting_Beaver_County.svg.png> ;
   skos:prefLabel "Beaver"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -570,7 +570,7 @@ boltz:Q497200 a kgo:County ;
   kgo:countySeat "Washington" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.1740,-80.2462"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Map_of_Pennsylvania_highlighting_Washington_County.svg/2560px-Map_of_Pennsylvania_highlighting_Washington_County.svg.png> ;
   skos:prefLabel "Washington"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -580,7 +580,7 @@ boltz:Q494098 a kgo:County ;
   kgo:countySeat "Waynesburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "42.2900,-74.1300"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Map_of_Pennsylvania_highlighting_Greene_County.svg/2560px-Map_of_Pennsylvania_highlighting_Greene_County.svg.png> ;
   skos:prefLabel "Greene"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -590,7 +590,7 @@ boltz:Q495662 a kgo:County ;
   kgo:countySeat "Warren" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.8439,-79.1450"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Map_of_Pennsylvania_highlighting_Warren_County.svg/2560px-Map_of_Pennsylvania_highlighting_Warren_County.svg.png> ;
   skos:prefLabel "Warren"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -600,7 +600,7 @@ boltz:Q495662 a kgo:County ;
   kgo:countySeat "Franklin" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.4009,-79.7579"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Map_of_Pennsylvania_highlighting_Venango_County.svg/2560px-Map_of_Pennsylvania_highlighting_Venango_County.svg.png> ;
   skos:prefLabel "Venango"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -610,7 +610,7 @@ boltz:Q488672 a kgo:County ;
   kgo:countySeat "Butler" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.8611,-79.8953"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Map_of_Pennsylvania_highlighting_Butler_County.svg/2560px-Map_of_Pennsylvania_highlighting_Butler_County.svg.png> ;
   skos:prefLabel "Butler"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -620,7 +620,7 @@ boltz:Q494236 a kgo:County ;
   kgo:countySeat "Tionesta" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.5197,-78.9997"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Map_of_Pennsylvania_highlighting_Forest_County.svg/2560px-Map_of_Pennsylvania_highlighting_Forest_County.svg.png> ;
   skos:prefLabel "Forest"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -630,7 +630,7 @@ boltz:Q494198 a kgo:County ;
   kgo:countySeat "Clarion" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.2070,-79.3837"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Map_of_Pennsylvania_highlighting_Clarion_County.svg/2560px-Map_of_Pennsylvania_highlighting_Clarion_County.svg.png> ;
   skos:prefLabel "Clarion"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -640,7 +640,7 @@ boltz:Q494186 a kgo:County ;
   kgo:countySeat "Kittanning" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "34.9651,-101.3572"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_of_Pennsylvania_highlighting_Armstrong_County.svg/2560px-Map_of_Pennsylvania_highlighting_Armstrong_County.svg.png> ;
   skos:prefLabel "Armstrong"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -650,7 +650,7 @@ boltz:Q495645 a kgo:County ;
   kgo:countySeat "Greensburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "38.1100,-76.8000"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Map_of_Pennsylvania_highlighting_Westmoreland_County.svg/2560px-Map_of_Pennsylvania_highlighting_Westmoreland_County.svg.png> ;
   skos:prefLabel "Westmoreland"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -660,7 +660,7 @@ boltz:Q488683 a kgo:County ;
   kgo:countySeat "Uniontown" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "38.0606,-84.4802"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Map_of_Pennsylvania_highlighting_Fayette_County.svg/2560px-Map_of_Pennsylvania_highlighting_Fayette_County.svg.png> ;
   skos:prefLabel "Fayette"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -670,7 +670,7 @@ boltz:Q495640 a kgo:County ;
   kgo:countySeat "Smethport" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.8067,-78.4402"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Map_of_Pennsylvania_highlighting_McKean_County.svg/2560px-Map_of_Pennsylvania_highlighting_McKean_County.svg.png> ;
   skos:prefLabel "Mckean"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -680,7 +680,7 @@ boltz:Q494254 a kgo:County ;
   kgo:countySeat "Ridgway" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.4252,-78.6490"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Map_of_Pennsylvania_highlighting_Elk_County.svg/2560px-Map_of_Pennsylvania_highlighting_Elk_County.svg.png> ;
   skos:prefLabel "Elk"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -690,7 +690,7 @@ boltz:Q494156 a kgo:County ;
   kgo:countySeat "Brookville" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "36.0417,-83.4643"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Map_of_Pennsylvania_highlighting_Jefferson_County.svg/2560px-Map_of_Pennsylvania_highlighting_Jefferson_County.svg.png> ;
   skos:prefLabel "Jefferson"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -700,7 +700,7 @@ boltz:Q494146 a kgo:County ;
   kgo:countySeat "Indiana" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.6520,-79.0875"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_Pennsylvania_highlighting_Indiana_County.svg/2560px-Map_of_Pennsylvania_highlighting_Indiana_County.svg.png> ;
   skos:prefLabel "Indiana"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -710,7 +710,7 @@ boltz:Q494142 a kgo:County ;
   kgo:countySeat "Emporium" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "26.1500,-97.4500"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Map_of_Pennsylvania_highlighting_Cameron_County.svg/2560px-Map_of_Pennsylvania_highlighting_Cameron_County.svg.png> ;
   skos:prefLabel "Cameron"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -720,7 +720,7 @@ boltz:Q494233 a kgo:County ;
   kgo:countySeat "Clearfield" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.0272,-78.4391"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Map_of_Pennsylvania_highlighting_Clearfield_County.svg/2560px-Map_of_Pennsylvania_highlighting_Clearfield_County.svg.png> ;
   skos:prefLabel "Clearfield"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -730,7 +730,7 @@ boltz:Q490077 a kgo:County ;
   kgo:countySeat "Ebensburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4952,-78.7136"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Map_of_Pennsylvania_highlighting_Cambria_County.svg/2560px-Map_of_Pennsylvania_highlighting_Cambria_County.svg.png> ;
   skos:prefLabel "Cambria"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -740,7 +740,7 @@ boltz:Q490908 a kgo:County ;
   kgo:countySeat "Somerset" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.5292,-74.6400"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Map_of_Pennsylvania_highlighting_Somerset_County.svg/2560px-Map_of_Pennsylvania_highlighting_Somerset_County.svg.png> ;
   skos:prefLabel "Somerset"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -750,7 +750,7 @@ boltz:Q501340 a kgo:County ;
   kgo:countySeat "Coudersport" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.7400,-77.9000"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Map_of_Pennsylvania_highlighting_Potter_County.svg/2560px-Map_of_Pennsylvania_highlighting_Potter_County.svg.png> ;
   skos:prefLabel "Potter"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -760,7 +760,7 @@ boltz:Q494093 a kgo:County ;
   kgo:countySeat "Lock Haven" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.8279,-90.2496"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Map_of_Pennsylvania_highlighting_Clinton_County.svg/2560px-Map_of_Pennsylvania_highlighting_Clinton_County.svg.png> ;
   skos:prefLabel "Clinton"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -770,7 +770,7 @@ boltz:Q494248 a kgo:County ;
   kgo:countySeat "Bellefonte" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.9100,-77.8200"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Map_of_Pennsylvania_highlighting_Centre_County.svg/2560px-Map_of_Pennsylvania_highlighting_Centre_County.svg.png> ;
   skos:prefLabel "Centre"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -780,7 +780,7 @@ boltz:Q494152 a kgo:County ;
   kgo:countySeat "Hollidaysburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4810,-78.3485"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Map_of_Pennsylvania_highlighting_Blair_County.svg/2560px-Map_of_Pennsylvania_highlighting_Blair_County.svg.png> ;
   skos:prefLabel "Blair"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -790,7 +790,7 @@ boltz:Q494174 a kgo:County ;
   kgo:countySeat "Bedford" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "37.3343,-79.5230"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Map_of_Pennsylvania_highlighting_Bedford_County.svg/2560px-Map_of_Pennsylvania_highlighting_Bedford_County.svg.png> ;
   skos:prefLabel "Bedford"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -800,7 +800,7 @@ boltz:Q494077 a kgo:County ;
   kgo:countySeat "Huntingdon" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4847,-78.0102"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Map_of_Pennsylvania_highlighting_Huntingdon_County.svg/2560px-Map_of_Pennsylvania_highlighting_Huntingdon_County.svg.png> ;
   skos:prefLabel "Huntingdon"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -810,7 +810,7 @@ boltz:Q494211 a kgo:County ;
   kgo:countySeat "McConnellsburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "33.7900,-84.4700"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Map_of_Pennsylvania_highlighting_Fulton_County.svg/2560px-Map_of_Pennsylvania_highlighting_Fulton_County.svg.png> ;
   skos:prefLabel "Fulton"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -820,7 +820,7 @@ boltz:Q495613 a kgo:County ;
   kgo:countySeat "Wellsboro" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.7700,-77.2500"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Map_of_Pennsylvania_highlighting_Tioga_County.svg/2560px-Map_of_Pennsylvania_highlighting_Tioga_County.svg.png> ;
   skos:prefLabel "Tioga"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -830,7 +830,7 @@ boltz:Q495633 a kgo:County ;
   kgo:countySeat "Williamsport" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.3433,-77.0644"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Map_of_Pennsylvania_highlighting_Lycoming_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lycoming_County.svg.png> ;
   skos:prefLabel "Lycoming"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -840,7 +840,7 @@ boltz:Q501248 a kgo:County ;
   kgo:countySeat "Lewisburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "34.4900,-89.0000"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Map_of_Pennsylvania_highlighting_Union_County.svg/2560px-Map_of_Pennsylvania_highlighting_Union_County.svg.png> ;
   skos:prefLabel "Union"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -850,7 +850,7 @@ boltz:Q494161 a kgo:County ;
   kgo:countySeat "Lewistown" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.6103,-77.6170"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Map_of_Pennsylvania_highlighting_Mifflin_County.svg/600px-Map_of_Pennsylvania_highlighting_Mifflin_County.svg.png> ;
   skos:prefLabel "Mifflin"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -860,7 +860,7 @@ boltz:Q501270 a kgo:County ;
   kgo:countySeat "Mifflintown" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.5311,-77.4020"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Map_of_Pennsylvania_highlighting_Juniata_County.svg/2560px-Map_of_Pennsylvania_highlighting_Juniata_County.svg.png> ;
   skos:prefLabel "Juniata"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -870,7 +870,7 @@ boltz:Q495595 a kgo:County ;
   kgo:countySeat "Middleburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.7698,-77.0703"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Map_of_Pennsylvania_highlighting_Snyder_County.svg/2560px-Map_of_Pennsylvania_highlighting_Snyder_County.svg.png> ;
   skos:prefLabel "Snyder"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -880,7 +880,7 @@ boltz:Q501298 a kgo:County ;
   kgo:countySeat "New Bloomfield" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "38.0772,-89.3760"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Map_of_Pennsylvania_highlighting_Perry_County.svg/2560px-Map_of_Pennsylvania_highlighting_Perry_County.svg.png> ;
   skos:prefLabel "Perry"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -890,7 +890,7 @@ boltz:Q494134 a kgo:County ;
   kgo:countySeat "Carlisle" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "35.0500,-78.8300"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Map_of_Pennsylvania_highlighting_Cumberland_County.svg/2560px-Map_of_Pennsylvania_highlighting_Cumberland_County.svg.png> ;
   skos:prefLabel "Cumberland"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -900,7 +900,7 @@ boltz:Q351865 a kgo:County ;
   kgo:countySeat "Gettysburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.8700,-77.2200"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Map_of_Pennsylvania_highlighting_Adams_County.svg/2560px-Map_of_Pennsylvania_highlighting_Adams_County.svg.png> ;
   skos:prefLabel "Adams"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -910,7 +910,7 @@ boltz:Q488687 a kgo:County ;
   kgo:countySeat "Towanda" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "29.9723,-82.1713"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Map_of_Pennsylvania_highlighting_Bradford_County.svg/2560px-Map_of_Pennsylvania_highlighting_Bradford_County.svg.png> ;
   skos:prefLabel "Bradford"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -920,7 +920,7 @@ boltz:Q501306 a kgo:County ;
   kgo:countySeat "Laporte" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.0953,-87.4058"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Map_of_Pennsylvania_highlighting_Sullivan_County.svg/2560px-Map_of_Pennsylvania_highlighting_Sullivan_County.svg.png> ;
   skos:prefLabel "Sullivan"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -930,7 +930,7 @@ boltz:Q495687 a kgo:County ;
   kgo:countySeat "Danville" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.9423,-76.8146"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_Pennsylvania_highlighting_Montour_County.svg/2560px-Map_of_Pennsylvania_highlighting_Montour_County.svg.png> ;
   skos:prefLabel "Montour"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -940,7 +940,7 @@ boltz:Q488693 a kgo:County ;
   kgo:countySeat "Bloomsburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "33.5098,-82.2583"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Map_of_Pennsylvania_highlighting_Columbia_County.svg/2560px-Map_of_Pennsylvania_highlighting_Columbia_County.svg.png> ;
   skos:prefLabel "Columbia"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -950,7 +950,7 @@ boltz:Q494164 a kgo:County ;
   kgo:countySeat "Sunbury" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.8917,-76.7974"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Map_of_Pennsylvania_highlighting_Northumberland_County.svg/2560px-Map_of_Pennsylvania_highlighting_Northumberland_County.svg.png> ;
   skos:prefLabel "Northumberland"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -960,7 +960,7 @@ boltz:Q488690 a kgo:County ;
   kgo:countySeat "Harrisburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4100,-76.7900"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Map_of_Pennsylvania_highlighting_Dauphin_County.svg/2560px-Map_of_Pennsylvania_highlighting_Dauphin_County.svg.png> ;
   skos:prefLabel "Dauphin"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -970,7 +970,7 @@ boltz:Q490914 a kgo:County ;
   kgo:countySeat "York" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.9623,-76.7276"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Map_of_Pennsylvania_highlighting_York_County.svg/2560px-Map_of_Pennsylvania_highlighting_York_County.svg.png> ;
   skos:prefLabel "York"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -980,7 +980,7 @@ boltz:Q494207 a kgo:County ;
   kgo:countySeat "Pottsville" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.7058,-76.2158"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Map_of_Pennsylvania_highlighting_Schuylkill_County.svg/2560px-Map_of_Pennsylvania_highlighting_Schuylkill_County.svg.png> ;
   skos:prefLabel "Schuylkill"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -990,7 +990,7 @@ boltz:Q781165 a kgo:County ;
   kgo:countySeat "Lebanon" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.3409,-76.4113"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Map_of_Pennsylvania_highlighting_Lebanon_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lebanon_County.svg.png> ;
   skos:prefLabel "Lebanon"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1000,7 +1000,7 @@ boltz:Q142369 a kgo:County ;
   kgo:countySeat "Lancaster" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.0444,-76.3062"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Map_of_Pennsylvania_highlighting_Lancaster_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lancaster_County.svg.png> ;
   skos:prefLabel "Lancaster"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1010,7 +1010,7 @@ boltz:Q495603 a kgo:County ;
   kgo:countySeat "Montrose" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.8213,-75.8007"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Map_of_Pennsylvania_highlighting_Susquehanna_County.svg/2560px-Map_of_Pennsylvania_highlighting_Susquehanna_County.svg.png> ;
   skos:prefLabel "Susquehanna"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1020,7 +1020,7 @@ boltz:Q495677 a kgo:County ;
   kgo:countySeat "Tunkhannock" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "42.8217,-78.0843"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Map_of_Pennsylvania_highlighting_Wyoming_County.svg/2560px-Map_of_Pennsylvania_highlighting_Wyoming_County.svg.png> ;
   skos:prefLabel "Wyoming"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1030,7 +1030,7 @@ boltz:Q501292 a kgo:County ;
   kgo:countySeat "Wilkes-Barre" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.1800,-75.9900"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Map_of_Pennsylvania_highlighting_Luzerne_County.svg/2560px-Map_of_Pennsylvania_highlighting_Luzerne_County.svg.png> ;
   skos:prefLabel "Luzerne"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1040,7 +1040,7 @@ boltz:Q488698 a kgo:County ;
   kgo:countySeat "Jim Thorpe" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.9019,-75.6673"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Map_of_Pennsylvania_highlighting_Carbon_County.svg/2560px-Map_of_Pennsylvania_highlighting_Carbon_County.svg.png> ;
   skos:prefLabel "Carbon"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1050,7 +1050,7 @@ boltz:Q494117 a kgo:County ;
   kgo:countySeat "Allentown" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.6100,-75.5900"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Map_of_Pennsylvania_highlighting_Lehigh_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lehigh_County.svg.png> ;
   skos:prefLabel "Lehigh"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1060,7 +1060,7 @@ boltz:Q490920 a kgo:County ;
   kgo:countySeat "Reading" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.3383,-75.9225"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Map_of_Pennsylvania_highlighting_Berks_County.svg/2560px-Map_of_Pennsylvania_highlighting_Berks_County.svg.png> ;
   skos:prefLabel "Berks"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1070,7 +1070,7 @@ boltz:Q27840 a kgo:County ;
   kgo:countySeat "West Chester" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.9700,-75.7500"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Map_of_Pennsylvania_highlighting_Chester_County.svg/2560px-Map_of_Pennsylvania_highlighting_Chester_County.svg.png> ;
   skos:prefLabel "Chester"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1080,7 +1080,7 @@ boltz:Q501350 a kgo:County ;
   kgo:countySeat "Scranton" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "41.4421,-75.5742"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Map_of_Pennsylvania_highlighting_Lackawanna_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lackawanna_County.svg.png> ;
   skos:prefLabel "Lackawanna"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1090,7 +1090,7 @@ boltz:Q378527 a kgo:County ;
   kgo:countySeat "Norristown" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.2290,-75.3878"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Map_of_Pennsylvania_highlighting_Montgomery_County.svg/2560px-Map_of_Pennsylvania_highlighting_Montgomery_County.svg.png> ;
   skos:prefLabel "Montgomery"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1100,7 +1100,7 @@ boltz:Q27844 a kgo:County ;
   kgo:countySeat "Media" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.9200,-75.4000"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Map_of_Pennsylvania_highlighting_Delaware_County.svg/2560px-Map_of_Pennsylvania_highlighting_Delaware_County.svg.png> ;
   skos:prefLabel "Delaware"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1110,7 +1110,7 @@ boltz:Q494167 a kgo:County ;
   kgo:countySeat "Honesdale" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "42.2800,-83.2600"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Map_of_Pennsylvania_highlighting_Wayne_County.svg/2560px-Map_of_Pennsylvania_highlighting_Wayne_County.svg.png> ;
   skos:prefLabel "Wayne"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1120,7 +1120,7 @@ boltz:Q495649 a kgo:County ;
   kgo:countySeat "Milford" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "39.6108,-90.8538"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Map_of_Pennsylvania_highlighting_Pike_County.svg/2560px-Map_of_Pennsylvania_highlighting_Pike_County.svg.png> ;
   skos:prefLabel "Pike"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1130,7 +1130,7 @@ boltz:Q495588 a kgo:County ;
   kgo:countySeat "Stroudsburg" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "43.3000,-77.6900"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Map_of_Pennsylvania_highlighting_Monroe_County.svg/2560px-Map_of_Pennsylvania_highlighting_Monroe_County.svg.png> ;
   skos:prefLabel "Monroe"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1140,7 +1140,7 @@ boltz:Q495658 a kgo:County ;
   kgo:countySeat "Easton" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.7500,-75.3100"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Map_of_Pennsylvania_highlighting_Northampton_County.svg/2560px-Map_of_Pennsylvania_highlighting_Northampton_County.svg.png> ;
   skos:prefLabel "Northampton"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
@@ -1150,18 +1150,8 @@ boltz:Q494192 a kgo:County ;
   kgo:countySeat "Doylestown" ;
   kgo:locatedInState boltz:Q1400 ;
   kgo:coordinates "40.4107,-75.2479"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Map_of_Pennsylvania_highlighting_Bucks_County.svg/2560px-Map_of_Pennsylvania_highlighting_Bucks_County.svg.png> ;
   skos:prefLabel "Bucks"@en ;
-  skos:definition "county in Pennsylvania, United States"@en .
-
-boltz:Q496900 a kgo:County ;
-  kgo:countyName "Philadelphia County"@en ;
-  kgo:locatedInCountry "United States of America"@en ;
-  kgo:countySeat "Philadelphia" ;
-  kgo:locatedInState boltz:Q1400 ;
-  kgo:coordinates "39.9525,-75.1652"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg> ;
-  skos:prefLabel "Philadelphia"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
 # -------------------------------State----------------------------
