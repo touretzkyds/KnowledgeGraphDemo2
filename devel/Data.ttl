@@ -596,7 +596,7 @@ boltz:Q495662 a kgo:County ;
   skos:prefLabel "Warren"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495662 a kgo:County ;
+boltz:Q494241 a kgo:County ;
   kgo:countyName "Venango County"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Franklin" ;
