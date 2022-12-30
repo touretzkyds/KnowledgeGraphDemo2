@@ -1455,8 +1455,8 @@ boltz:Q824 a kgo:State ;
 
 boltz:Q1400 a kgo:State ;
   kgo:stateName "Pennsylvania"@en ;
-  kgo:locatedInCountry boltz:Q7057970; # Northeast Region
-  kgo:locatedInAdministrativeRegion boltz:Q156291 ; # Allegheny
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q7057970 ; # Northeast Region
   kgo:capital boltz:Q25280 ; # Harrisburg
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6d/Pennsylvania_in_United_States.svg> ;
   kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/8/83/Pennsylvania_counties_map.png> ;
