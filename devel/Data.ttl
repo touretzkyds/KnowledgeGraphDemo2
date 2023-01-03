@@ -1431,7 +1431,7 @@ boltz:Q1207 a kgo:State ;
 
 boltz:Q1397 a kgo:State ;
   kgo:stateName "Ohio"@en ;
-  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:capital "Columbus"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/58/Ohio_in_United_States.svg> ;
   skos:prefLabel "Ohio"@en ;
@@ -1439,7 +1439,7 @@ boltz:Q1397 a kgo:State ;
 
 boltz:Q1649 a kgo:State ;
   kgo:stateName "Oklahoma"@en ;
-  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:capital "Oklahoma City"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/99/Oklahoma_in_United_States.svg> ;
   skos:prefLabel "Oklahoma"@en ;
@@ -1447,7 +1447,7 @@ boltz:Q1649 a kgo:State ;
 
 boltz:Q824 a kgo:State ;
   kgo:stateName "Oregon"@en ;
-  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:capital "Salem"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/59/Oregon_in_United_States.svg> ;
   skos:prefLabel "Oregon"@en ;
@@ -1455,8 +1455,8 @@ boltz:Q824 a kgo:State ;
 
 boltz:Q1400 a kgo:State ;
   kgo:stateName "Pennsylvania"@en ;
-  kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:locatedInAdministrativeRegion boltz:Q7057970 ; # Northeast Region
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q25280 ; # Harrisburg
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6d/Pennsylvania_in_United_States.svg> ;
   kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/8/83/Pennsylvania_counties_map.png> ;
@@ -1626,12 +1626,12 @@ boltz:Q1214 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 # ---------------------------Region---------------------------
-boltz:Q7057970 a kgo:Region ;
-  kgo:regionName "Northeast Region"@en ;
+boltz:Q24460 a kgo:Region ;
+  kgo:regionName "Northeastern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map_of_the_North_Eastern_United_States.svg/2560px-Map_of_the_North_Eastern_United_States.svg.png> ;
   kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
-  skos:prefLabel "Northeast Region"@en ;
+  skos:prefLabel "Northeastern United States"@en ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
 
 # --------------------------Country---------------------------
