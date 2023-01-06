@@ -83,6 +83,7 @@ boltz:Q25280 a kgo:City ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q488690 ; # Dauphin County
   kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q488690 ; # Dauphin County
   kgo:coordinates "40.2732,-76.8867"@en ;
   kgo:locatedInTimeZone  [
 			a kgo:TimeZone ;
@@ -486,16 +487,6 @@ boltz:Q490994 a kgo:County ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Map_of_Illinois_highlighting_Sangamon_County.svg/800px-Map_of_Illinois_highlighting_Sangamon_County.svg.png> ;
   skos:prefLabel "Sangamon"@en ;
   skos:definition "county in Illinois, United States"@en .
-
-boltz:Q488690 a kgo:County ;
-  kgo:countyName "Dauphin County"@en ;
-  kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:countySeat boltz:Q25280 ; # Harrisburg
-  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
-  kgo:coordinates "40.2734,-76.7337"@en ;
-  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Map_of_Pennsylvania_highlighting_Dauphin_County.svg/2560px-Map_of_Pennsylvania_highlighting_Dauphin_County.svg.png> ;
-  skos:prefLabel "Dauphin"@en ;
-  skos:definition "county in Pennsylvania, United States"@en .
 
 boltz:Q488576 a kgo:County ;
   kgo:countyName "Leon County"@en ;
