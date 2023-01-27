@@ -366,6 +366,181 @@ boltz:Q1342 a kgo:City ;
   skos:prefLabel "Pittsburgh"@en ;
   skos:definition "county seat in Allegheny County, Pennsylvania, United States"@en .
 
+boltz:Q29364 a kgo:City ;
+  kgo:cityName "Montgomery"@en ;
+  skos:prefLabel "Montgomery"@en ;
+
+boltz:Q29445 a kgo:City ;
+  kgo:cityName "Juneau"@en ;
+  skos:prefLabel "Juneau"@en ;
+
+boltz:Q16556 a kgo:City ;
+  kgo:cityName "Phoenix"@en ;
+  skos:prefLabel "Phoenix"@en ;
+
+boltz:Q33405 a kgo:City ;
+  kgo:cityName "Little Rock"@en ;
+  skos:prefLabel "Little Rock"@en ;
+
+boltz:Q29364 a kgo:City ;
+  kgo:cityName "Montgomery"@en ;
+  skos:prefLabel "Montgomery"@en ;
+
+boltz:Q16554 a kgo:City ;
+  kgo:cityName "Denver"@en ;
+  skos:prefLabel "Denver"@en ;
+
+boltz:Q33486 a kgo:City ;
+  kgo:cityName "Hartford"@en ;
+  skos:prefLabel "Hartford"@en ;
+
+boltz:Q33518 a kgo:City ;
+  kgo:cityName "Dover"@en ;
+  skos:prefLabel "Dover"@en ;
+
+boltz:Q18094 a kgo:City ;
+  kgo:cityName "Honolulu"@en ;
+  skos:prefLabel "Honolulu"@en ;
+
+boltz:Q35775 a kgo:City ;
+  kgo:cityName "Boise"@en ;
+  skos:prefLabel "Boise"@en ;
+
+boltz:Q6346 a kgo:City ;
+  kgo:cityName "Indianapolis"@en ;
+  skos:prefLabel "Indianapolis"@en ;
+
+boltz:Q39709 a kgo:City ;
+  kgo:cityName "Des Moines"@en ;
+  skos:prefLabel "Des Moines"@en ;
+
+boltz:Q41057 a kgo:City ;
+  kgo:cityName "Topeka"@en ;
+  skos:prefLabel "Topeka"@en ;
+
+boltz:Q28603 a kgo:City ;
+  kgo:cityName "Frankfort"@en ;
+  skos:prefLabel "Frankfort"@en ;
+
+boltz:Q28218 a kgo:City ;
+  kgo:cityName "Baton Rouge"@en ;
+  skos:prefLabel "Baton Rouge"@en ;
+
+boltz:Q28206 a kgo:City ;
+  kgo:cityName "Augusta"@en ;
+  skos:prefLabel "Augusta"@en ;
+
+boltz:Q28271 a kgo:City ;
+  kgo:cityName "Annapolis"@en ;
+  skos:prefLabel "Annapolis"@en ;
+
+boltz:Q100 a kgo:City ;
+  kgo:cityName "Boston"@en ;
+  skos:prefLabel "Boston"@en ;
+
+boltz:Q28237 a kgo:City ;
+  kgo:cityName "Lansing"@en ;
+  skos:prefLabel "Lansing"@en ;
+
+boltz:Q28848 a kgo:City ;
+  kgo:cityName "Saint Paul"@en ;
+  skos:prefLabel "Saint Paul"@en ;
+
+boltz:Q28198 a kgo:City ;
+  kgo:cityName "Jackson"@en ;
+  skos:prefLabel "Jackson"@en ; 
+
+boltz:Q28180 a kgo:City ;
+  kgo:cityName "Jefferson City"@en ;
+  skos:prefLabel "Jefferson City"@en ;
+
+boltz:Q38733 a kgo:City ;
+  kgo:cityName "Helena"@en ;
+  skos:prefLabel "Helena"@en ;
+
+boltz:Q28260 a kgo:City ;
+  kgo:cityName "Lincoln"@en ;
+  skos:prefLabel "Lincoln"@en ;
+
+boltz:Q40881 a kgo:City ;
+  kgo:cityName "Carson City"@en ;
+  skos:prefLabel "Carson City"@en ;
+
+boltz:Q28249 a kgo:City ;
+  kgo:cityName "Concord"@en ;
+  skos:prefLabel "Concord"@en ;
+
+boltz:Q25330 a kgo:City ;
+  kgo:cityName "Trenton"@en ;
+  skos:prefLabel "Trenton"@en ;
+
+boltz:Q38555 a kgo:City ;
+  kgo:cityName "Santa Fe"@en ;
+  skos:prefLabel "Santa Fe"@en ;
+
+boltz:Q41087 a kgo:City ;
+  kgo:cityName "Raleigh"@en ;
+  skos:prefLabel "Raleigh"@en ;
+
+boltz:Q37066 a kgo:City ;
+  kgo:cityName "Bismarck"@en ;
+  skos:prefLabel "Bismarck"@en ;
+
+boltz:Q16567 a kgo:City ;
+  kgo:cityName "Columbus"@en ;
+  skos:prefLabel "Columbus"@en ;
+
+boltz:Q34863 a kgo:City ;
+  kgo:cityName "Oklahoma City"@en ;
+  skos:prefLabel "Oklahoma City"@en ;
+
+boltz:Q43919 a kgo:City ;
+  kgo:cityName "Salem"@en ;
+  skos:prefLabel "Salem"@en ;
+
+boltz:Q18383 a kgo:City ;
+  kgo:cityName "Providence"@en ;
+  skos:prefLabel "Providence"@en ;
+
+boltz:Q38453 a kgo:City ;
+  kgo:cityName "Columbia"@en ;
+  skos:prefLabel "Columbia"@en ;
+
+boltz:Q40747 a kgo:City ;
+  kgo:cityName "Pierre"@en ;
+  skos:prefLabel "Pierre"@en ;
+
+boltz:Q23197 a kgo:City ;
+  kgo:cityName "Nashville"@en ;
+  skos:prefLabel "Nashville"@en ;
+
+boltz:Q23337 a kgo:City ;
+  kgo:cityName "Salt Lake City"@en ;
+  skos:prefLabel "Salt Lake City"@en ;
+
+boltz:Q26426 a kgo:City ;
+  kgo:cityName "Montpelier"@en ;
+  skos:prefLabel "Montpelier"@en ;
+
+boltz:Q43421 a kgo:City ;
+  kgo:cityName "Richmond"@en ;
+  skos:prefLabel "Richmond"@en ;
+
+boltz:Q42735 a kgo:City ;
+  kgo:cityName "Olympia"@en ;
+  skos:prefLabel "Olympia"@en ;
+
+boltz:Q44564 a kgo:City ;
+  kgo:cityName "Charleston"@en ;
+  skos:prefLabel "Charleston"@en ;
+
+boltz:Q43788 a kgo:City ;
+  kgo:cityName "Madison"@en ;
+  skos:prefLabel "Madison"@en ;
+
+boltz:Q39042 a kgo:City ;
+  kgo:cityName "Cheyenne"@en ;
+  skos:prefLabel "Cheyenne"@en ;
 # -------------------------------County----------------------------
 boltz:Q104994 a kgo:County ;
   kgo:countyName "Los Angeles County"@en ;
@@ -1216,7 +1391,6 @@ boltz:Q494192 a kgo:County ;
 boltz:Q173 a kgo:State ;
   kgo:stateName "Alabama"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:locatedInAdministrativeRegion boltz:Q1139046 ; # Southeast Region
   kgo:capital boltz:Q29364 ; # Montgomery
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/1a/Alabama_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg> ;
@@ -1532,7 +1706,7 @@ boltz:Q1397 a kgo:State ;
 boltz:Q1649 a kgo:State ;
   kgo:stateName "Oklahoma"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
-  kgo:capital "Oklahoma City"@en ;
+  kgo:capital boltz:Q34863 ; # Oklahoma City
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/99/Oklahoma_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Oklahoma.svg> ;
   skos:prefLabel "Oklahoma"@en ;
@@ -1541,7 +1715,7 @@ boltz:Q1649 a kgo:State ;
 boltz:Q824 a kgo:State ;
   kgo:stateName "Oregon"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
-  kgo:capital "Salem"@en ;
+  kgo:capital boltz:Q43919 ; # Salem
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/59/Oregon_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg> ;
   skos:prefLabel "Oregon"@en ;
@@ -1627,7 +1801,7 @@ boltz:Q1400 a kgo:State ;
 boltz:Q1387 a kgo:State ;
   kgo:stateName "Rhode Island"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Providence"@en ;
+  kgo:capital boltz:Q18383 ; # Providence
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/69/Rhode_Island_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Rhode_Island.svg> ;
   skos:prefLabel "Rhode Island"@en ;
@@ -1636,7 +1810,7 @@ boltz:Q1387 a kgo:State ;
 boltz:Q1456 a kgo:State ;
   kgo:stateName "South Carolina"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Columbia"@en ;
+  kgo:capital boltz:Q38453 ; # Columbia
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8e/South_Carolina_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_South_Carolina.svg> ;
   skos:prefLabel "South Carolina"@en ;
@@ -1645,7 +1819,7 @@ boltz:Q1456 a kgo:State ;
 boltz:Q1211 a kgo:State ;
   kgo:stateName "South Dakota"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Pierre"@en ;
+  kgo:capital boltz:Q40747; # Pierre
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8f/South_Dakota_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_South_Dakota.svg> ;
   skos:prefLabel "South Dakota"@en ;
@@ -1654,7 +1828,7 @@ boltz:Q1211 a kgo:State ;
 boltz:Q1509 a kgo:State ;
   kgo:stateName "Tennessee"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Nashville"@en ;
+  kgo:capital boltz:Q23197 ; # Nashville
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/29/Tennessee_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Tennessee.svg> ;
   skos:prefLabel "Tennessee"@en ;
@@ -1663,7 +1837,7 @@ boltz:Q1509 a kgo:State ;
 boltz:Q1439 a kgo:State ;
   kgo:stateName "Texas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital boltz:Q16559 ;
+  kgo:capital boltz:Q16559 ; # Austin
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/ad/Texas_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg> ;
   skos:prefLabel "Texas"@en ;
@@ -1672,7 +1846,7 @@ boltz:Q1439 a kgo:State ;
 boltz:Q829 a kgo:State ;
   kgo:stateName "Utah"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Salt Lake City"@en ;
+  kgo:capital boltz:Q23337 ; # Salt Lake City
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/82/Utah_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Utah.svg> ;
   skos:prefLabel "Utah"@en ;
@@ -1681,7 +1855,7 @@ boltz:Q829 a kgo:State ;
 boltz:Q16551 a kgo:State ;
   kgo:stateName "Vermont"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Montpelier"@en ;
+  kgo:capital boltz:Q26426 ; # Montpelier
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f3/Vermont_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Vermont.svg> ;
   skos:prefLabel "Vermont"@en ;
@@ -1690,7 +1864,7 @@ boltz:Q16551 a kgo:State ;
 boltz:Q1370 a kgo:State ;
   kgo:stateName "Virginia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Richmond"@en ;
+  kgo:capital boltz:Q43421 ; # Richmond
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c6/Virginia_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Virginia.svg> ;
   skos:prefLabel "Virginia"@en ;
@@ -1699,7 +1873,7 @@ boltz:Q1370 a kgo:State ;
 boltz:Q1223 a kgo:State ;
   kgo:stateName "Washington"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Olympia"@en ;
+  kgo:capital boltz:Q42735 ; # Olympia
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/3/30/Washington_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Washington.svg> ;
   skos:prefLabel "Washington"@en ;
@@ -1708,7 +1882,7 @@ boltz:Q1223 a kgo:State ;
 boltz:Q1371 a kgo:State ;
   kgo:stateName "West Virginia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Charleston"@en ;
+  kgo:capital boltz:Q44564 ; # Charleston
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2a/West_Virginia_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_West_Virginia.svg> ;
   skos:prefLabel "West Virginia"@en ;
@@ -1717,7 +1891,7 @@ boltz:Q1371 a kgo:State ;
 boltz:Q1537 a kgo:State ;
   kgo:stateName "Wisconsin"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Madison"@en ;
+  kgo:capital boltz:Q43788 ; # Madison
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a7/Wisconsin_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Wisconsin.svg> ;
   skos:prefLabel "Wisconsin"@en ;
@@ -1726,7 +1900,7 @@ boltz:Q1537 a kgo:State ;
 boltz:Q1214 a kgo:State ;
   kgo:stateName "Wyoming"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:capital "Cheyenne"@en ;
+  kgo:capital boltz:Q39042 ; # Cheyenne
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/5b/Wyoming_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Wyoming.svg> ;
   skos:prefLabel "Wyoming"@en ;
