@@ -368,179 +368,179 @@ boltz:Q1342 a kgo:City ;
 
 boltz:Q29364 a kgo:City ;
   kgo:cityName "Montgomery"@en ;
-  skos:prefLabel "Montgomery"@en ;
+  skos:prefLabel "Montgomery"@en .
 
 boltz:Q29445 a kgo:City ;
   kgo:cityName "Juneau"@en ;
-  skos:prefLabel "Juneau"@en ;
+  skos:prefLabel "Juneau"@en .
 
 boltz:Q16556 a kgo:City ;
   kgo:cityName "Phoenix"@en ;
-  skos:prefLabel "Phoenix"@en ;
+  skos:prefLabel "Phoenix"@en .
 
 boltz:Q33405 a kgo:City ;
   kgo:cityName "Little Rock"@en ;
-  skos:prefLabel "Little Rock"@en ;
+  skos:prefLabel "Little Rock"@en .
 
 boltz:Q29364 a kgo:City ;
   kgo:cityName "Montgomery"@en ;
-  skos:prefLabel "Montgomery"@en ;
+  skos:prefLabel "Montgomery"@en .
 
 boltz:Q16554 a kgo:City ;
   kgo:cityName "Denver"@en ;
-  skos:prefLabel "Denver"@en ;
+  skos:prefLabel "Denver"@en .
 
 boltz:Q33486 a kgo:City ;
   kgo:cityName "Hartford"@en ;
-  skos:prefLabel "Hartford"@en ;
+  skos:prefLabel "Hartford"@en .
 
 boltz:Q33518 a kgo:City ;
   kgo:cityName "Dover"@en ;
-  skos:prefLabel "Dover"@en ;
+  skos:prefLabel "Dover"@en .
 
 boltz:Q18094 a kgo:City ;
   kgo:cityName "Honolulu"@en ;
-  skos:prefLabel "Honolulu"@en ;
+  skos:prefLabel "Honolulu"@en .
 
 boltz:Q35775 a kgo:City ;
   kgo:cityName "Boise"@en ;
-  skos:prefLabel "Boise"@en ;
+  skos:prefLabel "Boise"@en .
 
 boltz:Q6346 a kgo:City ;
   kgo:cityName "Indianapolis"@en ;
-  skos:prefLabel "Indianapolis"@en ;
+  skos:prefLabel "Indianapolis"@en .
 
 boltz:Q39709 a kgo:City ;
   kgo:cityName "Des Moines"@en ;
-  skos:prefLabel "Des Moines"@en ;
+  skos:prefLabel "Des Moines"@en .
 
 boltz:Q41057 a kgo:City ;
   kgo:cityName "Topeka"@en ;
-  skos:prefLabel "Topeka"@en ;
+  skos:prefLabel "Topeka"@en .
 
 boltz:Q28603 a kgo:City ;
   kgo:cityName "Frankfort"@en ;
-  skos:prefLabel "Frankfort"@en ;
+  skos:prefLabel "Frankfort"@en .
 
 boltz:Q28218 a kgo:City ;
   kgo:cityName "Baton Rouge"@en ;
-  skos:prefLabel "Baton Rouge"@en ;
+  skos:prefLabel "Baton Rouge"@en .
 
 boltz:Q28206 a kgo:City ;
   kgo:cityName "Augusta"@en ;
-  skos:prefLabel "Augusta"@en ;
+  skos:prefLabel "Augusta"@en .
 
 boltz:Q28271 a kgo:City ;
   kgo:cityName "Annapolis"@en ;
-  skos:prefLabel "Annapolis"@en ;
+  skos:prefLabel "Annapolis"@en .
 
 boltz:Q100 a kgo:City ;
   kgo:cityName "Boston"@en ;
-  skos:prefLabel "Boston"@en ;
+  skos:prefLabel "Boston"@en .
 
 boltz:Q28237 a kgo:City ;
   kgo:cityName "Lansing"@en ;
-  skos:prefLabel "Lansing"@en ;
+  skos:prefLabel "Lansing"@en .
 
 boltz:Q28848 a kgo:City ;
   kgo:cityName "Saint Paul"@en ;
-  skos:prefLabel "Saint Paul"@en ;
+  skos:prefLabel "Saint Paul"@en .
 
 boltz:Q28198 a kgo:City ;
   kgo:cityName "Jackson"@en ;
-  skos:prefLabel "Jackson"@en ; 
+  skos:prefLabel "Jackson"@en .
 
 boltz:Q28180 a kgo:City ;
   kgo:cityName "Jefferson City"@en ;
-  skos:prefLabel "Jefferson City"@en ;
+  skos:prefLabel "Jefferson City"@en .
 
 boltz:Q38733 a kgo:City ;
   kgo:cityName "Helena"@en ;
-  skos:prefLabel "Helena"@en ;
+  skos:prefLabel "Helena"@en .
 
 boltz:Q28260 a kgo:City ;
   kgo:cityName "Lincoln"@en ;
-  skos:prefLabel "Lincoln"@en ;
+  skos:prefLabel "Lincoln"@en .
 
 boltz:Q40881 a kgo:City ;
   kgo:cityName "Carson City"@en ;
-  skos:prefLabel "Carson City"@en ;
+  skos:prefLabel "Carson City"@en .
 
 boltz:Q28249 a kgo:City ;
   kgo:cityName "Concord"@en ;
-  skos:prefLabel "Concord"@en ;
+  skos:prefLabel "Concord"@en .
 
 boltz:Q25330 a kgo:City ;
   kgo:cityName "Trenton"@en ;
-  skos:prefLabel "Trenton"@en ;
+  skos:prefLabel "Trenton"@en .
 
 boltz:Q38555 a kgo:City ;
   kgo:cityName "Santa Fe"@en ;
-  skos:prefLabel "Santa Fe"@en ;
+  skos:prefLabel "Santa Fe"@en .
 
 boltz:Q41087 a kgo:City ;
   kgo:cityName "Raleigh"@en ;
-  skos:prefLabel "Raleigh"@en ;
+  skos:prefLabel "Raleigh"@en .
 
 boltz:Q37066 a kgo:City ;
   kgo:cityName "Bismarck"@en ;
-  skos:prefLabel "Bismarck"@en ;
+  skos:prefLabel "Bismarck"@en .
 
 boltz:Q16567 a kgo:City ;
   kgo:cityName "Columbus"@en ;
-  skos:prefLabel "Columbus"@en ;
+  skos:prefLabel "Columbus"@en .
 
 boltz:Q34863 a kgo:City ;
   kgo:cityName "Oklahoma City"@en ;
-  skos:prefLabel "Oklahoma City"@en ;
+  skos:prefLabel "Oklahoma City"@en .
 
 boltz:Q43919 a kgo:City ;
   kgo:cityName "Salem"@en ;
-  skos:prefLabel "Salem"@en ;
+  skos:prefLabel "Salem"@en .
 
 boltz:Q18383 a kgo:City ;
   kgo:cityName "Providence"@en ;
-  skos:prefLabel "Providence"@en ;
+  skos:prefLabel "Providence"@en .
 
 boltz:Q38453 a kgo:City ;
   kgo:cityName "Columbia"@en ;
-  skos:prefLabel "Columbia"@en ;
+  skos:prefLabel "Columbia"@en .
 
 boltz:Q40747 a kgo:City ;
   kgo:cityName "Pierre"@en ;
-  skos:prefLabel "Pierre"@en ;
+  skos:prefLabel "Pierre"@en .
 
 boltz:Q23197 a kgo:City ;
   kgo:cityName "Nashville"@en ;
-  skos:prefLabel "Nashville"@en ;
+  skos:prefLabel "Nashville"@en .
 
 boltz:Q23337 a kgo:City ;
   kgo:cityName "Salt Lake City"@en ;
-  skos:prefLabel "Salt Lake City"@en ;
+  skos:prefLabel "Salt Lake City"@en .
 
 boltz:Q26426 a kgo:City ;
   kgo:cityName "Montpelier"@en ;
-  skos:prefLabel "Montpelier"@en ;
+  skos:prefLabel "Montpelier"@en .
 
 boltz:Q43421 a kgo:City ;
   kgo:cityName "Richmond"@en ;
-  skos:prefLabel "Richmond"@en ;
+  skos:prefLabel "Richmond"@en .
 
 boltz:Q42735 a kgo:City ;
   kgo:cityName "Olympia"@en ;
-  skos:prefLabel "Olympia"@en ;
+  skos:prefLabel "Olympia"@en .
 
 boltz:Q44564 a kgo:City ;
   kgo:cityName "Charleston"@en ;
-  skos:prefLabel "Charleston"@en ;
+  skos:prefLabel "Charleston"@en .
 
 boltz:Q43788 a kgo:City ;
   kgo:cityName "Madison"@en ;
-  skos:prefLabel "Madison"@en ;
+  skos:prefLabel "Madison"@en .
 
 boltz:Q39042 a kgo:City ;
   kgo:cityName "Cheyenne"@en ;
-  skos:prefLabel "Cheyenne"@en ;
+  skos:prefLabel "Cheyenne"@en .
 # -------------------------------County----------------------------
 boltz:Q104994 a kgo:County ;
   kgo:countyName "Los Angeles County"@en ;
