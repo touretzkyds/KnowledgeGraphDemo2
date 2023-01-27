@@ -1921,7 +1921,7 @@ boltz:Q30 a kgo:Region ;
   kgo:locatedInContinent boltz:Q49 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/dc/USA_orthographic.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2880px-Flag_of_the_United_States.svg.png> ;
-  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/1/13/Map_of_USA_States_with_names_white.svg> ; 
+  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blank_US_map_borders_labels.svg/600px-Blank_US_map_borders_labels.svg.png> ; 
   kgo:locatedInAdministrativeRegion boltz:Q49 ; # North America
   skos:prefLabel "United States of America"@en ;
   skos:definition "country in North America"@en .
