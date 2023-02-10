@@ -1391,6 +1391,7 @@ boltz:Q494192 a kgo:County ;
 boltz:Q173 a kgo:State ;
   kgo:stateName "Alabama"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q29364 ; # Montgomery
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/1a/Alabama_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg> ;
@@ -1400,6 +1401,7 @@ boltz:Q173 a kgo:State ;
 boltz:Q797 a kgo:State ;
   kgo:stateName "Alaska"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q29445 ; # Juneau
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/84/Alaska_in_United_States_%28US50%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg> ;
@@ -1409,6 +1411,7 @@ boltz:Q797 a kgo:State ;
 boltz:Q816 a kgo:State ;
   kgo:stateName "Arizona"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q16556 ; # Phoenix
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d8/Arizona_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg> ;
@@ -1418,6 +1421,7 @@ boltz:Q816 a kgo:State ;
 boltz:Q1612 a kgo:State ;
   kgo:stateName "Arkansas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q33405 ; # Little Rock
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/86/Arkansas_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arkansas.svg> ;
@@ -1427,6 +1431,7 @@ boltz:Q1612 a kgo:State ;
 boltz:Q99 a kgo:State ;
   kgo:stateName "California"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q18013 ; # Sacramento
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/94/California_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg> ;
@@ -1436,6 +1441,7 @@ boltz:Q99 a kgo:State ;
 boltz:Q1261 a kgo:State ;
   kgo:stateName "Colorado"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q16554 ; # Denver
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/60/Colorado_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/46/Flag_of_Colorado.svg> ;
@@ -1445,6 +1451,7 @@ boltz:Q1261 a kgo:State ;
 boltz:Q779 a kgo:State ;
   kgo:stateName "Connecticut"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q33486 ; # Hartford
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6e/Connecticut_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_Connecticut.svg> ;
@@ -1454,6 +1461,7 @@ boltz:Q779 a kgo:State ;
 boltz:Q1393 a kgo:State ;
   kgo:stateName "Delaware"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q33518 ; # Dover
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8c/Delaware_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/c/c6/Flag_of_Delaware.svg> ;
@@ -1463,6 +1471,7 @@ boltz:Q1393 a kgo:State ;
 boltz:Q812 a kgo:State ;
   kgo:stateName "Florida"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q37043 ; # Tallahassee
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/15/Florida_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg> ;
@@ -1472,15 +1481,176 @@ boltz:Q812 a kgo:State ;
 boltz:Q1428 a kgo:State ;
   kgo:stateName "Georgia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q23556 ; # Atlanta
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d1/Georgia_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg> ;
+  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/a/a5/Georgia-counties-map.gif>;
+#   kgo:hasCounty boltz:Q488186 ; # "Appling"@en ; 
+#   kgo:hasCounty boltz:Q488194 ; # "Atkinson"@en ; 
+#   kgo:hasCounty boltz:Q488219 ; # "Bacon"@en ; 
+#   kgo:hasCounty boltz:Q376990 ; # "Baker"@en ;
+#   kgo:hasCounty boltz:Q488206 ; # "Baldwin"@en ;
+#   kgo:hasCounty boltz:Q488201 ; # "Banks"@en ;
+#   kgo:hasCounty boltz:Q488181 ; # "Bartow"@en ;
+#   kgo:hasCounty boltz:Q111867 ; # "Ben Hill"@en ;
+#   kgo:hasCounty boltz:Q488868 ; # "Berrien"@en ;
+#   kgo:hasCounty boltz:Q488171 ; # "Bibb"@en ;
+#   kgo:hasCounty boltz:Q486843 ; # "Bleckley"@en ;
+#   kgo:hasCounty boltz:Q156650 ; # "Brantley"@en ;
+#   kgo:hasCounty boltz:Q488175 ; # "Brooks"@en ;
+#   kgo:hasCounty boltz:Q486848 ; # "Bryan"@en ;
+#   kgo:hasCounty boltz:Q488166 ; # "Bulloch"@en ;
+#   kgo:hasCounty boltz:Q211360 ; # "Burke"@en ;
+#   kgo:hasCounty boltz:Q488210 ; # "Butts"@en ;
+#   kgo:hasCounty boltz:Q156632 ; # "Calhoun"@en ;
+#   kgo:hasCounty boltz:Q110504 ; # "Camden"@en ;
+#   kgo:hasCounty boltz:Q488224 ; # "Candler"@en ;
+#   kgo:hasCounty boltz:Q493088 ; # "Carroll"@en ;
+#   kgo:hasCounty boltz:Q260871 ; # "Catoosa"@en ;
+#   kgo:hasCounty boltz:Q486659 ; # "Charlton"@en ;
+#   kgo:hasCounty boltz:Q384890 ; # "Chatham"@en ;
+#   kgo:hasCounty boltz:Q486394 ; # "Chattahoochee"@en ;
+#   kgo:hasCounty boltz:Q486179 ; # "Chattooga"@en ;
+#   kgo:hasCounty boltz:Q486664 ; # "Cherokee"@en ;
+#   kgo:hasCounty boltz:Q112061 ; # "Clarke"@en ;
+#   kgo:hasCounty boltz:Q156580 ; # "Clay"@en ;
+#   kgo:hasCounty boltz:Q486150 ; # "Clayton"@en ;
+#   kgo:hasCounty boltz:Q486167 ; # "Clinch"@en ;
+#   kgo:hasCounty boltz:Q484247 ; # "Cobb"@en ;
+#   kgo:hasCounty boltz:Q156503 ; # "Coffee"@en ;
+#   kgo:hasCounty boltz:Q113005 ; # "Colquitt"@en ;
+#   kgo:hasCounty boltz:Q115307 ; # "Columbia"@en ;
+#   kgo:hasCounty boltz:Q156431 ; # "Cook"@en ;
+#   kgo:hasCounty boltz:Q111928 ; # "Coweta"@en ;
+#   kgo:hasCounty boltz:Q486401 ; # "Crawford"@en ;
+#   kgo:hasCounty boltz:Q156486 ; # "Crisp"@en ;
+#   kgo:hasCounty boltz:Q486654 ; # "Dade"@en ;
+#   kgo:hasCounty boltz:Q492032 ; # "Dawson"@en ;
+#   kgo:hasCounty boltz:Q493037 ; # "Decatur"@en ;
+#   kgo:hasCounty boltz:Q486398 ; # "DeKalb"@en ;
+#   kgo:hasCounty boltz:Q115272 ; # "Dodge"@en ;
+#   kgo:hasCounty boltz:Q492036 ; # "Dooly"@en ;
+#   kgo:hasCounty boltz:Q176480 ; # "Dougherty"@en ;
+#   kgo:hasCounty boltz:Q486325 ; # "Douglas"@en ;
+#   kgo:hasCounty boltz:Q486757 ; # "Early"@en ;
+#   kgo:hasCounty boltz:Q493029 ; # "Echols"@en ;
+#   kgo:hasCounty boltz:Q156637 ; # "Effingham"@en ;
+#   kgo:hasCounty boltz:Q492016 ; # "Elbert"@en ;
+#   kgo:hasCounty boltz:Q111894 ; # "Emanuel"@en ;
+#   kgo:hasCounty boltz:Q493044 ; # "Evans"@en ;
+#   kgo:hasCounty boltz:Q493079 ; # "Fannin"@en ;
+#   kgo:hasCounty boltz:Q501115 ; # "Fayette"@en ;
+#   kgo:hasCounty boltz:Q486389 ; # "Floyd"@en ;
+#   kgo:hasCounty boltz:Q493092 ; # "Forsyth"@en ;
+#   kgo:hasCounty boltz:Q385931 ; # "Franklin"@en ;
+#   kgo:hasCounty boltz:Q486633 ; # Fulton
+#   kgo:hasCounty boltz:Q493054 ; # "Gilmer"@en ;
+#   kgo:hasCounty boltz:Q477951 ; # "Glascock"@en ;
+#   kgo:hasCounty boltz:Q487016 ; # "Glynn"@en ;
+#   kgo:hasCounty boltz:Q200696 ; # "Gordon"@en ;
+#   kgo:hasCounty boltz:Q492061 ; # "Grady"@en ;
+#   kgo:hasCounty boltz:Q486765 ; # "Greene"@en ;
+#   kgo:hasCounty boltz:Q490065 ; # "Gwinnett"@en ;
+#   kgo:hasCounty boltz:Q501096 ; # "Habersham"@en ;
+#   kgo:hasCounty boltz:Q492012 ; # "Hall"@en ;
+#   kgo:hasCounty boltz:Q493112 ; # "Hancock"@en ;
+#   kgo:hasCounty boltz:Q544539 ; # "Haralson"@en ;
+#   kgo:hasCounty boltz:Q486133 ; # "Harris"@en ;
+#   kgo:hasCounty boltz:Q491301 ; # "Hart"@en ;
+#   kgo:hasCounty boltz:Q486348 ; # "Heard"@en ;
+#   kgo:hasCounty boltz:Q492053 ; # "Henry"@en ;
+#   kgo:hasCounty boltz:Q486362 ; # "Houston"@en ;
+#   kgo:hasCounty boltz:Q492057 ; # "Irwin"@en ;
+#   kgo:hasCounty boltz:Q486137 ; # "Jackson"@en ;
+#   kgo:hasCounty boltz:Q224910 ; # "Jasper"@en ;
+#   kgo:hasCounty boltz:Q493071 ; # "Jeff Davis"@en ;
+#   kgo:hasCounty boltz:Q486386 ; # "Jefferson"@en ;
+#   kgo:hasCounty boltz:Q389551 ; # "Jenkins"@en ;
+#   kgo:hasCounty boltz:Q163529 ; # "Johnson"@en ;
+#   kgo:hasCounty boltz:Q493040 ; # "Jones"@en ;
+#   kgo:hasCounty boltz:Q493049 ; # "Lamar"@en ;
+#   kgo:hasCounty boltz:Q492070 ; # "Lanier"@en ;
+#   kgo:hasCounty boltz:Q491556 ; # "Laurens"@en ;
+#   kgo:hasCounty boltz:Q491508 ; # "Lee"@en ;
+#   kgo:hasCounty boltz:Q487692 ; # "Liberty"@en ;
+#   kgo:hasCounty boltz:Q491519 ; # "Lincoln"@en ;
+#   kgo:hasCounty boltz:Q493033 ; # "Long"@en ;
+#   kgo:hasCounty boltz:Q493134 ; # "Lowndes"@en ;
+#   kgo:hasCounty boltz:Q492040 ; # "Lumpkin"@en ;
+#   kgo:hasCounty boltz:Q492021 ; # "Macon"@en ;
+#   kgo:hasCounty boltz:Q156387 ; # "Madison"@en ;
+#   kgo:hasCounty boltz:Q486344 ; # "Marion"@en ;
+#   kgo:hasCounty boltz:Q492066 ; # "McDuffie"@en ;
+#   kgo:hasCounty boltz:Q492652 ; # "McIntosh"@en ;
+#   kgo:hasCounty boltz:Q501151 ; # "Meriwether"@en ;
+#   kgo:hasCounty boltz:Q493107 ; # "Miller"@en ;
+#   kgo:hasCounty boltz:Q493102 ; # "Mitchell"@en ;
+#   kgo:hasCounty boltz:Q493024 ; # "Monroe"@en ;
+#   kgo:hasCounty boltz:Q493125 ; # "Montgomery"@en ;
+#   kgo:hasCounty boltz:Q493083 ; # "Morgan"@en ;
+#   kgo:hasCounty boltz:Q493074 ; # "Murray"@en ;
+#   kgo:hasCounty boltz:Q492048 ; # "Muscogee"@en ;
+#   kgo:hasCounty boltz:Q501101 ; # "Newton"@en ;
+#   kgo:hasCounty boltz:Q492026 ; # "Oconee"@en ;
+#   kgo:hasCounty boltz:Q491525 ; # "Oglethorpe"@en ;
+#   kgo:hasCounty boltz:Q501140 ; # "Paulding"@en ;
+#   kgo:hasCounty boltz:Q491553 ; # "Peach"@en ;
+#   kgo:hasCounty boltz:Q498675 ; # "Pickens"@en ;
+#   kgo:hasCounty boltz:Q486800 ; # "Pierce"@en ;
+#   kgo:hasCounty boltz:Q491533 ; # "Pike"@en ;
+#   kgo:hasCounty boltz:Q498395 ; # "Polk"@en ;
+#   kgo:hasCounty boltz:Q498301 ; # "Pulaski"@en ;
+#   kgo:hasCounty boltz:Q498341 ; # "Putnam"@en ;
+#   kgo:hasCounty boltz:Q498684 ; # "Quitman"@en ;
+#   kgo:hasCounty boltz:Q503546 ; # "Rabun"@en ;
+#   kgo:hasCounty boltz:Q498307 ; # "Randolph"@en ;
+#   kgo:hasCounty boltz:Q498319 ; # "Richmond"@en ;
+#   kgo:hasCounty boltz:Q498621 ; # "Rockdale"@en ;
+#   kgo:hasCounty boltz:Q387216 ; # "Schley"@en ;
+#   kgo:hasCounty boltz:Q503511 ; # "Screven"@en ;
+#   kgo:hasCounty boltz:Q498372 ; # "Seminole"@en ;
+#   kgo:hasCounty boltz:Q503486 ; # "Spalding"@en ;
+#   kgo:hasCounty boltz:Q498362 ; # "Stephens"@en ;
+#   kgo:hasCounty boltz:Q491543 ; # "Stewart"@en ;
+#   kgo:hasCounty boltz:Q503076 ; # "Sumter"@en ;
+#   kgo:hasCounty boltz:Q498356 ; # "Talbot"@en ;
+#   kgo:hasCounty boltz:Q134080 ; # "Taliaferro"@en ;
+#   kgo:hasCounty boltz:Q505310 ; # "Tattnall"@en ;
+#   kgo:hasCounty boltz:Q505299 ; # "Taylor"@en ;
+#   kgo:hasCounty boltz:Q691614 ; # "Telfair"@en ;
+#   kgo:hasCounty boltz:Q503492 ; # "Terrell"@en ;
+#   kgo:hasCounty boltz:Q498327 ; # "Thomas"@en ;
+#   kgo:hasCounty boltz:Q498346 ; # "Tift"@en ;
+#   kgo:hasCounty boltz:Q376822 ; # "Toombs"@en ;
+#   kgo:hasCounty boltz:Q503538 ; # "Towns"@en ;
+#   kgo:hasCounty boltz:Q503071 ; # "Treutlen"@en ;
+#   kgo:hasCounty boltz:Q498295 ; # "Troup"@en ;
+#   kgo:hasCounty boltz:Q498336 ; # "Turner"@en ;
+#   kgo:hasCounty boltz:Q503551 ; # "Twiggs"@en ;
+#   kgo:hasCounty boltz:Q491547 ; # "Union"@en ;
+#   kgo:hasCounty boltz:Q498377 ; # "Upson"@en ;
+#   kgo:hasCounty boltz:Q498321 ; # "Walker"@en ;
+#   kgo:hasCounty boltz:Q498312 ; # "Walton"@en ;
+#   kgo:hasCounty boltz:Q498353 ; # "Ware"@en ;
+#   kgo:hasCounty boltz:Q491529 ; # "Warren"@en ;
+#   kgo:hasCounty boltz:Q498286 ; # "Washington"@en ;
+#   kgo:hasCounty boltz:Q491762 ; # "Wayne"@en ;
+#   kgo:hasCounty boltz:Q491514 ; # "Webster"@en ;
+#   kgo:hasCounty boltz:Q498332 ; # "Wheeler"@en ;
+#   kgo:hasCounty boltz:Q389365 ; # "White"@en ;
+#   kgo:hasCounty boltz:Q491537 ; # "Whitfield"@en ;
+#   kgo:hasCounty boltz:Q486791 ; # "Wilcox"@en ;
+#   kgo:hasCounty boltz:Q491759 ; # "Wilkes"@en ;
+#   kgo:hasCounty boltz:Q486317 ; # "Wilkinson"@en ;
+#   kgo:hasCounty boltz:Q486154 ; # "Worth"@en ;
   skos:prefLabel "Georgia"@en ;
   skos:definition "state of the United States of America"@en .
 
 boltz:Q782 a kgo:State ;
   kgo:stateName "Hawaii"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q18094 ; # Honolulu
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8f/Hawaii_in_United_States_%28US50%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg> ;
@@ -1490,6 +1660,7 @@ boltz:Q782 a kgo:State ;
 boltz:Q1221 a kgo:State ;
   kgo:stateName "Idaho"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q35775 ; # Boise
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a0/Idaho_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Idaho.svg> ;
@@ -1499,6 +1670,7 @@ boltz:Q1221 a kgo:State ;
 boltz:Q1204 a kgo:State ;
   kgo:stateName "Illinois"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q28515 ; # Springfield
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/53/Illinois_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Illinois.svg> ;
@@ -1508,6 +1680,7 @@ boltz:Q1204 a kgo:State ;
 boltz:Q1415 a kgo:State ;
   kgo:stateName "Indiana"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q6346 ; # Indianapolis
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d2/Indiana_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/ac/Flag_of_Indiana.svg> ;
@@ -1517,6 +1690,7 @@ boltz:Q1415 a kgo:State ;
 boltz:Q1546 a kgo:State ;
   kgo:stateName "Iowa"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q39709 ; # Des Moines
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/57/Iowa_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Iowa.svg> ;
@@ -1526,6 +1700,7 @@ boltz:Q1546 a kgo:State ;
 boltz:Q1558 a kgo:State ;
   kgo:stateName "Kansas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q41057 ; # Topeka
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a6/Kansas_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Kansas.svg> ;
@@ -1535,6 +1710,7 @@ boltz:Q1558 a kgo:State ;
 boltz:Q1603 a kgo:State ;
   kgo:stateName "Kentucky"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q28603 ; # Frankfort
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/e/e2/Kentucky_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/8/8d/Flag_of_Kentucky.svg> ;
@@ -1544,6 +1720,7 @@ boltz:Q1603 a kgo:State ;
 boltz:Q1588 a kgo:State ;
   kgo:stateName "Louisiana"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q28218 ; # Baton Rouge
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2a/Louisiana_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_Louisiana.svg> ;
@@ -1553,6 +1730,7 @@ boltz:Q1588 a kgo:State ;
 boltz:Q724 a kgo:State ;
   kgo:stateName "Maine"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q28206 ; # Augusta
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/7/78/Maine_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/d/df/Flag_of_the_State_of_Maine.svg> ;
@@ -1562,6 +1740,7 @@ boltz:Q724 a kgo:State ;
 boltz:Q1391 a kgo:State ;
   kgo:stateName "Maryland"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q28271 ; # Annapolis
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/da/Maryland_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Maryland.svg> ;
@@ -1571,6 +1750,7 @@ boltz:Q1391 a kgo:State ;
 boltz:Q771 a kgo:State ;
   kgo:stateName "Massachusetts"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q100 ; # Boston
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f5/Massachusetts_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Massachusetts.svg> ;
@@ -1580,6 +1760,7 @@ boltz:Q771 a kgo:State ;
 boltz:Q1166 a kgo:State ;
   kgo:stateName "Michigan"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q28237 ; # Lansing
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/50/Michigan_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/b5/Flag_of_Michigan.svg> ;
@@ -1589,6 +1770,7 @@ boltz:Q1166 a kgo:State ;
 boltz:Q1527 a kgo:State ;
   kgo:stateName "Minnesota"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q28848 ; # Saint Paul
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/81/Minnesota_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Minnesota.svg> ;
@@ -1598,6 +1780,7 @@ boltz:Q1527 a kgo:State ;
 boltz:Q1494 a kgo:State ;
   kgo:stateName "Mississippi"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q28198 ; # Jackson
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Mississippi_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_Mississippi.svg> ;
@@ -1607,6 +1790,7 @@ boltz:Q1494 a kgo:State ;
 boltz:Q1581 a kgo:State ;
   kgo:stateName "Missouri"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q28180 ; # Jefferson City
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/62/Missouri_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Missouri.svg> ;
@@ -1616,6 +1800,7 @@ boltz:Q1581 a kgo:State ;
 boltz:Q1212 a kgo:State ;
   kgo:stateName "Montana"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q38733 ; # Helena
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/67/Montana_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Montana.svg> ;
@@ -1625,6 +1810,7 @@ boltz:Q1212 a kgo:State ;
 boltz:Q1553 a kgo:State ;
   kgo:stateName "Nebraska"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q28260 ; # Lincoln
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/44/Nebraska_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Nebraska.svg> ;
@@ -1634,6 +1820,7 @@ boltz:Q1553 a kgo:State ;
 boltz:Q1227 a kgo:State ;
   kgo:stateName "Nevada"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q40881 ; # Carson City
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/b/ba/Nevada_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Nevada.svg> ;
@@ -1643,6 +1830,7 @@ boltz:Q1227 a kgo:State ;
 boltz:Q759 a kgo:State ;
   kgo:stateName "New Hampshire"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q28249 ; # Concord
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/64/New_Hampshire_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_New_Hampshire.svg> ;
@@ -1652,6 +1840,7 @@ boltz:Q759 a kgo:State ;
 boltz:Q1408 a kgo:State ;
   kgo:stateName "New Jersey"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q25330 ; # Trenton
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/84/New_Jersey_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_New_Jersey.svg> ;
@@ -1661,6 +1850,7 @@ boltz:Q1408 a kgo:State ;
 boltz:Q1522 a kgo:State ;
   kgo:stateName "New Mexico"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q38555 ; # Santa Fe
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/fe/New_Mexico_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_New_Mexico.svg> ;
@@ -1670,6 +1860,7 @@ boltz:Q1522 a kgo:State ;
 boltz:Q1384 a kgo:State ;
   kgo:stateName "New York"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q24861 ; # Albany
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/0/06/New_York_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_New_York.svg> ;
@@ -1679,6 +1870,7 @@ boltz:Q1384 a kgo:State ;
 boltz:Q1454 a kgo:State ;
   kgo:stateName "North Carolina"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q41087 ; # Raleigh
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/20/North_Carolina_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_North_Carolina.svg> ;
@@ -1688,6 +1880,7 @@ boltz:Q1454 a kgo:State ;
 boltz:Q1207 a kgo:State ;
   kgo:stateName "North Dakota"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q37066 ; # Bismarck
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/b/bc/North_Dakota_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/ee/Flag_of_North_Dakota.svg> ;
@@ -1697,6 +1890,7 @@ boltz:Q1207 a kgo:State ;
 boltz:Q1397 a kgo:State ;
   kgo:stateName "Ohio"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q16567 ; # Columbus
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/58/Ohio_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Ohio.svg> ;
@@ -1706,6 +1900,7 @@ boltz:Q1397 a kgo:State ;
 boltz:Q1649 a kgo:State ;
   kgo:stateName "Oklahoma"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q34863 ; # Oklahoma City
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/99/Oklahoma_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Oklahoma.svg> ;
@@ -1715,6 +1910,7 @@ boltz:Q1649 a kgo:State ;
 boltz:Q824 a kgo:State ;
   kgo:stateName "Oregon"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q43919 ; # Salem
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/59/Oregon_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg> ;
@@ -1801,6 +1997,7 @@ boltz:Q1400 a kgo:State ;
 boltz:Q1387 a kgo:State ;
   kgo:stateName "Rhode Island"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q18383 ; # Providence
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/69/Rhode_Island_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Rhode_Island.svg> ;
@@ -1810,6 +2007,7 @@ boltz:Q1387 a kgo:State ;
 boltz:Q1456 a kgo:State ;
   kgo:stateName "South Carolina"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q38453 ; # Columbia
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8e/South_Carolina_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_South_Carolina.svg> ;
@@ -1819,6 +2017,7 @@ boltz:Q1456 a kgo:State ;
 boltz:Q1211 a kgo:State ;
   kgo:stateName "South Dakota"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q40747; # Pierre
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8f/South_Dakota_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_South_Dakota.svg> ;
@@ -1828,6 +2027,7 @@ boltz:Q1211 a kgo:State ;
 boltz:Q1509 a kgo:State ;
   kgo:stateName "Tennessee"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q23197 ; # Nashville
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/29/Tennessee_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Tennessee.svg> ;
@@ -1837,6 +2037,7 @@ boltz:Q1509 a kgo:State ;
 boltz:Q1439 a kgo:State ;
   kgo:stateName "Texas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q16559 ; # Austin
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/ad/Texas_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg> ;
@@ -1846,6 +2047,7 @@ boltz:Q1439 a kgo:State ;
 boltz:Q829 a kgo:State ;
   kgo:stateName "Utah"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q23337 ; # Salt Lake City
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/82/Utah_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Utah.svg> ;
@@ -1855,6 +2057,7 @@ boltz:Q829 a kgo:State ;
 boltz:Q16551 a kgo:State ;
   kgo:stateName "Vermont"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
   kgo:capital boltz:Q26426 ; # Montpelier
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f3/Vermont_in_United_States_%28zoom%29.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Vermont.svg> ;
@@ -1864,6 +2067,7 @@ boltz:Q16551 a kgo:State ;
 boltz:Q1370 a kgo:State ;
   kgo:stateName "Virginia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q43421 ; # Richmond
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c6/Virginia_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Virginia.svg> ;
@@ -1873,6 +2077,7 @@ boltz:Q1370 a kgo:State ;
 boltz:Q1223 a kgo:State ;
   kgo:stateName "Washington"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q42735 ; # Olympia
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/3/30/Washington_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Washington.svg> ;
@@ -1882,6 +2087,7 @@ boltz:Q1223 a kgo:State ;
 boltz:Q1371 a kgo:State ;
   kgo:stateName "West Virginia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
   kgo:capital boltz:Q44564 ; # Charleston
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2a/West_Virginia_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_West_Virginia.svg> ;
@@ -1891,6 +2097,7 @@ boltz:Q1371 a kgo:State ;
 boltz:Q1537 a kgo:State ;
   kgo:stateName "Wisconsin"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
   kgo:capital boltz:Q43788 ; # Madison
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a7/Wisconsin_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Wisconsin.svg> ;
@@ -1900,6 +2107,7 @@ boltz:Q1537 a kgo:State ;
 boltz:Q1214 a kgo:State ;
   kgo:stateName "Wyoming"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
   kgo:capital boltz:Q39042 ; # Cheyenne
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/5b/Wyoming_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Wyoming.svg> ;
@@ -1907,6 +2115,7 @@ boltz:Q1214 a kgo:State ;
   skos:definition "state of the United States of America"@en .
 
 # ---------------------------Region---------------------------
+# By Blurpeace - Own work. Modified from this blank map; source from an official United States Census Bureau publication., CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10715092
 boltz:Q24460 a kgo:Region ;
   kgo:regionName "Northeastern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
@@ -1915,6 +2124,33 @@ boltz:Q24460 a kgo:Region ;
   skos:prefLabel "Northeastern United States"@en ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
 
+# By This version: uploaderBase versions this one is derived from: originally created by en:User:Wapcaplet - own work by uploader, based on Image:Map of USA without state names.svg, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4857036
+boltz:Q186545 a kgo:Region ;
+  kgo:regionName "Midwestern United States"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Map_of_USA_Midwest.svg/284px-Map_of_USA_Midwest.svg.png> ;
+  kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
+  skos:prefLabel "Midwestern United States"@en ;
+  skos:definition "administrative regions of the Boy Scouts of America"@en .
+
+# By This version: uploaderBase versions this one is derived from: originally created by Wapcaplet - Own work, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=88528047
+boltz:Q49042 a kgo:Region ;
+  kgo:regionName "Southern United States"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Map_of_USA_South.svg/1920px-Map_of_USA_South.svg.png> ;
+  kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
+  skos:prefLabel "Southern United States"@en ;
+  skos:definition "administrative regions of the Boy Scouts of America"@en .
+
+# By Self - WikiMedia, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=74419376
+boltz:Q12612 a kgo:Region ;
+  kgo:regionName "Western United States"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Map_of_the_U.S.%2C_highlighting_the_West.svg/1920px-Map_of_the_U.S.%2C_highlighting_the_West.svg.png> ; 
+  kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
+  skos:prefLabel "Western United States"@en ;
+  skos:definition "administrative regions of the Boy Scouts of America"@en .
+  
 # --------------------------Country---------------------------
 boltz:Q30 a kgo:Region ;
   kgo:countryName "United States of America"@en ;
