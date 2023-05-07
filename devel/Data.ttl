@@ -2152,7 +2152,7 @@ boltz:Q12612 a kgo:Region ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
   
 # --------------------------Country---------------------------
-boltz:Q30 a kgo:Region ;
+boltz:Q30 a kgo:Country ;
   kgo:countryName "United States of America"@en ;
   kgo:locatedInContinent boltz:Q49 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/dc/USA_orthographic.svg> ;
@@ -2163,7 +2163,7 @@ boltz:Q30 a kgo:Region ;
   skos:definition "country in North America"@en .
 
 # ------------------------Continent---------------------------
-boltz:Q49 a kgo:Region ;
+boltz:Q49 a kgo:Continent ;
   kgo:continentName "North America"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/1920px-Location_North_America.svg.png> ;
   skos:prefLabel "North America"@en ;
