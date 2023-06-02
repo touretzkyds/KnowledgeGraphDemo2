@@ -2116,6 +2116,7 @@ boltz:Q24460 a kgo:Region ;
   kgo:regionName "Northeastern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map_of_the_North_Eastern_United_States.svg/2560px-Map_of_the_North_Eastern_United_States.svg.png> ;
+  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/f/f1/Census_Regions_and_Division_of_the_United_States.svg> ;
   kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
   skos:prefLabel "Northeastern United States"@en ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
