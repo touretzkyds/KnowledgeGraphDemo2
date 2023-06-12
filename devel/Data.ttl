@@ -366,6 +366,121 @@ boltz:Q1342 a kgo:City ;
   skos:prefLabel "Pittsburgh"@en ;
   skos:definition "county seat in Allegheny County, Pennsylvania, United States"@en .
 
+boltz:Q234061 a kgo:City ;
+  kgo:cityName "Erie"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q114843 ; # Erie County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4397,-79.9763"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q114843 ; # Erie County
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 93999 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/14/Erie_PA_skyline_from_tower_observation_deck.png> ;
+  skos:prefLabel "Erie"@en ;
+  skos:definition "city on the south shore of Lake Erie and the county seat of Erie County, Pennsylvania, United States"@en .
+
+boltz:Q142811 a kgo:City ;
+  kgo:cityName "Allentown"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q494117 ; # Lehigh County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.6023, -75.4714"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q494117 ; # Lehigh County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 125944 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c2/Allentown.jpg> ;
+  skos:prefLabel "Allentown"@en ;
+  skos:definition "county seat city in Lehigh County, Pennsylvania, United States"@en .
+
+boltz:Q237896 a kgo:City ;
+  kgo:cityName "Reading"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q490920 ; # Berks County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.3356, -75.9269"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q490920 ; # Berks County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 94844 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c7/Reading_Urban.jpg> ;
+  skos:prefLabel "Reading"@en ;
+  skos:definition "city in and county seat of Berks County, Pennsylvania, UNited States"@en .
+
+boltz:Q745594 a kgo:City ;
+  kgo:cityName "Wilkes-Barre"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q501292 ; # Luzerne County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.2459, -75.8813"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q501292 ; # Luzerne County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 44453 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/e/e5/Wilkes_Barre_Panorama.jpg> ;
+  skos:prefLabel "Wilkes-Barre"@en ;
+  skos:definition "county seat of Luzerne County, Pennsylvania, United States"@en .
+
+boltz:Q1070763 a kgo:City ;
+  kgo:cityName "Johnstown"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q490077 ; # Cambria County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.3267, -78.9220"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q490077 ; # Cambria County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 18238 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/4d/JohnstownPanorama.jpg> ;
+  skos:prefLabel "Johnstown"@en ;
+  skos:definition "city in Cambria County, Pennsylvania, United States"@en .
+
 boltz:Q29364 a kgo:City ;
   kgo:cityName "Montgomery"@en ;
   skos:prefLabel "Montgomery"@en .
@@ -680,9 +795,9 @@ boltz:Q110426 a kgo:County ;
   skos:definition "county in Texas, United States"@en .
 
 boltz:Q488679 a kgo:County ;
-  kgo:countyName "Erie"@en ;
+  kgo:countyName "Erie" ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:countySeat "Erie" ;
+  kgo:countySeat boltz:Q234061 ; # Erie
   kgo:locatedInState boltz:Q1400 ; # Pennsylvania
   kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
   kgo:coordinates "40.1292,-80.0850"@en ;
@@ -1166,7 +1281,7 @@ boltz:Q494164 a kgo:County ;
 boltz:Q488690 a kgo:County ;
   kgo:countyName "Dauphin"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:countySeat "Harrisburg" ;
+  kgo:countySeat boltz:Q25280 ; # Harrisburg
   kgo:locatedInState boltz:Q1400 ; # Pennsylvania
   kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
   kgo:coordinates "40.4100,-76.7900"@en ;
@@ -1243,7 +1358,7 @@ boltz:Q495677 a kgo:County ;
 boltz:Q501292 a kgo:County ;
   kgo:countyName "Luzerne"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:countySeat "Wilkes-Barre" ;
+  kgo:countySeat boltz:Q745594 ; # Wilkes-Barre
   kgo:locatedInState boltz:Q1400 ; # Pennsylvania
   kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
   kgo:coordinates "41.1800,-75.9900"@en ;
@@ -1265,7 +1380,7 @@ boltz:Q488698 a kgo:County ;
 boltz:Q494117 a kgo:County ;
   kgo:countyName "Lehigh"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:countySeat "Allentown" ;
+  kgo:countySeat boltz:Q142811 ; # Allentown
   kgo:locatedInState boltz:Q1400 ; # Pennsylvania
   kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
   kgo:coordinates "40.6100,-75.5900"@en ;
@@ -1276,7 +1391,7 @@ boltz:Q494117 a kgo:County ;
 boltz:Q490920 a kgo:County ;
   kgo:countyName "Berks"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
-  kgo:countySeat "Reading" ;
+  kgo:countySeat boltz:Q237896 ; # Reading
   kgo:locatedInState boltz:Q1400 ; # Pennsylvania
   kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
   kgo:coordinates "40.3383,-75.9225"@en ;
@@ -1481,7 +1596,7 @@ boltz:Q1428 a kgo:State ;
   kgo:capital boltz:Q23556 ; # Atlanta
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d1/Georgia_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg> ;
-  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/a/a5/Georgia-counties-map.gif>;
+  kgo:hasCountiesImageMap <https://upload.wikimedia.org/wikipedia/commons/a/a5/Georgia-counties-map.gif>;
 #   kgo:hasCounty boltz:Q488186 ; # "Appling"@en ; 
 #   kgo:hasCounty boltz:Q488194 ; # "Atkinson"@en ; 
 #   kgo:hasCounty boltz:Q488219 ; # "Bacon"@en ; 
@@ -1920,7 +2035,7 @@ boltz:Q1400 a kgo:State ;
   kgo:capital boltz:Q25280 ; # Harrisburg
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6d/Pennsylvania_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Pennsylvania.svg> ;
-  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/8/83/Pennsylvania_counties_map.png> ;
+  kgo:hasCountiesImageMap <https://upload.wikimedia.org/wikipedia/commons/8/83/Pennsylvania_counties_map.png> ;
   kgo:hasCounty boltz:Q488679 ; # Erie
   kgo:hasCounty boltz:Q494086 ; # Crawford
   kgo:hasCounty boltz:Q497216 ; # Mercer
@@ -2116,7 +2231,7 @@ boltz:Q24460 a kgo:Region ;
   kgo:regionName "Northeastern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map_of_the_North_Eastern_United_States.svg/2560px-Map_of_the_North_Eastern_United_States.svg.png> ;
-  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/f/f1/Census_Regions_and_Division_of_the_United_States.svg> ;
+  kgo:hasStatesImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-northeast.jpeg> ;
   kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
   skos:prefLabel "Northeastern United States"@en ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
@@ -2154,7 +2269,8 @@ boltz:Q30 a kgo:Country ;
   kgo:locatedInContinent boltz:Q49 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/dc/USA_orthographic.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2880px-Flag_of_the_United_States.svg.png> ;
-  kgo:hasCounties <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blank_US_map_borders_labels.svg/600px-Blank_US_map_borders_labels.svg.png> ; 
+  kgo:hasStatesImageMap <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blank_US_map_borders_labels.svg/600px-Blank_US_map_borders_labels.svg.png> ; 
+  kgo:hasRegionsImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-divisions-east-north-central.jpg> ;
   kgo:locatedInAdministrativeRegion boltz:Q49 ; # North America
   skos:prefLabel "United States of America"@en ;
   skos:definition "country in North America"@en .

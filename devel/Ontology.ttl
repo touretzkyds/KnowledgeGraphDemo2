@@ -193,12 +193,19 @@ kgo:population  a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"population"@en .
 
+# ----------------------Administrative Region----------------------
+kgo:AdministrativeRegion a rdfs:Class ;
+  skos:definition      "Designation for an administrative territorial entity"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "AdministrativeRegion"@en ;
+  rdfs:subClassOf   rdfs:Class .
+
 # ----------------------City Information----------------------
 kgo:City a      rdfs:Class ;
   skos:definition      "The Class of all cities"@en ;
   rdfs:isDefinedBy  boltz:ontology ;
   rdfs:label        "City"@en ;
-  rdfs:subClassOf   rdfs:Class .
+  rdfs:subClassOf   kgo:AdministrativeRegion .
 
 kgo:cityName a      rdfs:Property ;
 	skos:definition	"The name of an city"@en ;
@@ -266,7 +273,7 @@ kgo:County a      rdfs:Class ;
 	skos:definition      "The Class of all counties"@en ;
 	rdfs:isDefinedBy  boltz:ontology ;
 	rdfs:label        "County"@en ;
-	rdfs:subClassOf   rdfs:Class .
+	rdfs:subClassOf   kgo:AdministrativeRegion .
 
 kgo:countyName a      rdfs:Property ;
 	skos:definition	"The name of an county"@en ;
@@ -301,7 +308,7 @@ kgo:State a      rdfs:Class ;
 	skos:definition      "The Class of all states"@en ;
 	rdfs:isDefinedBy  boltz:ontology ;
 	rdfs:label        "State"@en ;
-	rdfs:subClassOf   rdfs:Class .
+	rdfs:subClassOf   kgo:AdministrativeRegion .
 
 kgo:stateName a      rdfs:Property ;
 	skos:definition	"The name of an state"@en ;
@@ -324,15 +331,16 @@ kgo:capital a      rdfs:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"capital"@en .
 
-kgo:hasCounties a rdf:Property ;
+kgo:hasCountiesImageMap a rdf:Property ;
 	skos:definition	"The image containing counties located in the state."@en ;
-	rdfs:domain boltz:State ;
+	rdfs:domain kgo:State ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label "hasCounties"@en .
 
 kgo:hasCounty a rdf:Property ;
 	skos:definition	"The county in the state"@en ;
-	rdfs:domain rdfs:Class ;
+	rdfs:domain kgo:State ;
+	rdfs:range kgo:County ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label "hasCounty"@en .
 
@@ -341,7 +349,7 @@ kgo:Region a      rdfs:Class ;
 	skos:definition      "The Class of all regions"@en ;
 	rdfs:isDefinedBy  boltz:ontology ;
 	rdfs:label        "Region"@en ;
-	rdfs:subClassOf   rdfs:Class .
+	rdfs:subClassOf   kgo:AdministrativeRegion .
 
 kgo:regionName a      rdfs:Property ;
 	skos:definition	"The name of an region"@en ;
@@ -349,6 +357,18 @@ kgo:regionName a      rdfs:Property ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"regionName"@en .
+
+kgo:hasStatesImageMap a rdf:Property ;
+	skos:definition	"The image containing states located in the region."@en ;
+	rdfs:domain boltz:AdministrativeRegion ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasStates"@en .
+
+kgo:hasState a rdf:Property ;
+	skos:definition	"The state in the region"@en ;
+	rdfs:domain rdfs:Class ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasState"@en .
 
 # ----------------------Country Information----------------------
 kgo:Country a      rdfs:Class ;
@@ -378,6 +398,18 @@ kgo:locatedInAdministrativeRegion a      rdfs:Property ;
 	rdfs:range	rdfs:Literal ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"locatedInAdministrativeRegion"@en .
+
+kgo:hasRegionsImageMap a rdf:Property ;
+	skos:definition	"The image containing regions located in the country."@en ;
+	rdfs:domain boltz:Country ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasRegions"@en .
+
+kgo:hasRegion a rdf:Property ;
+	skos:definition	"The region in the country"@en ;
+	rdfs:domain rdfs:Class ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasRegion"@en .
 
 # ------------------------Continent---------------------------
 kgo:Continent a      rdfs:Class ;
