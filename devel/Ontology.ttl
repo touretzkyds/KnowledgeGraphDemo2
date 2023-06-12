@@ -335,7 +335,7 @@ kgo:hasCountiesImageMap a rdf:Property ;
 	skos:definition	"The image containing counties located in the state."@en ;
 	rdfs:domain kgo:State ;
 	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "hasCounties"@en .
+	rdfs:label "hasCountiesImageMap"@en .
 
 kgo:hasCounty a rdf:Property ;
 	skos:definition	"The county in the state"@en ;
@@ -362,7 +362,7 @@ kgo:hasStatesImageMap a rdf:Property ;
 	skos:definition	"The image containing states located in the region."@en ;
 	rdfs:domain boltz:AdministrativeRegion ;
 	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "hasStates"@en .
+	rdfs:label "hasStatesImageMap"@en .
 
 kgo:hasState a rdf:Property ;
 	skos:definition	"The state in the region"@en ;
@@ -403,7 +403,7 @@ kgo:hasRegionsImageMap a rdf:Property ;
 	skos:definition	"The image containing regions located in the country."@en ;
 	rdfs:domain boltz:Country ;
 	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "hasRegions"@en .
+	rdfs:label "hasRegionsImageMap"@en .
 
 kgo:hasRegion a rdf:Property ;
 	skos:definition	"The region in the country"@en ;
