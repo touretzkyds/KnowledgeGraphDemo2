@@ -2225,6 +2225,14 @@ boltz:Q1214 a kgo:State ;
   skos:prefLabel "Wyoming"@en ;
   skos:definition "state of the United States of America"@en .
 
+# --------------------------Division--------------------------
+
+boltz:Q18389 a kgo:Division ;
+  kgo:divisionName "New England"@en .
+
+boltz:Q632014 a kgo:Division ;
+  kgo:divisionName "Mid-Atlantic"@en .
+
 # ---------------------------Region---------------------------
 # By Blurpeace - Own work. Modified from this blank map; source from an official United States Census Bureau publication., CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10715092
 boltz:Q24460 a kgo:Region ;
@@ -2250,6 +2258,7 @@ boltz:Q49042 a kgo:Region ;
   kgo:regionName "Southern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Map_of_USA_South.svg/1920px-Map_of_USA_South.svg.png> ;
+  kgo:hasStatesImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-south.jpg> ;
   kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
   skos:prefLabel "Southern United States"@en ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
@@ -2270,7 +2279,7 @@ boltz:Q30 a kgo:Country ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/dc/USA_orthographic.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2880px-Flag_of_the_United_States.svg.png> ;
   kgo:hasStatesImageMap <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blank_US_map_borders_labels.svg/600px-Blank_US_map_borders_labels.svg.png> ; 
-  kgo:hasRegionsImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-divisions-east-north-central.jpg> ;
+  kgo:hasRegionsImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-map-census.jpeg> ;
   kgo:locatedInAdministrativeRegion boltz:Q49 ; # North America
   skos:prefLabel "United States of America"@en ;
   skos:definition "country in North America"@en .

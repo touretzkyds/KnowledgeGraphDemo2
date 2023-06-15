@@ -344,6 +344,20 @@ kgo:hasCounty a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label "hasCounty"@en .
 
+# ----------------------Division Information----------------------
+kgo:Division a      rdfs:Class ;
+	skos:definition      "The Class of all administrative territorial entities of the United States at the division level"@en ; # better description?
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Division"@en ;
+	rdfs:subClassOf   kgo:AdministrativeRegion .
+
+kgo:divisionName a      rdfs:Property ;
+	skos:definition	"The name of an division"@en ;
+	rdfs:domain 	kgo:Division ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"divisionName"@en .
+
 # ----------------------Region Information----------------------
 kgo:Region a      rdfs:Class ;
 	skos:definition      "The Class of all regions"@en ;
