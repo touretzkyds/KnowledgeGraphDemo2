@@ -11,6 +11,38 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # ----------------------Administrative Area----------------------
+
+# -----------------------------Ontology--------------------------
+
+boltz:Q618123 a kgo:Class ;
+  skos:label "Geograhical Feature"@en ;
+  rdfs:subClassOf rdfs:Class .
+
+boltz:Q56061 a kgo:Class ; 
+  skos:definition      "Designation for an administrative territorial entity"@en ;
+  skos:label "Administrative Region"@en ;
+  rdfs:subClassOf rdfs:Class .
+
+boltz:Q7930989 a boltz:Q56061 ; # city/town
+  skos:label "City"@en .
+
+boltz:Q28575 a boltz:Q56061 ; # county
+  skos:label "County"@en .
+
+boltz:Q35657 a boltz:Q56061 ; # U.S. state
+  skos:label "State"@en .
+
+boltz:Q5616099 a boltz:Q56061 ; # census division
+  skos:label "Division"@en .
+
+boltz:Q57766005 a boltz:Q56061 ; # U.S. census region
+  skos:label "Region"@en .
+
+boltz:Q6256 a boltz:Q56061 ; # country
+  skos:label "Country"@en .
+
+boltz:Q5107 a kgo:AdministrativeRegion . # continent
+
 # -------------------------------City----------------------------
 boltz:Q24861 a kgo:City ;
   kgo:cityName "Albany"@en ;

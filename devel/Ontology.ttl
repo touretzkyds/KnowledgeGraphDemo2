@@ -193,12 +193,30 @@ kgo:population  a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"population"@en .
 
-# ----------------------Administrative Region----------------------
+# ----------------------Administrative/Geographical Region----------------------
 kgo:AdministrativeRegion a rdfs:Class ;
   skos:definition      "Designation for an administrative territorial entity"@en ;
   rdfs:isDefinedBy  boltz:ontology ;
   rdfs:label        "AdministrativeRegion"@en ;
   rdfs:subClassOf   rdfs:Class .
+
+kgo:administrativeSubdivisionOf a rdf:Property ;
+	skos:definition	"The administrative region that an administrative region subdivides"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+  rdfs:label      "administrativeSubdivisionOf"@en .
+
+kgo:locatedOnGeographicalFeature a      rdfs:Property ;
+	skos:definition	"The geographical feature a region is located on"@en ;
+	kgo:wikidataProperty "P706" ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedOnGeographicalFeature"@en .
+
+kgo:geograhicalSubdivisionOf a rdf:Property ;
+	skos:definition	"The geographical region that a region subdivides"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+  rdfs:label      "geograhicalSubdivisionOf"@en .
 
 # ----------------------City Information----------------------
 kgo:City a      rdfs:Class ;
@@ -406,7 +424,7 @@ kgo:locatedInContinent a      rdfs:Property ;
 	rdfs:label	"locatedInContinent"@en .
 
 kgo:locatedInAdministrativeRegion a      rdfs:Property ;
-	skos:definition	"The continent an country located in"@en ;
+	skos:definition	"The continent an country located in"@en ; # TODO update
 	kgo:wikidataProperty "P131" ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range	rdfs:Literal ;
