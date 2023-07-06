@@ -1628,7 +1628,274 @@ boltz:Q1428 a kgo:State ;
   kgo:capital boltz:Q23556 ; # Atlanta
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d1/Georgia_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg> ;
-  kgo:hasCountiesImageMap <https://upload.wikimedia.org/wikipedia/commons/a/a5/Georgia-counties-map.gif>;
+  kgo:hasImageMap [ # counties
+    a kgo:ImageMap ;
+    kgo:imageMapImage <https://upload.wikimedia.org/wikipedia/commons/a/a5/Georgia-counties-map.gif> ;
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1308 ;
+      kgo:imageMapY 0.1724 ;
+      kgo:imageMapTarget boltz:Q488679 ] ; # Erie County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1228 ;
+      kgo:imageMapY 0.2795 ;
+      kgo:imageMapTarget boltz:Q494086 ] ; # Crawford County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.0971 ;
+      kgo:imageMapY 0.3996 ;
+      kgo:imageMapTarget boltz:Q497216 ] ; # Mercer County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.0826 ;
+      kgo:imageMapY 0.4989 ;
+      kgo:imageMapTarget boltz:Q501256 ] ; # Lawrence County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.0794 ;
+      kgo:imageMapY 0.6034 ;
+      kgo:imageMapTarget boltz:Q494104 ] ; # Beaver County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.0875 ;
+      kgo:imageMapY 0.7549 ;
+      kgo:imageMapTarget boltz:Q497200 ] ; # Washington County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.0923 ;
+      kgo:imageMapY 0.8803 ;
+      kgo:imageMapTarget boltz:Q494098 ] ; # Greene County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2497 ;
+      kgo:imageMapY 0.2404 ;
+      kgo:imageMapTarget boltz:Q495662 ] ; # Warren County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1726 ;
+      kgo:imageMapY 0.3762 ;
+      kgo:imageMapTarget boltz:Q494241 ] ; # Venango County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1485 ;
+      kgo:imageMapY 0.525 ;
+      kgo:imageMapTarget boltz:Q488672 ] ; # Butler County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1357 ;
+      kgo:imageMapY 0.6713 ;
+      kgo:imageMapTarget boltz:Q156291 ] ; # Allegheny County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2546 ;
+      kgo:imageMapY 0.3265 ;
+      kgo:imageMapTarget boltz:Q494236 ] ; # Forest County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2224 ;
+      kgo:imageMapY 0.4441 ;
+      kgo:imageMapTarget boltz:Q494198 ] ; # Clarion County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.216 ;
+      kgo:imageMapY 0.5694 ;
+      kgo:imageMapTarget boltz:Q494186 ] ; # Armstrong County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2176 ;
+      kgo:imageMapY 0.7366 ;
+      kgo:imageMapTarget boltz:Q495645 ] ; # Westmoreland County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1822 ;
+      kgo:imageMapY 0.8698 ;
+      kgo:imageMapTarget boltz:Q488683 ] ; # Fayette County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3558 ;
+      kgo:imageMapY 0.2404 ;
+      kgo:imageMapTarget boltz:Q495640 ] ; # Mckean County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3429 ;
+      kgo:imageMapY 0.3657 ;
+      kgo:imageMapTarget boltz:Q494254 ] ; # Elk County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2883 ;
+      kgo:imageMapY 0.4649 ;
+      kgo:imageMapTarget boltz:Q494156 ] ; # Jefferson County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2754 ;
+      kgo:imageMapY 0.6217 ;
+      kgo:imageMapTarget boltz:Q494146 ] ; # Indiana County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4152 ;
+      kgo:imageMapY 0.3631 ;
+      kgo:imageMapTarget boltz:Q494142 ] ; # Cameron County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3686 ;
+      kgo:imageMapY 0.5068 ;
+      kgo:imageMapTarget boltz:Q494233 ] ; # Clearfield County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3269 ;
+      kgo:imageMapY 0.6739 ;
+      kgo:imageMapTarget boltz:Q490077 ] ; # Cambria County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2819 ;
+      kgo:imageMapY 0.8489 ;
+      kgo:imageMapTarget boltz:Q490908 ] ; # Somerset County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4586 ;
+      kgo:imageMapY 0.2691 ;
+      kgo:imageMapTarget boltz:Q501340 ] ; # Potter County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4988 ;
+      kgo:imageMapY 0.4284 ;
+      kgo:imageMapTarget boltz:Q494093 ] ; # Clinton County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4731 ;
+      kgo:imageMapY 0.5355 ;
+      kgo:imageMapTarget boltz:Q494248 ] ; # Centre County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3895 ;
+      kgo:imageMapY 0.6739 ;
+      kgo:imageMapTarget boltz:Q494152 ] ; # Blair County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3654 ;
+      kgo:imageMapY 0.8437 ;
+      kgo:imageMapTarget boltz:Q494174 ] ; # Bedford County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4377 ;
+      kgo:imageMapY 0.6922 ;
+      kgo:imageMapTarget boltz:Q494077 ] ; # Huntingdon County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4249 ;
+      kgo:imageMapY 0.862 ;
+      kgo:imageMapTarget boltz:Q494211 ] ; # Fulton County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5534 ;
+      kgo:imageMapY 0.256 ;
+      kgo:imageMapTarget boltz:Q495613 ] ; # Tioga County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5903 ;
+      kgo:imageMapY 0.3924 ;
+      kgo:imageMapTarget boltz:Q495633 ] ; # Lycoming County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5887 ;
+      kgo:imageMapY 0.5135 ;
+      kgo:imageMapTarget boltz:Q501248 ] ; # Union County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5049 ;
+      kgo:imageMapY 0.6321 ;
+      kgo:imageMapTarget boltz:Q494161 ] ; # Mifflin County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5344 ;
+      kgo:imageMapY 0.6599 ;
+      kgo:imageMapTarget boltz:Q501270 ] ; # Juniata County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5903 ;
+      kgo:imageMapY 0.5816 ;
+      kgo:imageMapTarget boltz:Q495595 ] ; # Snyder County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5624 ;
+      kgo:imageMapY 0.7027 ;
+      kgo:imageMapTarget boltz:Q501298 ] ; # Perry County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5624 ;
+      kgo:imageMapY 0.781 ;
+      kgo:imageMapTarget boltz:Q494134 ] ; # Cumberland County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5655 ;
+      kgo:imageMapY 0.8819 ;
+      kgo:imageMapTarget boltz:Q351865 ] ; # Adams County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6725 ;
+      kgo:imageMapY 0.2436 ;
+      kgo:imageMapTarget boltz:Q488687 ] ; # Bradford County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.671 ;
+      kgo:imageMapY 0.3596 ;
+      kgo:imageMapTarget boltz:Q501306 ] ; # Sullivan County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6486 ;
+      kgo:imageMapY 0.4918 ;
+      kgo:imageMapTarget boltz:Q495687 ] ; # Montour County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6896 ;
+      kgo:imageMapY 0.4865 ;
+      kgo:imageMapTarget boltz:Q488693 ] ; # Columbia County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6454 ;
+      kgo:imageMapY 0.5649 ;
+      kgo:imageMapTarget boltz:Q494164 ] ; # Northumberland County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6293 ;
+      kgo:imageMapY 0.7043 ;
+      kgo:imageMapTarget boltz:Q488690 ] ; # Dauphin County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6414 ;
+      kgo:imageMapY 0.861 ;
+      kgo:imageMapTarget boltz:Q490914 ] ; # York County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.72 ;
+      kgo:imageMapY 0.6024 ;
+      kgo:imageMapTarget boltz:Q494207 ] ; # Schuylkill County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.682 ;
+      kgo:imageMapY 0.7139 ;
+      kgo:imageMapTarget boltz:Q781165 ] ; # Lebanon County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.72 ;
+      kgo:imageMapY 0.8229 ;
+      kgo:imageMapTarget boltz:Q142369 ] ; # Lancaster County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7795 ;
+      kgo:imageMapY 0.2334 ;
+      kgo:imageMapTarget boltz:Q495603 ] ; # Susquehanna County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.746 ;
+      kgo:imageMapY 0.3349 ;
+      kgo:imageMapTarget boltz:Q495677 ] ; # Wyoming County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7551 ;
+      kgo:imageMapY 0.4439 ;
+      kgo:imageMapTarget boltz:Q501292 ] ; # Luzerne County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7947 ;
+      kgo:imageMapY 0.5306 ;
+      kgo:imageMapTarget boltz:Q488698 ] ; # Carbon County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.816 ;
+      kgo:imageMapY 0.6297 ;
+      kgo:imageMapTarget boltz:Q494117 ] ; # Lehigh County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7672 ;
+      kgo:imageMapY 0.6965 ;
+      kgo:imageMapTarget boltz:Q490920 ] ; # Berks County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7962 ;
+      kgo:imageMapY 0.8402 ;
+      kgo:imageMapTarget boltz:Q27840 ] ; # Chester County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8099 ;
+      kgo:imageMapY 0.3622 ;
+      kgo:imageMapTarget boltz:Q501350 ] ; # Lackawanna County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8557 ;
+      kgo:imageMapY 0.7634 ;
+      kgo:imageMapTarget boltz:Q378527 ] ; # Montgomery County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8496 ;
+      kgo:imageMapY 0.8575 ;
+      kgo:imageMapTarget boltz:Q27844 ] ; # Delaware County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8602 ;
+      kgo:imageMapY 0.2854 ;
+      kgo:imageMapTarget boltz:Q494167 ] ; # Wayne County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8983 ;
+      kgo:imageMapY 0.3894 ;
+      kgo:imageMapTarget boltz:Q495649 ] ; # Pike County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8557 ;
+      kgo:imageMapY 0.4786 ;
+      kgo:imageMapTarget boltz:Q495588 ] ; # Monroe County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8557 ;
+      kgo:imageMapY 0.5851 ;
+      kgo:imageMapTarget boltz:Q495658 ] ; # Northampton County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8938 ;
+      kgo:imageMapY 0.7238 ;
+      kgo:imageMapTarget boltz:Q494192 ] ; # Bucks County
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8877 ;
+      kgo:imageMapY 0.8228 ;
+      kgo:imageMapTarget boltz:Q496900 ] ; # Philadelphia County  
+  ] ;
 #   kgo:hasCounty boltz:Q488186 ; # "Appling"@en ; 
 #   kgo:hasCounty boltz:Q488194 ; # "Atkinson"@en ; 
 #   kgo:hasCounty boltz:Q488219 ; # "Bacon"@en ; 
@@ -2067,7 +2334,10 @@ boltz:Q1400 a kgo:State ;
   kgo:capital boltz:Q25280 ; # Harrisburg
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6d/Pennsylvania_in_United_States.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Pennsylvania.svg> ;
-  kgo:hasCountiesImageMap <https://upload.wikimedia.org/wikipedia/commons/8/83/Pennsylvania_counties_map.png> ;
+  kgo:hasImageMap [ # counties
+    a kgo:ImageMap ;
+    kgo:imageMapImage <https://upload.wikimedia.org/wikipedia/commons/8/83/Pennsylvania_counties_map.png> ;
+  ] ;
   kgo:hasCounty boltz:Q488679 ; # Erie
   kgo:hasCounty boltz:Q494086 ; # Crawford
   kgo:hasCounty boltz:Q497216 ; # Mercer
@@ -2271,7 +2541,46 @@ boltz:Q24460 a kgo:Region ;
   kgo:regionName "Northeastern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map_of_the_North_Eastern_United_States.svg/2560px-Map_of_the_North_Eastern_United_States.svg.png> ;
-  kgo:hasStatesImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-northeast.jpeg> ;
+  kgo:hasImageMap [ # states
+    a kgo:ImageMap ;
+    kgo:imageMapImage <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-northeast.jpeg> ; 
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5983823403176434 ;
+      kgo:imageMapY 0.5391546183150998 ;
+      kgo:imageMapTarget boltz:Q779 ] ; # Connecticut
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7035045825483284 ;
+      kgo:imageMapY 0.21422452778456694 ;
+      kgo:imageMapTarget boltz:Q724 ] ; # Maine
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6918153295477952 ;
+      kgo:imageMapY 0.22371586021504428 ;
+      kgo:imageMapTarget boltz:Q771 ] ; # Massachusetts
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6353172733785516 ;
+      kgo:imageMapY 0.40405117639411375 ;
+      kgo:imageMapTarget boltz:Q759 ] ; # New Hampshire
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6528511528793514 ;
+      kgo:imageMapY 0.5226928317750805 ;
+      kgo:imageMapTarget boltz:Q1387 ] ; # Rhode Island
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5651817553753526 ;
+      kgo:imageMapY 0.34947601491886904 ;
+      kgo:imageMapTarget boltz:Q16551 ] ; # Vermont
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5515442935413972 ;
+      kgo:imageMapY 0.6698084844474793 ;
+      kgo:imageMapTarget boltz:Q1408 ] ; # New Jersey
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4794605667047761 ;
+      kgo:imageMapY 0.47049050340745513 ;
+      kgo:imageMapTarget boltz:Q1384 ] ; # New York
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.39763579570104396 ;
+      kgo:imageMapY 0.63184315472557 ;
+      kgo:imageMapTarget boltz:Q1400 ] ; # Pennsylvania
+  ] ;
   kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
   skos:prefLabel "Northeastern United States"@en ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
@@ -2290,7 +2599,10 @@ boltz:Q49042 a kgo:Region ;
   kgo:regionName "Southern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Map_of_USA_South.svg/1920px-Map_of_USA_South.svg.png> ;
-  kgo:hasStatesImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-south.jpg> ;
+  kgo:hasImageMap [ # states
+    a kgo:ImageMap ;
+    kgo:imageMapImage <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-south.jpg> ; 
+  ] ;
   kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
   skos:prefLabel "Southern United States"@en ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
@@ -2310,8 +2622,230 @@ boltz:Q30 a kgo:Country ;
   kgo:locatedInContinent boltz:Q49 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/dc/USA_orthographic.svg> ;
   kgo:flagImage <https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2880px-Flag_of_the_United_States.svg.png> ;
-  kgo:hasStatesImageMap <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blank_US_map_borders_labels.svg/600px-Blank_US_map_borders_labels.svg.png> ; 
-  kgo:hasRegionsImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-map-census.jpeg> ;
+  kgo:hasImageMap [ # states
+    a kgo:ImageMap ;
+    kgo:imageMapImage <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blank_US_map_borders_labels.svg/600px-Blank_US_map_borders_labels.svg.png> ; 
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1227 ;
+      kgo:imageMapY 0.08314 ;
+      kgo:imageMapTarget boltz:Q1223 ] ; # Washington
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2911 ;
+      kgo:imageMapY 0.13403 ;
+      kgo:imageMapTarget boltz:Q1212 ] ; # Montana
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4415 ;
+      kgo:imageMapY 0.16483 ;
+      kgo:imageMapTarget boltz:Q1207 ] ; # North Dakota
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4415 ;
+      kgo:imageMapY 0.26334 ;
+      kgo:imageMapTarget boltz:Q1211 ] ; # South Dakota
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3183 ;
+      kgo:imageMapY 0.29617 ;
+      kgo:imageMapTarget boltz:Q1214 ] ; # Wyoming
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1068 ;
+      kgo:imageMapY 0.21643 ;
+      kgo:imageMapTarget boltz:Q824 ] ; # Oregon
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2047 ;
+      kgo:imageMapY 0.24926 ;
+      kgo:imageMapTarget boltz:Q1221 ] ; # Idaho
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1478 ;
+      kgo:imageMapY 0.37592 ;
+      kgo:imageMapTarget boltz:Q1227 ] ; # Nevada
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2331 ;
+      kgo:imageMapY 0.40875 ;
+      kgo:imageMapTarget boltz:Q829 ] ; # Utah
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2236 ;
+      kgo:imageMapY 0.57762 ;
+      kgo:imageMapTarget boltz:Q816 ] ; # Arizona
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3247 ;
+      kgo:imageMapY 0.59638 ;
+      kgo:imageMapTarget boltz:Q1522 ] ; # New Mexico
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3436 ;
+      kgo:imageMapY 0.44159 ;
+      kgo:imageMapTarget boltz:Q1261 ] ; # Colorado
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.0847 ;
+      kgo:imageMapY 0.47442 ;
+      kgo:imageMapTarget boltz:Q99 ] ; # California
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4541 ;
+      kgo:imageMapY 0.37592 ;
+      kgo:imageMapTarget boltz:Q1553 ] ; # Nebraska
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4668 ;
+      kgo:imageMapY 0.47911 ;
+      kgo:imageMapTarget boltz:Q1558 ] ; # Kansas
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.4889 ;
+      kgo:imageMapY 0.57293 ;
+      kgo:imageMapTarget boltz:Q1649 ] ; # Oklahoma
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.451 ;
+      kgo:imageMapY 0.70896 ;
+      kgo:imageMapTarget boltz:Q1439 ] ; # Texas
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5331 ;
+      kgo:imageMapY 0.22112 ;
+      kgo:imageMapTarget boltz:Q1527 ] ; # Minnesota
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5552 ;
+      kgo:imageMapY 0.35246 ;
+      kgo:imageMapTarget boltz:Q1546 ] ; # Iowa
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.571 ;
+      kgo:imageMapY 0.46973 ;
+      kgo:imageMapTarget boltz:Q1581 ] ; # Missouri
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5773 ;
+      kgo:imageMapY 0.59638 ;
+      kgo:imageMapTarget boltz:Q1612 ] ; # Arkansas
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.5773 ;
+      kgo:imageMapY 0.70896 ;
+      kgo:imageMapTarget boltz:Q1588 ] ; # Louisiana
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6089 ;
+      kgo:imageMapY 0.26803 ;
+      kgo:imageMapTarget boltz:Q1537 ] ; # Wisconsin
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.631 ;
+      kgo:imageMapY 0.40875 ;
+      kgo:imageMapTarget boltz:Q1204 ] ; # Illinois
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6341 ;
+      kgo:imageMapY 0.65267 ;
+      kgo:imageMapTarget boltz:Q1494 ] ; # Mississippi
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6878 ;
+      kgo:imageMapY 0.64058 ;
+      kgo:imageMapTarget boltz:Q173 ] ; # Alabama
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7541 ;
+      kgo:imageMapY 0.63589 ;
+      kgo:imageMapTarget boltz:Q1428 ] ; # Georgia
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8047 ;
+      kgo:imageMapY 0.80476 ;
+      kgo:imageMapTarget boltz:Q812 ] ; # Florida
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8001 ;
+      kgo:imageMapY 0.5871 ;
+      kgo:imageMapTarget boltz:Q1456 ] ; # South Carolina
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8245 ;
+      kgo:imageMapY 0.52455 ;
+      kgo:imageMapTarget boltz:Q1454 ] ; # North Carolina
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6893 ;
+      kgo:imageMapY 0.5476 ;
+      kgo:imageMapTarget boltz:Q1509 ] ; # Tennessee
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8245 ;
+      kgo:imageMapY 0.45541 ;
+      kgo:imageMapTarget boltz:Q1370 ] ; # Virginia
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7114 ;
+      kgo:imageMapY 0.47516 ;
+      kgo:imageMapTarget boltz:Q1603 ] ; # Kentucky
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6826 ;
+      kgo:imageMapY 0.40273 ;
+      kgo:imageMapTarget boltz:Q1415 ] ; # Indiana
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7431 ;
+      kgo:imageMapY 0.38903 ;
+      kgo:imageMapTarget boltz:Q1397 ] ; # Ohio
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.7763 ;
+      kgo:imageMapY 0.42188 ;
+      kgo:imageMapTarget boltz:Q1371 ] ; # West Virginia
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8205 ;
+      kgo:imageMapY 0.33974 ;
+      kgo:imageMapTarget boltz:Q1400 ] ; # Pennsylvania
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6933 ;
+      kgo:imageMapY 0.28636 ;
+      kgo:imageMapTarget boltz:Q1166 ] ; # Michigan
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8537 ;
+      kgo:imageMapY 0.24939 ;
+      kgo:imageMapTarget boltz:Q1384 ] ; # New York
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8454 ;
+      kgo:imageMapY 0.39402 ;
+      kgo:imageMapTarget boltz:Q1391 ] ; # Maryland
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.873 ;
+      kgo:imageMapY 0.39486 ;
+      kgo:imageMapTarget boltz:Q1393 ] ; # Delaware
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8841 ;
+      kgo:imageMapY 0.34969 ;
+      kgo:imageMapTarget boltz:Q1408 ] ; # New Jersey
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.9366 ;
+      kgo:imageMapY 0.13614 ;
+      kgo:imageMapTarget boltz:Q724 ] ; # Maine
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.9117 ;
+      kgo:imageMapY 0.21417 ;
+      kgo:imageMapTarget boltz:Q759 ] ; # New Hampshire
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8896 ;
+      kgo:imageMapY 0.19774 ;
+      kgo:imageMapTarget boltz:Q16551 ] ; # Vermont
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.92 ;
+      kgo:imageMapY 0.25113 ;
+      kgo:imageMapTarget boltz:Q771 ] ; # Massachusetts
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.9228 ;
+      kgo:imageMapY 0.27577 ;
+      kgo:imageMapTarget boltz:Q1387 ] ; # Rhode Island
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.9034 ;
+      kgo:imageMapY 0.27987 ;
+      kgo:imageMapTarget boltz:Q779 ] ; # Connecticut
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.1278 ;
+      kgo:imageMapY 0.77241 ;
+      kgo:imageMapTarget boltz:Q797 ] ; # Alaska
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.3394 ;
+      kgo:imageMapY 0.86441 ;
+      kgo:imageMapTarget boltz:Q782 ] ; # Hawaii
+  ] ;
+  kgo:hasImageMap [ # regions
+    a kgo:ImageMap ;
+    kgo:imageMapImage <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-map-census.jpeg> ;
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.8364634015613773 ;
+      kgo:imageMapY 0.3108128572018856 ;
+      kgo:imageMapTarget boltz:Q24460 ] ; # Northeastern United States
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.536691171440346 ;
+      kgo:imageMapY 0.3757588858924756 ;
+      kgo:imageMapTarget boltz:Q186545 ] ; # Midwestern United States
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.6269840118382469 ;
+      kgo:imageMapY 0.7762593961511136 ;
+      kgo:imageMapTarget boltz:Q49042 ] ; # Southern United States
+    kgo:imageMapPoint [ a kgo:ImageMapPoint ;
+      kgo:imageMapX 0.2874829319421391 ;
+      kgo:imageMapY 0.44070491458306554 ;
+      kgo:imageMapTarget boltz:Q12612 ] ; # Western United States 
+  ] ;
   kgo:locatedInAdministrativeRegion boltz:Q49 ; # North America
   skos:prefLabel "United States of America"@en ;
   skos:definition "country in North America"@en .
