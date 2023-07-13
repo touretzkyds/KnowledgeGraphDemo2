@@ -41,10 +41,11 @@ boltz:Q57766005 a boltz:Q56061 ; # U.S. census region
 boltz:Q6256 a boltz:Q56061 ; # country
   skos:label "Country"@en .
 
-boltz:Q5107 a kgo:AdministrativeRegion . # continent
+boltz:Q5107 a boltz:Q618123 ; # continent
+  skos:label "Continent"@en .
 
 # -------------------------------City----------------------------
-boltz:Q24861 a kgo:City ;
+boltz:Q24861 a boltz:Q7930989 ; # City
   kgo:cityName "Albany"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q108408 ; # Albany County
@@ -66,7 +67,7 @@ boltz:Q24861 a kgo:City ;
   skos:prefLabel "Albany"@en ;
   skos:definition "capital of New York, United States and seat of Albany County"@en .
 
-boltz:Q18013 a kgo:City ;
+boltz:Q18013 a boltz:Q7930989 ; # City
   kgo:cityName "Sacramento"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q108131 ; # Sacramento County
@@ -88,7 +89,7 @@ boltz:Q18013 a kgo:City ;
   skos:prefLabel "Sacramento"@en ;
   skos:definition "capital city of California, United States"@en .
 
-boltz:Q28515 a kgo:City ;
+boltz:Q28515 a boltz:Q7930989 ; # City
   kgo:cityName "Springfield"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q490994 ; # Sangamon County
@@ -110,7 +111,7 @@ boltz:Q28515 a kgo:City ;
   skos:prefLabel "Springfield"@en ;
   skos:definition "city in and county seat of Sangamon County, Illinois, United States and Illinois federated state capital city"@en .
 
-boltz:Q25280 a kgo:City ;
+boltz:Q25280 a boltz:Q7930989 ; # City
   kgo:cityName "Harrisburg"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q488690 ; # Dauphin County
@@ -133,7 +134,7 @@ boltz:Q25280 a kgo:City ;
   skos:prefLabel "Harrisburg"@en ;
   skos:definition "city in and county seat of Dauphin County, Pennsylvania, United States and Pennsylvania federated state capital city"@en .
 
-boltz:Q37043 a kgo:City ;
+boltz:Q37043 a boltz:Q7930989 ; # City
   kgo:cityName "Tallahassee"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q488576 ; # Leon County
@@ -155,7 +156,7 @@ boltz:Q37043 a kgo:City ;
   skos:prefLabel "Tallahassee"@en ;
   skos:definition "county seat of Leon County, Florida, USA and Florida federated state capital city"@en .
 
-boltz:Q16559 a kgo:City ;
+boltz:Q16559 a boltz:Q7930989 ; # City
   kgo:cityName "Austin"@en ;
   kgo:locatedInCountry boltz:Q30;  # United States of America
   kgo:locatedInCounty boltz:Q110426 ; # Travis County
@@ -178,7 +179,7 @@ boltz:Q16559 a kgo:City ;
   skos:definition "capital city of Texas, United States of America"@en .
 
 
-boltz:Q60 a kgo:City ;
+boltz:Q60 a boltz:Q7930989 ; # City
   kgo:cityName "New York City"@en ;
   kgo:locatedInCountry "United States of America"@en ;
   kgo:locatedInState boltz:Q1384 ; # New York
@@ -199,7 +200,7 @@ boltz:Q60 a kgo:City ;
   skos:prefLabel "New York City"@en ;
   skos:definition "most populous city in the United States"@en .
 
-boltz:Q65 a kgo:City ;
+boltz:Q65 a boltz:Q7930989 ; # City
   kgo:cityName "Los Angeles"@en ;
   kgo:locatedInCountry boltz:Q30;  # United States of America
   kgo:locatedInCounty boltz:Q104994 ; # Los Angeles County
@@ -221,7 +222,7 @@ boltz:Q65 a kgo:City ;
   skos:prefLabel "Los Angeles"@en ;
   skos:definition "largest city in California, United States"@en .
 
-boltz:Q1297 a kgo:City ;
+boltz:Q1297 a boltz:Q7930989 ; # City
   kgo:cityName "Chicago"@en ;
   kgo:locatedInCountry boltz:Q30;  # United States of America
   kgo:locatedInCounty boltz:Q108418 ; # Cook County
@@ -243,7 +244,7 @@ boltz:Q1297 a kgo:City ;
   skos:prefLabel "Chicago"@en ;
   skos:definition  "city and county seat of Cook County, Illinois, United States of America"@en .
 
-boltz:Q8652 a kgo:City ;
+boltz:Q8652 a boltz:Q7930989 ; # City
   kgo:cityName "Miami"@en ;
   kgo:locatedInCountry boltz:Q30;  # United States of America
   kgo:locatedInCounty boltz:Q468557 ; # Miami-Dade County
@@ -265,7 +266,7 @@ boltz:Q8652 a kgo:City ;
   skos:prefLabel "Miami"@en ;
   skos:definition "second-largest city in Florida, United States"@en .
 
-boltz:Q16557 a kgo:City ;
+boltz:Q16557 a boltz:Q7930989 ; # City
   kgo:cityName "Dallas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q111168 ; # Dallas County
@@ -287,7 +288,7 @@ boltz:Q16557 a kgo:City ;
   skos:prefLabel "Dallas"@en ;
   skos:definition "county seat of Dallas County, Texas, United States"@en .
 
-boltz:Q16555 a kgo:City ;
+boltz:Q16555 a boltz:Q7930989 ; # City
   kgo:cityName "Houston"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q26676 ; # Harris County
@@ -309,7 +310,7 @@ boltz:Q16555 a kgo:City ;
   skos:prefLabel "Houston"@en ;
   skos:definition "county seat of Harris County, Texas, United States"@en .
 
-boltz:Q1345 a kgo:City ;
+boltz:Q1345 a boltz:Q7930989 ; # City
   kgo:cityName "Philadelphia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q496900 ; # Philadelphia County
@@ -331,7 +332,7 @@ boltz:Q1345 a kgo:City ;
   skos:prefLabel "Philadelphia"@en ;
   skos:definition "largest city in Pennsylvania, United States"@en .
 
-boltz:Q23556 a kgo:City ;
+boltz:Q23556 a boltz:Q7930989 ; # City
   kgo:cityName "Atlanta"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q486633 ; # Fulton County
@@ -353,7 +354,7 @@ boltz:Q23556 a kgo:City ;
   skos:prefLabel "Atlanta"@en ;
   skos:definition "county seat city of Fulton County and Georgia federated state capital city"@en .
 
-boltz:Q1223 a kgo:City ;
+boltz:Q1223 a boltz:Q7930989 ; # City
   kgo:cityName "Washington"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q3551781 ; # District of Columbia County
@@ -375,7 +376,7 @@ boltz:Q1223 a kgo:City ;
   skos:prefLabel "Washington"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1342 a kgo:City ;
+boltz:Q1342 a boltz:Q7930989 ; # City
   kgo:cityName "Pittsburgh"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInCounty boltz:Q156291 ; # Allegheny County
@@ -398,7 +399,7 @@ boltz:Q1342 a kgo:City ;
   skos:prefLabel "Pittsburgh"@en ;
   skos:definition "county seat in Allegheny County, Pennsylvania, United States"@en .
 
-boltz:Q234061 a kgo:City ;
+boltz:Q234061 a boltz:Q7930989 ; # City
   kgo:cityName "Erie"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInCounty boltz:Q114843 ; # Erie County
@@ -421,7 +422,7 @@ boltz:Q234061 a kgo:City ;
   skos:prefLabel "Erie"@en ;
   skos:definition "city on the south shore of Lake Erie and the county seat of Erie County, Pennsylvania, United States"@en .
 
-boltz:Q142811 a kgo:City ;
+boltz:Q142811 a boltz:Q7930989 ; # City
   kgo:cityName "Allentown"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInCounty boltz:Q494117 ; # Lehigh County
@@ -444,7 +445,7 @@ boltz:Q142811 a kgo:City ;
   skos:prefLabel "Allentown"@en ;
   skos:definition "county seat city in Lehigh County, Pennsylvania, United States"@en .
 
-boltz:Q237896 a kgo:City ;
+boltz:Q237896 a boltz:Q7930989 ; # City
   kgo:cityName "Reading"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInCounty boltz:Q490920 ; # Berks County
@@ -467,7 +468,7 @@ boltz:Q237896 a kgo:City ;
   skos:prefLabel "Reading"@en ;
   skos:definition "city in and county seat of Berks County, Pennsylvania, UNited States"@en .
 
-boltz:Q745594 a kgo:City ;
+boltz:Q745594 a boltz:Q7930989 ; # City
   kgo:cityName "Wilkes-Barre"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInCounty boltz:Q501292 ; # Luzerne County
@@ -490,7 +491,7 @@ boltz:Q745594 a kgo:City ;
   skos:prefLabel "Wilkes-Barre"@en ;
   skos:definition "county seat of Luzerne County, Pennsylvania, United States"@en .
 
-boltz:Q1070763 a kgo:City ;
+boltz:Q1070763 a boltz:Q7930989 ; # City
   kgo:cityName "Johnstown"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInCounty boltz:Q490077 ; # Cambria County
@@ -513,179 +514,179 @@ boltz:Q1070763 a kgo:City ;
   skos:prefLabel "Johnstown"@en ;
   skos:definition "city in Cambria County, Pennsylvania, United States"@en .
 
-boltz:Q29364 a kgo:City ;
+boltz:Q29364 a boltz:Q7930989 ; # City
   kgo:cityName "Montgomery"@en ;
   skos:prefLabel "Montgomery"@en .
 
-boltz:Q29445 a kgo:City ;
+boltz:Q29445 a boltz:Q7930989 ; # City
   kgo:cityName "Juneau"@en ;
   skos:prefLabel "Juneau"@en .
 
-boltz:Q16556 a kgo:City ;
+boltz:Q16556 a boltz:Q7930989 ; # City
   kgo:cityName "Phoenix"@en ;
   skos:prefLabel "Phoenix"@en .
 
-boltz:Q33405 a kgo:City ;
+boltz:Q33405 a boltz:Q7930989 ; # City
   kgo:cityName "Little Rock"@en ;
   skos:prefLabel "Little Rock"@en .
 
-boltz:Q16554 a kgo:City ;
+boltz:Q16554 a boltz:Q7930989 ; # City
   kgo:cityName "Denver"@en ;
   skos:prefLabel "Denver"@en .
 
-boltz:Q33486 a kgo:City ;
+boltz:Q33486 a boltz:Q7930989 ; # City
   kgo:cityName "Hartford"@en ;
   skos:prefLabel "Hartford"@en .
 
-boltz:Q33518 a kgo:City ;
+boltz:Q33518 a boltz:Q7930989 ; # City
   kgo:cityName "Dover"@en ;
   skos:prefLabel "Dover"@en .
 
-boltz:Q18094 a kgo:City ;
+boltz:Q18094 a boltz:Q7930989 ; # City
   kgo:cityName "Honolulu"@en ;
   skos:prefLabel "Honolulu"@en .
 
-boltz:Q35775 a kgo:City ;
+boltz:Q35775 a boltz:Q7930989 ; # City
   kgo:cityName "Boise"@en ;
   skos:prefLabel "Boise"@en .
 
-boltz:Q6346 a kgo:City ;
+boltz:Q6346 a boltz:Q7930989 ; # City
   kgo:cityName "Indianapolis"@en ;
   skos:prefLabel "Indianapolis"@en .
 
-boltz:Q39709 a kgo:City ;
+boltz:Q39709 a boltz:Q7930989 ; # City
   kgo:cityName "Des Moines"@en ;
   skos:prefLabel "Des Moines"@en .
 
-boltz:Q41057 a kgo:City ;
+boltz:Q41057 a boltz:Q7930989 ; # City
   kgo:cityName "Topeka"@en ;
   skos:prefLabel "Topeka"@en .
 
-boltz:Q28603 a kgo:City ;
+boltz:Q28603 a boltz:Q7930989 ; # City
   kgo:cityName "Frankfort"@en ;
   skos:prefLabel "Frankfort"@en .
 
-boltz:Q28218 a kgo:City ;
+boltz:Q28218 a boltz:Q7930989 ; # City
   kgo:cityName "Baton Rouge"@en ;
   skos:prefLabel "Baton Rouge"@en .
 
-boltz:Q28206 a kgo:City ;
+boltz:Q28206 a boltz:Q7930989 ; # City
   kgo:cityName "Augusta"@en ;
   skos:prefLabel "Augusta"@en .
 
-boltz:Q28271 a kgo:City ;
+boltz:Q28271 a boltz:Q7930989 ; # City
   kgo:cityName "Annapolis"@en ;
   skos:prefLabel "Annapolis"@en .
 
-boltz:Q100 a kgo:City ;
+boltz:Q100 a boltz:Q7930989 ; # City
   kgo:cityName "Boston"@en ;
   skos:prefLabel "Boston"@en .
 
-boltz:Q28237 a kgo:City ;
+boltz:Q28237 a boltz:Q7930989 ; # City
   kgo:cityName "Lansing"@en ;
   skos:prefLabel "Lansing"@en .
 
-boltz:Q28848 a kgo:City ;
+boltz:Q28848 a boltz:Q7930989 ; # City
   kgo:cityName "Saint Paul"@en ;
   skos:prefLabel "Saint Paul"@en .
 
-boltz:Q28198 a kgo:City ;
+boltz:Q28198 a boltz:Q7930989 ; # City
   kgo:cityName "Jackson"@en ;
   skos:prefLabel "Jackson"@en .
 
-boltz:Q28180 a kgo:City ;
+boltz:Q28180 a boltz:Q7930989 ; # City
   kgo:cityName "Jefferson City"@en ;
   skos:prefLabel "Jefferson City"@en .
 
-boltz:Q38733 a kgo:City ;
+boltz:Q38733 a boltz:Q7930989 ; # City
   kgo:cityName "Helena"@en ;
   skos:prefLabel "Helena"@en .
 
-boltz:Q28260 a kgo:City ;
+boltz:Q28260 a boltz:Q7930989 ; # City
   kgo:cityName "Lincoln"@en ;
   skos:prefLabel "Lincoln"@en .
 
-boltz:Q40881 a kgo:City ;
+boltz:Q40881 a boltz:Q7930989 ; # City
   kgo:cityName "Carson City"@en ;
   skos:prefLabel "Carson City"@en .
 
-boltz:Q28249 a kgo:City ;
+boltz:Q28249 a boltz:Q7930989 ; # City
   kgo:cityName "Concord"@en ;
   skos:prefLabel "Concord"@en .
 
-boltz:Q25330 a kgo:City ;
+boltz:Q25330 a boltz:Q7930989 ; # City
   kgo:cityName "Trenton"@en ;
   skos:prefLabel "Trenton"@en .
 
-boltz:Q38555 a kgo:City ;
+boltz:Q38555 a boltz:Q7930989 ; # City
   kgo:cityName "Santa Fe"@en ;
   skos:prefLabel "Santa Fe"@en .
 
-boltz:Q41087 a kgo:City ;
+boltz:Q41087 a boltz:Q7930989 ; # City
   kgo:cityName "Raleigh"@en ;
   skos:prefLabel "Raleigh"@en .
 
-boltz:Q37066 a kgo:City ;
+boltz:Q37066 a boltz:Q7930989 ; # City
   kgo:cityName "Bismarck"@en ;
   skos:prefLabel "Bismarck"@en .
 
-boltz:Q16567 a kgo:City ;
+boltz:Q16567 a boltz:Q7930989 ; # City
   kgo:cityName "Columbus"@en ;
   skos:prefLabel "Columbus"@en .
 
-boltz:Q34863 a kgo:City ;
+boltz:Q34863 a boltz:Q7930989 ; # City
   kgo:cityName "Oklahoma City"@en ;
   skos:prefLabel "Oklahoma City"@en .
 
-boltz:Q43919 a kgo:City ;
+boltz:Q43919 a boltz:Q7930989 ; # City
   kgo:cityName "Salem"@en ;
   skos:prefLabel "Salem"@en .
 
-boltz:Q18383 a kgo:City ;
+boltz:Q18383 a boltz:Q7930989 ; # City
   kgo:cityName "Providence"@en ;
   skos:prefLabel "Providence"@en .
 
-boltz:Q38453 a kgo:City ;
+boltz:Q38453 a boltz:Q7930989 ; # City
   kgo:cityName "Columbia"@en ;
   skos:prefLabel "Columbia"@en .
 
-boltz:Q40747 a kgo:City ;
+boltz:Q40747 a boltz:Q7930989 ; # City
   kgo:cityName "Pierre"@en ;
   skos:prefLabel "Pierre"@en .
 
-boltz:Q23197 a kgo:City ;
+boltz:Q23197 a boltz:Q7930989 ; # City
   kgo:cityName "Nashville"@en ;
   skos:prefLabel "Nashville"@en .
 
-boltz:Q23337 a kgo:City ;
+boltz:Q23337 a boltz:Q7930989 ; # City
   kgo:cityName "Salt Lake City"@en ;
   skos:prefLabel "Salt Lake City"@en .
 
-boltz:Q26426 a kgo:City ;
+boltz:Q26426 a boltz:Q7930989 ; # City
   kgo:cityName "Montpelier"@en ;
   skos:prefLabel "Montpelier"@en .
 
-boltz:Q43421 a kgo:City ;
+boltz:Q43421 a boltz:Q7930989 ; # City
   kgo:cityName "Richmond"@en ;
   skos:prefLabel "Richmond"@en .
 
-boltz:Q42735 a kgo:City ;
+boltz:Q42735 a boltz:Q7930989 ; # City
   kgo:cityName "Olympia"@en ;
   skos:prefLabel "Olympia"@en .
 
-boltz:Q44564 a kgo:City ;
+boltz:Q44564 a boltz:Q7930989 ; # City
   kgo:cityName "Charleston"@en ;
   skos:prefLabel "Charleston"@en .
 
-boltz:Q43788 a kgo:City ;
+boltz:Q43788 a boltz:Q7930989 ; # City
   kgo:cityName "Madison"@en ;
   skos:prefLabel "Madison"@en .
 
-boltz:Q39042 a kgo:City ;
+boltz:Q39042 a boltz:Q7930989 ; # City
   kgo:cityName "Cheyenne"@en ;
   skos:prefLabel "Cheyenne"@en .
 # -------------------------------County----------------------------
-boltz:Q104994 a kgo:County ;
+boltz:Q104994 a boltz:Q28575 ; # County
   kgo:countyName "Los Angeles"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q65 ; # Los Angeles
@@ -695,7 +696,7 @@ boltz:Q104994 a kgo:County ;
   skos:prefLabel "Los Angeles County"@en ;
   skos:definition "county in California, United States"@en .
 
-boltz:Q108418 a kgo:County ;
+boltz:Q108418 a boltz:Q28575 ; # County
   kgo:countyName "Cook"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q1297 ; # Chicago
@@ -705,7 +706,7 @@ boltz:Q108418 a kgo:County ;
   skos:prefLabel "Cook County"@en ;
   skos:definition "county in Illinois, United States"@en .
 
-boltz:Q468557 a kgo:County ;
+boltz:Q468557 a boltz:Q28575 ; # County
   kgo:countyName "Miami-Dade"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q8652 ; # Miami
@@ -715,7 +716,7 @@ boltz:Q468557 a kgo:County ;
   skos:prefLabel "Miami-Dade County"@en ;
   skos:definition "county in Florida, United States"@en .
 
-boltz:Q111168 a kgo:County ;
+boltz:Q111168 a boltz:Q28575 ; # County
   kgo:countyName "Dallas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q16557 ; # Dallas
@@ -725,7 +726,7 @@ boltz:Q111168 a kgo:County ;
   skos:prefLabel "Dallas County"@en ;
   skos:definition "county in Texas, United States"@en .
 
-boltz:Q26676 a kgo:County ;
+boltz:Q26676 a boltz:Q28575 ; # County
   kgo:countyName "Harris"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q16555 ; # Houston
@@ -735,7 +736,7 @@ boltz:Q26676 a kgo:County ;
   skos:prefLabel "Harris County"@en ;
   skos:definition "county in Texas, United States"@en .
 
-boltz:Q496900 a kgo:County ;
+boltz:Q496900 a boltz:Q28575 ; # County
   kgo:countyName "Philadelphia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q1345 ; # Philadelphia
@@ -746,7 +747,7 @@ boltz:Q496900 a kgo:County ;
   skos:prefLabel "Philadelphia County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q486633 a kgo:County ;
+boltz:Q486633 a boltz:Q28575 ; # County
   kgo:countyName "Fulton"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q23556 ; # Atlanta
@@ -756,7 +757,7 @@ boltz:Q486633 a kgo:County ;
   skos:prefLabel "Fulton County"@en ;
   skos:definition "county in Georgia, United States"@en .
 
-boltz:Q3551781 a kgo:County ;
+boltz:Q3551781 a boltz:Q28575 ; # County
   kgo:countyName "District of Columbia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q61 ; # Washington, D.C.
@@ -765,7 +766,7 @@ boltz:Q3551781 a kgo:County ;
   skos:prefLabel "District of Columbia County"@en ;
   skos:definition "federal district of the United States of America, containing the capital city of the United States, Washington"@en .
 
-boltz:Q156291 a kgo:County ;
+boltz:Q156291 a boltz:Q28575 ; # County
   kgo:countyName "Allegheny"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q1342 ; # Pittsburgh
@@ -776,7 +777,7 @@ boltz:Q156291 a kgo:County ;
   skos:prefLabel "Allegheny County"@en ;
   skos:definition "former municipality in Allegheny County, Pennsylvania, United States"@en .
 
-boltz:Q108408 a kgo:County ;
+boltz:Q108408 a boltz:Q28575 ; # County
   kgo:countyName "Albany"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q24861 ; # Albany
@@ -786,7 +787,7 @@ boltz:Q108408 a kgo:County ;
   skos:prefLabel "Albany County"@en ;
   skos:definition "county in New York, United States"@en .
 
-boltz:Q108131 a kgo:County ;
+boltz:Q108131 a boltz:Q28575 ; # County
   kgo:countyName "Sacramento"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q18013 ; # Sacramento
@@ -796,7 +797,7 @@ boltz:Q108131 a kgo:County ;
   skos:prefLabel "Sacramento County"@en ;
   skos:definition "county in California, United States"@en .
 
-boltz:Q490994 a kgo:County ;
+boltz:Q490994 a boltz:Q28575 ; # County
   kgo:countyName "Sangamon"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q28515 ; # Springfield
@@ -806,7 +807,7 @@ boltz:Q490994 a kgo:County ;
   skos:prefLabel "Sangamon County"@en ;
   skos:definition "county in Illinois, United States"@en .
 
-boltz:Q488576 a kgo:County ;
+boltz:Q488576 a boltz:Q28575 ; # County
   kgo:countyName "Leon"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q37043 ; # Tallahassee
@@ -816,7 +817,7 @@ boltz:Q488576 a kgo:County ;
   skos:prefLabel "Leon County"@en ;
   skos:definition "County in Florida, United States"@en .
 
-boltz:Q110426 a kgo:County ;
+boltz:Q110426 a boltz:Q28575 ; # County
   kgo:countyName "Travis"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q16559 ; # Austin
@@ -826,7 +827,7 @@ boltz:Q110426 a kgo:County ;
   skos:prefLabel "Travis County"@en ;
   skos:definition "county in Texas, United States"@en .
 
-boltz:Q488679 a kgo:County ;
+boltz:Q488679 a boltz:Q28575 ; # County
   kgo:countyName "Erie" ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q234061 ; # Erie
@@ -837,7 +838,7 @@ boltz:Q488679 a kgo:County ;
   skos:prefLabel "Erie County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494086 a kgo:County ;
+boltz:Q494086 a boltz:Q28575 ; # County
   kgo:countyName "Crawford"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Meadville" ;
@@ -848,7 +849,7 @@ boltz:Q494086 a kgo:County ;
   skos:prefLabel "Crawford County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q497216 a kgo:County ;
+boltz:Q497216 a boltz:Q28575 ; # County
   kgo:countyName "Mercer"@en ;
   kgo:locatedInCountry boltz:Q30;
   kgo:countySeat "Mercer" ;
@@ -859,7 +860,7 @@ boltz:Q497216 a kgo:County ;
   skos:prefLabel "Mercer County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501256 a kgo:County ;
+boltz:Q501256 a boltz:Q28575 ; # County
   kgo:countyName "Lawrence"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "New Castle" ;
@@ -870,7 +871,7 @@ boltz:Q501256 a kgo:County ;
   skos:prefLabel "Lawrence County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494104 a kgo:County ;
+boltz:Q494104 a boltz:Q28575 ; # County
   kgo:countyName "Beaver"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Beaver" ;
@@ -881,7 +882,7 @@ boltz:Q494104 a kgo:County ;
   skos:prefLabel "Beaver County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q497200 a kgo:County ;
+boltz:Q497200 a boltz:Q28575 ; # County
   kgo:countyName "Washington"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Washington" ;
@@ -892,7 +893,7 @@ boltz:Q497200 a kgo:County ;
   skos:prefLabel "Washington County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494098 a kgo:County ;
+boltz:Q494098 a boltz:Q28575 ; # County
   kgo:countyName "Greene"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Waynesburg" ;
@@ -903,7 +904,7 @@ boltz:Q494098 a kgo:County ;
   skos:prefLabel "Greene County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495662 a kgo:County ;
+boltz:Q495662 a boltz:Q28575 ; # County
   kgo:countyName "Warren"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Warren" ;
@@ -914,7 +915,7 @@ boltz:Q495662 a kgo:County ;
   skos:prefLabel "Warren County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494241 a kgo:County ;
+boltz:Q494241 a boltz:Q28575 ; # County
   kgo:countyName "Venango"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Franklin" ;
@@ -925,7 +926,7 @@ boltz:Q494241 a kgo:County ;
   skos:prefLabel "Venango County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q488672 a kgo:County ;
+boltz:Q488672 a boltz:Q28575 ; # County
   kgo:countyName "Butler"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Butler" ;
@@ -936,7 +937,7 @@ boltz:Q488672 a kgo:County ;
   skos:prefLabel "Butler County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494236 a kgo:County ;
+boltz:Q494236 a boltz:Q28575 ; # County
   kgo:countyName "Forest"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Tionesta" ;
@@ -947,7 +948,7 @@ boltz:Q494236 a kgo:County ;
   skos:prefLabel "Forest County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494198 a kgo:County ;
+boltz:Q494198 a boltz:Q28575 ; # County
   kgo:countyName "Clarion"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Clarion" ;
@@ -958,7 +959,7 @@ boltz:Q494198 a kgo:County ;
   skos:prefLabel "Clarion County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494186 a kgo:County ;
+boltz:Q494186 a boltz:Q28575 ; # County
   kgo:countyName "Armstrong"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Kittanning" ;
@@ -969,7 +970,7 @@ boltz:Q494186 a kgo:County ;
   skos:prefLabel "Armstrong County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495645 a kgo:County ;
+boltz:Q495645 a boltz:Q28575 ; # County
   kgo:countyName "Westmoreland"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Greensburg" ;
@@ -980,7 +981,7 @@ boltz:Q495645 a kgo:County ;
   skos:prefLabel "Westmoreland County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q488683 a kgo:County ;
+boltz:Q488683 a boltz:Q28575 ; # County
   kgo:countyName "Fayette"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Uniontown" ;
@@ -991,7 +992,7 @@ boltz:Q488683 a kgo:County ;
   skos:prefLabel "Fayette County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495640 a kgo:County ;
+boltz:Q495640 a boltz:Q28575 ; # County
   kgo:countyName "Mckean"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Smethport" ;
@@ -1002,7 +1003,7 @@ boltz:Q495640 a kgo:County ;
   skos:prefLabel "Mckean County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494254 a kgo:County ;
+boltz:Q494254 a boltz:Q28575 ; # County
   kgo:countyName "Elk"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Ridgway" ;
@@ -1013,7 +1014,7 @@ boltz:Q494254 a kgo:County ;
   skos:prefLabel "Elk County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494156 a kgo:County ;
+boltz:Q494156 a boltz:Q28575 ; # County
   kgo:countyName "Jefferson"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Brookville" ;
@@ -1024,7 +1025,7 @@ boltz:Q494156 a kgo:County ;
   skos:prefLabel "Jefferson County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494146 a kgo:County ;
+boltz:Q494146 a boltz:Q28575 ; # County
   kgo:countyName "Indiana"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Indiana" ;
@@ -1035,7 +1036,7 @@ boltz:Q494146 a kgo:County ;
   skos:prefLabel "Indiana County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494142 a kgo:County ;
+boltz:Q494142 a boltz:Q28575 ; # County
   kgo:countyName "Cameron"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Emporium" ;
@@ -1046,7 +1047,7 @@ boltz:Q494142 a kgo:County ;
   skos:prefLabel "Cameron County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494233 a kgo:County ;
+boltz:Q494233 a boltz:Q28575 ; # County
   kgo:countyName "Clearfield"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Clearfield" ;
@@ -1057,7 +1058,7 @@ boltz:Q494233 a kgo:County ;
   skos:prefLabel "Clearfield County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q490077 a kgo:County ;
+boltz:Q490077 a boltz:Q28575 ; # County
   kgo:countyName "Cambria"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Ebensburg" ;
@@ -1068,7 +1069,7 @@ boltz:Q490077 a kgo:County ;
   skos:prefLabel "Cambria County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q490908 a kgo:County ;
+boltz:Q490908 a boltz:Q28575 ; # County
   kgo:countyName "Somerset"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Somerset" ;
@@ -1079,7 +1080,7 @@ boltz:Q490908 a kgo:County ;
   skos:prefLabel "Somerset County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501340 a kgo:County ;
+boltz:Q501340 a boltz:Q28575 ; # County
   kgo:countyName "Potter"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Coudersport" ;
@@ -1090,7 +1091,7 @@ boltz:Q501340 a kgo:County ;
   skos:prefLabel "Potter County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494093 a kgo:County ;
+boltz:Q494093 a boltz:Q28575 ; # County
   kgo:countyName "Clinton"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Lock Haven" ;
@@ -1101,7 +1102,7 @@ boltz:Q494093 a kgo:County ;
   skos:prefLabel "Clinton County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494248 a kgo:County ;
+boltz:Q494248 a boltz:Q28575 ; # County
   kgo:countyName "Centre"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Bellefonte" ;
@@ -1112,7 +1113,7 @@ boltz:Q494248 a kgo:County ;
   skos:prefLabel "Centre County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494152 a kgo:County ;
+boltz:Q494152 a boltz:Q28575 ; # County
   kgo:countyName "Blair"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Hollidaysburg" ;
@@ -1123,7 +1124,7 @@ boltz:Q494152 a kgo:County ;
   skos:prefLabel "Blair County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494174 a kgo:County ;
+boltz:Q494174 a boltz:Q28575 ; # County
   kgo:countyName "Bedford"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Bedford" ;
@@ -1134,7 +1135,7 @@ boltz:Q494174 a kgo:County ;
   skos:prefLabel "Bedford County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494077 a kgo:County ;
+boltz:Q494077 a boltz:Q28575 ; # County
   kgo:countyName "Huntingdon"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Huntingdon" ;
@@ -1145,7 +1146,7 @@ boltz:Q494077 a kgo:County ;
   skos:prefLabel "Huntingdon County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494211 a kgo:County ;
+boltz:Q494211 a boltz:Q28575 ; # County
   kgo:countyName "Fulton"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "McConnellsburg" ;
@@ -1156,7 +1157,7 @@ boltz:Q494211 a kgo:County ;
   skos:prefLabel "Fulton County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495613 a kgo:County ;
+boltz:Q495613 a boltz:Q28575 ; # County
   kgo:countyName "Tioga"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Wellsboro" ;
@@ -1167,7 +1168,7 @@ boltz:Q495613 a kgo:County ;
   skos:prefLabel "Tioga County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495633 a kgo:County ;
+boltz:Q495633 a boltz:Q28575 ; # County
   kgo:countyName "Lycoming"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Williamsport" ;
@@ -1178,7 +1179,7 @@ boltz:Q495633 a kgo:County ;
   skos:prefLabel "Lycoming County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501248 a kgo:County ;
+boltz:Q501248 a boltz:Q28575 ; # County
   kgo:countyName "Union"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Lewisburg" ;
@@ -1189,7 +1190,7 @@ boltz:Q501248 a kgo:County ;
   skos:prefLabel "Union County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494161 a kgo:County ;
+boltz:Q494161 a boltz:Q28575 ; # County
   kgo:countyName "Mifflin"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Lewistown" ;
@@ -1200,7 +1201,7 @@ boltz:Q494161 a kgo:County ;
   skos:prefLabel "Mifflin County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501270 a kgo:County ;
+boltz:Q501270 a boltz:Q28575 ; # County
   kgo:countyName "Juniata"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Mifflintown" ;
@@ -1211,7 +1212,7 @@ boltz:Q501270 a kgo:County ;
   skos:prefLabel "Juniata County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495595 a kgo:County ;
+boltz:Q495595 a boltz:Q28575 ; # County
   kgo:countyName "Snyder"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Middleburg" ;
@@ -1222,7 +1223,7 @@ boltz:Q495595 a kgo:County ;
   skos:prefLabel "Snyder County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501298 a kgo:County ;
+boltz:Q501298 a boltz:Q28575 ; # County
   kgo:countyName "Perry"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "New Bloomfield" ;
@@ -1233,7 +1234,7 @@ boltz:Q501298 a kgo:County ;
   skos:prefLabel "Perry County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494134 a kgo:County ;
+boltz:Q494134 a boltz:Q28575 ; # County
   kgo:countyName "Cumberland"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Carlisle" ;
@@ -1244,7 +1245,7 @@ boltz:Q494134 a kgo:County ;
   skos:prefLabel "Cumberland County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q351865 a kgo:County ;
+boltz:Q351865 a boltz:Q28575 ; # County
   kgo:countyName "Adams"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Gettysburg" ;
@@ -1255,7 +1256,7 @@ boltz:Q351865 a kgo:County ;
   skos:prefLabel "Adams County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q488687 a kgo:County ;
+boltz:Q488687 a boltz:Q28575 ; # County
   kgo:countyName "Bradford"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Towanda" ;
@@ -1266,7 +1267,7 @@ boltz:Q488687 a kgo:County ;
   skos:prefLabel "Bradford County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501306 a kgo:County ;
+boltz:Q501306 a boltz:Q28575 ; # County
   kgo:countyName "Sullivan"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Laporte" ;
@@ -1277,7 +1278,7 @@ boltz:Q501306 a kgo:County ;
   skos:prefLabel "Sullivan County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495687 a kgo:County ;
+boltz:Q495687 a boltz:Q28575 ; # County
   kgo:countyName "Montour"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Danville" ;
@@ -1288,7 +1289,7 @@ boltz:Q495687 a kgo:County ;
   skos:prefLabel "Montour County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q488693 a kgo:County ;
+boltz:Q488693 a boltz:Q28575 ; # County
   kgo:countyName "Columbia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Bloomsburg" ;
@@ -1299,7 +1300,7 @@ boltz:Q488693 a kgo:County ;
   skos:prefLabel "Columbia County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494164 a kgo:County ;
+boltz:Q494164 a boltz:Q28575 ; # County
   kgo:countyName "Northumberland"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Sunbury" ;
@@ -1310,7 +1311,7 @@ boltz:Q494164 a kgo:County ;
   skos:prefLabel "Northumberland County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q488690 a kgo:County ;
+boltz:Q488690 a boltz:Q28575 ; # County
   kgo:countyName "Dauphin"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q25280 ; # Harrisburg
@@ -1321,7 +1322,7 @@ boltz:Q488690 a kgo:County ;
   skos:prefLabel "Dauphin County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q490914 a kgo:County ;
+boltz:Q490914 a boltz:Q28575 ; # County
   kgo:countyName "York"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "York" ;
@@ -1332,7 +1333,7 @@ boltz:Q490914 a kgo:County ;
   skos:prefLabel "York County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494207 a kgo:County ;
+boltz:Q494207 a boltz:Q28575 ; # County
   kgo:countyName "Schuylkill"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Pottsville" ;
@@ -1343,7 +1344,7 @@ boltz:Q494207 a kgo:County ;
   skos:prefLabel "Schuylkill County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q781165 a kgo:County ;
+boltz:Q781165 a boltz:Q28575 ; # County
   kgo:countyName "Lebanon"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Lebanon" ;
@@ -1354,7 +1355,7 @@ boltz:Q781165 a kgo:County ;
   skos:prefLabel "Lebanon County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q142369 a kgo:County ;
+boltz:Q142369 a boltz:Q28575 ; # County
   kgo:countyName "Lancaster"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Lancaster" ;
@@ -1365,7 +1366,7 @@ boltz:Q142369 a kgo:County ;
   skos:prefLabel "Lancaster County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495603 a kgo:County ;
+boltz:Q495603 a boltz:Q28575 ; # County
   kgo:countyName "Susquehanna"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Montrose" ;
@@ -1376,7 +1377,7 @@ boltz:Q495603 a kgo:County ;
   skos:prefLabel "Susquehanna County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495677 a kgo:County ;
+boltz:Q495677 a boltz:Q28575 ; # County
   kgo:countyName "Wyoming"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Tunkhannock" ;
@@ -1387,7 +1388,7 @@ boltz:Q495677 a kgo:County ;
   skos:prefLabel "Wyoming County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501292 a kgo:County ;
+boltz:Q501292 a boltz:Q28575 ; # County
   kgo:countyName "Luzerne"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q745594 ; # Wilkes-Barre
@@ -1398,7 +1399,7 @@ boltz:Q501292 a kgo:County ;
   skos:prefLabel "Luzerne County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q488698 a kgo:County ;
+boltz:Q488698 a boltz:Q28575 ; # County
   kgo:countyName "Carbon"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Jim Thorpe" ;
@@ -1409,7 +1410,7 @@ boltz:Q488698 a kgo:County ;
   skos:prefLabel "Carbon County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494117 a kgo:County ;
+boltz:Q494117 a boltz:Q28575 ; # County
   kgo:countyName "Lehigh"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q142811 ; # Allentown
@@ -1420,7 +1421,7 @@ boltz:Q494117 a kgo:County ;
   skos:prefLabel "Lehigh County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q490920 a kgo:County ;
+boltz:Q490920 a boltz:Q28575 ; # County
   kgo:countyName "Berks"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat boltz:Q237896 ; # Reading
@@ -1431,7 +1432,7 @@ boltz:Q490920 a kgo:County ;
   skos:prefLabel "Berks County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q27840 a kgo:County ;
+boltz:Q27840 a boltz:Q28575 ; # County
   kgo:countyName "Chester"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "West Chester" ;
@@ -1442,7 +1443,7 @@ boltz:Q27840 a kgo:County ;
   skos:prefLabel "Chester County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q501350 a kgo:County ;
+boltz:Q501350 a boltz:Q28575 ; # County
   kgo:countyName "Lackawanna"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Scranton" ;
@@ -1453,7 +1454,7 @@ boltz:Q501350 a kgo:County ;
   skos:prefLabel "Lackawanna County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q378527 a kgo:County ;
+boltz:Q378527 a boltz:Q28575 ; # County
   kgo:countyName "Montgomery"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Norristown" ;
@@ -1464,7 +1465,7 @@ boltz:Q378527 a kgo:County ;
   skos:prefLabel "Montgomery County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q27844 a kgo:County ;
+boltz:Q27844 a boltz:Q28575 ; # County
   kgo:countyName "Delaware"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Media" ;
@@ -1475,7 +1476,7 @@ boltz:Q27844 a kgo:County ;
   skos:prefLabel "Delaware County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494167 a kgo:County ;
+boltz:Q494167 a boltz:Q28575 ; # County
   kgo:countyName "Wayne"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Honesdale" ;
@@ -1486,7 +1487,7 @@ boltz:Q494167 a kgo:County ;
   skos:prefLabel "Wayne County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495649 a kgo:County ;
+boltz:Q495649 a boltz:Q28575 ; # County
   kgo:countyName "Pike"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Milford" ;
@@ -1497,7 +1498,7 @@ boltz:Q495649 a kgo:County ;
   skos:prefLabel "Pike County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495588 a kgo:County ;
+boltz:Q495588 a boltz:Q28575 ; # County
   kgo:countyName "Monroe"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Stroudsburg" ;
@@ -1508,7 +1509,7 @@ boltz:Q495588 a kgo:County ;
   skos:prefLabel "Monroe County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q495658 a kgo:County ;
+boltz:Q495658 a boltz:Q28575 ; # County
   kgo:countyName "Northampton"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Easton" ;
@@ -1519,7 +1520,7 @@ boltz:Q495658 a kgo:County ;
   skos:prefLabel "Northampton County"@en ;
   skos:definition "county in Pennsylvania, United States"@en .
 
-boltz:Q494192 a kgo:County ;
+boltz:Q494192 a boltz:Q28575 ; # County
   kgo:countyName "Bucks"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:countySeat "Doylestown" ;
@@ -1531,7 +1532,7 @@ boltz:Q494192 a kgo:County ;
   skos:definition "county in Pennsylvania, United States"@en .
 
 # -------------------------------State----------------------------
-boltz:Q173 a kgo:State ;
+boltz:Q173 a boltz:Q35657 ; # State
   kgo:stateName "Alabama"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -1541,7 +1542,7 @@ boltz:Q173 a kgo:State ;
   skos:prefLabel "Alabama"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q797 a kgo:State ;
+boltz:Q797 a boltz:Q35657 ; # State
   kgo:stateName "Alaska"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -1551,7 +1552,7 @@ boltz:Q797 a kgo:State ;
   skos:prefLabel "Alaska"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q816 a kgo:State ;
+boltz:Q816 a boltz:Q35657 ; # State
   kgo:stateName "Arizona"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -1561,7 +1562,7 @@ boltz:Q816 a kgo:State ;
   skos:prefLabel "Arizona"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1612 a kgo:State ;
+boltz:Q1612 a boltz:Q35657 ; # State
   kgo:stateName "Arkansas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -1571,7 +1572,7 @@ boltz:Q1612 a kgo:State ;
   skos:prefLabel "Arkansas"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q99 a kgo:State ;
+boltz:Q99 a boltz:Q35657 ; # State
   kgo:stateName "California"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -1581,7 +1582,7 @@ boltz:Q99 a kgo:State ;
   skos:prefLabel "California"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1261 a kgo:State ;
+boltz:Q1261 a boltz:Q35657 ; # State
   kgo:stateName "Colorado"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -1591,7 +1592,7 @@ boltz:Q1261 a kgo:State ;
   skos:prefLabel "Colorado"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q779 a kgo:State ;
+boltz:Q779 a boltz:Q35657 ; # State
   kgo:stateName "Connecticut"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -1601,7 +1602,7 @@ boltz:Q779 a kgo:State ;
   skos:prefLabel "Connecticut"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1393 a kgo:State ;
+boltz:Q1393 a boltz:Q35657 ; # State
   kgo:stateName "Delaware"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -1611,7 +1612,7 @@ boltz:Q1393 a kgo:State ;
   skos:prefLabel "Delaware"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q812 a kgo:State ;
+boltz:Q812 a boltz:Q35657 ; # State
   kgo:stateName "Florida"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -1621,7 +1622,7 @@ boltz:Q812 a kgo:State ;
   skos:prefLabel "Florida"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1428 a kgo:State ;
+boltz:Q1428 a boltz:Q35657 ; # State
   kgo:stateName "Georgia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2057,7 +2058,7 @@ boltz:Q1428 a kgo:State ;
   skos:prefLabel "Georgia"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q782 a kgo:State ;
+boltz:Q782 a boltz:Q35657 ; # State
   kgo:stateName "Hawaii"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2067,7 +2068,7 @@ boltz:Q782 a kgo:State ;
   skos:prefLabel "Hawaii"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1221 a kgo:State ;
+boltz:Q1221 a boltz:Q35657 ; # State
   kgo:stateName "Idaho"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2077,7 +2078,7 @@ boltz:Q1221 a kgo:State ;
   skos:prefLabel "Idaho"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1204 a kgo:State ;
+boltz:Q1204 a boltz:Q35657 ; # State
   kgo:stateName "Illinois"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2087,7 +2088,7 @@ boltz:Q1204 a kgo:State ;
   skos:prefLabel "Illinois"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1415 a kgo:State ;
+boltz:Q1415 a boltz:Q35657 ; # State
   kgo:stateName "Indiana"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2097,7 +2098,7 @@ boltz:Q1415 a kgo:State ;
   skos:prefLabel "Indiana"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1546 a kgo:State ;
+boltz:Q1546 a boltz:Q35657 ; # State
   kgo:stateName "Iowa"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2107,7 +2108,7 @@ boltz:Q1546 a kgo:State ;
   skos:prefLabel "Iowa"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1558 a kgo:State ;
+boltz:Q1558 a boltz:Q35657 ; # State
   kgo:stateName "Kansas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2117,7 +2118,7 @@ boltz:Q1558 a kgo:State ;
   skos:prefLabel "Kansas"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1603 a kgo:State ;
+boltz:Q1603 a boltz:Q35657 ; # State
   kgo:stateName "Kentucky"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2127,7 +2128,7 @@ boltz:Q1603 a kgo:State ;
   skos:prefLabel "Kentucky"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1588 a kgo:State ;
+boltz:Q1588 a boltz:Q35657 ; # State
   kgo:stateName "Louisiana"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2137,7 +2138,7 @@ boltz:Q1588 a kgo:State ;
   skos:prefLabel "Louisiana"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q724 a kgo:State ;
+boltz:Q724 a boltz:Q35657 ; # State
   kgo:stateName "Maine"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2147,7 +2148,7 @@ boltz:Q724 a kgo:State ;
   skos:prefLabel "Maine"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1391 a kgo:State ;
+boltz:Q1391 a boltz:Q35657 ; # State
   kgo:stateName "Maryland"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2157,7 +2158,7 @@ boltz:Q1391 a kgo:State ;
   skos:prefLabel "Maryland"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q771 a kgo:State ;
+boltz:Q771 a boltz:Q35657 ; # State
   kgo:stateName "Massachusetts"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2167,7 +2168,7 @@ boltz:Q771 a kgo:State ;
   skos:prefLabel "Massachusetts"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1166 a kgo:State ;
+boltz:Q1166 a boltz:Q35657 ; # State
   kgo:stateName "Michigan"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2177,7 +2178,7 @@ boltz:Q1166 a kgo:State ;
   skos:prefLabel "Michigan"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1527 a kgo:State ;
+boltz:Q1527 a boltz:Q35657 ; # State
   kgo:stateName "Minnesota"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2187,7 +2188,7 @@ boltz:Q1527 a kgo:State ;
   skos:prefLabel "Minnesota"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1494 a kgo:State ;
+boltz:Q1494 a boltz:Q35657 ; # State
   kgo:stateName "Mississippi"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2197,7 +2198,7 @@ boltz:Q1494 a kgo:State ;
   skos:prefLabel "Mississippi"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1581 a kgo:State ;
+boltz:Q1581 a boltz:Q35657 ; # State
   kgo:stateName "Missouri"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2207,7 +2208,7 @@ boltz:Q1581 a kgo:State ;
   skos:prefLabel "Missouri"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1212 a kgo:State ;
+boltz:Q1212 a boltz:Q35657 ; # State
   kgo:stateName "Montana"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2217,7 +2218,7 @@ boltz:Q1212 a kgo:State ;
   skos:prefLabel "Montana"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1553 a kgo:State ;
+boltz:Q1553 a boltz:Q35657 ; # State
   kgo:stateName "Nebraska"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2227,7 +2228,7 @@ boltz:Q1553 a kgo:State ;
   skos:prefLabel "Nebraska"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1227 a kgo:State ;
+boltz:Q1227 a boltz:Q35657 ; # State
   kgo:stateName "Nevada"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2237,7 +2238,7 @@ boltz:Q1227 a kgo:State ;
   skos:prefLabel "Nevada"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q759 a kgo:State ;
+boltz:Q759 a boltz:Q35657 ; # State
   kgo:stateName "New Hampshire"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2247,7 +2248,7 @@ boltz:Q759 a kgo:State ;
   skos:prefLabel "New Hampshire"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1408 a kgo:State ;
+boltz:Q1408 a boltz:Q35657 ; # State
   kgo:stateName "New Jersey"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2257,7 +2258,7 @@ boltz:Q1408 a kgo:State ;
   skos:prefLabel "New Jersey"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1522 a kgo:State ;
+boltz:Q1522 a boltz:Q35657 ; # State
   kgo:stateName "New Mexico"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2267,7 +2268,7 @@ boltz:Q1522 a kgo:State ;
   skos:prefLabel "New Mexico"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1384 a kgo:State ;
+boltz:Q1384 a boltz:Q35657 ; # State
   kgo:stateName "New York"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2277,7 +2278,7 @@ boltz:Q1384 a kgo:State ;
   skos:prefLabel "New York"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1454 a kgo:State ;
+boltz:Q1454 a boltz:Q35657 ; # State
   kgo:stateName "North Carolina"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2287,7 +2288,7 @@ boltz:Q1454 a kgo:State ;
   skos:prefLabel "North Carolina"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1207 a kgo:State ;
+boltz:Q1207 a boltz:Q35657 ; # State
   kgo:stateName "North Dakota"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2297,7 +2298,7 @@ boltz:Q1207 a kgo:State ;
   skos:prefLabel "North Dakota"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1397 a kgo:State ;
+boltz:Q1397 a boltz:Q35657 ; # State
   kgo:stateName "Ohio"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2307,7 +2308,7 @@ boltz:Q1397 a kgo:State ;
   skos:prefLabel "Ohio"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1649 a kgo:State ;
+boltz:Q1649 a boltz:Q35657 ; # State
   kgo:stateName "Oklahoma"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2317,7 +2318,7 @@ boltz:Q1649 a kgo:State ;
   skos:prefLabel "Oklahoma"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q824 a kgo:State ;
+boltz:Q824 a boltz:Q35657 ; # State
   kgo:stateName "Oregon"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2327,7 +2328,7 @@ boltz:Q824 a kgo:State ;
   skos:prefLabel "Oregon"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1400 a kgo:State ;
+boltz:Q1400 a boltz:Q35657 ; # State
   kgo:stateName "Pennsylvania"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2407,7 +2408,7 @@ boltz:Q1400 a kgo:State ;
   skos:prefLabel "Pennsylvania"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1387 a kgo:State ;
+boltz:Q1387 a boltz:Q35657 ; # State
   kgo:stateName "Rhode Island"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2417,7 +2418,7 @@ boltz:Q1387 a kgo:State ;
   skos:prefLabel "Rhode Island"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1456 a kgo:State ;
+boltz:Q1456 a boltz:Q35657 ; # State
   kgo:stateName "South Carolina"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2427,7 +2428,7 @@ boltz:Q1456 a kgo:State ;
   skos:prefLabel "South Carolina"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1211 a kgo:State ;
+boltz:Q1211 a boltz:Q35657 ; # State
   kgo:stateName "South Dakota"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2437,7 +2438,7 @@ boltz:Q1211 a kgo:State ;
   skos:prefLabel "South Dakota"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1509 a kgo:State ;
+boltz:Q1509 a boltz:Q35657 ; # State
   kgo:stateName "Tennessee"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2447,7 +2448,7 @@ boltz:Q1509 a kgo:State ;
   skos:prefLabel "Tennessee"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1439 a kgo:State ;
+boltz:Q1439 a boltz:Q35657 ; # State
   kgo:stateName "Texas"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2457,7 +2458,7 @@ boltz:Q1439 a kgo:State ;
   skos:prefLabel "Texas"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q829 a kgo:State ;
+boltz:Q829 a boltz:Q35657 ; # State
   kgo:stateName "Utah"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2467,7 +2468,7 @@ boltz:Q829 a kgo:State ;
   skos:prefLabel "Utah"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q16551 a kgo:State ;
+boltz:Q16551 a boltz:Q35657 ; # State
   kgo:stateName "Vermont"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
@@ -2477,7 +2478,7 @@ boltz:Q16551 a kgo:State ;
   skos:prefLabel "Vermont"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1370 a kgo:State ;
+boltz:Q1370 a boltz:Q35657 ; # State
   kgo:stateName "Virginia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2487,7 +2488,7 @@ boltz:Q1370 a kgo:State ;
   skos:prefLabel "Virginia"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1223 a kgo:State ;
+boltz:Q1223 a boltz:Q35657 ; # State
   kgo:stateName "Washington"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2497,7 +2498,7 @@ boltz:Q1223 a kgo:State ;
   skos:prefLabel "Washington"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1371 a kgo:State ;
+boltz:Q1371 a boltz:Q35657 ; # State
   kgo:stateName "West Virginia"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
@@ -2507,7 +2508,7 @@ boltz:Q1371 a kgo:State ;
   skos:prefLabel "West Virginia"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1537 a kgo:State ;
+boltz:Q1537 a boltz:Q35657 ; # State
   kgo:stateName "Wisconsin"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
@@ -2517,7 +2518,7 @@ boltz:Q1537 a kgo:State ;
   skos:prefLabel "Wisconsin"@en ;
   skos:definition "state of the United States of America"@en .
 
-boltz:Q1214 a kgo:State ;
+boltz:Q1214 a boltz:Q35657 ; # State
   kgo:stateName "Wyoming"@en ;
   kgo:locatedInCountry boltz:Q30; # United States of America
   kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
@@ -2529,15 +2530,15 @@ boltz:Q1214 a kgo:State ;
 
 # --------------------------Division--------------------------
 
-boltz:Q18389 a kgo:Division ;
+boltz:Q18389 a boltz:Q5616099 ; # Division
   kgo:divisionName "New England"@en .
 
-boltz:Q632014 a kgo:Division ;
+boltz:Q632014 a boltz:Q5616099 ; # Division
   kgo:divisionName "Mid-Atlantic"@en .
 
 # ---------------------------Region---------------------------
 # By Blurpeace - Own work. Modified from this blank map; source from an official United States Census Bureau publication., CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10715092
-boltz:Q24460 a kgo:Region ;
+boltz:Q24460 a boltz:Q57766005 ; # Region
   kgo:regionName "Northeastern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map_of_the_North_Eastern_United_States.svg/2560px-Map_of_the_North_Eastern_United_States.svg.png> ;
@@ -2586,7 +2587,7 @@ boltz:Q24460 a kgo:Region ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
 
 # By This version: uploaderBase versions this one is derived from: originally created by en:User:Wapcaplet - own work by uploader, based on Image:Map of USA without state names.svg, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4857036
-boltz:Q186545 a kgo:Region ;
+boltz:Q186545 a boltz:Q57766005 ; # Region
   kgo:regionName "Midwestern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Map_of_USA_Midwest.svg/284px-Map_of_USA_Midwest.svg.png> ;
@@ -2595,7 +2596,7 @@ boltz:Q186545 a kgo:Region ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
 
 # By This version: uploaderBase versions this one is derived from: originally created by Wapcaplet - Own work, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=88528047
-boltz:Q49042 a kgo:Region ;
+boltz:Q49042 a boltz:Q57766005 ; # Region
   kgo:regionName "Southern United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Map_of_USA_South.svg/1920px-Map_of_USA_South.svg.png> ;
@@ -2608,7 +2609,7 @@ boltz:Q49042 a kgo:Region ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
 
 # By Self - WikiMedia, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=74419376
-boltz:Q12612 a kgo:Region ;
+boltz:Q12612 a boltz:Q57766005 ; # Region
   kgo:regionName "Western United States"@en ;
   kgo:locatedInCountry boltz:Q30 ; # United States of America
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Map_of_the_U.S.%2C_highlighting_the_West.svg/1920px-Map_of_the_U.S.%2C_highlighting_the_West.svg.png> ; 
@@ -2617,7 +2618,7 @@ boltz:Q12612 a kgo:Region ;
   skos:definition "administrative regions of the Boy Scouts of America"@en .
   
 # --------------------------Country---------------------------
-boltz:Q30 a kgo:Country ;
+boltz:Q30 a boltz:Q6256 ; # Country
   kgo:countryName "United States of America"@en ;
   kgo:locatedInContinent boltz:Q49 ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/dc/USA_orthographic.svg> ;
@@ -2851,7 +2852,7 @@ boltz:Q30 a kgo:Country ;
   skos:definition "country in North America"@en .
 
 # ------------------------Continent---------------------------
-boltz:Q49 a kgo:Continent ;
+boltz:Q49 a boltz:Q5107 ; # Continent
   kgo:continentName "North America"@en ;
   kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/1920px-Location_North_America.svg.png> ;
   skos:prefLabel "North America"@en ;
