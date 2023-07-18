@@ -213,7 +213,7 @@ kgo:locatedOnGeographicalFeature a      rdfs:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"locatedOnGeographicalFeature"@en .
 
-kgo:geograhicalSubdivisionOf a rdf:Property ;
+kgo:geographicalSubdivisionOf a rdf:Property ;
 	skos:definition	"The geographical region that a region subdivides"@en ;
 	rdfs:isDefinedBy boltz:ontology ;
   rdfs:label      "geograhicalSubdivisionOf"@en .
