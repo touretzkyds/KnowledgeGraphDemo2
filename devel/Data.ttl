@@ -15,40 +15,40 @@
 # -----------------------------Ontology--------------------------
 
 boltz:Q618123 a kgo:Class ;
-  skos:label "Geograhical Feature"@en ;
+  skos:prefLabel "Geograhical Feature"@en ;
   rdfs:subClassOf rdfs:Class .
 
 boltz:Q56061 a kgo:Class ; 
   skos:definition      "Designation for an administrative territorial entity"@en ;
-  skos:label "Administrative Region"@en ;
+  skos:prefLabel "Administrative Region"@en ;
   rdfs:subClassOf rdfs:Class .
 
 boltz:Q7930989 a boltz:Q56061 ; # city/town
-  skos:label "City"@en ;
+  skos:prefLabel "City"@en ;
   kgo:administrativeSubdivisionOf boltz:Q28575 . # County
 
 boltz:Q28575 a boltz:Q56061 ; # county 
-  skos:label "County"@en ;
+  skos:prefLabel "County"@en ;
   kgo:administrativeSubdivisionOf boltz:Q35657 . # State
 
 boltz:Q35657 a boltz:Q56061 ; # U.S. state
-  skos:label "State"@en ;
+  skos:prefLabel "State"@en ;
   kgo:administrativeSubdivisionOf boltz:Q5616099 . # Division
 
 boltz:Q5616099 a boltz:Q56061 ; # census division
-  skos:label "Division"@en ;
+  skos:prefLabel "Division"@en ;
   kgo:administrativeSubdivisionOf boltz:Q57766005 . # Region
 
 boltz:Q57766005 a boltz:Q56061 ; # U.S. census region
-  skos:label "Region"@en ;
+  skos:prefLabel "Region"@en ;
   kgo:administrativeSubdivisionOf boltz:Q6256 . # Country
 
 boltz:Q6256 a boltz:Q56061 ; # country
-  skos:label "Country"@en ;
+  skos:prefLabel "Country"@en ;
   kgo:geographicalSubdivisionOf boltz:Q5107 . # Continent
 
 boltz:Q5107 a boltz:Q618123 ; # continent
-  skos:label "Continent"@en .
+  skos:prefLabel "Continent"@en .
 
 # -------------------------------City----------------------------
 boltz:Q24861 a boltz:Q7930989 ; # City
