@@ -1,0 +1,568 @@
+@prefix boltz: <http://solid.boltz.cs.cmu.edu:3030/data/> .
+@prefix kgo:   <http://solid.boltz.cs.cmu.edu:3030/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt:  <http://qudt.org/schema/qudt/> .
+@prefix unit:  <http://qudt.org/vocab/unit/> .
+@prefix qkdv:  <http://qudt.org/vocab/dimensionvector/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+
+# ----------------------Date and Time----------------------
+kgo:complementaryProperty a rdf:Property ;
+	skos:definition "The Subject is the complement of the Object"@en ;
+	rdfs:domain rdfs:Property ;
+	rdfs:range rdfs:Property ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "complementaryProperty"@en .
+
+kgo:timeAt a rdf:Property;
+	skos:definition "Root of the time hierarchy tree, used in general cases when no other time property suffices"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeAt"@en .
+
+kgo:timeStart a rdf:Property;
+	skos:definition "The family of all times something began or started" ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeAt ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeStart"@en .
+
+kgo:earliestStartTime a rdf:Property;
+	skos:definition "The earliest point in time something could have begun" ;
+	kgo:complementryProperty kgo:latestStartTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeStart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "earliestStartTime"@en .
+
+kgo:latestStartTime a rdf:Property;
+	skos:definition "The latest point in time something could have begun" ;
+	kgo:complementryProperty kgo:earliestStartTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeStart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "latestStartTime"@en .
+
+kgo:eraStart a rdf:Property;
+	skos:definition "The Era in which something first started or appeared" ;
+	kgo:complementryProperty kgo:eraEnd ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range 	kgo:Era ;
+	rdfs:subPropertyOf kgo:timeStart ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "eraStart"@en .
+
+kgo:timeEnd a rdf:Property;
+	skos:definition "The family of all times something ended or finished" ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeAt ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeEnd"@en .
+
+kgo:earliestEndTime a rdf:Property;
+	skos:definition "The earliest point in time something could have ended" ;
+	kgo:complementryProperty kgo:latestEndTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeEnd ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "earliestEndTime"@en .
+
+kgo:latestEndTime a rdf:Property;
+	skos:definition "The latest point in time something could have ended" ;
+	kgo:complementryProperty kgo:earliestEndTime ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeEnd ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "latestEndTime"@en .
+
+
+kgo:eraEnd a rdf:Property;
+	skos:definition "The Era in which something last appeared or seemingly ended" ;
+	kgo:complementryProperty kgo:eraStart ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeEnd ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "eraEnd"@en .
+
+kgo:timeOccur a rdf:Property ;
+	skos:definition  "The family of all points in time something occured"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:subPropertyOf kgo:timeAt ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeOccur"@en .
+
+kgo:timeRetrieve a rdf:Property ;
+	skos:definition  "The date and time the information was added to the KGO system"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range		rdfs:Literal ;
+	rdfs:subPropertyOf kgo:timeOccur ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "timeRetrieve"@en .
+
+# ----------------------Eras----------------------
+kgo:Era a rdfs:Class ;
+  skos:definition      "The Class of all Eras, or indistinct time periods"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "Era"@en ;
+  rdfs:subClassOf   rdfs:Class .
+
+kgo:isSubEraOf a rdfs:Property ;
+	skos:definition	"The subject is a subEra of the object"@en ;
+	rdfs:domain kgo:Era ;
+	rdfs:range kgo:Era ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label 	"isSubEraOf"@en .
+
+kgo:seriesNext a rdfs:Property ;
+	skos:definition	"The next item in a series"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label 	"seriesNext"@en .
+
+kgo:seriesPrev a rdfs:Property ;
+	skos:definition	"The previous item in a series"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label 	"seriesPrev"@en .
+
+# ----------------------QUDT Comparisons----------------------
+kgo:prefComparisons a rdf:Property ;
+	skos:definition  "The order which something wants to be compared by. All comparison types that appear in the list must be propertys of the compared entity"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range		rdf:List ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label "prefComparisons"@en .
+
+# ----------------------QUDT References----------------------
+kgo:averageMass a rdf:Property ;
+	skos:definition	"The average mass of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"averageMass"@en .
+
+kgo:averageLifespan  a rdf:Property ;
+	skos:definition	"The average lifespan of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"averageLifespan"@en .
+
+kgo:averageLength  a rdf:Property ;
+	skos:definition	"The average length of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"averageLength"@en .
+
+kgo:numEmployees  a rdf:Property ;
+	skos:definition	"The number of people employeed by an organization"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"numEmployees"@en ;
+	rdfs:label	"numberOfEmployees"@en .
+
+kgo:marketCap  a rdf:Property ;
+	skos:definition	"The market value of a publically traded organizations outstanding shares"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"marketCap"@en ;
+	rdfs:label	"marketCapitalization"@en .
+
+kgo:marketShare  a rdf:Property ;
+	skos:definition	"The percentage of the total revenue or sales in a market that the organization makes up"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"marketShare"@en .
+
+kgo:annualRevenue  a rdf:Property ;
+	skos:definition	"The yearly revenue of something in this class"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"annualRevenue"@en .
+
+# ----------------------Company Information----------------------
+kgo:Company a      rdfs:Class ;
+  skos:definition      "The Class of all Companies"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "Company"@en ;
+  rdfs:subClassOf   rdfs:Class .
+
+kgo:companyName a      rdfs:Property ;
+	skos:definition	"The name of an organization"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"companyName"@en .
+
+kgo:tickerSymbol a      rdfs:Property ;
+	skos:definition	"The symbol used by the organization on the stock market"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"tickerSymbol"@en .
+
+kgo:headquarters a      rdfs:Property ;
+	skos:definition	"The location of an organizations headquarters"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	kgo:Location ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"headquarters"@en .
+
+kgo:Location a      rdfs:Class ;
+	skos:definition      "Where something is located"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Location"@en ;
+	rdfs:subClassOf   rdfs:Class .
+
+kgo:address a      rdfs:Property ;
+	skos:definition	"The physical address of a location"@en ;
+	rdfs:domain 	kgo:Location ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"address"@en .
+
+kgo:coordinates a      rdfs:Property ;
+	skos:definition	"The lattitude and longitude coordinates of a location"@en ;
+	rdfs:domain 	kgo:Location ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"coordinates"@en .
+
+# ----------------------WikiData Classes-------------------
+boltz:Q8269924 a rdfs:Class ;
+	skos:definition	"Science of naming, defining and classifying organisms"@en ;
+	kgo:hasQuality	boltz:Q427626 ;
+	rdfs:label	"taxonomy"@en .
+
+boltz:Q4120621 a rdfs:Class ;
+	skos:definition	"Level in a hierarchy"@en ;
+	rdfs:label	"rank"@en .
+
+boltz:Q427626 a  rdfs:Class ;
+        rdfs:comment      "The Class of all Taxonomic Ranks"@en ;
+	skos:definition	"Level in a taxonomic hierarchy"@en ;
+	kgo:instanceOf	boltz:Q24017465	;
+	kgo:facetOf	boltz:Q8269924 ;
+	kgo:associatedProperty	kgo:taxonRank ;
+	kgo:subclassOf	boltz:Q4120621 ;
+	rdfs:label        "taxonomic rank"@en .
+
+boltz:Q252730 a rdfs:Class ;
+	skos:definition	"Term used in zoological nomenclature (also non-officially in 'botanical' nomenclature)"@en ;
+        rdfs:label        "typeSpecies"@en ;
+        rdfs:range        boltz:Q16521 .
+
+
+# Ordered classes
+boltz:Q23958852	a rdfs:Class ;
+	kgo:instanceOf	boltz:Q23958852	;
+	skos:definition	"Abstract entity representing classes whose instances may or may not be classes themselves"@en ;
+	rdfs:label	"Variable-order class"	.
+
+boltz:Q23959932	a rdfs:Class ;
+	kgo:instanceOf	boltz:Q23958852	;
+	skos:definition	"Class whose instances are all either individuals or same-fixed-order classes"@en ;
+	rdfs:label	"Fixed-order class"	.
+
+boltz:Q104086571 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q24017414	;
+	kgo:subclassOf	boltz:Q23959932	;
+	skos:definition "Class whose instances are individuals but who don't necessarily have instances"@en ;
+	rdfs:label	"First-order class" .
+
+boltz:Q24017414	a rdfs:Class ;
+	kgo:instanceOf	boltz:Q24017465	;
+	kgo:subclassOf	boltz:Q23959932	;
+	skos:definition "Metaclass whose instances are classes of individuals"@en ;
+	rdfs:label	"Second-order class" .
+
+boltz:Q24017465	a rdfs:Class ;
+	kgo:instanceOf	boltz:Q24027474	;
+	kgo:subclassOf	boltz:Q23959932	;
+	skos:definition "Metaclass whose instances are classes of classes of individual"@en ;
+	rdfs:label	"Third-order class" .
+
+boltz:Q24027474 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q24027515 ;
+	kgo:subclassOf	boltz:Q23959932 ;
+	skos:definition "Metaclass whose instances are classes of classes of classes of individuals"@en	;
+	rdfs:label	"Fourth-order class" .
+
+boltz:Q24027515 a rdfs:Class ;
+	kgo:subclassOf	boltz:Q23959932	;
+	skos:definition "Type of metaclass"@en	;
+	rdfs:label	"Fifth-order class" .
+
+	
+# All the Taxonomic Ranks...
+boltz:Q36732 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Kingdom"@en ;
+	kgo:nextLowerRank   boltz:Q2752679 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2752679 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subkingdom"@en ;
+	kgo:nextHigherRank  boltz:Q36732 ;
+	kgo:nextLowerRank   boltz:Q3150876 ;
+	skos:definition	"Taxonomic rank in biological classification"@en .
+
+boltz:Q3150876 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infrakingdom"@en ;
+	kgo:nextHigherRank  boltz:Q2752679 ;
+	kgo:nextLowerRank   boltz:Q3978005 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q3978005 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superphylum"@en ;
+	kgo:nextHigherRank boltz:Q3150876 ;
+	kgo:nextLowerRank   boltz:Q38348 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q38348 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Phylum"@en ;
+	kgo:nextHigherRank  boltz:Q3978005 ;
+	kgo:nextLowerRank   boltz:Q1153785 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q1153785 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subphylum"@en ;
+	kgo:nextHigherRank  boltz:Q38348 ;
+	kgo:nextLowerRank   boltz:Q2361851 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2361851 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infraphylum"@en ;
+	kgo:nextHigherRank  boltz:Q1153785 ;
+	kgo:nextLowerRank   boltz:Q3504061 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q3504061 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superclass"@en ;
+	kgo:nextHigherRank  boltz:Q2361851 ;
+	kgo:nextLowerRank   boltz:Q37517 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q37517 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Class"@en ;
+	kgo:nextHigherRank  boltz:Q3504061 ;
+	kgo:nextLowerRank   boltz:Q5867051 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q5867051 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subclass"@en ;
+	kgo:nextHigherRank  boltz:Q37517 ;
+	kgo:nextLowerRank   boltz:Q2007442 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2007442 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infraclass"@en ;
+	kgo:nextHigherRank  boltz:Q5867051 ;
+	kgo:nextLowerRank   boltz:Q5868144 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q5868144 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superorder"@en ;
+	kgo:nextHigherRank  boltz:Q2007442 ;
+	kgo:nextLowerRank   boltz:Q36602 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q36602 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Order"@en ;
+	kgo:nextHigherRank  boltz:Q5868144 ;
+	kgo:nextLowerRank   boltz:Q5867959 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q5867959 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Suborder"@en ;
+	kgo:nextHigherRank  boltz:Q36602 ;
+	kgo:nextLowerRank   boltz:Q2889003 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2889003 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infraorder"@en ;
+	kgo:nextHigherRank  boltz:Q5867959 ;
+	kgo:nextLowerRank   boltz:Q2136103 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2136103 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superfamily"@en ;
+	kgo:nextHigherRank  boltz:Q2889003 ;
+	kgo:nextLowerRank   boltz:Q35409 ;
+	skos:definition	"Taxonomic rank above family and below order"@en .
+
+boltz:Q35409 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Family"@en ;
+	kgo:nextHigherRank  boltz:Q2136103 ;
+	kgo:nextLowerRank   boltz:Q164280 ;
+	skos:definition	"Taxonomic rank (or a taxon at that rank) between order and genus"@en .
+
+boltz:Q164280 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subfamily"@en ;
+	kgo:nextHigherRank  boltz:Q35409 ;
+	kgo:nextLowerRank   boltz:Q227936 ;
+	skos:definition	"Taxonomic rank below family"@en .
+
+boltz:Q227936 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Tribe"@en ;
+	kgo:nextHigherRank  boltz:Q164280 ;
+	kgo:nextLowerRank   boltz:Q3965313 ;
+	skos:definition	"Taxonomic rank between family and genus"@en .
+
+boltz:Q3965313 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subtribe"@en ;
+	kgo:nextHigherRank  boltz:Q227936 ;
+	kgo:nextLowerRank   boltz:Q34740 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q34740 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Genus"@en ;
+	kgo:nextHigherRank  boltz:Q3965313 ;
+	kgo:nextLowerRank   boltz:Q3238261 ;
+	skos:definition	"Taxonomic rank used in the biological classification of living and fossil organisms, and viruses"@en .
+
+boltz:Q3238261 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subgenus"@en ;
+	kgo:nextHigherRank  boltz:Q34740 ;
+	kgo:nextLowerRank   boltz:Q7432 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q7432 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Species"@en ;
+	kgo:nextHigherRank  boltz:Q3238261 ;
+	kgo:nextLowerRank   boltz:Q68947 ;
+	skos:definition	"One of the basic units of biological classification and a taxonomic rank"@en .
+
+boltz:Q68947 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626	;
+	rdfs:label	"Subspecies"@en ;
+	kgo:nextHigherRank  boltz:Q7432 ;
+	skos:definition	"Taxonomic rank subordinate to species"@en .
+
+boltz:Q713623 a	rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Clade"@en ;
+	skos:definition	"Mnophyletic group of organisms composed of a common ancestor and all its lineal descendants"@en .
+
+
+
+# ----------------------WikiData Properties-------------------
+kgo:wikidataProperty a rdfs:Property ;
+	skos:definition	"The property value indicated on Wikidata" ;
+	rdfs:label	"wikidataProperty"@en ;
+	rdfs:range	rdfs:Literal .
+
+kgo:instanceOf a rdfs:Property ;
+	skos:definition	"That class of which this subject is a particular example and member"@en ;
+	kgo:wikidataProperty "P31" ;
+	rdfs:label	"instanceOf"@en	.
+
+kgo:subClassOf a rdfs:Property ;
+	skos:definition	"Next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item."@en	;
+	kgo:wikidataProperty	"P279" ;
+	rdfs:label	"subclassOf"@en	.
+
+kgo:associatedProperty a rdfs:Property ;
+	skos:definition	"Main Wikidata property for this item"@en ;
+	kgo:wikidataProperty	"P1687"	;
+	rdfs:label	"associatedProperty"@en	.
+
+kgo:facetOf a rdfs:Property ;
+	skos:definition	"Topic of which this item is an aspect, item that offers a broader perspective on the same topic"@en ;
+	kgo:wikidataProperty	"P1269" ;
+	rdfs:label	"facetOf"@en .
+
+kgo:hasQuality a rdfs:Property ;
+	skos:definition	"The entity has an inherent or distinguishing non-material characteristic"@en ;
+	kgo:wikidataProperty "P1552" ;
+	rdfs:label "hasQuality"@en .
+
+# ----------------------Taxon Information----------------------
+boltz:Q16521 a rdfs:Class ;
+        skos:definition "The Class of all Taxonomic classes"@en ;
+        rdfs:isDefinedBy boltz:ontology ;
+        rdfs:label "Taxon"@en ;
+        rdfs:subClassOf rdfs:Class .
+
+kgo:taxonName a rdf:Property ;
+        skos:definition	"The Taxonomic Name of a Class, typically an Animal"@en ;
+        rdfs:domain	boltz:Q16521 ;
+        rdfs:isDefinedBy boltz:ontology ;
+	kgo:wikidataProperty "P225" ;
+        rdfs:label "taxonName"@en ;
+        rdfs:range rdfs:Literal .
+
+kgo:subTaxonOf a rdf:Property ;
+	rdfs:subPropertyOf	rdfs:subClassOf ;
+        skos:definition	"The subject is taxonomically below another taxon"@en ;
+        rdfs:domain	boltz:Q16521 ;
+        rdfs:isDefinedBy	boltz:ontology ;
+        rdfs:label	"subTaxonOf"@en ;
+        rdfs:range	boltz:Q16521 .
+
+kgo:taxonRank a rdf:Property ;
+        skos:definition      "The subject has taxonomic rank of the object"@en ;
+	kgo:wikidataProperty	"P105" ;
+        rdfs:domain       rdfs:Class ;
+        rdfs:isDefinedBy  boltz:ontology ;
+        rdfs:label        "taxonRank"@en ;
+        rdfs:range        boltz:Q427626 .
+
+kgo:taxonImage a rdf:Property ;
+        skos:definition	"The image associated with the subject."@en ;
+        rdfs:domain boltz:Q16521 ;
+        rdfs:isDefinedBy boltz:ontology ;
+        rdfs:label "taxonImage"@en .
+
+kgo:typeSpecies a rdf:Property ;
+        skos:definition "The taxon has type species of the object"@en ;
+        rdfs:label "typeSpecies"@en ;
+	kgo:wikidataProperty "P427" ;
+        rdfs:range boltz:Q16521 .
+
+kgo:typeSpeciesOf a rdf:Property ;
+        skos:definition "The taxon is the type species its respective genus"@en ;
+        rdfs:label "typeSpeciesOf"@en ;
+        rdfs:range boltz:Q16521 .
+
+# ----------------------Taxonomic Ranks----------------------
+
+kgo:nextHigherRank a rdf:Property ;
+    	skos:definition	"The taxonomic rank above this taxonomic rank."@en ;
+	rdfs:domain 	kgo:TaxonRank ;
+    	rdfs:isDefinedBy	boltz:ontology ;
+    	rdfs:label	"nextHigherRank"@en .
+
+kgo:nextLowerRank a rdf:Property ;
+    	skos:definition	"The taxonomic rank below this taxonomic rank."@en ;
+	rdfs:domain	 kgo:TaxonRank ;
+    	rdfs:isDefinedBy  boltz:ontology ;
+    	rdfs:label	"nextLowerRank"@en .

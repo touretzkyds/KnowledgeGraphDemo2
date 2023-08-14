@@ -32,12 +32,13 @@
 	fuseki:services (
 		:mainService
 		:ontService
+		:devService
+		:scratchService
 	) ;
-#	ja:loadClass "Test" ;
 .
 
 :ontService a fuseki:Service;
-	fuseki:name "NoInference" ;
+	fuseki:name "Demo" ;
 	fuseki:endpoint [
 		fuseki:operation fuseki:query ;
 		fuseki:name "sparql"
@@ -46,7 +47,7 @@
 	.
 
 :mainService rdf:type fuseki:Service ;
-    fuseki:name "Demo" ;
+    fuseki:name "Inference" ;
     fuseki:endpoint [ 
          # SPARQL query service
         fuseki:operation fuseki:query ; 
@@ -99,7 +100,102 @@
 # The base data.
 :baseModel a ja:MemoryModel ;
 	rdfs:label "Base Model" ;
-    ja:content [ja:externalContent <file:Data.ttl> ; 
-				ja:externalContent <file:Ontology.ttl> ; 
-				ja:externalContent <file:Imports.ttl> ] ;
+    ja:content [ja:externalContent <file:demo/Data.ttl> ; 
+				ja:externalContent <file:demo/Ontology.ttl> ; 
+				ja:externalContent <file:demo/Imports.ttl> ;
+				ja:externalContent <file:demo/qudt_units.ttl> ;
+				ja:externalContent <file:demo/qudt.ttl> ] ;
+    .
+
+
+:devService rdf:type fuseki:Service ;
+    fuseki:name "Devel" ;
+    fuseki:endpoint [ 
+         # SPARQL query service
+        fuseki:operation fuseki:query ; 
+        fuseki:name "sparql"
+    ] ;
+    fuseki:endpoint [ 
+         # SPARQL query service (alt name)
+        fuseki:operation fuseki:query ; 
+        fuseki:name "query" 
+    ] ;
+
+    fuseki:endpoint [ 
+         # HTML file upload service
+        fuseki:operation fuseki:update ; 
+        fuseki:name "update" 
+    ] ;
+
+    fuseki:endpoint [ 
+         # SPARQL Graph Store Protocol (read)
+        fuseki:operation fuseki:gsp_r ; 
+        fuseki:name "get" 
+    ] ;
+    fuseki:endpoint [ 
+        # SPARQL Graph Store Protcol (read and write)
+        fuseki:operation fuseki:gsp_rw ; 
+        fuseki:name "data" 
+    ] ;
+	fuseki:dataset :devDataset ;
+    .
+
+:devDataset rdf:type ja:RDFDataset ;
+	ja:defaultGraph 	:devModel ;
+	.
+
+:devModel a ja:MemoryModel ;
+	rdfs:label "Dev Model" ;
+    ja:content [ja:externalContent <file:devel/Data.ttl> ; 
+				ja:externalContent <file:devel/Ontology.ttl> ; 
+				ja:externalContent <file:devel/Imports.ttl> ;
+				ja:externalContent <file:devel/qudt_units.ttl> ;
+				ja:externalContent <file:devel/qudt.ttl>] ;
+    .
+
+
+
+:scratchService rdf:type fuseki:Service ;
+    fuseki:name "Scratch" ;
+    fuseki:endpoint [ 
+         # SPARQL query service
+        fuseki:operation fuseki:query ; 
+        fuseki:name "sparql"
+    ] ;
+    fuseki:endpoint [ 
+         # SPARQL query service (alt name)
+        fuseki:operation fuseki:query ; 
+        fuseki:name "query" 
+    ] ;
+
+    fuseki:endpoint [ 
+         # HTML file upload service
+        fuseki:operation fuseki:update ; 
+        fuseki:name "update" 
+    ] ;
+
+    fuseki:endpoint [ 
+         # SPARQL Graph Store Protocol (read)
+        fuseki:operation fuseki:gsp_r ; 
+        fuseki:name "get" 
+    ] ;
+    fuseki:endpoint [ 
+        # SPARQL Graph Store Protcol (read and write)
+        fuseki:operation fuseki:gsp_rw ; 
+        fuseki:name "data" 
+    ] ;
+	fuseki:dataset :scratchDataset ;
+    .
+
+:scratchDataset rdf:type ja:RDFDataset ;
+	ja:defaultGraph 	:scratchModel ;
+	.
+
+:scratchModel a ja:MemoryModel ;
+	rdfs:label "Scratch Model" ;
+    ja:content [ja:externalContent <file:scratch/Data.ttl> ; 
+				ja:externalContent <file:scratch/Ontology.ttl> ; 
+				ja:externalContent <file:scratch/Imports.ttl> ;
+				ja:externalContent <file:scratch/qudt_units.ttl> ;
+				ja:externalContent <file:scratch/qudt.ttl>] ;
     .

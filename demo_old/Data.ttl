@@ -1204,7 +1204,7 @@ boltz:Q194422 a kgo:Taxon ;
                 ] ;
             ] ;
         ] ;
-        skos:definition  "The Chinese alligator (Alligator sinensis), also known as the Yangtze alligator, is one of two known living species of Alligator, a genus in the family Alligatoridae.\n      This critically endangered species is endemic to eastern China."@en ;
+        skos:definition  "The Chinese alligator (Alligator sinensis), also known as the Yangtze alligator, is one of two known living species of Alligator, a genus in the family Alligatoridae.\nThis critically endangered species is endemic to eastern China."@en ;
         skos:prefLabel   "Chinese Alligator"@en .
 
 boltz:Q193327 a kgo:Taxon ;
@@ -1242,7 +1242,7 @@ boltz:Q193327 a kgo:Taxon ;
                 ] ;
             ] ;
         ] ;
-        skos:definition  "The American alligator (Alligator mississippiensis), sometimes referred to colloquially as a gator or common alligator, is a large crocodilian reptile endemic to the southeastern United States. It is one of two living species in the\n      genus Alligator within the family Alligatoridae; it is larger than the other extant alligator species, the Chinese alligator. Adult male American alligators measure 3.4 to 4.6 m (11 to 15 ft) in length, and can weigh up to 453 kg (1,000 lb). Females\n      are smaller, measuring around 3 m (9.8 ft). The American alligator inhabits freshwater wetlands, such as marshes and cypress swamps from Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader snout, with\n      overlapping jaws and darker coloration, and is less tolerant of saltw."@en ;
+        skos:definition  "The American alligator (Alligator mississippiensis), sometimes referred to colloquially as a gator or common alligator, is a large crocodilian reptile endemic to the southeastern United States. It is one of two living species in the\ngenus Alligator within the family Alligatoridae; it is larger than the other extant alligator species, the Chinese alligator. Adult male American alligators measure 3.4 to 4.6 m (11 to 15 ft) in length, and can weigh up to 453 kg (1,000 lb). Females\nare smaller, measuring around 3 m (9.8 ft). The American alligator inhabits freshwater wetlands, such as marshes and cypress swamps from Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader snout, with\noverlapping jaws and darker coloration, and is less tolerant of saltw."@en ;
         skos:prefLabel   "American Alligator"@en .
 
 #-------------------------Mammals Hierarchy----------------------

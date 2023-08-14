@@ -133,7 +133,7 @@ class="org.eclipse.jetty.server.HttpConnectionFactory">
                     </Array>
                 </Arg>
                 <Set name="host"/>
-                <Set name="port">8080</Set>
+                <Set name="port">3030</Set>
                 <Set name="idleTimeout">30000</Set>
                 <Set name="acceptorPriorityDelta">0</Set>
                 <Set name="acceptQueueSize">0</Set>
@@ -170,7 +170,7 @@ class="org.eclipse.jetty.server.ProxyConnectionFactory"/>
                     </Array>
                 </Arg>
                 <Set name="host"/>
-                <Set name="port">8443</Set>
+                <Set name="port">3031</Set>
                 <Set name="idleTimeout">30000</Set>
                 <Set name="acceptorPriorityDelta">0</Set>
                 <Set name="acceptQueueSize">0</Set>
