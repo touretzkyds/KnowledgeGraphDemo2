@@ -10,6 +10,2287 @@
 @prefix sou: <http://qudt.org/vocab/sou/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+# ----------------------Administrative Area----------------------
+# -------------------------------City----------------------------
+boltz:Q24861 a kgo:City ;
+  kgo:cityName "Albany"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q108408 ; # Albany County
+  kgo:locatedInState boltz:Q1384 ; # New York
+  kgo:coordinates "42.6664,-73.7987"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 590823 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a4/Dtalbany.jpg> ;
+  skos:prefLabel "Albany"@en ;
+  skos:definition "capital of New York, United States and seat of Albany County"@en .
+
+boltz:Q18013 a kgo:City ;
+  kgo:cityName "Sacramento"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q108131 ; # Sacramento County
+  kgo:locatedInState boltz:Q99 ; # California
+  kgo:coordinates "38.5816,-121.4944"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-08:00"@en ;
+			kgo:daylightSavingTime  "UTC-07:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 503482 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/fe/Sacramento_Riverfront.jpg> ;
+  skos:prefLabel "Sacramento"@en ;
+  skos:definition "capital city of California, United States"@en .
+
+boltz:Q28515 a kgo:City ;
+  kgo:cityName "Springfield"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q490994 ; # Sangamon County
+  kgo:locatedInState boltz:Q1204 ; # Illinois
+  kgo:coordinates "39.7817,-89.6501"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 676000 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f8/Downtown_Springfield.JPG> ;
+  skos:prefLabel "Springfield"@en ;
+  skos:definition "city in and county seat of Sangamon County, Illinois, United States and Illinois federated state capital city"@en .
+
+boltz:Q25280 a kgo:City ;
+  kgo:cityName "Harrisburg"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q488690 ; # Dauphin County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q488690 ; # Dauphin County
+  kgo:coordinates "40.2732,-76.8867"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 558000 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/88/Hbg_Photomontage_2021.jpg> ;
+  skos:prefLabel "Harrisburg"@en ;
+  skos:definition "city in and county seat of Dauphin County, Pennsylvania, United States and Pennsylvania federated state capital city"@en .
+
+boltz:Q37043 a kgo:City ;
+  kgo:cityName "Tallahassee"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q488576 ; # Leon County
+  kgo:locatedInState boltz:Q812 ; # Florida
+  kgo:coordinates "30.4383,-84.2807"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 198758 ;
+            kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/7/75/TallahasseeSkyline2.JPG> ;
+  skos:prefLabel "Tallahassee"@en ;
+  skos:definition "county seat of Leon County, Florida, USA and Florida federated state capital city"@en .
+
+boltz:Q16559 a kgo:City ;
+  kgo:cityName "Austin"@en ;
+  kgo:locatedInCountry boltz:Q30;  # United States of America
+  kgo:locatedInCounty boltz:Q110426 ; # Travis County
+  kgo:locatedInState boltz:Q1439 ; # Texas
+  kgo:coordinates "30.2672,-97.7431"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 2176000 ;
+            kgo:timeRetrieve "2022-10-11T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/0/06/AustinSkylineLouNeffPoint-2010-03-29-b.JPG> ;
+  skos:prefLabel "Austin"@en ;
+  skos:definition "capital city of Texas, United States of America"@en .
+
+
+boltz:Q60 a kgo:City ;
+  kgo:cityName "New York City"@en ;
+  kgo:locatedInCountry "United States of America"@en ;
+  kgo:locatedInState boltz:Q1384 ; # New York
+  kgo:coordinates "40.6943,-73.9249"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 18680025 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2b/NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg> ;
+  skos:prefLabel "New York City"@en ;
+  skos:definition "most populous city in the United States"@en .
+
+boltz:Q65 a kgo:City ;
+  kgo:cityName "Los Angeles"@en ;
+  kgo:locatedInCountry boltz:Q30;  # United States of America
+  kgo:locatedInCounty boltz:Q104994 ; # Los Angeles County
+  kgo:locatedInState boltz:Q99 ; # California
+  kgo:coordinates "34.1141,-118.4068"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 12531334 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/69/Los_Angeles_with_Mount_Baldy.jpg> ;
+  skos:prefLabel "Los Angeles"@en ;
+  skos:definition "largest city in California, United States"@en .
+
+boltz:Q1297 a kgo:City ;
+  kgo:cityName "Chicago"@en ;
+  kgo:locatedInCountry boltz:Q30;  # United States of America
+  kgo:locatedInCounty boltz:Q108418 ; # Cook County
+  kgo:locatedInState boltz:Q1204 ; # Illinois
+  kgo:coordinates "41.8375,-87.6866"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 8586888 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/0/0f/2010-02-19_3000x2000_chicago_skyline.jpg> ;
+  skos:prefLabel "Chicago"@en ;
+  skos:definition  "city and county seat of Cook County, Illinois, United States of America"@en .
+
+boltz:Q8652 a kgo:City ;
+  kgo:cityName "Miami"@en ;
+  kgo:locatedInCountry boltz:Q30;  # United States of America
+  kgo:locatedInCounty boltz:Q468557 ; # Miami-Dade County
+  kgo:locatedInState boltz:Q812 ; # Floridas
+  kgo:coordinates "25.784,-80.2101"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 6215000 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/e/e8/Downtown_Miami_aerial_2008.jpg> ;
+  skos:prefLabel "Miami"@en ;
+  skos:definition "second-largest city in Florida, United States"@en .
+
+boltz:Q16557 a kgo:City ;
+  kgo:cityName "Dallas"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q111168 ; # Dallas County
+  kgo:locatedInState boltz:Q1439 ; # Texas
+  kgo:coordinates "32.7935,-96.7667"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 5910669 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/40/Dallas_Collage_Montage.png> ;
+  skos:prefLabel "Dallas"@en ;
+  skos:definition "county seat of Dallas County, Texas, United States"@en .
+
+boltz:Q16555 a kgo:City ;
+  kgo:cityName "Houston"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q26676 ; # Harris County
+  kgo:locatedInState boltz:Q1439 ; # Texas
+  kgo:coordinates "29.786,-95.3885"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 5724418 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/7/78/Houston_montage.jpg> ;
+  skos:prefLabel "Houston"@en ;
+  skos:definition "county seat of Harris County, Texas, United States"@en .
+
+boltz:Q1345 a kgo:City ;
+  kgo:cityName "Philadelphia"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q496900 ; # Philadelphia County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.0077,-75.1339"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-06:00"@en ;
+			kgo:daylightSavingTime  "UTC-05:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 5540199 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/5a/Philadelphia_cityscape_BW_20150328.jpg> ;
+  skos:prefLabel "Philadelphia"@en ;
+  skos:definition "largest city in Pennsylvania, United States"@en .
+
+boltz:Q23556 a kgo:City ;
+  kgo:cityName "Atlanta"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q486633 ; # Fulton County
+  kgo:locatedInState boltz:Q1428 ; # Georgia
+  kgo:coordinates "33.7628,-84.422"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 5151496 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/5f/Atlanta_Montage_2.jpg> ;
+  skos:prefLabel "Atlanta"@en ;
+  skos:definition "county seat city of Fulton County and Georgia federated state capital city"@en .
+
+boltz:Q1223 a kgo:City ;
+  kgo:cityName "Washington"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q3551781 ; # District of Columbia County
+  kgo:locatedInState boltz:Q3551781 ; # District of Columbia County
+  kgo:coordinates "38.9047,-77.0163"@en ;
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-08:00"@en ;
+			kgo:daylightSavingTime  "UTC-07:00"@en ;
+			kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 5066973 ;
+            kgo:timeRetrieve "2022-10-04T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/db/View_of_Puget_Sound_from_Harborview_Park.jpg> ;
+  skos:prefLabel "Washington"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1342 a kgo:City ;
+  kgo:cityName "Pittsburgh"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInCounty boltz:Q156291 ; # Allegheny County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4397,-79.9763"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q156291 ; # Allegheny
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 1719289 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a8/PittSkyline082904.jpg> ;
+  skos:prefLabel "Pittsburgh"@en ;
+  skos:definition "county seat in Allegheny County, Pennsylvania, United States"@en .
+
+boltz:Q234061 a kgo:City ;
+  kgo:cityName "Erie"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q114843 ; # Erie County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4397,-79.9763"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q114843 ; # Erie County
+  kgo:locatedInTimeZone  [
+			a kgo:TimeZone ;
+			kgo:standardTime  "UTC-05:00"@en ;
+			kgo:daylightSavingTime  "UTC-04:00"@en ;
+			kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  		] ;
+  kgo:population [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 93999 ;
+            kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+        ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/14/Erie_PA_skyline_from_tower_observation_deck.png> ;
+  skos:prefLabel "Erie"@en ;
+  skos:definition "city on the south shore of Lake Erie and the county seat of Erie County, Pennsylvania, United States"@en .
+
+boltz:Q142811 a kgo:City ;
+  kgo:cityName "Allentown"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q494117 ; # Lehigh County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.6023, -75.4714"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q494117 ; # Lehigh County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 125944 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c2/Allentown.jpg> ;
+  skos:prefLabel "Allentown"@en ;
+  skos:definition "county seat city in Lehigh County, Pennsylvania, United States"@en .
+
+boltz:Q237896 a kgo:City ;
+  kgo:cityName "Reading"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q490920 ; # Berks County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.3356, -75.9269"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q490920 ; # Berks County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 94844 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c7/Reading_Urban.jpg> ;
+  skos:prefLabel "Reading"@en ;
+  skos:definition "city in and county seat of Berks County, Pennsylvania, UNited States"@en .
+
+boltz:Q745594 a kgo:City ;
+  kgo:cityName "Wilkes-Barre"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q501292 ; # Luzerne County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.2459, -75.8813"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q501292 ; # Luzerne County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 44453 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/e/e5/Wilkes_Barre_Panorama.jpg> ;
+  skos:prefLabel "Wilkes-Barre"@en ;
+  skos:definition "county seat of Luzerne County, Pennsylvania, United States"@en .
+
+boltz:Q1070763 a kgo:City ;
+  kgo:cityName "Johnstown"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInCounty boltz:Q490077 ; # Cambria County
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.3267, -78.9220"@en ;
+  kgo:locatedInAdministrativeRegion boltz:Q490077 ; # Cambria County
+  kgo:locatedInTimeZone  [
+    a kgo:TimeZone ;
+    kgo:standardTime  "UTC-05:00"@en ;
+    kgo:daylightSavingTime  "UTC-04:00"@en ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:population [  
+    a qudt:Quantity ;
+    qudt:unit unit:NUM ;
+    qudt:value 18238 ;
+    kgo:timeRetrieve "2022-10-10T12:40:17-04:00"^^xsd:dateTime ;
+  ] ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/4d/JohnstownPanorama.jpg> ;
+  skos:prefLabel "Johnstown"@en ;
+  skos:definition "city in Cambria County, Pennsylvania, United States"@en .
+
+boltz:Q29364 a kgo:City ;
+  kgo:cityName "Montgomery"@en ;
+  skos:prefLabel "Montgomery"@en .
+
+boltz:Q29445 a kgo:City ;
+  kgo:cityName "Juneau"@en ;
+  skos:prefLabel "Juneau"@en .
+
+boltz:Q16556 a kgo:City ;
+  kgo:cityName "Phoenix"@en ;
+  skos:prefLabel "Phoenix"@en .
+
+boltz:Q33405 a kgo:City ;
+  kgo:cityName "Little Rock"@en ;
+  skos:prefLabel "Little Rock"@en .
+
+boltz:Q16554 a kgo:City ;
+  kgo:cityName "Denver"@en ;
+  skos:prefLabel "Denver"@en .
+
+boltz:Q33486 a kgo:City ;
+  kgo:cityName "Hartford"@en ;
+  skos:prefLabel "Hartford"@en .
+
+boltz:Q33518 a kgo:City ;
+  kgo:cityName "Dover"@en ;
+  skos:prefLabel "Dover"@en .
+
+boltz:Q18094 a kgo:City ;
+  kgo:cityName "Honolulu"@en ;
+  skos:prefLabel "Honolulu"@en .
+
+boltz:Q35775 a kgo:City ;
+  kgo:cityName "Boise"@en ;
+  skos:prefLabel "Boise"@en .
+
+boltz:Q6346 a kgo:City ;
+  kgo:cityName "Indianapolis"@en ;
+  skos:prefLabel "Indianapolis"@en .
+
+boltz:Q39709 a kgo:City ;
+  kgo:cityName "Des Moines"@en ;
+  skos:prefLabel "Des Moines"@en .
+
+boltz:Q41057 a kgo:City ;
+  kgo:cityName "Topeka"@en ;
+  skos:prefLabel "Topeka"@en .
+
+boltz:Q28603 a kgo:City ;
+  kgo:cityName "Frankfort"@en ;
+  skos:prefLabel "Frankfort"@en .
+
+boltz:Q28218 a kgo:City ;
+  kgo:cityName "Baton Rouge"@en ;
+  skos:prefLabel "Baton Rouge"@en .
+
+boltz:Q28206 a kgo:City ;
+  kgo:cityName "Augusta"@en ;
+  skos:prefLabel "Augusta"@en .
+
+boltz:Q28271 a kgo:City ;
+  kgo:cityName "Annapolis"@en ;
+  skos:prefLabel "Annapolis"@en .
+
+boltz:Q100 a kgo:City ;
+  kgo:cityName "Boston"@en ;
+  skos:prefLabel "Boston"@en .
+
+boltz:Q28237 a kgo:City ;
+  kgo:cityName "Lansing"@en ;
+  skos:prefLabel "Lansing"@en .
+
+boltz:Q28848 a kgo:City ;
+  kgo:cityName "Saint Paul"@en ;
+  skos:prefLabel "Saint Paul"@en .
+
+boltz:Q28198 a kgo:City ;
+  kgo:cityName "Jackson"@en ;
+  skos:prefLabel "Jackson"@en .
+
+boltz:Q28180 a kgo:City ;
+  kgo:cityName "Jefferson City"@en ;
+  skos:prefLabel "Jefferson City"@en .
+
+boltz:Q38733 a kgo:City ;
+  kgo:cityName "Helena"@en ;
+  skos:prefLabel "Helena"@en .
+
+boltz:Q28260 a kgo:City ;
+  kgo:cityName "Lincoln"@en ;
+  skos:prefLabel "Lincoln"@en .
+
+boltz:Q40881 a kgo:City ;
+  kgo:cityName "Carson City"@en ;
+  skos:prefLabel "Carson City"@en .
+
+boltz:Q28249 a kgo:City ;
+  kgo:cityName "Concord"@en ;
+  skos:prefLabel "Concord"@en .
+
+boltz:Q25330 a kgo:City ;
+  kgo:cityName "Trenton"@en ;
+  skos:prefLabel "Trenton"@en .
+
+boltz:Q38555 a kgo:City ;
+  kgo:cityName "Santa Fe"@en ;
+  skos:prefLabel "Santa Fe"@en .
+
+boltz:Q41087 a kgo:City ;
+  kgo:cityName "Raleigh"@en ;
+  skos:prefLabel "Raleigh"@en .
+
+boltz:Q37066 a kgo:City ;
+  kgo:cityName "Bismarck"@en ;
+  skos:prefLabel "Bismarck"@en .
+
+boltz:Q16567 a kgo:City ;
+  kgo:cityName "Columbus"@en ;
+  skos:prefLabel "Columbus"@en .
+
+boltz:Q34863 a kgo:City ;
+  kgo:cityName "Oklahoma City"@en ;
+  skos:prefLabel "Oklahoma City"@en .
+
+boltz:Q43919 a kgo:City ;
+  kgo:cityName "Salem"@en ;
+  skos:prefLabel "Salem"@en .
+
+boltz:Q18383 a kgo:City ;
+  kgo:cityName "Providence"@en ;
+  skos:prefLabel "Providence"@en .
+
+boltz:Q38453 a kgo:City ;
+  kgo:cityName "Columbia"@en ;
+  skos:prefLabel "Columbia"@en .
+
+boltz:Q40747 a kgo:City ;
+  kgo:cityName "Pierre"@en ;
+  skos:prefLabel "Pierre"@en .
+
+boltz:Q23197 a kgo:City ;
+  kgo:cityName "Nashville"@en ;
+  skos:prefLabel "Nashville"@en .
+
+boltz:Q23337 a kgo:City ;
+  kgo:cityName "Salt Lake City"@en ;
+  skos:prefLabel "Salt Lake City"@en .
+
+boltz:Q26426 a kgo:City ;
+  kgo:cityName "Montpelier"@en ;
+  skos:prefLabel "Montpelier"@en .
+
+boltz:Q43421 a kgo:City ;
+  kgo:cityName "Richmond"@en ;
+  skos:prefLabel "Richmond"@en .
+
+boltz:Q42735 a kgo:City ;
+  kgo:cityName "Olympia"@en ;
+  skos:prefLabel "Olympia"@en .
+
+boltz:Q44564 a kgo:City ;
+  kgo:cityName "Charleston"@en ;
+  skos:prefLabel "Charleston"@en .
+
+boltz:Q43788 a kgo:City ;
+  kgo:cityName "Madison"@en ;
+  skos:prefLabel "Madison"@en .
+
+boltz:Q39042 a kgo:City ;
+  kgo:cityName "Cheyenne"@en ;
+  skos:prefLabel "Cheyenne"@en .
+# -------------------------------County----------------------------
+boltz:Q104994 a kgo:County ;
+  kgo:countyName "Los Angeles"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q65 ; # Los Angeles
+  kgo:locatedInState boltz:Q99 ; # California
+  kgo:coordinates "34.0522,-118.2437"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Map_of_California_highlighting_Los_Angeles_County.svg/1280px-Map_of_California_highlighting_Los_Angeles_County.svg.png> ;
+  skos:prefLabel "Los Angeles County"@en ;
+  skos:definition "county in California, United States"@en .
+
+boltz:Q108418 a kgo:County ;
+  kgo:countyName "Cook"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q1297 ; # Chicago
+  kgo:locatedInState boltz:Q1204 ; # Illinois
+  kgo:coordinates "41.7377,-87.6976"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Map_of_Illinois_highlighting_Cook_County.svg/800px-Map_of_Illinois_highlighting_Cook_County.svg.png> ;
+  skos:prefLabel "Cook County"@en ;
+  skos:definition "county in Illinois, United States"@en .
+
+boltz:Q468557 a kgo:County ;
+  kgo:countyName "Miami-Dade"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q8652 ; # Miami
+  kgo:locatedInState boltz:Q812 ; # Florida
+  kgo:coordinates "25.5516,-80.6327"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Map_of_Florida_highlighting_Miami-Dade_County.svg/1920px-Map_of_Florida_highlighting_Miami-Dade_County.svg.png> ;
+  skos:prefLabel "Miami-Dade County"@en ;
+  skos:definition "county in Florida, United States"@en .
+
+boltz:Q111168 a kgo:County ;
+  kgo:countyName "Dallas"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q16557 ; # Dallas
+  kgo:locatedInState boltz:Q1439 ; # Texas
+  kgo:coordinates "32.8025,-96.8351"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Map_of_Texas_highlighting_Dallas_County.svg/1920px-Map_of_Texas_highlighting_Dallas_County.svg.png> ;
+  skos:prefLabel "Dallas County"@en ;
+  skos:definition "county in Texas, United States"@en .
+
+boltz:Q26676 a kgo:County ;
+  kgo:countyName "Harris"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q16555 ; # Houston
+  kgo:locatedInState boltz:Q1439 ; # Texas
+  kgo:coordinates "29.7752,-95.3103"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Map_of_Texas_highlighting_Harris_County.svg/1920px-Map_of_Texas_highlighting_Harris_County.svg.png> ;
+  skos:prefLabel "Harris County"@en ;
+  skos:definition "county in Texas, United States"@en .
+
+boltz:Q496900 a kgo:County ;
+  kgo:countyName "Philadelphia"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q1345 ; # Philadelphia
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.9526,-75.1652"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Map_of_Pennsylvania_highlighting_Philadelphia_County.svg/2560px-Map_of_Pennsylvania_highlighting_Philadelphia_County.svg.png> ;
+  skos:prefLabel "Philadelphia County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q486633 a kgo:County ;
+  kgo:countyName "Fulton"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q23556 ; # Atlanta
+  kgo:locatedInState boltz:Q1428 ; # Q1428
+  kgo:coordinates "33.7900,-84.4700"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Map_of_Georgia_highlighting_Fulton_County.svg/1280px-Map_of_Georgia_highlighting_Fulton_County.svg.png> ;
+  skos:prefLabel "Fulton County"@en ;
+  skos:definition "county in Georgia, United States"@en .
+
+boltz:Q3551781 a kgo:County ;
+  kgo:countyName "District of Columbia"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q61 ; # Washington, D.C.
+  kgo:coordinates "38.9072,-77.0369"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6f/Dcmapanimated.gif> ;
+  skos:prefLabel "District of Columbia County"@en ;
+  skos:definition "federal district of the United States of America, containing the capital city of the United States, Washington"@en .
+
+boltz:Q156291 a kgo:County ;
+  kgo:countyName "Allegheny"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q1342 ; # Pittsburgh
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4700,-79.9800"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Map_of_Pennsylvania_highlighting_Allegheny_County.svg/2560px-Map_of_Pennsylvania_highlighting_Allegheny_County.svg.png> ;
+  skos:prefLabel "Allegheny County"@en ;
+  skos:definition "former municipality in Allegheny County, Pennsylvania, United States"@en .
+
+boltz:Q108408 a kgo:County ;
+  kgo:countyName "Albany"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q24861 ; # Albany
+  kgo:locatedInState boltz:Q1384 ; # New York
+  kgo:coordinates "42.6526,-73.7562"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Map_of_New_York_highlighting_Albany_County.svg/1920px-Map_of_New_York_highlighting_Albany_County.svg.png> ;
+  skos:prefLabel "Albany County"@en ;
+  skos:definition "county in New York, United States"@en .
+
+boltz:Q108131 a kgo:County ;
+  kgo:countyName "Sacramento"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q18013 ; # Sacramento
+  kgo:locatedInState boltz:Q99 ; # California
+  kgo:coordinates "38.4747,-121.3542"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Map_of_California_highlighting_Sacramento_County.svg/1280px-Map_of_California_highlighting_Sacramento_County.svg.png> ;
+  skos:prefLabel "Sacramento County"@en ;
+  skos:definition "county in California, United States"@en .
+
+boltz:Q490994 a kgo:County ;
+  kgo:countyName "Sangamon"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q28515 ; # Springfield
+  kgo:locatedInState boltz:Q1204 ; # Illinois
+  kgo:coordinates "39.7337,-89.6252"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Map_of_Illinois_highlighting_Sangamon_County.svg/800px-Map_of_Illinois_highlighting_Sangamon_County.svg.png> ;
+  skos:prefLabel "Sangamon County"@en ;
+  skos:definition "county in Illinois, United States"@en .
+
+boltz:Q488576 a kgo:County ;
+  kgo:countyName "Leon"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q37043 ; # Tallahassee
+  kgo:locatedInState boltz:Q812 ; # Florida
+  kgo:coordinates "30.4906,-84.1857"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Map_of_Florida_highlighting_Leon_County.svg/1920px-Map_of_Florida_highlighting_Leon_County.svg.png> ;
+  skos:prefLabel "Leon County"@en ;
+  skos:definition "County in Florida, United States"@en .
+
+boltz:Q110426 a kgo:County ;
+  kgo:countyName "Travis"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q16559 ; # Austin
+  kgo:locatedInState boltz:Q1439 ; # Texas
+  kgo:coordinates "30.2097,-97.6982"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Map_of_Texas_highlighting_Travis_County.svg/1920px-Map_of_Texas_highlighting_Travis_County.svg.png> ;
+  skos:prefLabel "Travis County"@en ;
+  skos:definition "county in Texas, United States"@en .
+
+boltz:Q488679 a kgo:County ;
+  kgo:countyName "Erie" ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q234061 ; # Erie
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.1292,-80.0850"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Map_of_Pennsylvania_highlighting_Erie_County.svg/2560px-Map_of_Pennsylvania_highlighting_Erie_County.svg.png> ;
+  skos:prefLabel "Erie County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494086 a kgo:County ;
+  kgo:countyName "Crawford"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Meadville" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.6661,-80.2767"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Map_of_Pennsylvania_highlighting_Crawford_County.svg/2560px-Map_of_Pennsylvania_highlighting_Crawford_County.svg.png> ;
+  skos:prefLabel "Crawford County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q497216 a kgo:County ;
+  kgo:countyName "Mercer"@en ;
+  kgo:locatedInCountry boltz:Q30;
+  kgo:countySeat "Mercer" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.3100,-80.2500"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Map_of_Pennsylvania_highlighting_Mercer_County.svg/2560px-Map_of_Pennsylvania_highlighting_Mercer_County.svg.png> ;
+  skos:prefLabel "Mercer County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501256 a kgo:County ;
+  kgo:countyName "Lawrence"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "New Castle" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.0014,-80.3500"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Map_of_Pennsylvania_highlighting_Lawrence_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lawrence_County.svg.png> ;
+  skos:prefLabel "Lawrence County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494104 a kgo:County ;
+  kgo:countyName "Beaver"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Beaver" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.6900,-80.3500"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Map_of_Pennsylvania_highlighting_Beaver_County.svg/2560px-Map_of_Pennsylvania_highlighting_Beaver_County.svg.png> ;
+  skos:prefLabel "Beaver County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q497200 a kgo:County ;
+  kgo:countyName "Washington"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Washington" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.1740,-80.2462"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Map_of_Pennsylvania_highlighting_Washington_County.svg/2560px-Map_of_Pennsylvania_highlighting_Washington_County.svg.png> ;
+  skos:prefLabel "Washington County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494098 a kgo:County ;
+  kgo:countyName "Greene"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Waynesburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.8113,-80.1875"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Map_of_Pennsylvania_highlighting_Greene_County.svg/2560px-Map_of_Pennsylvania_highlighting_Greene_County.svg.png> ;
+  skos:prefLabel "Greene County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495662 a kgo:County ;
+  kgo:countyName "Warren"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Warren" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.8439,-79.1450"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Map_of_Pennsylvania_highlighting_Warren_County.svg/2560px-Map_of_Pennsylvania_highlighting_Warren_County.svg.png> ;
+  skos:prefLabel "Warren County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494241 a kgo:County ;
+  kgo:countyName "Venango"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Franklin" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.4009,-79.7579"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Map_of_Pennsylvania_highlighting_Venango_County.svg/2560px-Map_of_Pennsylvania_highlighting_Venango_County.svg.png> ;
+  skos:prefLabel "Venango County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q488672 a kgo:County ;
+  kgo:countyName "Butler"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Butler" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.8611,-79.8953"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Map_of_Pennsylvania_highlighting_Butler_County.svg/2560px-Map_of_Pennsylvania_highlighting_Butler_County.svg.png> ;
+  skos:prefLabel "Butler County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494236 a kgo:County ;
+  kgo:countyName "Forest"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Tionesta" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.5197,-78.9997"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Map_of_Pennsylvania_highlighting_Forest_County.svg/2560px-Map_of_Pennsylvania_highlighting_Forest_County.svg.png> ;
+  skos:prefLabel "Forest County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494198 a kgo:County ;
+  kgo:countyName "Clarion"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Clarion" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.2070,-79.3837"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Map_of_Pennsylvania_highlighting_Clarion_County.svg/2560px-Map_of_Pennsylvania_highlighting_Clarion_County.svg.png> ;
+  skos:prefLabel "Clarion County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494186 a kgo:County ;
+  kgo:countyName "Armstrong"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Kittanning" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.8791,-79.4704"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Map_of_Pennsylvania_highlighting_Armstrong_County.svg/2560px-Map_of_Pennsylvania_highlighting_Armstrong_County.svg.png> ;
+  skos:prefLabel "Armstrong County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495645 a kgo:County ;
+  kgo:countyName "Westmoreland"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Greensburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.2354,-79.4704"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Map_of_Pennsylvania_highlighting_Westmoreland_County.svg/2560px-Map_of_Pennsylvania_highlighting_Westmoreland_County.svg.png> ;
+  skos:prefLabel "Westmoreland County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q488683 a kgo:County ;
+  kgo:countyName "Fayette"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Uniontown" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.9272,-79.6502"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Map_of_Pennsylvania_highlighting_Fayette_County.svg/2560px-Map_of_Pennsylvania_highlighting_Fayette_County.svg.png> ;
+  skos:prefLabel "Fayette County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495640 a kgo:County ;
+  kgo:countyName "Mckean"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Smethport" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.8067,-78.4402"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Map_of_Pennsylvania_highlighting_McKean_County.svg/2560px-Map_of_Pennsylvania_highlighting_McKean_County.svg.png> ;
+  skos:prefLabel "Mckean County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494254 a kgo:County ;
+  kgo:countyName "Elk"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Ridgway" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.4252,-78.6490"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Map_of_Pennsylvania_highlighting_Elk_County.svg/2560px-Map_of_Pennsylvania_highlighting_Elk_County.svg.png> ;
+  skos:prefLabel "Elk County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494156 a kgo:County ;
+  kgo:countyName "Jefferson"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Brookville" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.1470,-78.9288"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Map_of_Pennsylvania_highlighting_Jefferson_County.svg/2560px-Map_of_Pennsylvania_highlighting_Jefferson_County.svg.png> ;
+  skos:prefLabel "Jefferson County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494146 a kgo:County ;
+  kgo:countyName "Indiana"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Indiana" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.6520,-79.0875"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_Pennsylvania_highlighting_Indiana_County.svg/2560px-Map_of_Pennsylvania_highlighting_Indiana_County.svg.png> ;
+  skos:prefLabel "Indiana County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494142 a kgo:County ;
+  kgo:countyName "Cameron"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Emporium" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.4262,-78.1564"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Map_of_Pennsylvania_highlighting_Cameron_County.svg/2560px-Map_of_Pennsylvania_highlighting_Cameron_County.svg.png> ;
+  skos:prefLabel "Cameron County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494233 a kgo:County ;
+  kgo:countyName "Clearfield"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Clearfield" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.0272,-78.4391"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Map_of_Pennsylvania_highlighting_Clearfield_County.svg/2560px-Map_of_Pennsylvania_highlighting_Clearfield_County.svg.png> ;
+  skos:prefLabel "Clearfield County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q490077 a kgo:County ;
+  kgo:countyName "Cambria"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Ebensburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4952,-78.7136"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Map_of_Pennsylvania_highlighting_Cambria_County.svg/2560px-Map_of_Pennsylvania_highlighting_Cambria_County.svg.png> ;
+  skos:prefLabel "Cambria County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q490908 a kgo:County ;
+  kgo:countyName "Somerset"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Somerset" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.0225,-78.9288"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Map_of_Pennsylvania_highlighting_Somerset_County.svg/2560px-Map_of_Pennsylvania_highlighting_Somerset_County.svg.png> ;
+  skos:prefLabel "Somerset County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501340 a kgo:County ;
+  kgo:countyName "Potter"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Coudersport" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.7400,-77.9000"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Map_of_Pennsylvania_highlighting_Potter_County.svg/2560px-Map_of_Pennsylvania_highlighting_Potter_County.svg.png> ;
+  skos:prefLabel "Potter County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494093 a kgo:County ;
+  kgo:countyName "Clinton"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Lock Haven" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.3332,-77.6536"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Map_of_Pennsylvania_highlighting_Clinton_County.svg/2560px-Map_of_Pennsylvania_highlighting_Clinton_County.svg.png> ;
+  skos:prefLabel "Clinton County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494248 a kgo:County ;
+  kgo:countyName "Centre"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Bellefonte" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.9100,-77.8200"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Map_of_Pennsylvania_highlighting_Centre_County.svg/2560px-Map_of_Pennsylvania_highlighting_Centre_County.svg.png> ;
+  skos:prefLabel "Centre County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494152 a kgo:County ;
+  kgo:countyName "Blair"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Hollidaysburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4810,-78.3485"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Map_of_Pennsylvania_highlighting_Blair_County.svg/2560px-Map_of_Pennsylvania_highlighting_Blair_County.svg.png> ;
+  skos:prefLabel "Blair County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494174 a kgo:County ;
+  kgo:countyName "Bedford"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Bedford" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.9870,-78.5661"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Map_of_Pennsylvania_highlighting_Bedford_County.svg/2560px-Map_of_Pennsylvania_highlighting_Bedford_County.svg.png> ;
+  skos:prefLabel "Bedford County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494077 a kgo:County ;
+  kgo:countyName "Huntingdon"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Huntingdon" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4847,-78.0102"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Map_of_Pennsylvania_highlighting_Huntingdon_County.svg/2560px-Map_of_Pennsylvania_highlighting_Huntingdon_County.svg.png> ;
+  skos:prefLabel "Huntingdon County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494211 a kgo:County ;
+  kgo:countyName "Fulton"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "McConnellsburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.9049,-78.1564"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Map_of_Pennsylvania_highlighting_Fulton_County.svg/2560px-Map_of_Pennsylvania_highlighting_Fulton_County.svg.png> ;
+  skos:prefLabel "Fulton County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495613 a kgo:County ;
+  kgo:countyName "Tioga"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Wellsboro" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.7700,-77.2500"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Map_of_Pennsylvania_highlighting_Tioga_County.svg/2560px-Map_of_Pennsylvania_highlighting_Tioga_County.svg.png> ;
+  skos:prefLabel "Tioga County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495633 a kgo:County ;
+  kgo:countyName "Lycoming"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Williamsport" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.3433,-77.0644"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Map_of_Pennsylvania_highlighting_Lycoming_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lycoming_County.svg.png> ;
+  skos:prefLabel "Lycoming County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501248 a kgo:County ;
+  kgo:countyName "Union"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Lewisburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.9895,-77.0564"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Map_of_Pennsylvania_highlighting_Union_County.svg/2560px-Map_of_Pennsylvania_highlighting_Union_County.svg.png> ;
+  skos:prefLabel "Union County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494161 a kgo:County ;
+  kgo:countyName "Mifflin"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Lewistown" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.6103,-77.6170"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Map_of_Pennsylvania_highlighting_Mifflin_County.svg/600px-Map_of_Pennsylvania_highlighting_Mifflin_County.svg.png> ;
+  skos:prefLabel "Mifflin County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501270 a kgo:County ;
+  kgo:countyName "Juniata"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Mifflintown" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.5311,-77.4020"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Map_of_Pennsylvania_highlighting_Juniata_County.svg/2560px-Map_of_Pennsylvania_highlighting_Juniata_County.svg.png> ;
+  skos:prefLabel "Juniata County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495595 a kgo:County ;
+  kgo:countyName "Snyder"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Middleburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.7698,-77.0703"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Map_of_Pennsylvania_highlighting_Snyder_County.svg/2560px-Map_of_Pennsylvania_highlighting_Snyder_County.svg.png> ;
+  skos:prefLabel "Snyder County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501298 a kgo:County ;
+  kgo:countyName "Perry"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "New Bloomfield" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.3714,-77.2405"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Map_of_Pennsylvania_highlighting_Perry_County.svg/2560px-Map_of_Pennsylvania_highlighting_Perry_County.svg.png> ;
+  skos:prefLabel "Perry County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494134 a kgo:County ;
+  kgo:countyName "Cumberland"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Carlisle" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.1300,-77.2405"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Map_of_Pennsylvania_highlighting_Cumberland_County.svg/2560px-Map_of_Pennsylvania_highlighting_Cumberland_County.svg.png> ;
+  skos:prefLabel "Cumberland County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q351865 a kgo:County ;
+  kgo:countyName "Adams"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Gettysburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.8700,-77.2200"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Map_of_Pennsylvania_highlighting_Adams_County.svg/2560px-Map_of_Pennsylvania_highlighting_Adams_County.svg.png> ;
+  skos:prefLabel "Adams County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q488687 a kgo:County ;
+  kgo:countyName "Bradford"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Towanda" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.8363,-76.5488"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Map_of_Pennsylvania_highlighting_Bradford_County.svg/2560px-Map_of_Pennsylvania_highlighting_Bradford_County.svg.png> ;
+  skos:prefLabel "Bradford County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501306 a kgo:County ;
+  kgo:countyName "Sullivan"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Laporte" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.4781,-76.5026"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Map_of_Pennsylvania_highlighting_Sullivan_County.svg/2560px-Map_of_Pennsylvania_highlighting_Sullivan_County.svg.png> ;
+  skos:prefLabel "Sullivan County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495687 a kgo:County ;
+  kgo:countyName "Montour"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Danville" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.9423,-76.8146"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_Pennsylvania_highlighting_Montour_County.svg/2560px-Map_of_Pennsylvania_highlighting_Montour_County.svg.png> ;
+  skos:prefLabel "Montour County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q488693 a kgo:County ;
+  kgo:countyName "Columbia"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Bloomsburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.0274,-76.3637"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Map_of_Pennsylvania_highlighting_Columbia_County.svg/2560px-Map_of_Pennsylvania_highlighting_Columbia_County.svg.png> ;
+  skos:prefLabel "Columbia County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494164 a kgo:County ;
+  kgo:countyName "Northumberland"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Sunbury" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.8917,-76.7974"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Map_of_Pennsylvania_highlighting_Northumberland_County.svg/2560px-Map_of_Pennsylvania_highlighting_Northumberland_County.svg.png> ;
+  skos:prefLabel "Northumberland County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q488690 a kgo:County ;
+  kgo:countyName "Dauphin"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q25280 ; # Harrisburg
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4100,-76.7900"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Map_of_Pennsylvania_highlighting_Dauphin_County.svg/2560px-Map_of_Pennsylvania_highlighting_Dauphin_County.svg.png> ;
+  skos:prefLabel "Dauphin County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q490914 a kgo:County ;
+  kgo:countyName "York"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "York" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.9623,-76.7276"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Map_of_Pennsylvania_highlighting_York_County.svg/2560px-Map_of_Pennsylvania_highlighting_York_County.svg.png> ;
+  skos:prefLabel "York County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494207 a kgo:County ;
+  kgo:countyName "Schuylkill"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Pottsville" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.7058,-76.2158"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Map_of_Pennsylvania_highlighting_Schuylkill_County.svg/2560px-Map_of_Pennsylvania_highlighting_Schuylkill_County.svg.png> ;
+  skos:prefLabel "Schuylkill County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q781165 a kgo:County ;
+  kgo:countyName "Lebanon"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Lebanon" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.3409,-76.4113"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Map_of_Pennsylvania_highlighting_Lebanon_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lebanon_County.svg.png> ;
+  skos:prefLabel "Lebanon County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q142369 a kgo:County ;
+  kgo:countyName "Lancaster"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Lancaster" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.0444,-76.3062"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Map_of_Pennsylvania_highlighting_Lancaster_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lancaster_County.svg.png> ;
+  skos:prefLabel "Lancaster County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495603 a kgo:County ;
+  kgo:countyName "Susquehanna"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Montrose" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.8213,-75.8007"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Map_of_Pennsylvania_highlighting_Susquehanna_County.svg/2560px-Map_of_Pennsylvania_highlighting_Susquehanna_County.svg.png> ;
+  skos:prefLabel "Susquehanna County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495677 a kgo:County ;
+  kgo:countyName "Wyoming"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Tunkhannock" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.5005,-76.0392"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Map_of_Pennsylvania_highlighting_Wyoming_County.svg/2560px-Map_of_Pennsylvania_highlighting_Wyoming_County.svg.png> ;
+  skos:prefLabel "Wyoming County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501292 a kgo:County ;
+  kgo:countyName "Luzerne"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q745594 ; # Wilkes-Barre
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.1800,-75.9900"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Map_of_Pennsylvania_highlighting_Luzerne_County.svg/2560px-Map_of_Pennsylvania_highlighting_Luzerne_County.svg.png> ;
+  skos:prefLabel "Luzerne County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q488698 a kgo:County ;
+  kgo:countyName "Carbon"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Jim Thorpe" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.9019,-75.6673"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Map_of_Pennsylvania_highlighting_Carbon_County.svg/2560px-Map_of_Pennsylvania_highlighting_Carbon_County.svg.png> ;
+  skos:prefLabel "Carbon County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494117 a kgo:County ;
+  kgo:countyName "Lehigh"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q142811 ; # Allentown
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.6100,-75.5900"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Map_of_Pennsylvania_highlighting_Lehigh_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lehigh_County.svg.png> ;
+  skos:prefLabel "Lehigh County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q490920 a kgo:County ;
+  kgo:countyName "Berks"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat boltz:Q237896 ; # Reading
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.3383,-75.9225"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Map_of_Pennsylvania_highlighting_Berks_County.svg/2560px-Map_of_Pennsylvania_highlighting_Berks_County.svg.png> ;
+  skos:prefLabel "Berks County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q27840 a kgo:County ;
+  kgo:countyName "Chester"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "West Chester" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.9700,-75.7500"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Map_of_Pennsylvania_highlighting_Chester_County.svg/2560px-Map_of_Pennsylvania_highlighting_Chester_County.svg.png> ;
+  skos:prefLabel "Chester County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q501350 a kgo:County ;
+  kgo:countyName "Lackawanna"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Scranton" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.4421,-75.5742"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Map_of_Pennsylvania_highlighting_Lackawanna_County.svg/2560px-Map_of_Pennsylvania_highlighting_Lackawanna_County.svg.png> ;
+  skos:prefLabel "Lackawanna County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q378527 a kgo:County ;
+  kgo:countyName "Montgomery"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Norristown" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.2290,-75.3878"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Map_of_Pennsylvania_highlighting_Montgomery_County.svg/2560px-Map_of_Pennsylvania_highlighting_Montgomery_County.svg.png> ;
+  skos:prefLabel "Montgomery County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q27844 a kgo:County ;
+  kgo:countyName "Delaware"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Media" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "39.9200,-75.4000"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Map_of_Pennsylvania_highlighting_Delaware_County.svg/2560px-Map_of_Pennsylvania_highlighting_Delaware_County.svg.png> ;
+  skos:prefLabel "Delaware County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494167 a kgo:County ;
+  kgo:countyName "Wayne"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Honesdale" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.6739,-75.2479"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Map_of_Pennsylvania_highlighting_Wayne_County.svg/2560px-Map_of_Pennsylvania_highlighting_Wayne_County.svg.png> ;
+  skos:prefLabel "Wayne County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495649 a kgo:County ;
+  kgo:countyName "Pike"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Milford" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.3223,-74.8024"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Map_of_Pennsylvania_highlighting_Pike_County.svg/2560px-Map_of_Pennsylvania_highlighting_Pike_County.svg.png> ;
+  skos:prefLabel "Pike County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495588 a kgo:County ;
+  kgo:countyName "Monroe"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Stroudsburg" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "41.0458,-75.2479"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Map_of_Pennsylvania_highlighting_Monroe_County.svg/2560px-Map_of_Pennsylvania_highlighting_Monroe_County.svg.png> ;
+  skos:prefLabel "Monroe County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q495658 a kgo:County ;
+  kgo:countyName "Northampton"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Easton" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.7500,-75.3100"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Map_of_Pennsylvania_highlighting_Northampton_County.svg/2560px-Map_of_Pennsylvania_highlighting_Northampton_County.svg.png> ;
+  skos:prefLabel "Northampton County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+boltz:Q494192 a kgo:County ;
+  kgo:countyName "Bucks"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:countySeat "Doylestown" ;
+  kgo:locatedInState boltz:Q1400 ; # Pennsylvania
+  kgo:locatedInAdministrativeRegion boltz:Q1400 ; # Pennsylvania
+  kgo:coordinates "40.4107,-75.2479"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Map_of_Pennsylvania_highlighting_Bucks_County.svg/2560px-Map_of_Pennsylvania_highlighting_Bucks_County.svg.png> ;
+  skos:prefLabel "Bucks County"@en ;
+  skos:definition "county in Pennsylvania, United States"@en .
+
+# -------------------------------State----------------------------
+boltz:Q173 a kgo:State ;
+  kgo:stateName "Alabama"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q29364 ; # Montgomery
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/1a/Alabama_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg> ;
+  skos:prefLabel "Alabama"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q797 a kgo:State ;
+  kgo:stateName "Alaska"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q29445 ; # Juneau
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/84/Alaska_in_United_States_%28US50%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg> ;
+  skos:prefLabel "Alaska"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q816 a kgo:State ;
+  kgo:stateName "Arizona"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q16556 ; # Phoenix
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d8/Arizona_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg> ;
+  skos:prefLabel "Arizona"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1612 a kgo:State ;
+  kgo:stateName "Arkansas"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q33405 ; # Little Rock
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/86/Arkansas_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arkansas.svg> ;
+  skos:prefLabel "Arkansas"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q99 a kgo:State ;
+  kgo:stateName "California"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q18013 ; # Sacramento
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/94/California_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg> ;
+  skos:prefLabel "California"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1261 a kgo:State ;
+  kgo:stateName "Colorado"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q16554 ; # Denver
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/60/Colorado_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/46/Flag_of_Colorado.svg> ;
+  skos:prefLabel "Colorado"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q779 a kgo:State ;
+  kgo:stateName "Connecticut"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q33486 ; # Hartford
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6e/Connecticut_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_Connecticut.svg> ;
+  skos:prefLabel "Connecticut"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1393 a kgo:State ;
+  kgo:stateName "Delaware"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q33518 ; # Dover
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8c/Delaware_in_United_States_%28zoom%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/c/c6/Flag_of_Delaware.svg> ;
+  skos:prefLabel "Delaware"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q812 a kgo:State ;
+  kgo:stateName "Florida"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q37043 ; # Tallahassee
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/1/15/Florida_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg> ;
+  skos:prefLabel "Florida"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1428 a kgo:State ;
+  kgo:stateName "Georgia"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q23556 ; # Atlanta
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d1/Georgia_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg> ;
+  kgo:hasCountiesImageMap <https://upload.wikimedia.org/wikipedia/commons/a/a5/Georgia-counties-map.gif>;
+#   kgo:hasCounty boltz:Q488186 ; # "Appling"@en ; 
+#   kgo:hasCounty boltz:Q488194 ; # "Atkinson"@en ; 
+#   kgo:hasCounty boltz:Q488219 ; # "Bacon"@en ; 
+#   kgo:hasCounty boltz:Q376990 ; # "Baker"@en ;
+#   kgo:hasCounty boltz:Q488206 ; # "Baldwin"@en ;
+#   kgo:hasCounty boltz:Q488201 ; # "Banks"@en ;
+#   kgo:hasCounty boltz:Q488181 ; # "Bartow"@en ;
+#   kgo:hasCounty boltz:Q111867 ; # "Ben Hill"@en ;
+#   kgo:hasCounty boltz:Q488868 ; # "Berrien"@en ;
+#   kgo:hasCounty boltz:Q488171 ; # "Bibb"@en ;
+#   kgo:hasCounty boltz:Q486843 ; # "Bleckley"@en ;
+#   kgo:hasCounty boltz:Q156650 ; # "Brantley"@en ;
+#   kgo:hasCounty boltz:Q488175 ; # "Brooks"@en ;
+#   kgo:hasCounty boltz:Q486848 ; # "Bryan"@en ;
+#   kgo:hasCounty boltz:Q488166 ; # "Bulloch"@en ;
+#   kgo:hasCounty boltz:Q211360 ; # "Burke"@en ;
+#   kgo:hasCounty boltz:Q488210 ; # "Butts"@en ;
+#   kgo:hasCounty boltz:Q156632 ; # "Calhoun"@en ;
+#   kgo:hasCounty boltz:Q110504 ; # "Camden"@en ;
+#   kgo:hasCounty boltz:Q488224 ; # "Candler"@en ;
+#   kgo:hasCounty boltz:Q493088 ; # "Carroll"@en ;
+#   kgo:hasCounty boltz:Q260871 ; # "Catoosa"@en ;
+#   kgo:hasCounty boltz:Q486659 ; # "Charlton"@en ;
+#   kgo:hasCounty boltz:Q384890 ; # "Chatham"@en ;
+#   kgo:hasCounty boltz:Q486394 ; # "Chattahoochee"@en ;
+#   kgo:hasCounty boltz:Q486179 ; # "Chattooga"@en ;
+#   kgo:hasCounty boltz:Q486664 ; # "Cherokee"@en ;
+#   kgo:hasCounty boltz:Q112061 ; # "Clarke"@en ;
+#   kgo:hasCounty boltz:Q156580 ; # "Clay"@en ;
+#   kgo:hasCounty boltz:Q486150 ; # "Clayton"@en ;
+#   kgo:hasCounty boltz:Q486167 ; # "Clinch"@en ;
+#   kgo:hasCounty boltz:Q484247 ; # "Cobb"@en ;
+#   kgo:hasCounty boltz:Q156503 ; # "Coffee"@en ;
+#   kgo:hasCounty boltz:Q113005 ; # "Colquitt"@en ;
+#   kgo:hasCounty boltz:Q115307 ; # "Columbia"@en ;
+#   kgo:hasCounty boltz:Q156431 ; # "Cook"@en ;
+#   kgo:hasCounty boltz:Q111928 ; # "Coweta"@en ;
+#   kgo:hasCounty boltz:Q486401 ; # "Crawford"@en ;
+#   kgo:hasCounty boltz:Q156486 ; # "Crisp"@en ;
+#   kgo:hasCounty boltz:Q486654 ; # "Dade"@en ;
+#   kgo:hasCounty boltz:Q492032 ; # "Dawson"@en ;
+#   kgo:hasCounty boltz:Q493037 ; # "Decatur"@en ;
+#   kgo:hasCounty boltz:Q486398 ; # "DeKalb"@en ;
+#   kgo:hasCounty boltz:Q115272 ; # "Dodge"@en ;
+#   kgo:hasCounty boltz:Q492036 ; # "Dooly"@en ;
+#   kgo:hasCounty boltz:Q176480 ; # "Dougherty"@en ;
+#   kgo:hasCounty boltz:Q486325 ; # "Douglas"@en ;
+#   kgo:hasCounty boltz:Q486757 ; # "Early"@en ;
+#   kgo:hasCounty boltz:Q493029 ; # "Echols"@en ;
+#   kgo:hasCounty boltz:Q156637 ; # "Effingham"@en ;
+#   kgo:hasCounty boltz:Q492016 ; # "Elbert"@en ;
+#   kgo:hasCounty boltz:Q111894 ; # "Emanuel"@en ;
+#   kgo:hasCounty boltz:Q493044 ; # "Evans"@en ;
+#   kgo:hasCounty boltz:Q493079 ; # "Fannin"@en ;
+#   kgo:hasCounty boltz:Q501115 ; # "Fayette"@en ;
+#   kgo:hasCounty boltz:Q486389 ; # "Floyd"@en ;
+#   kgo:hasCounty boltz:Q493092 ; # "Forsyth"@en ;
+#   kgo:hasCounty boltz:Q385931 ; # "Franklin"@en ;
+#   kgo:hasCounty boltz:Q486633 ; # Fulton
+#   kgo:hasCounty boltz:Q493054 ; # "Gilmer"@en ;
+#   kgo:hasCounty boltz:Q477951 ; # "Glascock"@en ;
+#   kgo:hasCounty boltz:Q487016 ; # "Glynn"@en ;
+#   kgo:hasCounty boltz:Q200696 ; # "Gordon"@en ;
+#   kgo:hasCounty boltz:Q492061 ; # "Grady"@en ;
+#   kgo:hasCounty boltz:Q486765 ; # "Greene"@en ;
+#   kgo:hasCounty boltz:Q490065 ; # "Gwinnett"@en ;
+#   kgo:hasCounty boltz:Q501096 ; # "Habersham"@en ;
+#   kgo:hasCounty boltz:Q492012 ; # "Hall"@en ;
+#   kgo:hasCounty boltz:Q493112 ; # "Hancock"@en ;
+#   kgo:hasCounty boltz:Q544539 ; # "Haralson"@en ;
+#   kgo:hasCounty boltz:Q486133 ; # "Harris"@en ;
+#   kgo:hasCounty boltz:Q491301 ; # "Hart"@en ;
+#   kgo:hasCounty boltz:Q486348 ; # "Heard"@en ;
+#   kgo:hasCounty boltz:Q492053 ; # "Henry"@en ;
+#   kgo:hasCounty boltz:Q486362 ; # "Houston"@en ;
+#   kgo:hasCounty boltz:Q492057 ; # "Irwin"@en ;
+#   kgo:hasCounty boltz:Q486137 ; # "Jackson"@en ;
+#   kgo:hasCounty boltz:Q224910 ; # "Jasper"@en ;
+#   kgo:hasCounty boltz:Q493071 ; # "Jeff Davis"@en ;
+#   kgo:hasCounty boltz:Q486386 ; # "Jefferson"@en ;
+#   kgo:hasCounty boltz:Q389551 ; # "Jenkins"@en ;
+#   kgo:hasCounty boltz:Q163529 ; # "Johnson"@en ;
+#   kgo:hasCounty boltz:Q493040 ; # "Jones"@en ;
+#   kgo:hasCounty boltz:Q493049 ; # "Lamar"@en ;
+#   kgo:hasCounty boltz:Q492070 ; # "Lanier"@en ;
+#   kgo:hasCounty boltz:Q491556 ; # "Laurens"@en ;
+#   kgo:hasCounty boltz:Q491508 ; # "Lee"@en ;
+#   kgo:hasCounty boltz:Q487692 ; # "Liberty"@en ;
+#   kgo:hasCounty boltz:Q491519 ; # "Lincoln"@en ;
+#   kgo:hasCounty boltz:Q493033 ; # "Long"@en ;
+#   kgo:hasCounty boltz:Q493134 ; # "Lowndes"@en ;
+#   kgo:hasCounty boltz:Q492040 ; # "Lumpkin"@en ;
+#   kgo:hasCounty boltz:Q492021 ; # "Macon"@en ;
+#   kgo:hasCounty boltz:Q156387 ; # "Madison"@en ;
+#   kgo:hasCounty boltz:Q486344 ; # "Marion"@en ;
+#   kgo:hasCounty boltz:Q492066 ; # "McDuffie"@en ;
+#   kgo:hasCounty boltz:Q492652 ; # "McIntosh"@en ;
+#   kgo:hasCounty boltz:Q501151 ; # "Meriwether"@en ;
+#   kgo:hasCounty boltz:Q493107 ; # "Miller"@en ;
+#   kgo:hasCounty boltz:Q493102 ; # "Mitchell"@en ;
+#   kgo:hasCounty boltz:Q493024 ; # "Monroe"@en ;
+#   kgo:hasCounty boltz:Q493125 ; # "Montgomery"@en ;
+#   kgo:hasCounty boltz:Q493083 ; # "Morgan"@en ;
+#   kgo:hasCounty boltz:Q493074 ; # "Murray"@en ;
+#   kgo:hasCounty boltz:Q492048 ; # "Muscogee"@en ;
+#   kgo:hasCounty boltz:Q501101 ; # "Newton"@en ;
+#   kgo:hasCounty boltz:Q492026 ; # "Oconee"@en ;
+#   kgo:hasCounty boltz:Q491525 ; # "Oglethorpe"@en ;
+#   kgo:hasCounty boltz:Q501140 ; # "Paulding"@en ;
+#   kgo:hasCounty boltz:Q491553 ; # "Peach"@en ;
+#   kgo:hasCounty boltz:Q498675 ; # "Pickens"@en ;
+#   kgo:hasCounty boltz:Q486800 ; # "Pierce"@en ;
+#   kgo:hasCounty boltz:Q491533 ; # "Pike"@en ;
+#   kgo:hasCounty boltz:Q498395 ; # "Polk"@en ;
+#   kgo:hasCounty boltz:Q498301 ; # "Pulaski"@en ;
+#   kgo:hasCounty boltz:Q498341 ; # "Putnam"@en ;
+#   kgo:hasCounty boltz:Q498684 ; # "Quitman"@en ;
+#   kgo:hasCounty boltz:Q503546 ; # "Rabun"@en ;
+#   kgo:hasCounty boltz:Q498307 ; # "Randolph"@en ;
+#   kgo:hasCounty boltz:Q498319 ; # "Richmond"@en ;
+#   kgo:hasCounty boltz:Q498621 ; # "Rockdale"@en ;
+#   kgo:hasCounty boltz:Q387216 ; # "Schley"@en ;
+#   kgo:hasCounty boltz:Q503511 ; # "Screven"@en ;
+#   kgo:hasCounty boltz:Q498372 ; # "Seminole"@en ;
+#   kgo:hasCounty boltz:Q503486 ; # "Spalding"@en ;
+#   kgo:hasCounty boltz:Q498362 ; # "Stephens"@en ;
+#   kgo:hasCounty boltz:Q491543 ; # "Stewart"@en ;
+#   kgo:hasCounty boltz:Q503076 ; # "Sumter"@en ;
+#   kgo:hasCounty boltz:Q498356 ; # "Talbot"@en ;
+#   kgo:hasCounty boltz:Q134080 ; # "Taliaferro"@en ;
+#   kgo:hasCounty boltz:Q505310 ; # "Tattnall"@en ;
+#   kgo:hasCounty boltz:Q505299 ; # "Taylor"@en ;
+#   kgo:hasCounty boltz:Q691614 ; # "Telfair"@en ;
+#   kgo:hasCounty boltz:Q503492 ; # "Terrell"@en ;
+#   kgo:hasCounty boltz:Q498327 ; # "Thomas"@en ;
+#   kgo:hasCounty boltz:Q498346 ; # "Tift"@en ;
+#   kgo:hasCounty boltz:Q376822 ; # "Toombs"@en ;
+#   kgo:hasCounty boltz:Q503538 ; # "Towns"@en ;
+#   kgo:hasCounty boltz:Q503071 ; # "Treutlen"@en ;
+#   kgo:hasCounty boltz:Q498295 ; # "Troup"@en ;
+#   kgo:hasCounty boltz:Q498336 ; # "Turner"@en ;
+#   kgo:hasCounty boltz:Q503551 ; # "Twiggs"@en ;
+#   kgo:hasCounty boltz:Q491547 ; # "Union"@en ;
+#   kgo:hasCounty boltz:Q498377 ; # "Upson"@en ;
+#   kgo:hasCounty boltz:Q498321 ; # "Walker"@en ;
+#   kgo:hasCounty boltz:Q498312 ; # "Walton"@en ;
+#   kgo:hasCounty boltz:Q498353 ; # "Ware"@en ;
+#   kgo:hasCounty boltz:Q491529 ; # "Warren"@en ;
+#   kgo:hasCounty boltz:Q498286 ; # "Washington"@en ;
+#   kgo:hasCounty boltz:Q491762 ; # "Wayne"@en ;
+#   kgo:hasCounty boltz:Q491514 ; # "Webster"@en ;
+#   kgo:hasCounty boltz:Q498332 ; # "Wheeler"@en ;
+#   kgo:hasCounty boltz:Q389365 ; # "White"@en ;
+#   kgo:hasCounty boltz:Q491537 ; # "Whitfield"@en ;
+#   kgo:hasCounty boltz:Q486791 ; # "Wilcox"@en ;
+#   kgo:hasCounty boltz:Q491759 ; # "Wilkes"@en ;
+#   kgo:hasCounty boltz:Q486317 ; # "Wilkinson"@en ;
+#   kgo:hasCounty boltz:Q486154 ; # "Worth"@en ;
+  skos:prefLabel "Georgia"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q782 a kgo:State ;
+  kgo:stateName "Hawaii"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q18094 ; # Honolulu
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8f/Hawaii_in_United_States_%28US50%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg> ;
+  skos:prefLabel "Hawaii"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1221 a kgo:State ;
+  kgo:stateName "Idaho"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q35775 ; # Boise
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a0/Idaho_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Idaho.svg> ;
+  skos:prefLabel "Idaho"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1204 a kgo:State ;
+  kgo:stateName "Illinois"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q28515 ; # Springfield
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/53/Illinois_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Illinois.svg> ;
+  skos:prefLabel "Illinois"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1415 a kgo:State ;
+  kgo:stateName "Indiana"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q6346 ; # Indianapolis
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/d2/Indiana_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/ac/Flag_of_Indiana.svg> ;
+  skos:prefLabel "Indiana"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1546 a kgo:State ;
+  kgo:stateName "Iowa"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q39709 ; # Des Moines
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/57/Iowa_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Iowa.svg> ;
+  skos:prefLabel "Iowa"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1558 a kgo:State ;
+  kgo:stateName "Kansas"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q41057 ; # Topeka
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a6/Kansas_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Kansas.svg> ;
+  skos:prefLabel "Kansas"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1603 a kgo:State ;
+  kgo:stateName "Kentucky"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q28603 ; # Frankfort
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/e/e2/Kentucky_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/8/8d/Flag_of_Kentucky.svg> ;
+  skos:prefLabel "Kentucky"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1588 a kgo:State ;
+  kgo:stateName "Louisiana"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q28218 ; # Baton Rouge
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2a/Louisiana_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_Louisiana.svg> ;
+  skos:prefLabel "Louisiana"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q724 a kgo:State ;
+  kgo:stateName "Maine"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q28206 ; # Augusta
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/7/78/Maine_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/d/df/Flag_of_the_State_of_Maine.svg> ;
+  skos:prefLabel "Maine"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1391 a kgo:State ;
+  kgo:stateName "Maryland"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q28271 ; # Annapolis
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/da/Maryland_in_United_States_%28zoom%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Maryland.svg> ;
+  skos:prefLabel "Maryland"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q771 a kgo:State ;
+  kgo:stateName "Massachusetts"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q100 ; # Boston
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f5/Massachusetts_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Massachusetts.svg> ;
+  skos:prefLabel "Massachusetts"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1166 a kgo:State ;
+  kgo:stateName "Michigan"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q28237 ; # Lansing
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/50/Michigan_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/b5/Flag_of_Michigan.svg> ;
+  skos:prefLabel "Michigan"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1527 a kgo:State ;
+  kgo:stateName "Minnesota"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q28848 ; # Saint Paul
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/81/Minnesota_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Minnesota.svg> ;
+  skos:prefLabel "Minnesota"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1494 a kgo:State ;
+  kgo:stateName "Mississippi"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q28198 ; # Jackson
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Mississippi_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_Mississippi.svg> ;
+  skos:prefLabel "Mississippi"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1581 a kgo:State ;
+  kgo:stateName "Missouri"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q28180 ; # Jefferson City
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/62/Missouri_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Missouri.svg> ;
+  skos:prefLabel "Missouri"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1212 a kgo:State ;
+  kgo:stateName "Montana"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q38733 ; # Helena
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/67/Montana_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Montana.svg> ;
+  skos:prefLabel "Montana"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1553 a kgo:State ;
+  kgo:stateName "Nebraska"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q28260 ; # Lincoln
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/4/44/Nebraska_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Nebraska.svg> ;
+  skos:prefLabel "Nebraska"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1227 a kgo:State ;
+  kgo:stateName "Nevada"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q40881 ; # Carson City
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/b/ba/Nevada_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Nevada.svg> ;
+  skos:prefLabel "Nevada"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q759 a kgo:State ;
+  kgo:stateName "New Hampshire"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q28249 ; # Concord
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/64/New_Hampshire_in_United_States_%28zoom%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_New_Hampshire.svg> ;
+  skos:prefLabel "New Hampshire"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1408 a kgo:State ;
+  kgo:stateName "New Jersey"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q25330 ; # Trenton
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/84/New_Jersey_in_United_States_%28zoom%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_New_Jersey.svg> ;
+  skos:prefLabel "New Jersey"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1522 a kgo:State ;
+  kgo:stateName "New Mexico"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q38555 ; # Santa Fe
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/fe/New_Mexico_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_New_Mexico.svg> ;
+  skos:prefLabel "New Mexico"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1384 a kgo:State ;
+  kgo:stateName "New York"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q24861 ; # Albany
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/0/06/New_York_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_New_York.svg> ;
+  skos:prefLabel "New York"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1454 a kgo:State ;
+  kgo:stateName "North Carolina"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q41087 ; # Raleigh
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/20/North_Carolina_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_North_Carolina.svg> ;
+  skos:prefLabel "North Carolina"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1207 a kgo:State ;
+  kgo:stateName "North Dakota"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q37066 ; # Bismarck
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/b/bc/North_Dakota_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/e/ee/Flag_of_North_Dakota.svg> ;
+  skos:prefLabel "North Dakota"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1397 a kgo:State ;
+  kgo:stateName "Ohio"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q16567 ; # Columbus
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/58/Ohio_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Ohio.svg> ;
+  skos:prefLabel "Ohio"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1649 a kgo:State ;
+  kgo:stateName "Oklahoma"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q34863 ; # Oklahoma City
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/9/99/Oklahoma_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Oklahoma.svg> ;
+  skos:prefLabel "Oklahoma"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q824 a kgo:State ;
+  kgo:stateName "Oregon"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q43919 ; # Salem
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/59/Oregon_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg> ;
+  skos:prefLabel "Oregon"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1400 a kgo:State ;
+  kgo:stateName "Pennsylvania"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q25280 ; # Harrisburg
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/6d/Pennsylvania_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Pennsylvania.svg> ;
+  kgo:hasCountiesImageMap <https://upload.wikimedia.org/wikipedia/commons/8/83/Pennsylvania_counties_map.png> ;
+  kgo:hasCounty boltz:Q488679 ; # Erie
+  kgo:hasCounty boltz:Q494086 ; # Crawford
+  kgo:hasCounty boltz:Q497216 ; # Mercer
+  kgo:hasCounty boltz:Q501256 ; # Lawrence
+  kgo:hasCounty boltz:Q494104 ; # Beaver
+  kgo:hasCounty boltz:Q497200 ; # Washington
+  kgo:hasCounty boltz:Q494098 ; # Greene
+  kgo:hasCounty boltz:Q495662 ; # Warren
+  kgo:hasCounty boltz:Q494241 ; # Venango
+  kgo:hasCounty boltz:Q488672 ; # Butler
+  kgo:hasCounty boltz:Q156291 ; # Allegheny
+  kgo:hasCounty boltz:Q494236 ; # Forest
+  kgo:hasCounty boltz:Q494198 ; # Clarion
+  kgo:hasCounty boltz:Q494186 ; # Armstrong
+  kgo:hasCounty boltz:Q495645 ; # Westmoreland
+  kgo:hasCounty boltz:Q488683 ; # Fayette
+  kgo:hasCounty boltz:Q495640 ; # Mckean
+  kgo:hasCounty boltz:Q494254 ; # Elk
+  kgo:hasCounty boltz:Q494156 ; # Jefferson
+  kgo:hasCounty boltz:Q494146 ; # Indiana
+  kgo:hasCounty boltz:Q494142 ; # Cameron
+  kgo:hasCounty boltz:Q494233 ; # Clearfield
+  kgo:hasCounty boltz:Q490077 ; # Cambria
+  kgo:hasCounty boltz:Q490908 ; # Somerset
+  kgo:hasCounty boltz:Q501340 ; # Potter
+  kgo:hasCounty boltz:Q494093 ; # Clinton
+  kgo:hasCounty boltz:Q494248 ; # Centre
+  kgo:hasCounty boltz:Q494152 ; # Blair
+  kgo:hasCounty boltz:Q494174 ; # Bedford
+  kgo:hasCounty boltz:Q494077 ; # Huntingdon
+  kgo:hasCounty boltz:Q494211 ; # Fulton
+  kgo:hasCounty boltz:Q495613 ; # Tioga
+  kgo:hasCounty boltz:Q495633 ; # Lycoming
+  kgo:hasCounty boltz:Q501248 ; # Union
+  kgo:hasCounty boltz:Q494161 ; # Mifflin
+  kgo:hasCounty boltz:Q501270 ; # Juniata
+  kgo:hasCounty boltz:Q495595 ; # Snyder
+  kgo:hasCounty boltz:Q501298 ; # Perry
+  kgo:hasCounty boltz:Q494134 ; # Cumberland
+  kgo:hasCounty boltz:Q351865 ; # Adams
+  kgo:hasCounty boltz:Q488687 ; # Bradford
+  kgo:hasCounty boltz:Q501306 ; # Sullivan
+  kgo:hasCounty boltz:Q495687 ; # Montour
+  kgo:hasCounty boltz:Q488693 ; # Columbia
+  kgo:hasCounty boltz:Q494164 ; # Northumberland
+  kgo:hasCounty boltz:Q488690 ; # Dauphin
+  kgo:hasCounty boltz:Q490914 ; # York
+  kgo:hasCounty boltz:Q494207 ; # Schuylkill
+  kgo:hasCounty boltz:Q781165 ; # Lebanon
+  kgo:hasCounty boltz:Q142369 ; # Lancaster
+  kgo:hasCounty boltz:Q495603 ; # Susquehanna
+  kgo:hasCounty boltz:Q495677 ; # Wyoming
+  kgo:hasCounty boltz:Q501292 ; # Luzerne
+  kgo:hasCounty boltz:Q488698 ; # Carbon
+  kgo:hasCounty boltz:Q494117 ; # Lehigh
+  kgo:hasCounty boltz:Q490920 ; # Berks
+  kgo:hasCounty boltz:Q27840 ; # Chester
+  kgo:hasCounty boltz:Q501350 ; # Lackawanna
+  kgo:hasCounty boltz:Q378527 ; # Montgomery
+  kgo:hasCounty boltz:Q27844 ; # Delaware
+  kgo:hasCounty boltz:Q494167 ; # Wayne
+  kgo:hasCounty boltz:Q495649 ; # Pike
+  kgo:hasCounty boltz:Q495588 ; # Monroe
+  kgo:hasCounty boltz:Q495658 ; # Northampton
+  kgo:hasCounty boltz:Q494192 ; # Bucks
+  kgo:hasCounty boltz:Q496900 ; # Philadelphia
+  skos:prefLabel "Pennsylvania"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1387 a kgo:State ;
+  kgo:stateName "Rhode Island"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q18383 ; # Providence
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/6/69/Rhode_Island_in_United_States_%28zoom%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Rhode_Island.svg> ;
+  skos:prefLabel "Rhode Island"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1456 a kgo:State ;
+  kgo:stateName "South Carolina"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q38453 ; # Columbia
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8e/South_Carolina_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_South_Carolina.svg> ;
+  skos:prefLabel "South Carolina"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1211 a kgo:State ;
+  kgo:stateName "South Dakota"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q40747; # Pierre
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/8f/South_Dakota_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_South_Dakota.svg> ;
+  skos:prefLabel "South Dakota"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1509 a kgo:State ;
+  kgo:stateName "Tennessee"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q23197 ; # Nashville
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/29/Tennessee_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Tennessee.svg> ;
+  skos:prefLabel "Tennessee"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1439 a kgo:State ;
+  kgo:stateName "Texas"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q16559 ; # Austin
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/ad/Texas_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg> ;
+  skos:prefLabel "Texas"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q829 a kgo:State ;
+  kgo:stateName "Utah"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q23337 ; # Salt Lake City
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/8/82/Utah_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Utah.svg> ;
+  skos:prefLabel "Utah"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q16551 a kgo:State ;
+  kgo:stateName "Vermont"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q24460 ; # Northeast Region
+  kgo:capital boltz:Q26426 ; # Montpelier
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/f/f3/Vermont_in_United_States_%28zoom%29.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Vermont.svg> ;
+  skos:prefLabel "Vermont"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1370 a kgo:State ;
+  kgo:stateName "Virginia"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q43421 ; # Richmond
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/c/c6/Virginia_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Virginia.svg> ;
+  skos:prefLabel "Virginia"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1223 a kgo:State ;
+  kgo:stateName "Washington"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q42735 ; # Olympia
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/3/30/Washington_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Washington.svg> ;
+  skos:prefLabel "Washington"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1371 a kgo:State ;
+  kgo:stateName "West Virginia"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q49042 ; # Southern United States
+  kgo:capital boltz:Q44564 ; # Charleston
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/2/2a/West_Virginia_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_West_Virginia.svg> ;
+  skos:prefLabel "West Virginia"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1537 a kgo:State ;
+  kgo:stateName "Wisconsin"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q186545 ; # Midwest Region
+  kgo:capital boltz:Q43788 ; # Madison
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/a/a7/Wisconsin_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Wisconsin.svg> ;
+  skos:prefLabel "Wisconsin"@en ;
+  skos:definition "state of the United States of America"@en .
+
+boltz:Q1214 a kgo:State ;
+  kgo:stateName "Wyoming"@en ;
+  kgo:locatedInCountry boltz:Q30; # United States of America
+  kgo:locatedInAdministrativeRegion boltz:Q12612 ; # Western United States
+  kgo:capital boltz:Q39042 ; # Cheyenne
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/5/5b/Wyoming_in_United_States.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Wyoming.svg> ;
+  skos:prefLabel "Wyoming"@en ;
+  skos:definition "state of the United States of America"@en .
+
+# --------------------------Division--------------------------
+
+boltz:Q18389 a kgo:Division ;
+  kgo:divisionName "New England"@en .
+
+boltz:Q632014 a kgo:Division ;
+  kgo:divisionName "Mid-Atlantic"@en .
+
+# ---------------------------Region---------------------------
+# By Blurpeace - Own work. Modified from this blank map; source from an official United States Census Bureau publication., CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=10715092
+boltz:Q24460 a kgo:Region ;
+  kgo:regionName "Northeastern United States"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map_of_the_North_Eastern_United_States.svg/2560px-Map_of_the_North_Eastern_United_States.svg.png> ;
+  kgo:hasStatesImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-northeast.jpeg> ;
+  kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
+  skos:prefLabel "Northeastern United States"@en ;
+  skos:definition "administrative regions of the Boy Scouts of America"@en .
+
+# By This version: uploaderBase versions this one is derived from: originally created by en:User:Wapcaplet - own work by uploader, based on Image:Map of USA without state names.svg, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4857036
+boltz:Q186545 a kgo:Region ;
+  kgo:regionName "Midwestern United States"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Map_of_USA_Midwest.svg/284px-Map_of_USA_Midwest.svg.png> ;
+  kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
+  skos:prefLabel "Midwestern United States"@en ;
+  skos:definition "administrative regions of the Boy Scouts of America"@en .
+
+# By This version: uploaderBase versions this one is derived from: originally created by Wapcaplet - Own work, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=88528047
+boltz:Q49042 a kgo:Region ;
+  kgo:regionName "Southern United States"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Map_of_USA_South.svg/1920px-Map_of_USA_South.svg.png> ;
+  kgo:hasStatesImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-south.jpg> ;
+  kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
+  skos:prefLabel "Southern United States"@en ;
+  skos:definition "administrative regions of the Boy Scouts of America"@en .
+
+# By Self - WikiMedia, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=74419376
+boltz:Q12612 a kgo:Region ;
+  kgo:regionName "Western United States"@en ;
+  kgo:locatedInCountry boltz:Q30 ; # United States of America
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Map_of_the_U.S.%2C_highlighting_the_West.svg/1920px-Map_of_the_U.S.%2C_highlighting_the_West.svg.png> ; 
+  kgo:locatedInAdministrativeRegion boltz:Q30 ; # United States of America
+  skos:prefLabel "Western United States"@en ;
+  skos:definition "administrative regions of the Boy Scouts of America"@en .
+  
+# --------------------------Country---------------------------
+boltz:Q30 a kgo:Country ;
+  kgo:countryName "United States of America"@en ;
+  kgo:locatedInContinent boltz:Q49 ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/d/dc/USA_orthographic.svg> ;
+  kgo:flagImage <https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2880px-Flag_of_the_United_States.svg.png> ;
+  kgo:hasStatesImageMap <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blank_US_map_borders_labels.svg/600px-Blank_US_map_borders_labels.svg.png> ; 
+  kgo:hasRegionsImageMap <https://raw.githubusercontent.com/touretzkyds/KnowledgeGraphServer/dev/images/us-regions-map-census.jpeg> ;
+  kgo:locatedInAdministrativeRegion boltz:Q49 ; # North America
+  skos:prefLabel "United States of America"@en ;
+  skos:definition "country in North America"@en .
+
+# ------------------------Continent---------------------------
+boltz:Q49 a kgo:Continent ;
+  kgo:continentName "North America"@en ;
+  kgo:image <https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/1920px-Location_North_America.svg.png> ;
+  skos:prefLabel "North America"@en ;
+  skos:definition "continent on the Earth's northwestern quadrant, spanning from the Arctic Archipelago to the Panama Isthmus"@en .
+  
 # ----------------------Prehistoric Eras----------------------
 boltz:Q44626 a kgo:Era ;
   skos:prefLabel "Cretaceous Period"@en ;
@@ -88,59 +2369,6 @@ boltz:Q247489 a kgo:Company ;
         skos:definition   "American pharmaceutical company and former subsidiary of the German Merck company"@en ;
         skos:prefLabel    "Merck"@en .
 
-boltz:Q206921 a kgo:Company ;
-        kgo:companyName   "Pfizer Inc."@en ;
-        kgo:tickerSymbol  "PFE"@en ;
-        kgo:headquarters  [
-            a kgo:Location ;
-            kgo:address     "235 East 42nd Street, New York NY 10017"@en ;
-            kgo:coordinates "40.7503225,-73.9745905"@en ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:annualRevenue [
-            a qudt:Quantity ;
-            qudt:unit unit:USDollar ;
-            qudt:value 69340000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:marketCap [
-            a qudt:Quantity ;
-            qudt:unit unit:USDollar ;
-            qudt:value 304400000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:marketShare [
-            a qudt:Quantity ;
-            qudt:unit unit:PERCENT ;
-            qudt:value 14.72 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:numEmployees [
-            a qudt:Quantity ;
-            qudt:unit unit:NUM ;
-            qudt:value 78500 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:prefComparisons [
-            a rdf:List ;
-            rdf:first kgo:marketCap ;
-            rdf:rest [
-                a rdf:List ;
-                rdf:first kgo:annualRevenue ;
-                rdf:rest [
-                    a rdf:List ;
-                    rdf:first kgo:marketShare ;
-                    rdf:rest [
-                        a rdf:List ;
-                        rdf:first kgo:numEmployees ;
-                        rdf:rest rdf:nil ;
-                    ] ;
-                ] ;
-            ] ;
-        ] ;
-        skos:definition   "American multinational pharmaceutical corporation"@en ;
-        skos:prefLabel    "Pfizer"@en .
-
 boltz:Q81965 a kgo:Company ;
         kgo:companyName   "General Motors Company"@en ;
         kgo:tickerSymbol  "GM"@en ;
@@ -194,59 +2422,6 @@ boltz:Q81965 a kgo:Company ;
         skos:definition   "Automotive manufacturing corporation based in Detroit, Michigan, USA"@en ;
         skos:prefLabel    "General Motors"@en .
 
-boltz:Q3884 a kgo:Company ;
-        kgo:companyName   "Amazon.com, Inc."@en ;
-        kgo:tickerSymbol  "AMZN"@en ;
-        kgo:headquarters  [
-            a kgo:Location ;
-            kgo:address     "410 Terry Ave N, Seattle, WA 98109"@en ;
-            kgo:coordinates "47.622406,-122.3390939"@en ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:annualRevenue [
-            a qudt:Quantity ;
-            qudt:unit unit:USDollar ;
-            qudt:value 386060000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:marketCap [
-            a qudt:Quantity ;
-            qudt:unit unit:USDollar ;
-            qudt:value 1626710000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:marketShare [
-            a qudt:Quantity ;
-            qudt:unit unit:PERCENT ;
-            qudt:value 37.0 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:numEmployees [
-            a qudt:Quantity ;
-            qudt:unit unit:NUM ;
-            qudt:value 1608000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:prefComparisons [
-            a rdf:List ;
-            rdf:first kgo:marketCap ;
-            rdf:rest [
-                a rdf:List ;
-                rdf:first kgo:annualRevenue ;
-                rdf:rest [
-                    a rdf:List ;
-                    rdf:first kgo:marketShare ;
-                    rdf:rest [
-                        a rdf:List ;
-                        rdf:first kgo:numEmployees ;
-                        rdf:rest rdf:nil ;
-                    ] ;
-                ] ;
-            ] ;
-        ] ;
-        skos:definition   "American electronic commerce and cloud computing company"@en ;
-        skos:prefLabel    "Amazon"@en .
-
 boltz:Q380 a kgo:Company ;
         kgo:companyName   "Meta Platforms, Inc."@en ;
         kgo:tickerSymbol  "FB"@en ;
@@ -299,259 +2474,1490 @@ boltz:Q380 a kgo:Company ;
         ] ;
         skos:definition   "American social media and technology company"@en ;
         skos:prefLabel    "Facebook"@en .
+# microsoft encoding ----------------------------------------------------------------
 
-boltz:Q312 a kgo:Company ;
-        kgo:companyName   "Apple Inc."@en ;
-        kgo:tickerSymbol  "AAPL"@en ;
+boltz:Q2283 a boltz:Q783794 ;
+        kgo:companyName "Microsoft Corporation"@en ;
+        kgo:tickerSymbol "MSFT"@en ;
+        kgo:sector boltz:Q6000000 ;
+        kgo:industryGroup boltz:Q6000001 ;
+        kgo:industry boltz:Q6000002 ;
+        kgo:phoneNumber "+1-425-882-8080"@en ;
+        kgo:emailAddress "mailto:opensource@microsoft.com"@en ;
+        kgo:website "https://www.microsoft.com/"@en ;
+        kgo:inception "1976-11-26"^^xsd:date ;
+        kgo:foundedBy "Bill Gates"@en ;
+        kgo:country "United States of America"@en ;
         kgo:headquarters  [
             a kgo:Location ;
-            kgo:address     "One Apple Park Way, Cupertino, CA 95014"@en ;
-            kgo:coordinates "37.334648,-122.0111607"@en ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:address    "Redmond, Washington"@en ;
+            kgo:coordinates    "47°38′31″N 122°07′38″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
-        kgo:annualRevenue [
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Steve Ballmer"@en ;
+        kgo:chairman "Satya Nadella"@en ;
+        kgo:boardMember "John W. Thompson"@en ;
+        kgo:boardMember "Reid Hoffman"@en ;
+        kgo:boardMember "Hugh F. Johnston"@en ;
+        kgo:boardMember "Teri List-Stoll"@en ;
+        kgo:boardMember "Sandra Peterson"@en ;
+        kgo:boardMember "Penny Pritzker"@en ;
+        kgo:boardMember "Carlos Rodriguez"@en ;
+        kgo:boardMember "Charles Scharf"@en ;
+        kgo:boardMember "John W. Stanton"@en ;
+        kgo:boardMember "Emma Walmsley"@en ;
+        kgo:boardMember "Padmasree Warrior"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 181000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
-            qudt:value 137700000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            qudt:value 2270000000000;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
-        kgo:marketCap [
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 74;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
             a qudt:Quantity ;
             qudt:unit unit:USDollar ;
-            qudt:value 2663030000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            qudt:value 333779000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
-        kgo:marketShare [
+        kgo:totalEquity  [
             a qudt:Quantity ;
-            qudt:unit unit:PERCENT ;
-            qudt:value 55.0 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            qudt:unit unit:USDollar ;
+            qudt:value 141988000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 168088000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 61271000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q219635 ;
+        kgo:subsidiary boltz:Q73801 ;
+        kgo:ownerOf boltz:Q958338 ;
+        kgo:product boltz:Q1406 ;
+        skos:definition   "American multinational technology corporation"@en ;
+        skos:prefLabel    "Microsoft"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg> .
+
+
+
+# pfizer encoding ----------------------------------------------------------------
+
+boltz:Q206921 a boltz:Q783794 ;
+        kgo:companyName "Pfizer"@en ;
+        kgo:tickerSymbol "PFE"@en ;
+        kgo:sector boltz:Q6000003 ;
+        kgo:industryGroup boltz:Q6000004 ;
+        kgo:industry boltz:Q6000005 ;
+        kgo:phoneNumber "1-800-879-3477"@en ;
+        kgo:emailAddress "pfizercentreone@pfizer.com"@en ;
+        kgo:website "https://www.pfizer.com/"@en ;
+        kgo:inception "1849"^^xsd:date ;
+        kgo:foundedBy "Charles Pfizer"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "New York, New York"@en ;
+            kgo:coordinates    "4o°45′1″N 73°58′21″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Albert Bourla"@en ;
+        kgo:chairman "Albert Bourla"@en ;
+        kgo:boardMember "Ronald E. Blaylock"@en ;
+        kgo:boardMember "W. Don Cornwell"@en ;
+        kgo:boardMember "Scott Gottlieb"@en ;
+        kgo:boardMember "Helen Hobbs"@en ;
+        kgo:boardMember "Susan Hockfield"@en ;
+        kgo:boardMember "James M. Kilts"@en ;
+        kgo:boardMember "Dan Littman"@en ;
+        kgo:boardMember "Shantanu Narayen"@en ;
+        kgo:boardMember "Suzanne Nora Johnson"@en ;
+        kgo:boardMember "James Quincey"@en ;
+        kgo:boardMember "James C. Smith"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 92400 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 386700000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 5 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 154229000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 63447000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 51750000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 16273000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q849363 ;
+        kgo:subsidiary boltz:Q198605 ;
+        kgo:ownerOf boltz:Q901932 ;
+        kgo:product "pharmaceutical product"@en ;
+        skos:definition   "American multinational pharmaceutical corporation"@en ;
+        skos:prefLabel    "Pfizer"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/5/57/Pfizer_%282021%29.svg> .
+
+
+
+# amazon encoding ----------------------------------------------------------------
+
+boltz:Q3884 a boltz:Q783794 ;
+        kgo:companyName "Amazon"@en ;
+        kgo:tickerSymbol "AMZN"@en ;
+        kgo:sector boltz:Q6000006 ;
+        kgo:industryGroup boltz:Q6000007 ;
+        kgo:industry boltz:Q6000008 ;
+        kgo:phoneNumber "1-888-280-4331"@en ;
+        kgo:emailAddress "cs-reply@amazon.com"@en ;
+        kgo:website "https://www.amazon.com/"@en ;
+        kgo:inception "1994-7-5"^^xsd:date ;
+        kgo:foundedBy "Jeff Bezos"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Seattle, Washington"@en ;
+            kgo:coordinates    "47°3721.72′31″N 122°20′10.32″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Andy Jassy"@en ;
+        kgo:chairman "Andy Jassy"@en ;
+        kgo:boardMember "Jeff Bezos"@en ;
+        kgo:boardMember "Keith B. Alexander"@en ;
+        kgo:boardMember "Jamie S. Gorelick"@en ;
+        kgo:boardMember "Daniel P. Huttenlocher"@en ;
+        kgo:boardMember "Judy McGrath"@en ;
+        kgo:boardMember "Indra Nooyi"@en ;
+        kgo:boardMember "Jon Rubinstein"@en ;
+        kgo:boardMember "Thomas O. Ryder"@en ;
+        kgo:boardMember "Patty Stonesifer"@en ;
+        kgo:boardMember "Wendell Weeks"@en ;
+        kgo:boardMember "Edith Cooper"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 1608000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 54900000000;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 39.5 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 420549000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 138245000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 469822000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 33364000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q312556 ;
+        kgo:subsidiary boltz:Q280457 ;
+        kgo:ownerOf boltz:Q1628791 ;
+        kgo:product boltz:Q18511815 ;
+        skos:definition   "American multinational technology company"@en ;
+        skos:prefLabel    "Amazon"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/5/59/Amazon.de-Logo.svg> .
+
+
+
+# alphabet encoding ----------------------------------------------------------------
+
+boltz:Q20800404 a boltz:Q783794 ;
+        kgo:companyName "Alphabet Inc"@en ;
+        kgo:tickerSymbol "GOOG"@en ;
+        kgo:sector boltz:Q6000000 ;
+        kgo:industryGroup boltz:Q6000001 ;
+        kgo:industry boltz:Q6000009 ;
+        kgo:phoneNumber "+1-650-206-5555"@en ;
+        kgo:emailAddress "support-in@google.com"@en ;
+        kgo:website "https://www.google.com/"@en ;
+        kgo:inception "2015-8-2"^^xsd:date ;
+        kgo:foundedBy "Sergey Brin"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "1600 Amphitheatre Parkway, Mountain View"@en ;
+            kgo:coordinates    "37°25′19.4″N 122°5′4.0″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Sundar Pichai"@en ;
+        kgo:chairman "John L. Hennessy"@en ;
+        kgo:boardMember "Larry Page"@en ;
+        kgo:boardMember "Sergey Brin"@en ;
+        kgo:boardMember "Sundar Pichai"@en ;
+        kgo:boardMember "Frances Arnold"@en ;
+        kgo:boardMember "R. Martin Chavez"@en ;
+        kgo:boardMember "John Doerr"@en ;
+        kgo:boardMember "Roger W. Ferguson, Jr."@en ;
+        kgo:boardMember "Ann Mather"@en ;        
+        kgo:boardMember "Robin Washington"@en ;
+        kgo:boardMember "Ram Shriram"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value 156500 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 28700000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 16.68 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 359268000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 251635000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 257637000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 76033000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q92764 ;
+        kgo:subsidiary boltz:Q95 ;
+        kgo:ownerOf boltz:Q100292691 ;
+        kgo:product boltz:Q95 ;
+        skos:definition   "American holding company and parent company of Google"@en ;
+        skos:prefLabel    "Alphabet"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/7/7a/Alphabet_Inc_Logo_2015.svg> .
+
+
+
+# apple encoding ----------------------------------------------------------------
+
+boltz:Q312 a boltz:Q783794 ;
+        kgo:companyName "Apple Inc."@en ;
+        kgo:tickerSymbol "AAPL"@en ;
+        kgo:sector boltz:Q6000000 ;
+        kgo:industryGroup boltz:Q6000010 ;
+        kgo:industry boltz:Q6000011 ;
+        kgo:phoneNumber "+1-800-275-2273"@en ;
+        kgo:emailAddress "None published"@en ;
+        kgo:website "https://www.apple.com/at"@en ;
+        kgo:inception "1976-4-1"^^xsd:date ;
+        kgo:foundedBy "Steve Jobs"@en ;
+        kgo:foundedBy "Ronald Wayne"@en ;
+        kgo:foundedBy "Steve Wozniak"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Cupertino, California"@en ;
+            kgo:coordinates    "37°19′54.05″N 122°1′48.36″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Tim Cook"@en ;
+        kgo:chairman "Arthur D. Levinson"@en ;
+        kgo:boardMember "Andrea Jung"@en ;
+        kgo:boardMember "Ronald Sugar"@en ;
+        kgo:boardMember "James A. Bell"@en ;
+        kgo:boardMember "Al Gore"@en ;
+        kgo:boardMember "Susan Wagner"@en ;
+        kgo:boardMember "Monica C. Lozano"@en ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
             qudt:value 154000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
-        kgo:prefComparisons [
-            a rdf:List ;
-            rdf:first kgo:marketCap ;
-            rdf:rest [
-                a rdf:List ;
-                rdf:first kgo:annualRevenue ;
-                rdf:rest [
-                    a rdf:List ;
-                    rdf:first kgo:marketShare ;
-                    rdf:rest [
-                        a rdf:List ;
-                        rdf:first kgo:numEmployees ;
-                        rdf:rest rdf:nil ;
-                    ] ;
-                ] ;
-            ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 837800000000;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 23.24 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 351002000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 63090000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 365817000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 94680000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q849363 ;
+        kgo:subsidiary boltz:Q1982831 ;
+        kgo:ownerOf boltz:Q1119662 ;
+        kgo:product boltz:Q270285 ;
         skos:definition   "American technology company based in Cupertino, California"@en ;
-        skos:prefLabel    "Apple"@en .
+        skos:prefLabel    "Apple"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg> .
 
-boltz:Q2283 a kgo:Company ;
-        kgo:companyName   "Microsoft Corporation"@en ;
-        kgo:tickerSymbol  "MSFT"@en ;
+
+
+# netflix encoding ----------------------------------------------------------------
+
+boltz:Q907311 a boltz:Q783794 ;
+        kgo:companyName "Netflix"@en ;
+        kgo:tickerSymbol "NFLX"@en ;
+        kgo:sector boltz:Q6000012 ;
+        kgo:industryGroup boltz:Q6000013 ;
+        kgo:industry boltz:Q6000014 ;
+        kgo:phoneNumber "+1-888-638-3549"@en ;
+        kgo:emailAddress "customerservice@netflix.com"@en ;
+        kgo:website "https://www.netflix.com/"@en ;
+        kgo:inception "1997-8-29"^^xsd:date ;
+        kgo:foundedBy "Reed Hastings"@en ;
+        kgo:foundedBy "Marc Randolph"@en ;
+        kgo:country "United States of America"@en ;
         kgo:headquarters  [
             a kgo:Location ;
-            kgo:address     "1 Microsoft Way, Redmond, Washington 98052"@en ;
-            kgo:coordinates "47.6393818,-122.130448"@en ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            kgo:address    "Los Gatos, California"@en ;
+            kgo:coordinates    "37°15′42.5″N 121°57′43.2″W″"@en ;
+            kgo:timeRetrieve    "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
-        kgo:annualRevenue [
-            a qudt:Quantity ;
-            qudt:unit unit:USDollar ;
-            qudt:value 143015000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:marketCap [
-            a qudt:Quantity ;
-            qudt:unit unit:USDollar ;
-            qudt:value 2239910000000 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
-        kgo:marketShare [
-            a qudt:Quantity ;
-            qudt:unit unit:PERCENT ;
-            qudt:value 74.0 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
-        ] ;
+        kgo:exchange boltz:Q82059 ;
+        kgo:chiefExecutiveOfficer "Ted Sarandos"@en ;
+        kgo:chairman "Ted Sarandos"@en ;
+        kgo:boardMember "Rich Barton"@en ;
+        kgo:boardMember "Rodolphe Belmer"@en ;
+        kgo:boardMember "Brad Smith"@en ;
+        kgo:boardMember "Anne Sweeney"@en ;
+        kgo:boardMember "Reed Hastings"@en ;
+        kgo:boardMember "Mathias Döpfner"@en ;
+        kgo:boardMember "Strive Masiyiwa"@en ;
+        kgo:boardMember "Ann Mather"@en ;
+        kgo:boardMember "Ted Sarandos"@en ;
         kgo:numEmployees [
             a qudt:Quantity ;
             qudt:unit unit:NUM ;
-            qudt:value 182268 ;
-            kgo:timeRetrieve "2022-03-18T12:40:17-04:00"^^xsd:dateTime;
+            qudt:value 11300 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
-        kgo:prefComparisons [
-            a rdf:List ;
-            rdf:first kgo:marketCap ;
-            rdf:rest [
-                a rdf:List ;
-                rdf:first kgo:annualRevenue ;
-                rdf:rest [
-                    a rdf:List ;
-                    rdf:first kgo:marketShare ;
-                    rdf:rest [
-                        a rdf:List ;
-                        rdf:first kgo:numEmployees ;
-                        rdf:rest rdf:nil ;
-                    ] ;
-                ] ;
-            ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 12600000000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
         ] ;
-        skos:definition   "American multinational technology corporation"@en ;
-        skos:prefLabel    "Microsoft"@en .
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 42.4 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 44584663000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 15849248000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 29697844000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 5116228000 ;
+            kgo:timeRetrieve "2022-07-16T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy boltz:Q505275 ;
+        kgo:subsidiary boltz:Q16578556 ;
+        kgo:ownerOf "None"@en ;
+        kgo:product boltz:Q26962790 ;
+        skos:definition   "American content platform and production company"@en ;
+        skos:prefLabel    "Netflix"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg> .
 
-# ----------------------Taxonomic Ranks----------------------
-boltz:Q36732 a kgo:TaxonRank ;
-    rdfs:label	"Kingdom"@en ;
-    kgo:nextLowerRank   boltz:Q2752679 ;
-    skos:definition	"Taxonomic rank"@en .
 
-boltz:Q2752679 a kgo:TaxonRank ;
-    rdfs:label	"Subkingdom"@en ;
-    kgo:nextHigherRank  boltz:Q36732 ;
-    kgo:nextLowerRank   boltz:Q3150876 ;
-    skos:definition	"Taxonomic rank in biological classification"@en .
+# 3M Co. encoding ----------------------------------------------------------------
 
-boltz:Q3150876 a kgo:TaxonRank ;
-    rdfs:label	"Infrakingdom"@en ;
-    kgo:nextHigherRank  boltz:Q2752679 ;
-    kgo:nextLowerRank   boltz:Q3978005 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q159433 a boltz:Q783794 ;
+        kgo:companyName "3M"@en ;
+        kgo:tickerSymbol "MMM"@en ;
+        kgo:sector boltz:Q6000015 ;
+        kgo:industryGroup boltz:Q6000016 ;
+        kgo:industry boltz:Q6000017 ;
+        kgo:phoneNumber "1-888-364-3577"@en ;
+        kgo:emailAddress "None"@en ;
+        kgo:website "https://www.3m.com/"@en ;
+        kgo:inception "1902-6-2"^^xsd:date ;
+        kgo:foundedBy "Hermon Cable"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "2501 Hudson Rd, Maplewood, MN 55144"@en ;
+            kgo:coordinates    ""@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Mile Roman"@en ;
+        kgo:chairman "Mike Roman"@en ;
+        kgo:boardMember "Thomas Brown"@en ;
+        kgo:boardMember "Pamela Craig"@en ;
+        kgo:boardMember "David Dillon"@en ;
+        kgo:boardMember "Michael Eskew"@en ;
+        kgo:boardMember "Jim Fitterling"@en ;
+        kgo:boardMember "Amy Hood"@en ;
+        kgo:boardMember "Muhtar Kent"@en ;
+        kgo:boardMember "Suzan Kereere"@en ;
+        kgo:boardMember "Dambisa Moyo, Baroness Moyo"@en ;
+        kgo:boardMember "Gregory R. Page"@en ;
+        kgo:boardMember "Mike Roman"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  94987;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 115280000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 2.19;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  47344000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  12931000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  35355000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  5384000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q21167972 ;
+        kgo:ownerOf boltz:Q181331 ;
+        kgo:product boltz:Q181331 ;
+        skos:definition   "American multinational conglomerate corporation"@en ;
+        skos:prefLabel    "3M"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/1/15/3M_wordmark.svg> .
 
-boltz:Q3978005 a kgo:TaxonRank ;
-    rdfs:label	"Superphylum"@en ;
-    kgo:nextHigherRank boltz:Q3150876 ;
-    kgo:nextLowerRank   boltz:Q38348 ;
-    skos:definition	"Taxonomic rank"@en .
 
-boltz:Q38348 a kgo:TaxonRank ;
-    rdfs:label	"Phylum"@en ;
-    kgo:nextHigherRank  boltz:Q3978005 ;
-    kgo:nextLowerRank   boltz:Q1153785 ;
-    skos:definition	"Taxonomic rank"@en .
+# abbott laboratories encoding ----------------------------------------------------------------
 
-boltz:Q1153785 a kgo:TaxonRank ;
-    rdfs:label	"Subphylum"@en ;
-    kgo:nextHigherRank  boltz:Q38348 ;
-    kgo:nextLowerRank   boltz:Q2361851 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q306764 a boltz:Q783794 ;
+        kgo:companyName "Abbott Laboratories"@en ;
+        kgo:tickerSymbol "ABT"@en ;
+        kgo:sector boltz:Q6000003 ;
+        kgo:industryGroup boltz:Q6000004 ;
+        kgo:industry boltz:Q6000005 ;
+        kgo:phoneNumber "408-982-4800"@en ;
+        kgo:emailAddress "None"@en ;
+        kgo:website "https://www.abbott.com/"@en ;
+        kgo:inception "1888"^^xsd:date ;
+        kgo:foundedBy "Wallace Calvin Abbott"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "North Chicago"@en ;
+            kgo:coordinates    "42°19'1.7576N, 87°51'33.8710W"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Robert B. Ford"@en ;
+        kgo:chairman "Robert B. Ford"@en ;
+        kgo:boardMember "Robert Alpern"@en ;
+        kgo:boardMember "Claire Babineaux-Fontenot"@en ;
+        kgo:boardMember "Sally Blount"@en ;
+        kgo:boardMember "Paola Gonzalez"@en ;
+        kgo:boardMember "Michelle Kumbier"@en ;
+        kgo:boardMember "Darren W. McDew"@en ;
+        kgo:boardMember "Nancy McKinstry"@en ;
+        kgo:boardMember "William Osborn"@en ;
+        kgo:boardMember "Mike Roman"@en ;
+        kgo:boardMember "Daniel Starks"@en ;
+        kgo:boardMember "John Stratton"@en ;
+        kgo:boardMember "Glenn Tilton"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  73000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 57000000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 6.11;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  41247000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  67887;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  20405000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  4423000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q28974637 ;
+        kgo:ownerOf "None"@en ;
+        kgo:product "None"@en ;
+        skos:definition   "American global health care and medical device products company"@en ;
+        skos:prefLabel    "Abbott Laboratories"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/a/a4/Abbott_Laboratories_logo.svg> .
 
-boltz:Q2361851 a kgo:TaxonRank ;
-    rdfs:label	"Infraphylum"@en ;
-    kgo:nextHigherRank  boltz:Q1153785 ;
-    kgo:nextLowerRank   boltz:Q3504061 ;
-    skos:definition	"Taxonomic rank"@en .
+# abbvie inc encoding ----------------------------------------------------------------
 
-boltz:Q3504061 a kgo:TaxonRank ;
-    rdfs:label	"Superclass"@en ;
-    kgo:nextHigherRank  boltz:Q2361851 ;
-    kgo:nextLowerRank   boltz:Q37517 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q14662364 a boltz:Q783794 ;
+        kgo:companyName "Abbvie Inc"@en ;
+        kgo:tickerSymbol "ABBV"@en ;
+        kgo:sector boltz:Q6000003 ;
+        kgo:industryGroup boltz:Q6000004 ;
+        kgo:industry boltz:Q6000005 ;
+        kgo:phoneNumber "650-454-1000"@en ;
+        kgo:emailAddress "customerservice@abbvie.com"@en ;
+        kgo:website "https://www.abbvie.com/"@en ;
+        kgo:inception "2013-1-1"^^xsd:date ;
+        kgo:foundedBy "Richard A. Gonzale"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "North Chicago"@en ;
+            kgo:coordinates    "42°19'1.7576N, 87°51'33.8710W"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Richard A. Gonzalez"@en ;
+        kgo:chairman "Richard A. Gonzalez"@en ;
+        kgo:boardMember "Robert Alpern"@en ;
+        kgo:boardMember "Roxanne Austin"@en ;
+        kgo:boardMember "Willie Burnside"@en ;
+        kgo:boardMember "Tom Freyman"@en ;
+        kgo:boardMember "Brett Hart"@en ;
+        kgo:boardMember "Melody Meyer"@en ;
+        kgo:boardMember "Becky Roberts"@en ;
+        kgo:boardMember "Glenn Tilton"@en ;
+        kgo:boardMember "Rick Waddell"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  50000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 291550000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 11.44;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  146500000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  15990000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  56197000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  14810000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q29002439 ;
+        kgo:ownerOf "None"@en ;
+        kgo:product boltz:Q12140 ;
+        skos:definition   "pharmaceutical company"@en ;
+        skos:prefLabel    "AbbVie"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/c/cc/AbbVie_logo.svg> .
 
-boltz:Q37517 a kgo:TaxonRank ;
-    rdfs:label	"Class"@en ;
-    kgo:nextHigherRank  boltz:Q3504061 ;
-    kgo:nextLowerRank   boltz:Q5867051 ;
-    skos:definition	"Taxonomic rank"@en .
+# accenture encoding ----------------------------------------------------------------
 
-boltz:Q5867051 a kgo:TaxonRank ;
-    rdfs:label	"Subclass"@en ;
-    kgo:nextHigherRank  boltz:Q37517 ;
-    kgo:nextLowerRank   boltz:Q2007442 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q338825 a boltz:Q783794 ;
+        kgo:companyName "Accenture"@en ;
+        kgo:tickerSymbol "ACN"@en ;
+        kgo:sector boltz:Q6000018 ;
+        kgo:industryGroup boltz:Q6000019 ;
+        kgo:industry boltz:Q6000020 ;
+        kgo:phoneNumber "1-877-889-9009"@en ;
+        kgo:emailAddress "uki.peopleline.hr@accenture.co"@en ;
+        kgo:website "https://www.accenture.com/us-en"@en ;
+        kgo:inception "1989"^^xsd:date ;
+        kgo:foundedBy "Arthur E. Andersen"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Dublin"@en ;
+            kgo:coordinates    "50°10'31.656N, 8°31'39.504E"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Julie Sweet"@en ;
+        kgo:chairman "Julie Sweet"@en ;
+        kgo:boardMember "None"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  699000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 196300000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 5.12;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  47260000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  22747000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  61594000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  291450000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q29123308 ;
+        kgo:ownerOf boltz:Q4674790 ;
+        kgo:product "None"@en ;
+        skos:definition   "multinational management consulting, technology services and outsourcing company"@en ;
+        skos:prefLabel    "Accenture"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg> .
 
-boltz:Q2007442 a kgo:TaxonRank ;
-    rdfs:label	"Infraclass"@en ;
-    kgo:nextHigherRank  boltz:Q5867051 ;
-    kgo:nextLowerRank   boltz:Q5868144 ;
-    skos:definition	"Taxonomic rank"@en .
+# altria group inc encoding ----------------------------------------------------------------
 
-boltz:Q5868144 a kgo:TaxonRank ;
-    rdfs:label	"Superorder"@en ;
-    kgo:nextHigherRank  boltz:Q2007442 ;
-    kgo:nextLowerRank   boltz:Q36602 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q445007 a boltz:Q783794 ;
+        kgo:companyName "Altria Group"@en ;
+        kgo:tickerSymbol "MM"@en ;
+        kgo:sector boltz:Q6000021 ;
+        kgo:industryGroup boltz:Q6000022 ;
+        kgo:industry boltz:Q6000023 ;
+        kgo:phoneNumber "1-800-872-3777"@en ;
+        kgo:emailAddress "None"@en ;
+        kgo:website "https://www.altria.com/en"@en ;
+        kgo:inception "1985"^^xsd:date ;
+        kgo:foundedBy "Phillip Morris"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Richmond"@en ;
+            kgo:coordinates    "37°32'27N, 77°26'12W"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "None"@en ;
+        kgo:chairman "None"@en ;
+        kgo:boardMember "None"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  9900;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ; 
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 84470000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 50.6;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  39520000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  49271000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  16892000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  3890000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q1726300 ;
+        kgo:ownerOf boltz:Q1148560 ;
+        kgo:product boltz:Q1566 ;
+        skos:definition   "American multinational corporation"@en ;
+        skos:prefLabel    "Altria"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/f/ff/Altria_Group.svg> .
 
-boltz:Q36602 a kgo:TaxonRank ;
-    rdfs:label	"Order"@en ;
-    kgo:nextHigherRank  boltz:Q5868144 ;
-    kgo:nextLowerRank   boltz:Q5867959 ;
-    skos:definition	"Taxonomic rank"@en .
 
-boltz:Q5867959 a kgo:TaxonRank ;
-    rdfs:label	"Suborder"@en ;
-    kgo:nextHigherRank  boltz:Q36602 ;
-    kgo:nextLowerRank   boltz:Q2889003 ;
-    skos:definition	"Taxonomic rank"@en .
+# 3M Co. encoding ----------------------------------------------------------------
 
-boltz:Q2889003 a kgo:TaxonRank ;
-    rdfs:label	"Infraorder"@en ;
-    kgo:nextHigherRank  boltz:Q5867959 ;
-    kgo:nextLowerRank   boltz:Q2136103 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q159433 a boltz:Q783794 ;
+        kgo:companyName "3M"@en ;
+        kgo:tickerSymbol "MMM"@en ;
+        kgo:sector boltz:Q6000015 ;
+        kgo:industryGroup boltz:Q6000016 ;
+        kgo:industry boltz:Q6000017 ;
+        kgo:phoneNumber "1-888-364-3577"@en ;
+        kgo:emailAddress "None"@en ;
+        kgo:website "https://www.3m.com/"@en ;
+        kgo:inception "1902-6-2"^^xsd:date ;
+        kgo:foundedBy "Hermon Cable"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "2501 Hudson Rd, Maplewood, MN 55144"@en ;
+            kgo:coordinates    ""@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Mile Roman"@en ;
+        kgo:director "Mike Roman"@en ;
+        kgo:boardMember "Thomas Brown"@en ;
+        kgo:boardMember "Pamela Craig"@en ;
+        kgo:boardMember "David Dillon"@en ;
+        kgo:boardMember "Michael Eskew"@en ;
+        kgo:boardMember "Jim Fitterling"@en ;
+        kgo:boardMember "Amy Hood"@en ;
+        kgo:boardMember "Muhtar Kent"@en ;
+        kgo:boardMember "Suzan Kereere"@en ;
+        kgo:boardMember "Dambisa Moyo, Baroness Moyo"@en ;
+        kgo:boardMember "Gregory R. Page"@en ;
+        kgo:boardMember "Mike Roman"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  94987;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 115280000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 2.19;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  47344000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  12931000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  35355000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  5384000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q21167972 ;
+        kgo:ownerOf boltz:Q181331 ;
+        kgo:product boltz:Q181331 ;
+        skos:definition   "American multinational conglomerate corporation"@en ;
+        skos:prefLabel    "3M"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/1/15/3M_wordmark.svg> .
 
-boltz:Q2136103 a kgo:TaxonRank ;
-    rdfs:label	"Superfamily"@en ;
-    kgo:nextHigherRank  boltz:Q2889003 ;
-    kgo:nextLowerRank   boltz:Q35409 ;
-    skos:definition	"Taxonomic rank above family and below order"@en .
 
-boltz:Q35409 a kgo:TaxonRank ;
-    rdfs:label	"Family"@en ;
-    kgo:nextHigherRank  boltz:Q2136103 ;
-    kgo:nextLowerRank   boltz:Q164280 ;
-    skos:definition	"Taxonomic rank (or a taxon at that rank) between order and genus"@en .
+# abbott laboratories encoding ----------------------------------------------------------------
 
-boltz:Q164280 a kgo:TaxonRank ;
-    rdfs:label	"Subfamily"@en ;
-    kgo:nextHigherRank  boltz:Q35409 ;
-    kgo:nextLowerRank   boltz:Q227936 ;
-    skos:definition	"Taxonomic rank below family"@en .
+boltz:Q306764 a boltz:Q783794 ;
+        kgo:companyName "Abbott Laboratories"@en ;
+        kgo:tickerSymbol "ABT"@en ;
+        kgo:sector boltz:Q6000003 ;
+        kgo:industryGroup boltz:Q6000004 ;
+        kgo:industry boltz:Q6000005 ;
+        kgo:phoneNumber "408-982-4800"@en ;
+        kgo:emailAddress "None"@en ;
+        kgo:website "https://www.abbott.com/"@en ;
+        kgo:inception "1888"^^xsd:date ;
+        kgo:foundedBy "Wallace Calvin Abbott"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "North Chicago"@en ;
+            kgo:coordinates    "42°19'1.7576N, 87°51'33.8710W"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Robert B. Ford"@en ;
+        kgo:director "Robert B. Ford"@en ;
+        kgo:boardMember "Robert Alpern"@en ;
+        kgo:boardMember "Claire Babineaux-Fontenot"@en ;
+        kgo:boardMember "Sally Blount"@en ;
+        kgo:boardMember "Paola Gonzalez"@en ;
+        kgo:boardMember "Michelle Kumbier"@en ;
+        kgo:boardMember "Darren W. McDew"@en ;
+        kgo:boardMember "Nancy McKinstry"@en ;
+        kgo:boardMember "William Osborn"@en ;
+        kgo:boardMember "Mike Roman"@en ;
+        kgo:boardMember "Daniel Starks"@en ;
+        kgo:boardMember "John Stratton"@en ;
+        kgo:boardMember "Glenn Tilton"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  73000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 57000000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 6.11;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  41247000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  67887;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  20405000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  4423000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q28974637 ;
+        kgo:ownerOf "None"@en ;
+        kgo:product "None"@en ;
+        skos:definition   "American global health care and medical device products company"@en ;
+        skos:prefLabel    "Abbott Laboratories"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/a/a4/Abbott_Laboratories_logo.svg> .
 
-boltz:Q227936 a kgo:TaxonRank ;
-    rdfs:label	"Tribe"@en ;
-    kgo:nextHigherRank  boltz:Q164280 ;
-    kgo:nextLowerRank   boltz:Q3965313 ;
-    skos:definition	"Taxonomic rank between family and genus"@en .
+# abbvie inc encoding ----------------------------------------------------------------
 
-boltz:Q3965313 a kgo:TaxonRank ;
-    rdfs:label	"Subtribe"@en ;
-    kgo:nextHigherRank  boltz:Q227936 ;
-    kgo:nextLowerRank   boltz:Q34740 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q14662364 a boltz:Q783794 ;
+        kgo:companyName "Abbvie Inc"@en ;
+        kgo:tickerSymbol "ABBV"@en ;
+        kgo:sector boltz:Q6000003 ;
+        kgo:industryGroup boltz:Q6000004 ;
+        kgo:industry boltz:Q6000005 ;
+        kgo:phoneNumber "650-454-1000"@en ;
+        kgo:emailAddress "customerservice@abbvie.com"@en ;
+        kgo:website "https://www.abbvie.com/"@en ;
+        kgo:inception "2013-1-1"^^xsd:date ;
+        kgo:foundedBy "Richard A. Gonzale"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "North Chicago"@en ;
+            kgo:coordinates    "42°19'1.7576N, 87°51'33.8710W"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Richard A. Gonzalez"@en ;
+        kgo:director "Richard A. Gonzalez"@en ;
+        kgo:boardMember "Robert Alpern"@en ;
+        kgo:boardMember "Roxanne Austin"@en ;
+        kgo:boardMember "Willie Burnside"@en ;
+        kgo:boardMember "Tom Freyman"@en ;
+        kgo:boardMember "Brett Hart"@en ;
+        kgo:boardMember "Melody Meyer"@en ;
+        kgo:boardMember "Becky Roberts"@en ;
+        kgo:boardMember "Glenn Tilton"@en ;
+        kgo:boardMember "Rick Waddell"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  50000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 291550000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 11.44;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  146500000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  15990000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  56197000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  14810000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q29002439 ;
+        kgo:ownerOf "None"@en ;
+        kgo:product boltz:Q12140 ;
+        skos:definition   "pharmaceutical company"@en ;
+        skos:prefLabel    "AbbVie"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/c/cc/AbbVie_logo.svg> .
 
-boltz:Q34740 a kgo:TaxonRank ;
-    rdfs:label	"Genus"@en ;
-    kgo:nextHigherRank  boltz:Q3965313 ;
-    kgo:nextLowerRank   boltz:Q3238261 ;
-    skos:definition	"Taxonomic rank used in the biological classification of living and fossil organisms, and viruses"@en .
+# accenture encoding ----------------------------------------------------------------
 
-boltz:Q3238261 a kgo:TaxonRank ;
-    rdfs:label	"Subgenus"@en ;
-    kgo:nextHigherRank  boltz:Q34740 ;
-    kgo:nextLowerRank   boltz:Q7432 ;
-    skos:definition	"Taxonomic rank"@en .
+boltz:Q338825 a boltz:Q783794 ;
+        kgo:companyName "Accenture"@en ;
+        kgo:tickerSymbol "ACN"@en ;
+        kgo:sector boltz:Q6000018 ;
+        kgo:industryGroup boltz:Q6000019 ;
+        kgo:industry boltz:Q6000020 ;
+        kgo:phoneNumber "1-877-889-9009"@en ;
+        kgo:emailAddress "uki.peopleline.hr@accenture.co"@en ;
+        kgo:website "https://www.accenture.com/us-en"@en ;
+        kgo:inception "1989"^^xsd:date ;
+        kgo:foundedBy "Arthur E. Andersen"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Dublin"@en ;
+            kgo:coordinates    "50°10'31.656N, 8°31'39.504E"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "Julie Sweet"@en ;
+        kgo:director "Julie Sweet"@en ;
+        kgo:boardMember "None"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  699000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 196300000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 5.12;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  47260000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  22747000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  61594000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  291450000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q29123308 ;
+        kgo:ownerOf boltz:Q4674790 ;
+        kgo:product "None"@en ;
+        skos:definition   "multinational management consulting, technology services and outsourcing company"@en ;
+        skos:prefLabel    "Accenture"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg> .
 
-boltz:Q7432 a kgo:TaxonRank ;
-    rdfs:label	"Species"@en ;
-    kgo:nextHigherRank  boltz:Q3238261 ;
-    kgo:nextLowerRank   boltz:Q68947 ;
-    skos:definition	"One of the basic units of biological classification and a taxonomic rank"@en .
+# altria group inc encoding ----------------------------------------------------------------
 
-boltz:Q68947 a kgo:TaxonRank ;
-    rdfs:label	"Subspecies"@en ;
-    kgo:nextHigherRank  boltz:Q7432 ;
-    skos:definition	"Taxonomic rank subordinate to species"@en .
+boltz:Q445007 a boltz:Q783794 ;
+        kgo:companyName "Altria Group"@en ;
+        kgo:tickerSymbol "MM"@en ;
+        kgo:sector boltz:Q6000021 ;
+        kgo:industryGroup boltz:Q6000022 ;
+        kgo:industry boltz:Q6000023 ;
+        kgo:phoneNumber "1-800-872-3777"@en ;
+        kgo:emailAddress "None"@en ;
+        kgo:website "https://www.altria.com/en"@en ;
+        kgo:inception "1985"^^xsd:date ;
+        kgo:foundedBy "Phillip Morris"@en ;
+        kgo:country "United States of America"@en ;
+        kgo:headquarters  [
+            a kgo:Location ;
+            kgo:address    "Richmond"@en ;
+            kgo:coordinates    "37°32'27N, 77°26'12W"@en ;
+            kgo:timeRetrieve    "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:exchange boltz:Q13677 ;
+        kgo:chiefExecutiveOfficer "None"@en ;
+        kgo:director "None"@en ;
+        kgo:boardMember "None"@en ;
+        kgo:numEmployees [
+            a qudt:Quantity ;
+            qudt:unit unit:NUM ;
+            qudt:value  9900;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketCap  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value 84470000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:marketShare  [
+            a qudt:Quantity ;
+            qudt:unit unit:FloatPercentage ;
+            qudt:value 50.6;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalAssets  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  39520000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalEquity  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  49271000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:totalRevenue  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  16892000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:netProfit  [
+            a qudt:Quantity ;
+            qudt:unit unit:USDollar ;
+            qudt:value  3890000000;
+            kgo:timeRetrieve "2022-12-14T11:57:17-04:00"^^xsd:dateTime;
+        ] ;
+        kgo:ownedBy "None"@en ;
+        kgo:subsidiary boltz:Q1726300 ;
+        kgo:ownerOf boltz:Q1148560 ;
+        kgo:product boltz:Q1566 ;
+        skos:definition   "American multinational corporation"@en ;
+        skos:prefLabel    "Altria"@en ;
+        kgo:logoImage <https://upload.wikimedia.org/wikipedia/commons/f/ff/Altria_Group.svg> .
 
-boltz:Q713623 a kgo:TaxonRank ;
-    rdfs:label	"Clade"@en ;
-    skos:definition	"Mnophyletic group of organisms composed of a common ancestor and all its lineal descendants"@en .
+# All the Taxonomic Ranks...
+boltz:Q36732 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Kingdom"@en ;
+	kgo:nextLowerRank   boltz:Q2752679 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2752679 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subkingdom"@en ;
+	kgo:nextHigherRank  boltz:Q36732 ;
+	kgo:nextLowerRank   boltz:Q3150876 ;
+	skos:definition	"Taxonomic rank in biological classification"@en .
+
+boltz:Q3150876 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infrakingdom"@en ;
+	kgo:nextHigherRank  boltz:Q2752679 ;
+	kgo:nextLowerRank   boltz:Q3978005 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q3978005 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superphylum"@en ;
+	kgo:nextHigherRank boltz:Q3150876 ;
+	kgo:nextLowerRank   boltz:Q38348 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q38348 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Phylum"@en ;
+	kgo:nextHigherRank  boltz:Q3978005 ;
+	kgo:nextLowerRank   boltz:Q1153785 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q1153785 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subphylum"@en ;
+	kgo:nextHigherRank  boltz:Q38348 ;
+	kgo:nextLowerRank   boltz:Q2361851 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2361851 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infraphylum"@en ;
+	kgo:nextHigherRank  boltz:Q1153785 ;
+	kgo:nextLowerRank   boltz:Q3504061 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q3504061 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superclass"@en ;
+	kgo:nextHigherRank  boltz:Q2361851 ;
+	kgo:nextLowerRank   boltz:Q37517 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q37517 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Class"@en ;
+	kgo:nextHigherRank  boltz:Q3504061 ;
+	kgo:nextLowerRank   boltz:Q5867051 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q5867051 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subclass"@en ;
+	kgo:nextHigherRank  boltz:Q37517 ;
+	kgo:nextLowerRank   boltz:Q2007442 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2007442 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infraclass"@en ;
+	kgo:nextHigherRank  boltz:Q5867051 ;
+	kgo:nextLowerRank   boltz:Q5868144 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q5868144 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superorder"@en ;
+	kgo:nextHigherRank  boltz:Q2007442 ;
+	kgo:nextLowerRank   boltz:Q36602 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q36602 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Order"@en ;
+	kgo:nextHigherRank  boltz:Q5868144 ;
+	kgo:nextLowerRank   boltz:Q5867959 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q5867959 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Suborder"@en ;
+	kgo:nextHigherRank  boltz:Q36602 ;
+	kgo:nextLowerRank   boltz:Q2889003 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2889003 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Infraorder"@en ;
+	kgo:nextHigherRank  boltz:Q5867959 ;
+	kgo:nextLowerRank   boltz:Q2136103 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q2136103 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Superfamily"@en ;
+	kgo:nextHigherRank  boltz:Q2889003 ;
+	kgo:nextLowerRank   boltz:Q35409 ;
+	skos:definition	"Taxonomic rank above family and below order"@en .
+
+boltz:Q35409 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Family"@en ;
+	kgo:nextHigherRank  boltz:Q2136103 ;
+	kgo:nextLowerRank   boltz:Q164280 ;
+	skos:definition	"Taxonomic rank (or a taxon at that rank) between order and genus"@en .
+
+boltz:Q164280 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subfamily"@en ;
+	kgo:nextHigherRank  boltz:Q35409 ;
+	kgo:nextLowerRank   boltz:Q227936 ;
+	skos:definition	"Taxonomic rank below family"@en .
+
+boltz:Q227936 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Tribe"@en ;
+	kgo:nextHigherRank  boltz:Q164280 ;
+	kgo:nextLowerRank   boltz:Q3965313 ;
+	skos:definition	"Taxonomic rank between family and genus"@en .
+
+boltz:Q3965313 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subtribe"@en ;
+	kgo:nextHigherRank  boltz:Q227936 ;
+	kgo:nextLowerRank   boltz:Q34740 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q34740 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Genus"@en ;
+	kgo:nextHigherRank  boltz:Q3965313 ;
+	kgo:nextLowerRank   boltz:Q3238261 ;
+	skos:definition	"Taxonomic rank used in the biological classification of living and fossil organisms, and viruses"@en .
+
+boltz:Q3238261 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Subgenus"@en ;
+	kgo:nextHigherRank  boltz:Q34740 ;
+	kgo:nextLowerRank   boltz:Q7432 ;
+	skos:definition	"Taxonomic rank"@en .
+
+boltz:Q7432 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Species"@en ;
+	kgo:nextHigherRank  boltz:Q3238261 ;
+	kgo:nextLowerRank   boltz:Q68947 ;
+	skos:definition	"One of the basic units of biological classification and a taxonomic rank"@en .
+
+boltz:Q68947 a rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626	;
+	rdfs:label	"Subspecies"@en ;
+	kgo:nextHigherRank  boltz:Q7432 ;
+	skos:definition	"Taxonomic rank subordinate to species"@en .
+
+boltz:Q713623 a	rdfs:Class ;
+	kgo:instanceOf	boltz:Q427626 ;
+	rdfs:label	"Clade"@en ;
+	skos:definition	"Mnophyletic group of organisms composed of a common ancestor and all its lineal descendants"@en .
+
+
 
 
 # ----------------------General Taxonomy----------------------
@@ -930,7 +4336,7 @@ boltz:Q3556237	a boltz:Q16521 ;
 	skos:definition	"""Genus of algae"""@en ;
 	skos:prefLabel	"Vertebrata"@en .
 
-boltz:Q1011198	a boltz:Q16521 ; 
+boltz:Q26214	a boltz:Q16521 ; 
 	kgo:subTaxonOf	boltz:Q3556237 ; 
 	kgo:taxonName	"Gnathostomata"@en ; 
 	kgo:taxonRank	boltz:Q2361851	;
@@ -939,7 +4345,7 @@ boltz:Q1011198	a boltz:Q16521 ;
 	skos:prefLabel	"Gnathostomata"@en .
 
 boltz:Q19159	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q1011198 ; 
+	kgo:subTaxonOf	boltz:Q26214 ; 
 	kgo:taxonName	"Tetrapoda"@en ; 
 	kgo:taxonRank	boltz:Q3504061	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Feuer_Salamander_2.jpg/650px-Feuer_Salamander_2.jpg> ; 
@@ -6401,7 +9807,7 @@ boltz:Q1408445	a boltz:Q16521 ;
 	skos:prefLabel	"Telescopus dhara"@en .
 
 boltz:Q127282	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q1011198 ; 
+	kgo:subTaxonOf	boltz:Q26214 ; 
 	kgo:taxonName	"Actinopterygii"@en ; 
 	kgo:taxonRank	boltz:Q3504061	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pteronotropis_signipinnis.jpg/650px-Pteronotropis_signipinnis.jpg> ; 
@@ -13961,16 +17367,16 @@ boltz:Q27027	a boltz:Q16521 ;
 	skos:definition	"""Species of marine mammal"""@en ;
 	skos:prefLabel	"Harbour porpoise"@en .
 
-boltz:Q25371	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q1011198 ; 
-	kgo:taxonName	"Chondrichthyes"@en ; 
+boltz:Q3059636	a boltz:Q16521 ; 
+	kgo:subTaxonOf	boltz:Q26214 ; 
+	kgo:taxonName	"Eugnathostomata"@en ; 
 	kgo:taxonRank	boltz:Q3504061	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/650px-White_shark.jpg> ; 
 	skos:definition	"""Class of fishes"""@en ;
-	skos:prefLabel	"Chondrichthyes"@en .
+	skos:prefLabel	"Eugnathostomata"@en .
 
 boltz:Q25371	a boltz:Q16521 ; 
-	kgo:subTaxonOf	boltz:Q25371 ; 
+	kgo:subTaxonOf	boltz:Q3059636 ; 
 	kgo:taxonName	"Chondrichthyes"@en ; 
 	kgo:taxonRank	boltz:Q37517	;
 	kgo:taxonImage	<https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/650px-White_shark.jpg> ; 

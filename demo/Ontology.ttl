@@ -193,30 +193,12 @@ kgo:population  a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"population"@en .
 
-# ----------------------Administrative/Geographical Region----------------------
+# ----------------------Administrative Region----------------------
 kgo:AdministrativeRegion a rdfs:Class ;
   skos:definition      "Designation for an administrative territorial entity"@en ;
   rdfs:isDefinedBy  boltz:ontology ;
   rdfs:label        "AdministrativeRegion"@en ;
   rdfs:subClassOf   rdfs:Class .
-
-kgo:administrativeSubdivisionOf a rdf:Property ;
-	skos:definition	"The administrative region that an administrative region subdivides"@en ;
-	rdfs:isDefinedBy boltz:ontology ;
-  rdfs:label      "administrativeSubdivisionOf"@en .
-
-kgo:locatedOnGeographicalFeature a      rdfs:Property ;
-	skos:definition	"The geographical feature a region is located on"@en ;
-	kgo:wikidataProperty "P706" ;
-	rdfs:domain 	rdfs:Class ;
-	rdfs:range	rdfs:Literal ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label	"locatedOnGeographicalFeature"@en .
-
-kgo:geographicalSubdivisionOf a rdf:Property ;
-	skos:definition	"The geographical region that a region subdivides"@en ;
-	rdfs:isDefinedBy boltz:ontology ;
-  rdfs:label      "geograhicalSubdivisionOf"@en .
 
 # ----------------------City Information----------------------
 kgo:City a      rdfs:Class ;
@@ -424,7 +406,7 @@ kgo:locatedInContinent a      rdfs:Property ;
 	rdfs:label	"locatedInContinent"@en .
 
 kgo:locatedInAdministrativeRegion a      rdfs:Property ;
-	skos:definition	"The continent an country located in"@en ; # TODO update
+	skos:definition	"The continent an country located in"@en ;
 	kgo:wikidataProperty "P131" ;
 	rdfs:domain 	rdfs:Class ;
 	rdfs:range	rdfs:Literal ;
@@ -457,61 +439,7 @@ kgo:continentName a      rdfs:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"continentName"@en .
 
-# ------------------------Image Maps---------------------------
 
-kgo:ImageMap a rdfs:Class ;
-	skos:definition "The class of image maps"@en ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "ImageMap"@en ;
-	rdfs:subclassOf rdfs:Class .
-
-kgo:ImageMapPoint a rdfs:Class ;
-	skos:definition "The class of image map points"@en ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "ImageMapPoint"@en ;
-	rdfs:subclassOf rdfs:Class .
-
-kgo:hasImageMap a rdfs:Property ;
-	skos:definition "The interactive image map for a certain region"@en ;
-	rdfs:domain rdfs:Class ;
-	rdfs:range rdfs:ImageMap ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "hasImageMap"@en .
-
-kgo:imageMapImage a rdfs:Property ;
-	skos:definition "The image file of the image map"@en ;
-	rdfs:domain rdfs:ImageMap ;
-	rdfs:range rdfs:Literal ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "imageMapImage"@en .
-
-kgo:imageMapPoint a rdfs:Property ;
-	skos:definition "A point on the image map"@en ;
-	rdfs:domain rdfs:ImageMap ;
-	rdfs:range rdfs:ImageMapPoint ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "imageMapPoint"@en .
-
-kgo:imageMapX a rdfs:Property ; 
-	skos:definition "The x-coordinate of the image map point"@en ;
-	rdfs:domain rdfs:ImageMapPoint ;
-	rdfs:range rdfs:Literal ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "imageMapX"@en .
-
-kgo:imageMapY a rdfs:Property ; 
-	skos:definition "The y-coordinate of the image map point"@en ;
-	rdfs:domain rdfs:ImageMapPoint ;
-	rdfs:range rdfs:Literal ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "imageMapY"@en .
-
-kgo:imageMapTarget a rdfs:Property ; 
-	skos:definition "The target of the image map point"@en ;
-	rdfs:domain rdfs:ImageMapPoint ;
-	rdfs:range rdfs:Class ;
-	rdfs:isDefinedBy boltz:ontology ;
-	rdfs:label "imageMapTarget"@en .
 
 # ----------------------Company Information----------------------
 kgo:Company a      rdfs:Class ;
