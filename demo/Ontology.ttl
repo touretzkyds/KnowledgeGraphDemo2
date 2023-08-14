@@ -104,10 +104,10 @@ kgo:timeRetrieve a rdf:Property ;
 
 # ----------------------Eras----------------------
 kgo:Era a rdfs:Class ;
-  skos:definition      "The Class of all Eras, or indistinct time periods"@en ;
-  rdfs:isDefinedBy  boltz:ontology ;
-  rdfs:label        "Era"@en ;
-  rdfs:subClassOf   rdfs:Class .
+	skos:definition      "The Class of all Eras, or indistinct time periods"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Era"@en ;
+	rdfs:subClassOf   rdfs:Class .
 
 kgo:isSubEraOf a rdfs:Property ;
 	skos:definition	"The subject is a subEra of the object"@en ;
@@ -186,12 +186,339 @@ kgo:annualRevenue  a rdf:Property ;
 	rdfs:isDefinedBy boltz:ontology ;
 	rdfs:label	"annualRevenue"@en .
 
+kgo:population  a rdf:Property ;
+	skos:definition	"The population of a city"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	qudt:Quantity ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"population"@en .
+
+# ----------------------Administrative/Geographical Region----------------------
+kgo:AdministrativeRegion a rdfs:Class ;
+  skos:definition      "Designation for an administrative territorial entity"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "AdministrativeRegion"@en ;
+  rdfs:subClassOf   rdfs:Class .
+
+kgo:administrativeSubdivisionOf a rdf:Property ;
+	skos:definition	"The administrative region that an administrative region subdivides"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+  rdfs:label      "administrativeSubdivisionOf"@en .
+
+kgo:locatedOnGeographicalFeature a      rdfs:Property ;
+	skos:definition	"The geographical feature a region is located on"@en ;
+	kgo:wikidataProperty "P706" ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedOnGeographicalFeature"@en .
+
+kgo:geographicalSubdivisionOf a rdf:Property ;
+	skos:definition	"The geographical region that a region subdivides"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+  rdfs:label      "geograhicalSubdivisionOf"@en .
+
+# ----------------------City Information----------------------
+kgo:City a      rdfs:Class ;
+  skos:definition      "The Class of all cities"@en ;
+  rdfs:isDefinedBy  boltz:ontology ;
+  rdfs:label        "City"@en ;
+  rdfs:subClassOf   kgo:AdministrativeRegion .
+
+kgo:cityName a      rdfs:Property ;
+	skos:definition	"The name of an city"@en ;
+	rdfs:domain 	kgo:City ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"cityName"@en .
+
+kgo:locatedInCountry a      rdfs:Property ;
+	skos:definition	"The country an city / county / state located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCountry"@en .
+
+kgo:locatedInCounty a      rdfs:Property ;
+	skos:definition	"The county an city located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCounty"@en .
+
+kgo:locatedInState a      rdfs:Property ;
+	skos:definition	"The state an city / county located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInState"@en .
+
+kgo:locatedInTimeZone a      rdfs:Property ;
+	skos:definition	"The time zone an city located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	kgo:TimeZone ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInTimeZone"@en .
+
+kgo:TimeZone a      rdfs:Class ;
+	skos:definition	"The Class of all Time Zones"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label        "TimeZone"@en ;
+	rdfs:subClassOf   rdfs:Class .
+
+kgo:standardTime a      rdfs:Property ;
+	skos:definition	"Synchronization of clocks within a geographical area or region"@en ;
+	rdfs:domain 	kgo:TimeZone ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"StandardTime"@en .
+
+kgo:daylightSavingTime a      rdfs:Property ;
+	skos:definition	"seasonal adjustment of clocks"@en ;
+	rdfs:domain 	kgo:City ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"daylightSavingTime"@en .
+
+kgo:image a rdf:Property ;
+	skos:definition	"The image associated with the region."@en ;
+	rdfs:domain boltz:Q16521 ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "image"@en .
+
+# ----------------------County Information----------------------
+kgo:County a      rdfs:Class ;
+	skos:definition      "The Class of all counties"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "County"@en ;
+	rdfs:subClassOf   kgo:AdministrativeRegion .
+
+kgo:countyName a      rdfs:Property ;
+	skos:definition	"The name of an county"@en ;
+	rdfs:domain 	kgo:County ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"countyName"@en .
+
+kgo:locatedInCountry a      rdfs:Property ;
+	skos:definition	"The country an city / county / state located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCountry"@en .
+
+kgo:countySeat a      rdfs:Property ;
+	skos:definition	"The county seat for the county"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"countySeat"@en .
+
+kgo:locatedInState a      rdfs:Property ;
+	skos:definition	"The state an city / county located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInState"@en .
+
+# ----------------------State Information----------------------
+kgo:State a      rdfs:Class ;
+	skos:definition      "The Class of all states"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "State"@en ;
+	rdfs:subClassOf   kgo:AdministrativeRegion .
+
+kgo:stateName a      rdfs:Property ;
+	skos:definition	"The name of an state"@en ;
+	rdfs:domain 	kgo:State ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"stateName"@en .
+
+kgo:locatedInCountry a      rdfs:Property ;
+	skos:definition	"The country an city / county / state located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInCountry"@en .
+
+kgo:capital a      rdfs:Property ;
+	skos:definition	"The capital of the state"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"capital"@en .
+
+kgo:hasCountiesImageMap a rdf:Property ;
+	skos:definition	"The image containing counties located in the state."@en ;
+	rdfs:domain kgo:State ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasCountiesImageMap"@en .
+
+kgo:hasCounty a rdf:Property ;
+	skos:definition	"The county in the state"@en ;
+	rdfs:domain kgo:State ;
+	rdfs:range kgo:County ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasCounty"@en .
+
+# ----------------------Division Information----------------------
+kgo:Division a      rdfs:Class ;
+	skos:definition      "The Class of all administrative territorial entities of the United States at the division level"@en ; # better description?
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Division"@en ;
+	rdfs:subClassOf   kgo:AdministrativeRegion .
+
+kgo:divisionName a      rdfs:Property ;
+	skos:definition	"The name of an division"@en ;
+	rdfs:domain 	kgo:Division ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"divisionName"@en .
+
+# ----------------------Region Information----------------------
+kgo:Region a      rdfs:Class ;
+	skos:definition      "The Class of all regions"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Region"@en ;
+	rdfs:subClassOf   kgo:AdministrativeRegion .
+
+kgo:regionName a      rdfs:Property ;
+	skos:definition	"The name of an region"@en ;
+	rdfs:domain 	kgo:Region ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"regionName"@en .
+
+kgo:hasStatesImageMap a rdf:Property ;
+	skos:definition	"The image containing states located in the region."@en ;
+	rdfs:domain boltz:AdministrativeRegion ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasStatesImageMap"@en .
+
+kgo:hasState a rdf:Property ;
+	skos:definition	"The state in the region"@en ;
+	rdfs:domain rdfs:Class ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasState"@en .
+
+# ----------------------Country Information----------------------
+kgo:Country a      rdfs:Class ;
+	skos:definition      "The Class of all countries"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Country"@en ;
+	rdfs:subClassOf   rdfs:Class .
+
+kgo:countryName a      rdfs:Property ;
+	skos:definition	"The name of an country"@en ;
+	rdfs:domain 	kgo:Country ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"countryName"@en .
+
+kgo:locatedInContinent a      rdfs:Property ;
+	skos:definition	"The continent an country located in"@en ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInContinent"@en .
+
+kgo:locatedInAdministrativeRegion a      rdfs:Property ;
+	skos:definition	"The continent an country located in"@en ; # TODO update
+	kgo:wikidataProperty "P131" ;
+	rdfs:domain 	rdfs:Class ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"locatedInAdministrativeRegion"@en .
+
+kgo:hasRegionsImageMap a rdf:Property ;
+	skos:definition	"The image containing regions located in the country."@en ;
+	rdfs:domain boltz:Country ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasRegionsImageMap"@en .
+
+kgo:hasRegion a rdf:Property ;
+	skos:definition	"The region in the country"@en ;
+	rdfs:domain rdfs:Class ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasRegion"@en .
+
+# ------------------------Continent---------------------------
+kgo:Continent a      rdfs:Class ;
+	skos:definition      "The Class of all continents"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Continent"@en ;
+	rdfs:subClassOf   rdfs:Class .
+
+kgo:continentName a      rdfs:Property ;
+	skos:definition	"The name of an country"@en ;
+	rdfs:domain 	kgo:Continent ;
+	rdfs:range	rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label	"continentName"@en .
+
+# ------------------------Image Maps---------------------------
+
+kgo:ImageMap a rdfs:Class ;
+	skos:definition "The class of image maps"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "ImageMap"@en ;
+	rdfs:subclassOf rdfs:Class .
+
+kgo:ImageMapPoint a rdfs:Class ;
+	skos:definition "The class of image map points"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "ImageMapPoint"@en ;
+	rdfs:subclassOf rdfs:Class .
+
+kgo:hasImageMap a rdfs:Property ;
+	skos:definition "The interactive image map for a certain region"@en ;
+	rdfs:domain rdfs:Class ;
+	rdfs:range rdfs:ImageMap ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "hasImageMap"@en .
+
+kgo:imageMapImage a rdfs:Property ;
+	skos:definition "The image file of the image map"@en ;
+	rdfs:domain rdfs:ImageMap ;
+	rdfs:range rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "imageMapImage"@en .
+
+kgo:imageMapPoint a rdfs:Property ;
+	skos:definition "A point on the image map"@en ;
+	rdfs:domain rdfs:ImageMap ;
+	rdfs:range rdfs:ImageMapPoint ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "imageMapPoint"@en .
+
+kgo:imageMapX a rdfs:Property ; 
+	skos:definition "The x-coordinate of the image map point"@en ;
+	rdfs:domain rdfs:ImageMapPoint ;
+	rdfs:range rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "imageMapX"@en .
+
+kgo:imageMapY a rdfs:Property ; 
+	skos:definition "The y-coordinate of the image map point"@en ;
+	rdfs:domain rdfs:ImageMapPoint ;
+	rdfs:range rdfs:Literal ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "imageMapY"@en .
+
+kgo:imageMapTarget a rdfs:Property ; 
+	skos:definition "The target of the image map point"@en ;
+	rdfs:domain rdfs:ImageMapPoint ;
+	rdfs:range rdfs:Class ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "imageMapTarget"@en .
+
 # ----------------------Company Information----------------------
 kgo:Company a      rdfs:Class ;
-  skos:definition      "The Class of all Companies"@en ;
-  rdfs:isDefinedBy  boltz:ontology ;
-  rdfs:label        "Company"@en ;
-  rdfs:subClassOf   rdfs:Class .
+	skos:definition      "The Class of all Companies"@en ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "Company"@en ;
+	rdfs:subClassOf   rdfs:Class .
 
 kgo:companyName a      rdfs:Property ;
 	skos:definition	"The name of an organization"@en ;
@@ -245,7 +572,7 @@ boltz:Q4120621 a rdfs:Class ;
 	rdfs:label	"rank"@en .
 
 boltz:Q427626 a  rdfs:Class ;
-        rdfs:comment      "The Class of all Taxonomic Ranks"@en ;
+    rdfs:comment      "The Class of all Taxonomic Ranks"@en ;
 	skos:definition	"Level in a taxonomic hierarchy"@en ;
 	kgo:instanceOf	boltz:Q24017465	;
 	kgo:facetOf	boltz:Q8269924 ;
@@ -255,8 +582,8 @@ boltz:Q427626 a  rdfs:Class ;
 
 boltz:Q252730 a rdfs:Class ;
 	skos:definition	"Term used in zoological nomenclature (also non-officially in 'botanical' nomenclature)"@en ;
-        rdfs:label        "typeSpecies"@en ;
-        rdfs:range        boltz:Q16521 .
+	rdfs:label        "typeSpecies"@en ;
+	rdfs:range        boltz:Q16521 .
 
 
 # Ordered classes
@@ -299,181 +626,6 @@ boltz:Q24027515 a rdfs:Class ;
 	skos:definition "Type of metaclass"@en	;
 	rdfs:label	"Fifth-order class" .
 
-	
-# All the Taxonomic Ranks...
-boltz:Q36732 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Kingdom"@en ;
-	kgo:nextLowerRank   boltz:Q2752679 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q2752679 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Subkingdom"@en ;
-	kgo:nextHigherRank  boltz:Q36732 ;
-	kgo:nextLowerRank   boltz:Q3150876 ;
-	skos:definition	"Taxonomic rank in biological classification"@en .
-
-boltz:Q3150876 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Infrakingdom"@en ;
-	kgo:nextHigherRank  boltz:Q2752679 ;
-	kgo:nextLowerRank   boltz:Q3978005 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q3978005 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Superphylum"@en ;
-	kgo:nextHigherRank boltz:Q3150876 ;
-	kgo:nextLowerRank   boltz:Q38348 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q38348 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Phylum"@en ;
-	kgo:nextHigherRank  boltz:Q3978005 ;
-	kgo:nextLowerRank   boltz:Q1153785 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q1153785 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Subphylum"@en ;
-	kgo:nextHigherRank  boltz:Q38348 ;
-	kgo:nextLowerRank   boltz:Q2361851 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q2361851 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Infraphylum"@en ;
-	kgo:nextHigherRank  boltz:Q1153785 ;
-	kgo:nextLowerRank   boltz:Q3504061 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q3504061 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Superclass"@en ;
-	kgo:nextHigherRank  boltz:Q2361851 ;
-	kgo:nextLowerRank   boltz:Q37517 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q37517 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Class"@en ;
-	kgo:nextHigherRank  boltz:Q3504061 ;
-	kgo:nextLowerRank   boltz:Q5867051 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q5867051 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Subclass"@en ;
-	kgo:nextHigherRank  boltz:Q37517 ;
-	kgo:nextLowerRank   boltz:Q2007442 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q2007442 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Infraclass"@en ;
-	kgo:nextHigherRank  boltz:Q5867051 ;
-	kgo:nextLowerRank   boltz:Q5868144 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q5868144 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Superorder"@en ;
-	kgo:nextHigherRank  boltz:Q2007442 ;
-	kgo:nextLowerRank   boltz:Q36602 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q36602 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Order"@en ;
-	kgo:nextHigherRank  boltz:Q5868144 ;
-	kgo:nextLowerRank   boltz:Q5867959 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q5867959 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Suborder"@en ;
-	kgo:nextHigherRank  boltz:Q36602 ;
-	kgo:nextLowerRank   boltz:Q2889003 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q2889003 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Infraorder"@en ;
-	kgo:nextHigherRank  boltz:Q5867959 ;
-	kgo:nextLowerRank   boltz:Q2136103 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q2136103 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Superfamily"@en ;
-	kgo:nextHigherRank  boltz:Q2889003 ;
-	kgo:nextLowerRank   boltz:Q35409 ;
-	skos:definition	"Taxonomic rank above family and below order"@en .
-
-boltz:Q35409 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Family"@en ;
-	kgo:nextHigherRank  boltz:Q2136103 ;
-	kgo:nextLowerRank   boltz:Q164280 ;
-	skos:definition	"Taxonomic rank (or a taxon at that rank) between order and genus"@en .
-
-boltz:Q164280 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Subfamily"@en ;
-	kgo:nextHigherRank  boltz:Q35409 ;
-	kgo:nextLowerRank   boltz:Q227936 ;
-	skos:definition	"Taxonomic rank below family"@en .
-
-boltz:Q227936 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Tribe"@en ;
-	kgo:nextHigherRank  boltz:Q164280 ;
-	kgo:nextLowerRank   boltz:Q3965313 ;
-	skos:definition	"Taxonomic rank between family and genus"@en .
-
-boltz:Q3965313 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Subtribe"@en ;
-	kgo:nextHigherRank  boltz:Q227936 ;
-	kgo:nextLowerRank   boltz:Q34740 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q34740 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Genus"@en ;
-	kgo:nextHigherRank  boltz:Q3965313 ;
-	kgo:nextLowerRank   boltz:Q3238261 ;
-	skos:definition	"Taxonomic rank used in the biological classification of living and fossil organisms, and viruses"@en .
-
-boltz:Q3238261 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Subgenus"@en ;
-	kgo:nextHigherRank  boltz:Q34740 ;
-	kgo:nextLowerRank   boltz:Q7432 ;
-	skos:definition	"Taxonomic rank"@en .
-
-boltz:Q7432 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Species"@en ;
-	kgo:nextHigherRank  boltz:Q3238261 ;
-	kgo:nextLowerRank   boltz:Q68947 ;
-	skos:definition	"One of the basic units of biological classification and a taxonomic rank"@en .
-
-boltz:Q68947 a rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626	;
-	rdfs:label	"Subspecies"@en ;
-	kgo:nextHigherRank  boltz:Q7432 ;
-	skos:definition	"Taxonomic rank subordinate to species"@en .
-
-boltz:Q713623 a	rdfs:Class ;
-	kgo:instanceOf	boltz:Q427626 ;
-	rdfs:label	"Clade"@en ;
-	skos:definition	"Mnophyletic group of organisms composed of a common ancestor and all its lineal descendants"@en .
-
-
-
 # ----------------------WikiData Properties-------------------
 kgo:wikidataProperty a rdfs:Property ;
 	skos:definition	"The property value indicated on Wikidata" ;
@@ -507,62 +659,62 @@ kgo:hasQuality a rdfs:Property ;
 
 # ----------------------Taxon Information----------------------
 boltz:Q16521 a rdfs:Class ;
-        skos:definition "The Class of all Taxonomic classes"@en ;
-        rdfs:isDefinedBy boltz:ontology ;
-        rdfs:label "Taxon"@en ;
-        rdfs:subClassOf rdfs:Class .
+	skos:definition "The Class of all Taxonomic classes"@en ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "Taxon"@en ;
+	rdfs:subClassOf rdfs:Class .
 
 kgo:taxonName a rdf:Property ;
-        skos:definition	"The Taxonomic Name of a Class, typically an Animal"@en ;
-        rdfs:domain	boltz:Q16521 ;
-        rdfs:isDefinedBy boltz:ontology ;
+	skos:definition	"The Taxonomic Name of a Class, typically an Animal"@en ;
+	rdfs:domain	boltz:Q16521 ;
+	rdfs:isDefinedBy boltz:ontology ;
 	kgo:wikidataProperty "P225" ;
-        rdfs:label "taxonName"@en ;
-        rdfs:range rdfs:Literal .
+	rdfs:label "taxonName"@en ;
+	rdfs:range rdfs:Literal .
 
 kgo:subTaxonOf a rdf:Property ;
 	rdfs:subPropertyOf	rdfs:subClassOf ;
-        skos:definition	"The subject is taxonomically below another taxon"@en ;
-        rdfs:domain	boltz:Q16521 ;
-        rdfs:isDefinedBy	boltz:ontology ;
-        rdfs:label	"subTaxonOf"@en ;
-        rdfs:range	boltz:Q16521 .
+	skos:definition	"The subject is taxonomically below another taxon"@en ;
+	rdfs:domain	boltz:Q16521 ;
+	rdfs:isDefinedBy	boltz:ontology ;
+	rdfs:label	"subTaxonOf"@en ;
+	rdfs:range	boltz:Q16521 .
 
 kgo:taxonRank a rdf:Property ;
-        skos:definition      "The subject has taxonomic rank of the object"@en ;
-	kgo:wikidataProperty	"P105" ;
-        rdfs:domain       rdfs:Class ;
-        rdfs:isDefinedBy  boltz:ontology ;
-        rdfs:label        "taxonRank"@en ;
-        rdfs:range        boltz:Q427626 .
+	skos:definition      "The subject has taxonomic rank of the object"@en ;
+	kgo:wikidataProperty "P105" ;
+	rdfs:domain       rdfs:Class ;
+	rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label        "taxonRank"@en ;
+	rdfs:range        boltz:Q427626 .
 
 kgo:taxonImage a rdf:Property ;
-        skos:definition	"The image associated with the subject."@en ;
-        rdfs:domain boltz:Q16521 ;
-        rdfs:isDefinedBy boltz:ontology ;
-        rdfs:label "taxonImage"@en .
+	skos:definition	"The image associated with the subject."@en ;
+	rdfs:domain boltz:Q16521 ;
+	rdfs:isDefinedBy boltz:ontology ;
+	rdfs:label "taxonImage"@en .
 
 kgo:typeSpecies a rdf:Property ;
-        skos:definition "The taxon has type species of the object"@en ;
-        rdfs:label "typeSpecies"@en ;
+	skos:definition "The taxon has type species of the object"@en ;
+	rdfs:label "typeSpecies"@en ;
 	kgo:wikidataProperty "P427" ;
-        rdfs:range boltz:Q16521 .
+	rdfs:range boltz:Q16521 .
 
 kgo:typeSpeciesOf a rdf:Property ;
-        skos:definition "The taxon is the type species its respective genus"@en ;
-        rdfs:label "typeSpeciesOf"@en ;
-        rdfs:range boltz:Q16521 .
+	skos:definition "The taxon is the type species its respective genus"@en ;
+	rdfs:label "typeSpeciesOf"@en ;
+	rdfs:range boltz:Q16521 .
 
 # ----------------------Taxonomic Ranks----------------------
 
 kgo:nextHigherRank a rdf:Property ;
-    	skos:definition	"The taxonomic rank above this taxonomic rank."@en ;
+    skos:definition	"The taxonomic rank above this taxonomic rank."@en ;
 	rdfs:domain 	kgo:TaxonRank ;
-    	rdfs:isDefinedBy	boltz:ontology ;
-    	rdfs:label	"nextHigherRank"@en .
+    rdfs:isDefinedBy	boltz:ontology ;
+    rdfs:label	"nextHigherRank"@en .
 
 kgo:nextLowerRank a rdf:Property ;
-    	skos:definition	"The taxonomic rank below this taxonomic rank."@en ;
+    skos:definition	"The taxonomic rank below this taxonomic rank."@en ;
 	rdfs:domain	 kgo:TaxonRank ;
-    	rdfs:isDefinedBy  boltz:ontology ;
-    	rdfs:label	"nextLowerRank"@en .
+    rdfs:isDefinedBy  boltz:ontology ;
+	rdfs:label	"nextLowerRank"@en .
